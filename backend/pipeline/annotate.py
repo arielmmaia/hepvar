@@ -71,8 +71,28 @@ async def annotate_variant(v: VariantInput) -> VEPAnnotation:
     """Returns a populated VEPAnnotation. Raises on hard VEP failure (orchestrator catches)."""
     server = VEP_GRCH38 if v.assembly == "GRCh38" else VEP_GRCH37
     chrom = v.chrom.lstrip("chr")
-    region = f"{chrom}:{v.pos}-{v.pos}"
-    allele = v.alt
+
+    # VEP region/allele construction differs for SNVs vs indels.
+    # For substitutions: region={pos}-{pos}, allele=alt
+    # For deletions (len(ref)>len(alt)): strip shared anchor base, region covers
+    #   deleted bases, allele="-"
+    # For insertions (len(alt)>len(ref)): region is between anchor and next base,
+    #   allele=inserted bases (no anchor)
+    ref, alt = v.ref, v.alt
+    if len(ref) == len(alt):                       # SNV or MNV
+        region = f"{chrom}:{v.pos}-{v.pos + len(ref) - 1}"
+        allele = alt
+    elif len(ref) > len(alt):                      # deletion
+        anchor_len = len(alt)                      # shared prefix length
+        del_start = v.pos + anchor_len
+        del_end = v.pos + len(ref) - 1
+        region = f"{chrom}:{del_start}-{del_end}"
+        allele = "-"
+    else:                                          # insertion
+        ins_start = v.pos + len(ref)               # position after anchor
+        region = f"{chrom}:{ins_start}-{ins_start}"
+        allele = alt[len(ref):]                    # strip shared anchor prefix
+
     vk = variant_key(v.chrom, v.pos, v.ref, v.alt, v.assembly)
 
     payload = await cached_fetch(

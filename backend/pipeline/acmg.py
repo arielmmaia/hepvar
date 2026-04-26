@@ -102,6 +102,10 @@ def _is_pathogenic_clinvar(cv: ClinVarRecord | None) -> bool:
     if not cv or not cv.clinical_significance:
         return False
     s = cv.clinical_significance.lower()
+    # "conflicting" review status must not trigger PS1/PP5 — conflicting
+    # submissions do not constitute a reputable consensus classification.
+    if cv.review_status and "conflict" in (cv.review_status or "").lower():
+        return False
     return "pathogenic" in s and "benign" not in s and "uncertain" not in s
 
 
@@ -109,6 +113,8 @@ def _is_benign_clinvar(cv: ClinVarRecord | None) -> bool:
     if not cv or not cv.clinical_significance:
         return False
     s = cv.clinical_significance.lower()
+    if cv.review_status and "conflict" in (cv.review_status or "").lower():
+        return False
     return "benign" in s and "pathogenic" not in s and "uncertain" not in s
 
 
@@ -219,10 +225,16 @@ def classify(ev: EvidencePacket) -> ACMGResult:
     inheritance = (panel_entry.get("inheritance") or "") if panel_entry else ""
     is_ar = "AR" in inheritance
 
-    # BA1: AF > 5%
-    if af and af.af_global is not None and af.af_global > 0.05:
+    # BA1: AF > 5% for dominant genes; for AR genes the relevant threshold is
+    # whether the *homozygote* frequency is too high — analogous to BS1 logic.
+    # A carrier allele frequency of e.g. 6% (HFE C282Y) is fully consistent with
+    # AR disease prevalence of ~0.3% homozygotes; BA1 must not fire here.
+    # For AR genes, apply BA1 only when af > sqrt(0.05) ≈ 22%, meaning even
+    # homozygote frequency would exceed 5%.
+    ba1_threshold = 0.222 if is_ar else 0.05
+    if af and af.af_global is not None and af.af_global > ba1_threshold:
         crits.append(ACMGCriterion(code="BA1", weight=WEIGHT["BA1"], applied=True,
-                                    rationale=f"Global allele frequency in gnomAD ({af.af_global:.4f}) exceeds 5% — common variant cannot be a fully penetrant rare-disease cause."))
+                                    rationale=f"Global allele frequency in gnomAD ({af.af_global:.4f}) exceeds {'22%' if is_ar else '5%'} — too common to be a fully penetrant {'recessive' if is_ar else 'dominant'} rare-disease cause."))
 
     # BS1: AF > 1% for dominant/haploinsufficiency genes only.
     # For autosomal recessive genes, carrier frequency alone is not evidence against
