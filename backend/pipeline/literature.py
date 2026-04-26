@@ -7,7 +7,11 @@ and never submitted to ClinVar curation.
 """
 from __future__ import annotations
 
+import json
 import logging
+import re
+from functools import lru_cache
+from pathlib import Path
 from typing import Iterable
 
 import httpx
@@ -16,6 +20,32 @@ from tenacity import retry, stop_after_attempt, wait_exponential_jitter
 from backend.cache.store import cached_fetch, stable_hash, variant_key
 from backend.config import get_settings
 from shared.schemas import LiteratureHit, VariantInput, VEPAnnotation
+
+
+@lru_cache
+def _gene_disease_terms() -> dict[str, list[str]]:
+    """Map gene symbol → short list of disease keywords (extracted from the curated
+    liver panel) for use as a relevance booster in literature searches. ABCB4 →
+    [PFIC3, LPAC, ICP], ATP7B → [Wilson disease], SERPINA1 → [Alpha-1 antitrypsin
+    deficiency], etc.
+    """
+    s = get_settings()
+    try:
+        raw = json.loads(Path(s.gene_panel_path).read_text())
+    except Exception:
+        return {}
+    out: dict[str, list[str]] = {}
+    for g in raw.get("genes", []):
+        sym = g.get("symbol")
+        diseases = g.get("diseases") or []
+        # Trim parenthetical/role suffixes for cleaner search terms.
+        clean = []
+        for d in diseases[:3]:
+            d2 = re.sub(r"\s*\(.*\)\s*", "", d).strip()
+            if d2 and d2 not in clean:
+                clean.append(d2)
+        out[sym] = clean
+    return out
 
 
 log = logging.getLogger(__name__)
@@ -49,8 +79,14 @@ def build_aliases(v: VariantInput, ann: VEPAnnotation | None) -> list[str]:
             aliases.append(f"{gene} {short_c}")
         if ann.rs_id:
             aliases.append(ann.rs_id)
-        # broader gene-level fallback so we always have *some* signal
-        aliases.append(f"{gene} AND (mutation OR variant OR \"case report\" OR \"PFIC\" OR \"LPAC\")")
+        # Gene + gene-specific diseases (read from curated panel) — keeps the
+        # fallback relevant for genes other than ABCB4.
+        diseases = _gene_disease_terms().get(gene, [])
+        if diseases:
+            terms = " OR ".join(f"\"{d}\"" for d in diseases)
+            aliases.append(f"{gene} AND ({terms})")
+        # Generic case-report fallback (gene-agnostic).
+        aliases.append(f"{gene} AND (\"case report\" OR mutation OR variant)")
 
     aliases.append(f"{v.chrom}:{v.pos}")
     return list(dict.fromkeys(aliases))
@@ -114,7 +150,9 @@ async def search_europepmc_multilingual(aliases: list[str]) -> list[LiteratureHi
             log.warning("europepmc alias %r failed: %s", alias, exc)
 
     # 2) Per-language gene-level queries to surface non-English regional case reports.
-    gene_alias = next((a for a in aliases if " " not in a or a.split()[0].isupper()), None)
+    # Use a bare {gene} search (no disease clause) because non-English abstracts
+    # rarely contain the English disease term — disease relevance is enforced by the
+    # downstream post-filter in `_rank`.
     gene_term = aliases[0].split()[0] if aliases else None  # heuristically the gene symbol
     if gene_term:
         for lang in ("pt", "es", "it", "fr"):
@@ -210,8 +248,28 @@ async def search_pubmed(aliases: list[str]) -> list[LiteratureHit]:
     return out
 
 
-def _rank(hits: Iterable[LiteratureHit]) -> list[LiteratureHit]:
-    out = list(hits)
+def _is_relevant(h: LiteratureHit, gene: str | None, diseases: list[str]) -> bool:
+    """Drop hits where the abstract+title don't even mention the gene OR a disease term.
+
+    SERPINA1 in particular is an abundant serum protein and shows up as a side note in
+    many proteomics / biomarker papers; this filter removes those.
+    """
+    if not gene:
+        return True
+    text = f"{h.title} {h.abstract or ''}".lower()
+    if gene.lower() in text:
+        return True
+    # Allow disease-specific match (e.g. "alpha-1 antitrypsin deficiency", "Wilson")
+    for d in diseases:
+        # Match any meaningful word from the disease name (≥4 chars)
+        for w in re.findall(r"[A-Za-z][A-Za-z\-]{3,}", d):
+            if w.lower() in text and w.lower() not in {"type", "syndrome", "disease"}:
+                return True
+    return False
+
+
+def _rank(hits: Iterable[LiteratureHit], gene: str | None, diseases: list[str]) -> list[LiteratureHit]:
+    out = [h for h in hits if _is_relevant(h, gene, diseases)]
     for h in out:
         score = 0.0
         if h.is_functional_study:
@@ -223,6 +281,17 @@ def _rank(hits: Iterable[LiteratureHit]) -> list[LiteratureHit]:
         if h.year and h.year >= 2018:
             score += 1.0
         score += min(len(h.abstract or ""), 800) / 800
+        # Boost hits that mention the gene+disease together — most clinically relevant.
+        text = f"{h.title} {h.abstract or ''}".lower()
+        if gene and gene.lower() in text:
+            for d in diseases:
+                for w in re.findall(r"[A-Za-z][A-Za-z\-]{3,}", d):
+                    if w.lower() in text and w.lower() not in {"type", "syndrome", "disease"}:
+                        score += 0.6
+                        break
+                else:
+                    continue
+                break
         h.relevance_score = round(score, 2)
     out.sort(key=lambda h: h.relevance_score, reverse=True)
     return out[:25]
@@ -231,6 +300,9 @@ def _rank(hits: Iterable[LiteratureHit]) -> list[LiteratureHit]:
 async def search_literature(v: VariantInput, ann: VEPAnnotation | None) -> list[LiteratureHit]:
     aliases = build_aliases(v, ann)
     vk = variant_key(v.chrom, v.pos, v.ref, v.alt, v.assembly)
+
+    gene_for_filter = ann.gene_symbol if ann else None
+    diseases_for_filter = _gene_disease_terms().get(gene_for_filter or "", [])
 
     async def fetcher() -> dict:
         epmc = await search_europepmc_multilingual(aliases)
@@ -244,7 +316,7 @@ async def search_literature(v: VariantInput, ann: VEPAnnotation | None) -> list[
                 continue
             seen.add(k)
             merged.append(h)
-        ranked = _rank(merged)
+        ranked = _rank(merged, gene_for_filter, diseases_for_filter)
         return {"hits": [h.model_dump() for h in ranked], "alias_hash": stable_hash(aliases)}
 
     raw = await cached_fetch(variant_key_str=vk, source="literature", fetcher=fetcher, persist_fixture=True)

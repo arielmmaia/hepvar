@@ -8,7 +8,7 @@ type Example = { label: string; gene: string; ann: string; chrom: string; pos: n
 
 const EXAMPLES: Example[] = [
   { label: "ABCB4 — LPAC / PFIC3", gene: "ABCB4", ann: "Brazilian patient w/ chronic cholestasis", chrom: "chr7", pos: 87408188, ref: "T", alt: "C", flag: "🇧🇷" },
-  { label: "ATP7B — Wilson disease", gene: "ATP7B", ann: "p.His1069Gln (rs76151636)", chrom: "chr13", pos: 51932119, ref: "C", alt: "T", flag: "🩺" },
+  { label: "ATP7B — Wilson disease", gene: "ATP7B", ann: "p.His1069Gln (rs76151636)", chrom: "chr13", pos: 51944145, ref: "G", alt: "A", flag: "🩺" },
   { label: "SERPINA1 — α1-AT (Z allele)", gene: "SERPINA1", ann: "p.Glu342Lys (rs28929474)", chrom: "chr14", pos: 94378610, ref: "C", alt: "T", flag: "🫁" },
 ];
 

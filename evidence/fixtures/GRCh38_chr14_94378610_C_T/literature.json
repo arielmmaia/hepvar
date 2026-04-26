@@ -1,0 +1,374 @@
+{
+  "hits": [
+    {
+      "pmid": "41789803",
+      "doi": "10.5826/mrm.2026.1053",
+      "title": "Novel mutation (M&lt;sub&gt;angera&lt;/sub&gt;-E288V) in alpha-1 antitrypsin deficiency.",
+      "journal": "Multidisciplinary respiratory medicine",
+      "year": 2026,
+      "abstract": "<h4>Background</h4>Alpha-1 antitrypsin deficiency is an autosomal, codominant disorder caused by mutations of the SERPINA1 gene. Several mutations have been described associated with the development of pulmonary and/or chronic liver diseases. We report a novel mutation Mangera, identified for the first time in an Italian patient originating from the city of Angera (Varese), Italy.<h4>Case presentation</h4>This case report describes a 64-year-old Italian male, a lifelong non-smoker, diagnosed with severe alpha-1 antitrypsin deficiency (AATD) as composed heterozygous with S allele and a novel mutation named Mangera. The patient presented with exertional dyspnea and had reduced serum AAT levels (0.54 g/L). Pulmonary function tests indicated mild airway obstruction with preserved diffusion capacity, and chest CT scans revealed early centrilobular emphysema and fibrotic changes. Genetic analysis was performed, finding a previously unreported mutation. Despite the severe AAT deficiency, the patient exhibited no significant clinical, radiological, or functional deterioration. Given the absence of disease progression, augmentation therapy was deferred in favor of ongoing annual monitoring.<h4>Conclusions</h4>This case report highlights the necessity of referring patients to specialized centers equipped with the expertise and tools required for precise diagnosis. Furthermore, the identification of the Mangera mutation expands the spectrum of known SERPINA1 variants associated with severe AATD, emphasizing the ongoing need for vigilance and thorough investigation in cases of suspected deficiency.",
+      "language": "en",
+      "relevance_score": 7.6,
+      "matched_aliases": [
+        "SERPINA1 AND (\"Alpha-1 antitrypsin deficiency\")"
+      ],
+      "is_case_report": true,
+      "is_functional_study": true
+    },
+    {
+      "pmid": "41070050",
+      "doi": "10.1016/j.rmcr.2025.102285",
+      "title": "PiComplutense (p.Pro393Thr): A novel SERPINA1 variant in Alpha-1 antitrypsin deficiency identified in two siblings.",
+      "journal": "Respiratory medicine case reports",
+      "year": 2025,
+      "abstract": "<h4>Background</h4>Alpha-1 antitrypsin deficiency (AATD) is a common yet underrecognized genetic condition that predisposes to early-onset emphysema and liver disease. Diagnostic algorithms typically target frequent alleles (S and Z), potentially missing rare variants in patients with discordant phenotypes.<h4>Case presentation</h4>We report two biologically related individuals (sisters) referred to our respiratory outpatient clinic after persistently low serum AAT levels despite an initial Pi\u2217MZ genotype. Longitudinal clinical, functional, and radiological evaluation revealed divergent trajectories: Case 1 remained asymptomatic with stable lung function and normal imaging, while Case 2 developed mild emphysema and progressive airflow obstruction. Serum AAT levels were markedly reduced in both patients (60-61 mg/dL and 57-50 mg/dL, respectively; reference range: 90-200 mg/dL). Given the phenotype-genotype discordance, full-gene sequencing was performed and identified a previously unreported SERPINA1 variant, c.1177C\u00a0>\u00a0A (p.Pro393Thr), in trans, combined with the Z allele, in both sisters.<h4>Discussion</h4>Codon 393 is functionally relevant, as shown by the known pathogenic W\u00fcrzburg variant (p.Pro393Ser). The location of the novel variant within beta-sheet C, its trans configuration with Z, the associated biochemical phenotype, and segregation in two related individuals support its likely pathogenicity. We propose the designation PiComplutense for this mutation.<h4>Conclusion</h4>These cases highlight the diagnostic value of extended SERPINA1 sequencing in patients with biochemical-genotypic discordance. Although the most frequent deficient alleles are S and Z, we should think about possible rare variants when discordance exists. There is a need to improve early detection, refine risk assessment and support personalised clinical management.",
+      "language": "en",
+      "relevance_score": 5.6,
+      "matched_aliases": [
+        "SERPINA1 E342K"
+      ],
+      "is_case_report": false,
+      "is_functional_study": true
+    },
+    {
+      "pmid": "41618272",
+      "doi": "10.1186/s12931-025-03486-1",
+      "title": "Functional and clinical significance of novel SERPINA1 variants on alpha-1 antitrypsin deficiency.",
+      "journal": "Respiratory research",
+      "year": 2026,
+      "abstract": "<h4>Background</h4>Mutations in the SERPINA1 gene can result in alpha-1 antitrypsin deficiency (AATD), which may be associated with lung or liver injury. Although the S and Z alleles account for over 95% of cases of AATD, a wide variety of rare variants have been linked to deficiency and dysfunction, while other variants are associated with normal alpha-1 antitrypsin (AAT) levels and activity. Here, we present the identification and characterization of thirteen rare SERPINA1 variants discovered during the genetic diagnosis of AATD by the Progenika diagnostic network.<h4>Methods</h4>The new variants were identified by sequencing the exons of SERPINA1 gene in cases with discrepancies between AAT serum levels and initial genotyping. In order to determine their pathogenic impact, the variants were expressed in a cellular model and evaluated for AAT secretion, intracellular accumulation and elastase inhibitory activity. In addition, protein structural mapping of the variants and analysis of positioning and residue/atomic contacts were performed.<h4>Results</h4>The in silico and functional in vitro analysis allowed us to classify these AAT variants as six deficient (p.Val234Glu, p.Val242_Pro243insLeu, p.Leu291Phe, p.Ala308Ser, p.Pro393Thr and p.Pro393Arg), one dysfunctional (p.Thr96Ile), three normal (p.Ser71Arg, p.Ala349Pro and p.Asp365Glu) and three null alleles (p.Gln33*, p.Gln285* and p.Leu310Phefs*14).<h4>Conclusions</h4>Functional assays and protein structural information are useful tools in the characterization of novel variants of the SERPINA1 gene. The newly characterized mutations expand the number of SERPINA1 variants with proven pathogenic effects, facilitating the diagnoses of future cases of AATD.",
+      "language": "en",
+      "relevance_score": 5.6,
+      "matched_aliases": [
+        "SERPINA1 Glu342Lys"
+      ],
+      "is_case_report": false,
+      "is_functional_study": true
+    },
+    {
+      "pmid": "33790624",
+      "doi": "10.2147/tacg.s257511",
+      "title": "Known Mutations at the Cause of Alpha-1 Antitrypsin Deficiency an Updated Overview of <i>SERPINA1</i> Variation Spectrum.",
+      "journal": "The application of clinical genetics",
+      "year": 2021,
+      "abstract": "Alpha-1-Antitrypsin deficiency (AATD), caused by <i>SERPINA1</i> mutations, is one of the most prevalent Mendelian disorders among individuals of European descend. However, this condition, which is characterized by reduced serum levels of alpha-1-antitrypsin (AAT) and associated with increased risks of pulmonary emphysema and liver disease in both children and adults, remains frequently underdiagnosed. AATD clinical manifestations are often correlated with two pathogenic variants, the Z allele (p.Glu342Lys) and the S allele (p.Glu264Val), which can be combined in severe ZZ or moderate SZ risk genotypes. Yet, screenings of AATD cases and large sequencing efforts carried out in both control and disease populations are disclosing outstanding numbers of rare <i>SERPINA1</i> variants (>500), including many pathogenic and other likely deleterious mutations. Generally speaking, pathogenic variants can be subdivided into either loss- or gain-of-function according to their pathophysiological effects. In AATD, the loss-of-function is correlated with an uncontrolled activity of elastase by its natural inhibitor, the AAT. This phenomenon can result from the absence of circulating AAT (null alleles), poor AAT secretion from hepatocytes (deficiency alleles) or even from a modified inhibitory activity (dysfunctional alleles). On the other hand, the gain-of-function is connected with the formation of AAT polymers and their switching on of cellular stress and inflammatory responses (deficiency alleles). Less frequently, the gain-of-function is related to a modified protease affinity (dysfunctional alleles). Here, we revisit <i>SERPINA1</i> mutation spectrum, its origins and population history with a greater emphasis on variants fitting the aforementioned processes of AATD pathogenesis. Those were selected based on their clinical significance and wider geographic distribution. Moreover, we also provide some directions for future studies of AATD clinically heterogeneity and comprehensive diagnosis.",
+      "language": "en",
+      "relevance_score": 5.6,
+      "matched_aliases": [
+        "SERPINA1 p.Glu342Lys"
+      ],
+      "is_case_report": false,
+      "is_functional_study": true
+    },
+    {
+      "pmid": "41370566",
+      "doi": "10.36416/1806-3756/e20250181",
+      "title": "Prevalence of SERPINA1 mutations in a bronchiectasis cohort: implications of extended screening for alpha-1 antitrypsin deficiency.",
+      "journal": "Jornal brasileiro de pneumologia : publicacao oficial da Sociedade Brasileira de Pneumologia e Tisilogia",
+      "year": 2025,
+      "abstract": "<h4>Objective</h4>To evaluate the prevalence of alpha-1 antitrypsin (AAT) variants through SERPINA1 genotyping in patients with non-cystic fibrosis bronchiectasis, and assess their clinical, functional and radiological characteristics. AAT deficiency is underdiagnosed, and an etiology to be considered when evaluating bronchiectasis.<h4>Methods</h4>A cross-sectional study was conducted at an outpatient clinic focused on bronchiectasis in a tertiary hospital. Data from patients followed between 2005 and 2023 were collected. Genotyping for AAT was performed. Demographic, clinical, pulmonary function tests, serum AAT levels and chest CT data were analyzed.<h4>Results</h4>A total of 136 patients were included, predominantly female (72.1%), with a median age of 56.6 years. The prevalence of SERPINA1 gene mutations was 25.7% (n=35). Among the detected variant genotypes were Pi*MS (15.4%), Pi*MZ (5,1%), Pi*SS (1,5%), Pi*ZZ (1,5%), Pi*MI (0,7%), Pi*SZ (0,7%) and Pi*ZMMalton (0,7%). When comparing patients with and without SERPINA1 mutations, significant differences were observed in AAT serum levels, emphysema type (panlobular) and distribution (diffuse and lower-lobe predominant). No other clinical, microbiological, functional or radiological differences were found, including emphysema presence or absence. Notably, 16 (45.7%) of individuals carrying SERPINA1 mutations exhibited normal serum AAT levels.<h4>Conclusions</h4>AAT variants are not uncommon among patients with bronchiectasis. Presence of panlobular, diffuse or lower-lobe predominant emphysema should prompt AATD diagnostic consideration. However, the absence of emphysema does not exclude the diagnosis. Moreover, SERPINA1 variants may occur along with normal AAT serum levels. Clinicians should consider genotyping in patients with normal AAT levels, particularly when bronchiectasis remains unexplained.",
+      "language": "en",
+      "relevance_score": 5.6,
+      "matched_aliases": [
+        "SERPINA1 AND (\"Alpha-1 antitrypsin deficiency\")"
+      ],
+      "is_case_report": false,
+      "is_functional_study": true
+    },
+    {
+      "pmid": "41272759",
+      "doi": "10.1186/s13023-025-04142-z",
+      "title": "Characterization of a novel SERPINA1 variant carrying two missense mutations: molecular mechanisms and functional impact.",
+      "journal": "Orphanet journal of rare diseases",
+      "year": 2025,
+      "abstract": "Alpha 1-Antitrypsin Deficiency (AATD) is a rare genetic disorder caused by mutations in the SERPINA1 gene, which encodes the Alpha 1-Antitrypsin (AAT) protein. Individuals carrying pathogenic SERPINA1 variants are predisposed to lung and liver damage. The most common AATD-associated SERPINA1 alleles are the S and Z alleles, though additional variants have been identified. This study describes the discovery of a new SERPINA1 variant detected in two unrelated families from two cities in southeastern France. This variant, named PiZ<sub>marseille</sub>, results from in cis combination of the PiZ allele and a rare variant known as PiZ<sub>bristol</sub>. PiZ<sub>marseille</sub> has been associated with early-onset liver disease in childhood. To further investigate this new variant, we performed its molecular and functional characterization, revealing that PiZ<sub>marseille</sub> shares the pathogenic properties of both the PiZ and PiZ<sub>bristol</sub> variants. These properties include its retention in the endoplasmic reticulum as aggregates and its degradation through the autophagy and proteasome pathways. Additionally, we conducted proteomic profiling to explore the association of this mutant with liver disease. Our analysis revealed that the neutrophil degranulation pathway is particularly deregulated in PiZ<sub>marseille</sub> liver samples. Furthermore, when compared to other AAT genotypes, the proteomic profile of PiZ<sub>marseille</sub> most closely resembles that of the PiZ variant, rather than other SERPINA1 variants.",
+      "language": "en",
+      "relevance_score": 5.6,
+      "matched_aliases": [
+        "SERPINA1 AND (\"case report\" OR mutation OR variant)"
+      ],
+      "is_case_report": false,
+      "is_functional_study": true
+    },
+    {
+      "pmid": "41968586",
+      "doi": "10.1111/liv.70646",
+      "title": "Clinical Exome Sequencing in Unexplained Hyperferritinemia Reveals Digenic and Oligogenic Inheritance Beyond Iron Homeostasis.",
+      "journal": "Liver international : official journal of the International Association for the Study of the Liver",
+      "year": 2026,
+      "abstract": "<h4>Background and aims</h4>Hyperferritinemia encompasses heterogeneous genetic etiologies beyond HFE-related hemochromatosis. Current guidelines recommend testing for rare hemochromatosis genes, yet no consensus exists on comprehensive genomic approaches. We aimed to characterise the genetic landscape of unexplained hyperferritinemia using clinical exome sequencing (CES) and evaluate genotype-phenotype correlations across functional pathways.<h4>Methods</h4>In this retrospective study (2019-2024), consecutive patients with unexplained hyperferritinemia after exclusion of secondary causes underwent CES. Patients with known HFE p.Cys282Tyr homozygosity were not referred for CES. Variant filtering was performed using the Genomics England panel for iron metabolism and the French network for rare liver diseases panel, combined with phenotype-driven analysis based on Human Phenotype Ontology annotations for iron-related phenotypes. Genes were categorised into four pathways: systemic iron sensing, iron transport and storage, hepatic metabolism and erythropoiesis.<h4>Results</h4>Among 108 patients, CES identified at least one variant in 72 (66.7%), including 44 (40.7%) with likely pathogenic or pathogenic (LP/P) variants. HFE was the most frequently affected gene, followed by SERPINA1, ATP7B, and CP. Among patients without monogenic HFE alterations (n\u2009=\u200957), 21 (36.8%) carried variants, mainly affecting CP, ATP7B, SERPINA1 or GBA. Digenic or oligogenic inheritance was observed in 30.6% (22/72) of patients overall and in 20.5% (9/44) of those carrying LP/P variants, most frequently involving HFE-SERPINA1 and HFE-ATP7B combinations. Cross-pathway combinations occurred in 17 of 22 digenic patients (77.3%). The systemic iron sensing group exhibited significantly higher serum iron (p\u2009=\u20090.009) and transferrin saturation (p\u2009=\u20090.008).<h4>Conclusions</h4>CES reveals genetic heterogeneity beyond the traditional Mendelian framework, with frequent non-HFE gene involvement and digenic inheritance and should be considered after exclusion of HFE p.Cys282Tyr homozygosity.",
+      "language": "en",
+      "relevance_score": 5.0,
+      "matched_aliases": [
+        "SERPINA1 AND (\"case report\" OR mutation OR variant)"
+      ],
+      "is_case_report": false,
+      "is_functional_study": true
+    },
+    {
+      "pmid": "28668972",
+      "doi": "10.1007/s00408-017-0033-2",
+      "title": "A New SERPINA-1 Missense Mutation Associated with Alpha-1 Antitrypsin Deficiency and Bronchiectasis.",
+      "journal": "Lung",
+      "year": 2017,
+      "abstract": "Alpha-1-antitrypsin deficiency (AATD) is a genetic condition caused by SERPINA1 mutations, which culminates into lower protease inhibitor activity in the serum and predisposes to emphysema. Clinical manifestations of AATD are often associated to ZZ (p.Glu342Lys) and SZ (p.Glu264Val) genotypes and less frequently to rare deficiency or null alleles in heterozygous and homozygous states. We report a case of a 52-year-old woman with bronchiectasis without other potential causes other than an electrophoresis that showed a decrease of alpha-1 globin band and AAT levels below the normal value (78\u00a0mg/dl; v.n. 90-200\u00a0mg/dl). No S or Z mutation was identified, but sequencing analysis found a novel missense variant Ile74Asn (c.221T\u00a0>\u00a0A) in heterozygous state on an M3 allele (Glu400Asp) in the exon 2 of the SERPINA-1gene, probably leading to a dysfunctional protein. This mutation has never been previously identified, and it is interesting to note the association with bronchiectasis in the absence of emphysema.",
+      "language": "en",
+      "relevance_score": 4.6,
+      "matched_aliases": [
+        "SERPINA1 p.Glu342Lys"
+      ],
+      "is_case_report": false,
+      "is_functional_study": true
+    },
+    {
+      "pmid": "41732190",
+      "doi": "10.1016/j.ymgmr.2026.101295",
+      "title": "Clinical implications of a novel SERPINA1 variant c.236\u00a0T\u00a0&gt;\u00a0A: Challenges in characterizing new rare alpha-1 antitrypsin mutations.",
+      "journal": "Molecular genetics and metabolism reports",
+      "year": 2026,
+      "abstract": "Severe alpha-1 antitrypsin deficiency (AATD) is a rare genetic condition characterized by low levels of alpha-1 antitrypsin (AAT), leading to progressive lung and/or liver disease. Most severe cases are linked to the Z allele (c.1096G\u00a0>\u00a0A (p.Glu366Lys)) of the <i>SERPINA1</i> gene but characterizing patients with rare mutations remains challenging. This case report discusses the clinical significance of a novel <i>SERPINA1</i> variant, c.236\u00a0T\u00a0>\u00a0A (p.Val79Glu; ClinVar accession SCV007334878), and the challenges in profiling such cases. Two male siblings carried both the common Z allele mutation and the novel exon 2 mutation. Despite genetic similarities, their clinical courses diverged. The older brother, a 66-year-old patient, presented with very severe airflow obstruction (GOLD stage IV) and an AAT level of 0.32\u00a0g/L. After years of pharmacologic treatment and endoscopic lung volume reduction, his condition worsened, requiring a double lung transplant. In contrast, the younger brother, currently 58\u00a0years old, was diagnosed through family screening and had an AAT level of 0.4\u00a0g/L. His condition progressed to panlobular basal emphysema accompanied by bronchopathy and mild bronchiectasis, managed with pharmacologic therapy. Both siblings had a history of smoking, potentially influencing their clinical outcomes. This case highlights the complexity of assessing rare <i>SERPINA1</i> mutations due to underlying biochemical complexities, genetic variability, and diagnostic limitations. It underscores the importance of combining biochemical analysis of variant AAT proteins with clinical evaluation to better understand disease expression, the value of genetic screening in family members, and the need for personalized clinical management to support timely and appropriate therapeutic interventions.",
+      "language": "en",
+      "relevance_score": 4.6,
+      "matched_aliases": [
+        "rs28929474"
+      ],
+      "is_case_report": true,
+      "is_functional_study": false
+    },
+    {
+      "pmid": "41972129",
+      "doi": "10.3389/fimmu.2026.1755963",
+      "title": "Case Report: &lt;i&gt;Pseudomonas&lt;/i&gt; liver abscess in a previously healthy child with homozygous pathogenic S allele variant of the &lt;i&gt;SERPINA1&lt;/i&gt; gene.",
+      "journal": "Frontiers in immunology",
+      "year": 2026,
+      "abstract": "<h4>Background</h4>Pyogenic liver abscess is an uncommon pediatric condition, and <i>Pseudomonas aeruginosa</i> represents a rare causative agent in otherwise healthy children. Such infections may signal an underlying inborn error of immunity. Alpha-1 antitrypsin (A1AT), encoded by the <i>SERPINA1</i> gene, is a serine protease inhibitor with key immunomodulatory functions. In mouse models, A1AT prevents degradation of the antimicrobial SPLUNC1 protein to enhance host defense against <i>Pseudomonas aeruginosa</i>. In humans, while A1AT variants can be associated with a generally increased risk of respiratory infection, to our knowledge no corresponding impact with respect to <i>P. aeruginosa</i> has been reported.<h4>Case description</h4>We report a previously healthy 14-month-old girl who developed <i>P. aeruginosa</i> liver abscess without identifiable predisposing factors. Comprehensive immunologic evaluation was unremarkable except for whole exome sequencing revealing homozygous S allele pathogenic <i>SERPINA1</i> variant (c.863 A>T, p.E288V) known as the S allele associated with partial A1AT deficiency. The clinical presentation, microbiologic findings, and disease course suggested that defective A1AT function may have contributed to dysregulated inflammation and susceptibility to infection.<h4>Conclusion</h4>This case highlights a potential association between homozygosity in the pathogenic S variant of <i>SERPINA1</i> and susceptibility to severe <i>P. aeruginosa infection</i>, in this case liver abscess. While A1AT deficiency is classically associated with pulmonary and hepatic disease, the immunomodulatory role of A1AT suggests broader relevance in host defense. Early recognition of underlying <i>SERPINA1</i> defects in children with unusual or severe infections may inform prognosis, guide management, and prompt appropriate genetic counseling and surveillance for long-term complications.",
+      "language": "en",
+      "relevance_score": 4.6,
+      "matched_aliases": [
+        "SERPINA1 AND (\"case report\" OR mutation OR variant)"
+      ],
+      "is_case_report": true,
+      "is_functional_study": false
+    },
+    {
+      "pmid": "39492455",
+      "doi": null,
+      "title": "A novel alpha-1 antitrypsin gene variant in a patient with Kartagener's syndrome: a case report.",
+      "journal": "Croatian medical journal",
+      "year": 2024,
+      "abstract": "Alpha-1 antitrypsin deficiency (AATD) is a rare autosomal co-dominant disease caused by mutations in the SERPINA1 gene. The alleles most frequently associated with AATD are protease inhibitors S and Z. Here, we report on a 35-year-old woman diagnosed with Kartagener's syndrome and subsequently referred for bronchiectasis testing. She was identified with a hitherto unreported AATD mutation: a heterozygous variant rs1460874866 in a previously undefined exon 4 (NM_001127701.1) of the SERPINA1 gene. Although Kartagener's syndrome is a genetic cause of bronchiectasis, patients with this syndrome are recommended to undergo AATD testing.",
+      "language": "en",
+      "relevance_score": 4.4,
+      "matched_aliases": [
+        "SERPINA1 Glu342Lys"
+      ],
+      "is_case_report": true,
+      "is_functional_study": false
+    },
+    {
+      "pmid": "40781310",
+      "doi": "10.1186/s12890-025-03840-5",
+      "title": "Prevalence of genetic mutations in Alpha-1 antitrypsin in patients with difficult-to-treat asthma in Colombia.",
+      "journal": "BMC pulmonary medicine",
+      "year": 2025,
+      "abstract": "<h4>Background</h4>Alpha-1 antitrypsin (AAT) is a medium-sized globular glycoprotein distributed in serum and tissues. In the lungs, it inhibits serine proteases and has anti-inflammatory properties in different types of cells, protecting lung tissue from damage. Mutations in the SERPINA1 gene that codes for AAT are related to asthma and chronic obstructive pulmonary disease. In Colombia, there are no published data on the prevalence of alpha-1 antitrypsin deficiency (AATD) in adult patients with difficult-to-manage asthma. \u200bThis study aims to determine the prevalence of genetic mutations related to AAT in adult patients with difficult-to-treat asthma in Colombia.<h4>Methods</h4>This prospective, multicenter, cross-sectional study included adult patients with difficult-to-treat asthma in five asthma care centers in Colombia. Informed consent was obtained, and gingival mucosa was sampled for genetic diagnosis of AATD using the A1AT Genotyping Test. Data analysis was performed using the Chi<sup>2</sup> test, Student's t-test, and Mann-Whitney test for group comparison.<h4>Results</h4>A total of 449 adult patients with difficult-to-treat asthma were included with a mean age of 56.1\u2009\u00b1\u200914.9 years; 73.1% (N\u2009=\u2009328) were women; and 89.1% were using high-dose inhaled corticosteroid / long-acting B2 agonists. Mutations in the AAT gene were found in 12.5% (N\u2009=\u200956) of patients. Of these, 85.7% had the M/S genotype, 10.7% the M/Z genotype, 1.8% the M/I genotype, and 1.8% the S/S genotype.<h4>Conclusions</h4>The study identified a prevalence of AAT mutations in 12.5% of adult patients with difficult-to-treat asthma in Colombia made up of four genotypes: M/S, M/Z, M/I and S/S.",
+      "language": "es",
+      "relevance_score": 4.1,
+      "matched_aliases": [],
+      "is_case_report": false,
+      "is_functional_study": false
+    },
+    {
+      "pmid": "38388492",
+      "doi": "10.1186/s13023-024-03069-1",
+      "title": "Rare variants in alpha 1 antitrypsin deficiency: a systematic literature review.",
+      "journal": "Orphanet journal of rare diseases",
+      "year": 2024,
+      "abstract": "<h4>Background</h4>Alpha 1 Antitrypsin Deficiency (AATD) is a largely underrecognized genetic condition characterized by low Alpha 1 Antitrypsin (AAT) serum levels, resulting from variations in SERPINA1. Many individuals affected by AATD are thought to be undiagnosed, leading to poor patient outcomes. The Z (c.1096G\u2009>\u2009A; p.Glu366Lys) and S (c.863A\u2009>\u2009T; p.Glu288Val) deficiency variants are the most frequently found variants in AATD, with the Z variant present in most individuals diagnosed with AATD. However, there are many other less frequent variants known to contribute to lung and/or liver disease in AATD. To identify the most common rare variants associated with AATD, we conducted a systematic literature review with the aim of assessing AATD variation patterns across the world.<h4>Methods</h4>A systematic literature search was performed to identify published studies reporting AATD/SERPINA1 variants. Study eligibility was assessed for the potential to contain relevant information, with quality assessment and data extraction performed on studies meeting all eligibility criteria. AATD variants were grouped by variant type and linked to the geographical region identified from the reporting article.<h4>Results</h4>Of the 4945 articles identified by the search string, 864 contained useful information for this study. Most articles came from the United States, followed by the United Kingdom, Germany, Spain, and Italy. Collectively, the articles identified a total of 7631 rare variants and 216 types of rare variant across 80 counties. The F (c.739C\u2009>\u2009T; p.Arg247Cys) variant was identified 1,281 times and was the most reported known rare variant worldwide, followed by the I (c.187C\u2009>\u2009T; p.Arg63Cys) variant. Worldwide, there were 1492 Null/rare variants that were unidentified at the time of source article publication and 75 rare novel variants reported only once.<h4>Conclusion</h4>AATD goes far beyond the Z and S variants, suggesting there may be widespread underdiagnosis of patients with the condition. Each geographical region has its own distinctive variety of AATD variants and, therefore, comprehensive testing is needed to fully understand the true number and type of variants that exist. Comprehensive testing is also needed to ensure accurate diagnosis, optimize treatment strategies, and improve outcomes for patients with AATD.",
+      "language": "es",
+      "relevance_score": 4.1,
+      "matched_aliases": [],
+      "is_case_report": false,
+      "is_functional_study": false
+    },
+    {
+      "pmid": "40080775",
+      "doi": "10.5935/1518-0557.20240102",
+      "title": "Carrier Frequency of Autosomal Recessive Diseases in a Population Attending a Human Fertility Institute in Colombia.",
+      "journal": "JBRA assisted reproduction",
+      "year": 2025,
+      "abstract": "<h4>Objective</h4>To determine the carrier frequency of X-linked and autosomal recessive diseases in patients attending a human fertility institute in Colombia.<h4>Methods</h4>This retrospective observational study included patients and gamete donors attending a Human Fertility Institute in Colombia between January 2017 and June 2023. Sociodemographic data and results of Next Generation Sequencing laboratory panels for screening of recessive disease-causing mutations were collected and analyzed.<h4>Results</h4>Data from 746 samples were analyzed; 599 (80.3%) were Colombian origin individuals and 147 (19.7%) were foreigners. At least one mutation was detected in 526 (70.5%) individuals. Of note, 893 pathogenic genetic variants were identified.The genetic variants most frequently observed in all the individuals studied were associated with the following diseases (carrier frequency): alpha thalassemia (10.5%), alpha-1 antitrypsin deficiency (10%), congenital adrenal hyperplasia due to 21-hydroxylase deficiency (9.4%), cystic fibrosis (7.3%), spinal muscular atrophy type 1 (5.6%) and Stargardt disease type 1 (5.0%). The most frequent genetic variant observed in the subgroup of Colombian origin individuals was associated with alpha-1 antitrypsin deficiency (11.3%).<h4>Conclusions</h4>Information on the frequency of recessive diseases in Colombia is limited. This pioneering carrier genetic screening identified a high percentage of carriers for at least one recessive autosomal or X-linked in the population evaluated. Screening for recessive mutations could lead to an evolution in family planning programs and a decrease in the number of patients affected by recessive disorders. Furthermore, it could become a routine test not only in cases of assisted reproduction but also in cases of natural gestation.",
+      "language": "es",
+      "relevance_score": 3.5,
+      "matched_aliases": [],
+      "is_case_report": false,
+      "is_functional_study": false
+    },
+    {
+      "pmid": "31116417",
+      "doi": "10.1002/1873-3468.13452",
+      "title": "Targeting the site encoded by SERPINA1*E342K for treating alpha-1 antitrypsin deficiency-associated liver diseases.",
+      "journal": "FEBS letters",
+      "year": 2019,
+      "abstract": "Alpha1-antitrypsin (AAT) deficiency predisposes individuals to emphysema and liver diseases such as cirrhosis and hepatocellular carcinoma. The deficiency results from mutations in the SERPIN1A gene encoding AAT molecules that cause hepatotoxic retention within the endoplasmic reticulum. Since the E342K mutation is the basis for destabilization leading to lung and liver pathologies, we used the crystal structure of the mutated AAT as the basis for molecular docking selection of candidate compounds that may bind and stabilize the 342K structural pocket. We identified compounds that inhibited intracellular accumulation of AAT in hepatocytes in\u00a0vitro. These data suggest that drug binding to a structural site encoded by a mutation associated with AAT deficiency has the potential for clinical utility by modulating conformational transitions.",
+      "language": "en",
+      "relevance_score": 2.6,
+      "matched_aliases": [
+        "SERPINA1 E342K"
+      ],
+      "is_case_report": false,
+      "is_functional_study": false
+    },
+    {
+      "pmid": "40114294",
+      "doi": "10.1080/15548627.2025.2480037",
+      "title": "Chaperone-mediated autophagy degrades SERPINA1&lt;sup&gt;E342K&lt;/sup&gt;/\u03b11-antitrypsin Z variant and alleviates cell stress.",
+      "journal": "Autophagy",
+      "year": 2025,
+      "abstract": "Chaperone-mediated autophagy (CMA) is a specific form of autophagy that selectively targets proteins containing a KFERQ-like motif and relies on the chaperone protein HSPA8/HSC70 for substrate recognition. In SERPINA1/a1-antitrypsin deficiency (AATD), a disease characterized by the hepatic buildup of the SERPINA1<sup>E342K</sup>/ATZ, CMA's role had been unclear. This work demonstrates the critical role that CMA plays in preventing SERPINA1<sup>E342K</sup>/ATZ accumulation; suppressing CMA worsens SERPINA1<sup>E342K</sup>/ATZ accumulation while activating it through chemical stimulation or LAMP2A overexpression promotes SERPINA1<sup>E342K</sup>/ATZ breakdown. Specifically, SERPINA1<sup>E342K</sup>/ATZ's <sub>121</sub>QELLR<sub>125</sub> motif is critical for HSPA8/HSC70 recognition and LAMP2A's charged C-terminal cytoplasmic tail is vital for substrate binding, facilitating CMA-mediated degradation of SERPINA1<sup>E342K</sup>/ATZ. This selective activation of CMA operates independently of other autophagy pathways and alleviates SERPINA1<sup>E342K</sup>/ATZ aggregate-induced cellular stress. In vivo administration of AR7 promotes hepatic SERPINA1<sup>E342K</sup>/ATZ elimination and mitigates hepatic SERPINA1<sup>E342K</sup>/ATZ aggregation pathology. These findings highlight CMA's critical function in cellular protein quality control of SERPINA1<sup>E342K</sup>/ATZ and place it as a novel target for AATD treatment.<b>Abbreviation:</b> AR7: atypical retinoid 7; ATG16L1: autophagy related 16 like 1; AATD: SERPINA1/alpha-1 antitrypsin deficiency; CHX: cycloheximide; CMA: chaperone-mediated autophagy; CQ: chloroquine; ER: endoplasmic reticulum; GAPDH: glyceraldehyde-3-phosphate dehydrogenase; HSPA8/HSC70: heat shock protein family A (Hsp70) member 8; LAMP2A: lysosomal associated membrane protein 2A; LAMP2B: lysosomal associated membrane protein 2B; LAMP2C: lysosomal associated membrane protein 2C; MG132: carbobenzoxy-L-leucyl-L-leucyl-L-leucinal; PAS-D: periodic acid-Schiff plus diastase; SERPINA1/A1AT: serpin family A member 1; SERPINA1<sup>E342K</sup>/ATZ: Z variant of SERPINA1; TMRE: tetramethyl rhodamine ethyl ester perchlorate.",
+      "language": "en",
+      "relevance_score": 2.6,
+      "matched_aliases": [
+        "SERPINA1 E342K"
+      ],
+      "is_case_report": false,
+      "is_functional_study": false
+    },
+    {
+      "pmid": "41533577",
+      "doi": "10.1093/nar/gkaf1518",
+      "title": "RNA editing for the treatment of alpha-1 antitrypsin deficiency.",
+      "journal": "Nucleic acids research",
+      "year": 2026,
+      "abstract": "Alpha-1 antitrypsin deficiency (AATD) is both a gain- and loss-of-function disease that impacts the liver and lung. Most severe cases result from a homozygous missense mutation in the SERPINA1 gene (Z mutation). While current therapies and those in development may ameliorate lung or liver disease, few are designed to address both. We have developed SERPINA1-994, an N-Acetylgalactosamine-conjugated chemically modified oligonucleotide that elicits adenine-to-inosine RNA editing using endogenous adenosine deaminases acting on RNA enzymes, to correct\u00a0SERPINA1 Z transcripts. We show that SERPINA1-994 edits 50% of the Z transcript in hepatocytes of NSG-PiZ mice, which increases total serum AAT levels and induces the production of wild-type M-AAT protein. SERPINA1-994 addresses loss of AAT function in lung by increasing the neutrophil elastase inhibition capacity of mouse serum and gain of function in liver by correcting gene expression patterns, decreasing Z-AAT protein aggregation and decreasing inflammation. SERPINA1-994 relies on a clinically proven delivery technology and directs highly specific RNA rather than DNA editing with no bystander editing. Overall, these data suggest that SERPINA1-994 changes a ZZ homozygous state, which is associated with a high risk for AATD, to a low-risk MZ-like phenotype.",
+      "language": "en",
+      "relevance_score": 2.6,
+      "matched_aliases": [
+        "SERPINA1 E342K"
+      ],
+      "is_case_report": false,
+      "is_functional_study": false
+    },
+    {
+      "pmid": "41800217",
+      "doi": "10.12688/f1000research.175969.1",
+      "title": "A guide to selecting high-performing antibodies for\u00a0Alpha-1-antitrypsin\u00a0(UniProt\u00a0ID:\u00a0P01009) for use in western blot,\u00a0immunoprecipitation\u00a0and flow cytometry.",
+      "journal": "F1000Research",
+      "year": 2026,
+      "abstract": "Alpha-1-antitrypsin (A1AT), encoded by the <i>SERPINA1</i> gene, is a circulating serine protease inhibitor that protects the lung from neutrophil elastase-mediated tissue damage. Mutations in <i>SERPINA1</i> cause alpha-1-antitrypsin deficiency, one of the most common hereditary causes of respiratory disease, leading to early-onset emphysema and chronic obstructive pulmonary disease, as well as hepatic complications. Given the clinical significance of A1AT and its widespread use as a biomarker, there is a critical need for high-quality antibodies to ensure reliable detection and mechanistic insights. Here we systematically characterised eighteen commercial antibodies for western blot, immunoprecipitation, and flow cytometry using a standardized knockout validation approach in human Hep G2 cells, comparing readouts in a <i>SERPINA1</i> knockout line with its isogenic parental control. This work is part of a broader collaborative initiative aimed at addressing antibody reproducibility by characterising commercial antibodies for human proteins and openly sharing the results with the community. While antibody use and protocols vary between laboratories, we encourage readers to use this report as a guide to select the most appropriate antibodies for their specific experimental needs.",
+      "language": "en",
+      "relevance_score": 2.6,
+      "matched_aliases": [
+        "SERPINA1 Glu342Lys"
+      ],
+      "is_case_report": false,
+      "is_functional_study": false
+    },
+    {
+      "pmid": "41450890",
+      "doi": "10.3389/fped.2025.1717317",
+      "title": "Circulating C-terminal peptides and polymers of alpha-1 antitrypsin as putative markers of pediatric Pi*ZZ liver disease.",
+      "journal": "Frontiers in pediatrics",
+      "year": 2025,
+      "abstract": "<h4>Objective</h4>Severe Pi*ZZ alpha-1 antitrypsin (AAT) deficiency, caused by the Glu342Lys mutation in the <i>SERPINA1</i> gene, resulting in protein misfolding and polymerization in hepatocytes, and proteotoxic stress which may lead to progressive liver injury. Although liver disease can appear in both childhood and adulthood, most children remain asymptomatic, but no reliable circulating biomarkers currently predict disease progression. In this exploratory study, we aim to assess C-terminal AAT peptides and AAT polymers as potential plasma markers of liver status in clinically stable Pi*ZZ children.<h4>Methods</h4>Plasma from 20 Pi*ZZ children was analyzed by liquid chromatography-tandem mass spectrometry for nine C-terminal AAT peptides and by western blot for AAT polymers. Associations with liver enzymes, ursodeoxycholic acid use, age, and clinical severity scores were evaluated.<h4>Results</h4>Peptides C36, C37, and C42 were consistently detectable in plasma. C37 and C42 levels negatively correlated with age and positively with alanine aminotransferase; C42 additionally correlated with aspartate aminotransferase. Both C37 and C42 were reduced in children receiving ursodeoxycholic acid, whereas C36 showed no significant associations. Circulating AAT polymers correlated with <i>\u03b3</i>-glutamyl transferase but not with alanine or aspartate aminotransferase. No correlations were observed between peptide and polymer levels.<h4>Conclusion</h4>Peptides C37 and C42 emerge as promising AAT-derived markers of hepatocellular status in stable Pi*ZZ children, while AAT polymers appear to reflect distinct features of cholestatic or hepatocellular stress. Together, these markers may support early risk stratification and therapeutic monitoring in pediatric AATD-related liver disease. Validation in larger, longitudinal cohorts is warranted to confirm their clinical utility.",
+      "language": "en",
+      "relevance_score": 2.6,
+      "matched_aliases": [
+        "SERPINA1 Glu342Lys"
+      ],
+      "is_case_report": false,
+      "is_functional_study": false
+    },
+    {
+      "pmid": "41231946",
+      "doi": "10.1073/pnas.2507535122",
+      "title": "The mechanism of pathogenic \u03b1&lt;sub&gt;1&lt;/sub&gt;-antitrypsin aggregation in the human liver.",
+      "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+      "year": 2025,
+      "abstract": "Originating 2 to 3 millennia ago in a Scandinavian population, the SERPINA1 Z allele (Glu342Lys) is present in up to 2.5% of populations of Northern European descent and accounts for 95% of severe \u03b1<sub>1</sub>-antitrypsin deficiency. The \u03b1<sub>1</sub>-antitrypsin Z variant self-assembles into polymer chains that deposit within hepatocytes, predisposing to liver disease. Here, the 4.0\u00c5 subunit structure of polymers isolated directly from human liver tissue has been determined using cryoelectron microscopy. Challenges of flexibility, small subunit size, heterogeneous length, and preferred orientations were mitigated using antibody Fab domains and sample preparation strategies. This structure demonstrates that the formation of polymers in vivo involves self-incorporation of an exposed structural element (the reactive center loop) as an additional \u03b2-strand into the central \u03b2-sheet of \u03b1<sub>1</sub>-antitrypsin and displacement of a C-terminal region from one subunit with incorporation into the next. Unlike amyloid aggregation, this well-folded structure partially recapitulates a conformation adopted during normal function of the protein. These perturbations to the constituent \u03b1<sub>1</sub>-antitrypsin subunits of human tissue-derived polymers are consistent with a pronounced stability, their tendency toward long-chain forms, the ability of a subset to undergo canonical secretion, and the action of a class of small molecules that block polymerization in vivo.",
+      "language": "en",
+      "relevance_score": 2.6,
+      "matched_aliases": [
+        "SERPINA1 Glu342Lys"
+      ],
+      "is_case_report": false,
+      "is_functional_study": false
+    },
+    {
+      "pmid": "36615054",
+      "doi": "10.3390/jcm12010253",
+      "title": "Association of Alpha-1 Antitrypsin Pi*Z Allele Frequency and Progressive Liver Fibrosis in Two Chronic Hepatitis C Cohorts.",
+      "journal": "Journal of clinical medicine",
+      "year": 2022,
+      "abstract": "(1) Background: The inherited alpha-1 antitrypsin (A1AT) deficiency variant 'Pi*Z' emerged as a genetic modifier of chronic liver disease. Controversial data exist on the relevance of heterozygous Pi*Z carriage ('Pi*MZ' genotype) as an additional risk factor in patients with chronic viral hepatitis C to develop progressive liver fibrosis. (2) Methods: Two prospectively recruited cohorts totaling 572 patients with therapy-na\u00efve chronic viral hepatitis C (HCV) were analyzed. The Frankfurt cohort included 337 patients and a second cohort from Leipzig included 235 patients. The stage of liver fibrosis was assessed by liver biopsy, AST-to-platelet ratio index (APRI) score and Fibrosis-4 (FIB-4) score (Frankfurt) as well as liver stiffness measurement (LSM) via transient elastography (Leipzig). All patients were genotyped for the Pi*Z variant (rs28929474) of the <i>SERPINA1</i> gene. (3) Results: In the Frankfurt cohort, 16/337 (4.7%) patients carried the heterozygous Pi*Z allele while 10/235 (4.3%) in the Leipzig cohort were Pi*Z carriers. In both cohorts, there was no higher proportion of Pi*Z heterozygosity in patients with cirrhosis compared to patients without cirrhosis or patients with cirrhosis vs. no liver fibrosis. Accordingly, Pi*Z frequency was not different in histological or serological stages of liver fibrosis (F0-F4) and showed no clear association with LSM. (4) Conclusions: Evaluation in two representative HCV cohorts does not indicate Pi*Z heterozygosity as a clinically relevant disease modifier in chronic HCV infection. However, validation in even larger cohorts with longitudinal follow-up is warranted.",
+      "language": "en",
+      "relevance_score": 2.6,
+      "matched_aliases": [
+        "SERPINA1 p.E342K"
+      ],
+      "is_case_report": false,
+      "is_functional_study": false
+    },
+    {
+      "pmid": "38392031",
+      "doi": "10.3390/arm92010001",
+      "title": "Testing Alpha-1 Antitrypsin Deficiency in Black Populations.",
+      "journal": "Advances in respiratory medicine",
+      "year": 2023,
+      "abstract": "Alpha-1 antitrypsin (AAT) deficiency (AATD) is an under-recognized hereditary disorder and a significant cause of chronic obstructive pulmonary disease (COPD), a disease that contributes to global mortality. AAT is encoded by the <i>SERPINA1</i> gene, and severe mutation variants of this gene increase the risk of developing COPD. AATD is more frequently screened for in non-Hispanic White populations. However, AATD is also observed in other ethnic groups and very few studies have documented the mutation frequency in these other ethnic populations. Here, we review the current literature on AATD and allele frequency primarily in Black populations and discuss the possible clinical outcomes of low screening rates in a population that experiences poor health outcomes and whether the low frequency of AATD is related to a lack of screening in this population or a truly low frequency of mutations causing AATD. This review also outlines the harmful <i>SERPINA1</i> variants, the current epidemiology knowledge of AATD, health inequity in Black populations, AATD prevalence in Black populations, the clinical implications of low screening of AATD in this population, and the possible dangers of not diagnosing or treating AATD.",
+      "language": "en",
+      "relevance_score": 2.6,
+      "matched_aliases": [
+        "SERPINA1 p.Glu342Lys"
+      ],
+      "is_case_report": false,
+      "is_functional_study": false
+    },
+    {
+      "pmid": "35121111",
+      "doi": "10.1016/j.ymthe.2022.01.040",
+      "title": "Evaluation of cytosine base editing and adenine base editing as a potential treatment for alpha-1 antitrypsin deficiency.",
+      "journal": "Molecular therapy : the journal of the American Society of Gene Therapy",
+      "year": 2022,
+      "abstract": "Alpha-1 antitrypsin deficiency (AATD) is a rare autosomal codominant disease caused by mutations within the SERPINA1 gene. The most prevalent variant in patients is PiZ SERPINA1, containing a single G > A transition mutation. PiZ alpha-1 antitrypsin (AAT) is prone to misfolding, leading to the accumulation of toxic aggregates within hepatocytes. In addition, the abnormally low level of AAT secreted into circulation provides insufficient inhibition of neutrophil elastase within the lungs, eventually causing emphysema. Cytosine and adenine base editors enable the programmable conversion of C\u22c5G to T\u22c5A and A\u22c5T to G\u22c5C base pairs, respectively. In this study, two different base editing approaches were developed: use of a cytosine base editor to install a compensatory mutation (p.Met374Ile) and use of an adenine base editor to mediate the correction of the pathogenic PiZ mutation. After treatment with lipid nanoparticles formulated with base editing reagents, PiZ-transgenic mice exhibited durable editing of SERPINA1 in the liver, increased serum AAT, and improved liver histology. These results indicate that base editing has the potential to address both lung and liver disease in AATD.",
+      "language": "en",
+      "relevance_score": 2.6,
+      "matched_aliases": [
+        "SERPINA1 p.Glu342Lys"
+      ],
+      "is_case_report": false,
+      "is_functional_study": false
+    },
+    {
+      "pmid": null,
+      "doi": "10.1101/2025.11.21.25340724",
+      "title": "Association of AAT/  <i>SERPINA1</i>  PI*Z Variant with Gestational Duration and Prevention of Premature Birth in Knockout Mice by AAT-Supplementation",
+      "journal": null,
+      "year": 2025,
+      "abstract": "About 10% of pregnancies end prematurely before 37 weeks, without effective prevention therapies. Previously, we identified rare damaging variants in  SERPINA1 encoding Alpha-1-antitrypsin (AAT) in families with recurrent spontaneous preterm births (SPTB) and detected decreased protein and mRNA levels of AAT/  SERPINA1 from placentas in SPTB. Here, we investigated genetic associations between  SERPINA1 variants and gestational duration and evaluated AAT supplementation as a therapeutic intervention in a mouse model of preterm birth.  SERPINA1 Pi*Z variant (rs28929474-T) was associated with gestational duration (  P < 5\u00d710  -8 ) in European-ancestry mothers with preterm and term deliveries. We detected a nine-day decrease in gestational duration and a fourfold Odds for preterm birth vs. term birth in Pi*Z homozygotes (Pi*ZZ), compared to other genotypes. In transgenic mice without endogenous AAT, exogenous Prolastina  \u00ae treatment inhibited LPS-induced preterm births (  P < 0.05). Supplemented AAT was preferentially deposited in the placenta. Our findings support AAT\u2019s protective role in SPTB and highlight its therapeutic potential, particularly in  SERPINA1 Pi*ZZ genotype carriers.",
+      "language": "en",
+      "relevance_score": 2.6,
+      "matched_aliases": [
+        "rs28929474"
+      ],
+      "is_case_report": false,
+      "is_functional_study": false
+    },
+    {
+      "pmid": "39476516",
+      "doi": "10.1016/j.clinsp.2024.100524",
+      "title": "Polymorphisms of the SERPINA1 gene are associated with higher mortality in a Brazilian cohort of ANCA-associated vasculitis patients.",
+      "journal": "Clinics (Sao Paulo, Brazil)",
+      "year": 2024,
+      "abstract": "<h4>Background</h4>Alpha-1-Antitrypsin (A1AT) is a protease inhibitor encoded by the SERPINA1 gene. A1AT serves as the primary natural inhibitor of Proteinase 3 (PR3), an enzyme found in neutrophils. PR3 is an antigenic target of Anti-Neutrophil Cytoplasmic Antibodies (ANCA). While numerous studies have established a connection between Single Nucleotide Polymorphisms (SNPs) in the SERPINA1 gene and ANCA-Associated Vasculitis (AAV), limited research has delved into the impact of these polymorphisms on the prognosis of these patients.<h4>Objective</h4>The present study's objective is to investigate mortality disparities among Brazilian AAV patients carrying SERPINA1 SNPs (rs7151526, rs28929454) compared to non-carriers. Additionally, the authors analyzed demographic, clinical, and serologic data in these two groups.<h4>Methods</h4>In this single-center prospective cohort study, the authors enrolled AAV patients who were monitored for a duration of up to three years. The identification of SNPs was conducted through RT-PCR. Survival analysis, including Kaplan-Meier survival curves, and Cox proportional regression analysis was subsequently performed to evaluate outcomes.<h4>Results</h4>The authors assessed 115 patients (65.2% with granulomatosis with polyangiitis, 17.4% with eosinophilic granulomatosis with polyangiitis, and 17.4% with microscopic polyangiitis). All patients were aged \u2265 18 years, with 37.4% being female, and 54.7% identified as White. The association between SERPINA1 SNPs proved to be the most significant factor linked to mortality in the cohort (HR = 6.2, 95% CI 1.4\u201227.1, p = 0.015). SERPINA1 SNP carriers exhibited a lower mean survival [rs7151526: 57.4 (42.7\u201272.2) years, p < 0.007; rs28929454: 54.9 (40.9\u201268.9) years, p < 0.0001] than non-carriers (68.0 [67.2\u201269.0] years).<h4>Conclusion</h4>SERPINA1 SNPs are associated with increased mortality in Brazilian AAV patients.",
+      "language": "en",
+      "relevance_score": 2.6,
+      "matched_aliases": [
+        "rs28929474"
+      ],
+      "is_case_report": false,
+      "is_functional_study": false
+    }
+  ],
+  "alias_hash": "4aa763285e6dbadf"
+}

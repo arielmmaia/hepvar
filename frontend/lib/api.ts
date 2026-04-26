@@ -1,7 +1,14 @@
 import type { Report, StreamEvent, VariantInput, ChatEvent } from "./types";
 
+// Talk directly to the FastAPI backend (CORS is wired in main.py).
+// The Next.js rewrite() proxy buffers SSE in dev so we bypass it.
+const API_BASE =
+  (typeof window !== "undefined" && (window as any).__HEPVAR_API__) ||
+  process.env.NEXT_PUBLIC_API_BASE ||
+  "http://localhost:8000";
+
 export async function startAnalysis(v: VariantInput): Promise<{ jobId: string }> {
-  const r = await fetch("/api/analyze", {
+  const r = await fetch(`${API_BASE}/api/analyze`, {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify(v),
@@ -12,7 +19,7 @@ export async function startAnalysis(v: VariantInput): Promise<{ jobId: string }>
 }
 
 export function streamJob(jobId: string, onEvent: (e: StreamEvent) => void): () => void {
-  const es = new EventSource(`/api/jobs/${jobId}/stream`);
+  const es = new EventSource(`${API_BASE}/api/jobs/${jobId}/stream`);
   es.onmessage = (m) => {
     if (!m.data) return;
     try {
@@ -30,7 +37,7 @@ export function streamJob(jobId: string, onEvent: (e: StreamEvent) => void): () 
 }
 
 export async function getReport(jobId: string): Promise<Report> {
-  const r = await fetch(`/api/jobs/${jobId}/report`);
+  const r = await fetch(`${API_BASE}/api/jobs/${jobId}/report`);
   if (!r.ok) throw new Error(`/report failed: ${r.status}`);
   return (await r.json()) as Report;
 }
@@ -42,7 +49,7 @@ export async function streamChat(
   onDelta: (text: string) => void,
   onDone: () => void,
 ): Promise<void> {
-  const r = await fetch("/api/chat", {
+  const r = await fetch(`${API_BASE}/api/chat`, {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({ jobId, history, question }),

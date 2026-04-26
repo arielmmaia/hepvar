@@ -1,0 +1,585 @@
+{
+  "count": 15,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "metadata": {
+        "accession": "cd02056",
+        "name": "serpin family A member 1, alpha-1-antitrypsin",
+        "source_database": "cdd",
+        "type": "domain",
+        "integrated": null,
+        "member_databases": null,
+        "go_terms": null
+      },
+      "proteins": [
+        {
+          "accession": "p01009",
+          "protein_length": 418,
+          "source_database": "reviewed",
+          "organism": "9606",
+          "in_alphafold": true,
+          "in_bfvd": false,
+          "entry_protein_locations": [
+            {
+              "fragments": [
+                {
+                  "start": 50,
+                  "end": 417,
+                  "dc-status": "CONTINUOUS"
+                }
+              ],
+              "representative": false,
+              "model": "cd02056",
+              "score": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "accession": "G3DSA:2.10.310.10",
+        "name": "Serpins superfamily",
+        "source_database": "cathgene3d",
+        "type": "homologous_superfamily",
+        "integrated": null,
+        "member_databases": null,
+        "go_terms": null
+      },
+      "proteins": [
+        {
+          "accession": "p01009",
+          "protein_length": 418,
+          "source_database": "reviewed",
+          "organism": "9606",
+          "in_alphafold": true,
+          "in_bfvd": false,
+          "entry_protein_locations": [
+            {
+              "fragments": [
+                {
+                  "start": 377,
+                  "end": 418,
+                  "dc-status": "CONTINUOUS"
+                }
+              ],
+              "representative": false,
+              "model": "1qmbB00",
+              "score": 8.4e-23
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "accession": "G3DSA:2.30.39.10",
+        "name": "Alpha-1-antitrypsin, domain 1",
+        "source_database": "cathgene3d",
+        "type": "homologous_superfamily",
+        "integrated": "IPR042185",
+        "member_databases": null,
+        "go_terms": null
+      },
+      "proteins": [
+        {
+          "accession": "p01009",
+          "protein_length": 418,
+          "source_database": "reviewed",
+          "organism": "9606",
+          "in_alphafold": true,
+          "in_bfvd": false,
+          "entry_protein_locations": [
+            {
+              "fragments": [
+                {
+                  "start": 219,
+                  "end": 313,
+                  "dc-status": "CONTINUOUS"
+                }
+              ],
+              "representative": false,
+              "model": "3nddA02",
+              "score": 1e-121
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "accession": "G3DSA:3.30.497.10",
+        "name": "Antithrombin, subunit I, domain 2",
+        "source_database": "cathgene3d",
+        "type": "homologous_superfamily",
+        "integrated": "IPR042178",
+        "member_databases": null,
+        "go_terms": null
+      },
+      "proteins": [
+        {
+          "accession": "p01009",
+          "protein_length": 418,
+          "source_database": "reviewed",
+          "organism": "9606",
+          "in_alphafold": true,
+          "in_bfvd": false,
+          "entry_protein_locations": [
+            {
+              "fragments": [
+                {
+                  "start": 57,
+                  "end": 218,
+                  "dc-status": "C_TERMINAL_DISC"
+                },
+                {
+                  "start": 314,
+                  "end": 372,
+                  "dc-status": "N_TERMINAL_DISC"
+                }
+              ],
+              "representative": false,
+              "model": "3nddA01",
+              "score": 1e-121
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "accession": "IPR000215",
+        "name": "Serpin family",
+        "source_database": "interpro",
+        "type": "family",
+        "integrated": null,
+        "member_databases": {
+          "panther": {
+            "PTHR11461": "SERINE PROTEASE INHIBITOR, SERPIN"
+          }
+        },
+        "go_terms": [
+          {
+            "identifier": "GO:0004867",
+            "name": "serine-type endopeptidase inhibitor activity",
+            "category": {
+              "code": "F",
+              "name": "molecular_function"
+            }
+          },
+          {
+            "identifier": "GO:0005615",
+            "name": "extracellular space",
+            "category": {
+              "code": "C",
+              "name": "cellular_component"
+            }
+          }
+        ]
+      },
+      "proteins": [
+        {
+          "accession": "p01009",
+          "protein_length": 418,
+          "source_database": "reviewed",
+          "organism": "9606",
+          "in_alphafold": true,
+          "in_bfvd": false,
+          "entry_protein_locations": [
+            {
+              "fragments": [
+                {
+                  "start": 50,
+                  "end": 416,
+                  "dc-status": "CONTINUOUS"
+                }
+              ],
+              "representative": false,
+              "model": null,
+              "score": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "accession": "IPR023795",
+        "name": "Serpin, conserved site",
+        "source_database": "interpro",
+        "type": "conserved_site",
+        "integrated": null,
+        "member_databases": {
+          "prosite": {
+            "PS00284": "Serpins signature"
+          }
+        },
+        "go_terms": null
+      },
+      "proteins": [
+        {
+          "accession": "p01009",
+          "protein_length": 418,
+          "source_database": "reviewed",
+          "organism": "9606",
+          "in_alphafold": true,
+          "in_bfvd": false,
+          "entry_protein_locations": [
+            {
+              "fragments": [
+                {
+                  "start": 388,
+                  "end": 398,
+                  "dc-status": "CONTINUOUS"
+                }
+              ],
+              "representative": false,
+              "model": null,
+              "score": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "accession": "IPR023796",
+        "name": "Serpin domain",
+        "source_database": "interpro",
+        "type": "domain",
+        "integrated": null,
+        "member_databases": {
+          "smart": {
+            "SM00093": "SERine Proteinase INhibitors"
+          },
+          "pfam": {
+            "PF00079": "Serpin (serine protease inhibitor)"
+          }
+        },
+        "go_terms": null
+      },
+      "proteins": [
+        {
+          "accession": "p01009",
+          "protein_length": 418,
+          "source_database": "reviewed",
+          "organism": "9606",
+          "in_alphafold": true,
+          "in_bfvd": false,
+          "entry_protein_locations": [
+            {
+              "fragments": [
+                {
+                  "start": 54,
+                  "end": 415,
+                  "dc-status": "CONTINUOUS"
+                }
+              ],
+              "representative": false,
+              "model": null,
+              "score": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "accession": "IPR036186",
+        "name": "Serpin superfamily",
+        "source_database": "interpro",
+        "type": "homologous_superfamily",
+        "integrated": null,
+        "member_databases": {
+          "ssf": {
+            "SSF56574": "Serpins"
+          }
+        },
+        "go_terms": null
+      },
+      "proteins": [
+        {
+          "accession": "p01009",
+          "protein_length": 418,
+          "source_database": "reviewed",
+          "organism": "9606",
+          "in_alphafold": true,
+          "in_bfvd": false,
+          "entry_protein_locations": [
+            {
+              "fragments": [
+                {
+                  "start": 6,
+                  "end": 415,
+                  "dc-status": "CONTINUOUS"
+                }
+              ],
+              "representative": false,
+              "model": null,
+              "score": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "accession": "IPR042178",
+        "name": "Serpin superfamily, domain 1",
+        "source_database": "interpro",
+        "type": "homologous_superfamily",
+        "integrated": null,
+        "member_databases": {
+          "cathgene3d": {
+            "G3DSA:3.30.497.10": "Antithrombin, subunit I, domain 2"
+          }
+        },
+        "go_terms": null
+      },
+      "proteins": [
+        {
+          "accession": "p01009",
+          "protein_length": 418,
+          "source_database": "reviewed",
+          "organism": "9606",
+          "in_alphafold": true,
+          "in_bfvd": false,
+          "entry_protein_locations": [
+            {
+              "fragments": [
+                {
+                  "start": 57,
+                  "end": 372,
+                  "dc-status": "CONTINUOUS"
+                }
+              ],
+              "representative": false,
+              "model": null,
+              "score": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "accession": "IPR042185",
+        "name": "Serpin superfamily, domain 2",
+        "source_database": "interpro",
+        "type": "homologous_superfamily",
+        "integrated": null,
+        "member_databases": {
+          "cathgene3d": {
+            "G3DSA:2.30.39.10": "Alpha-1-antitrypsin, domain 1"
+          }
+        },
+        "go_terms": null
+      },
+      "proteins": [
+        {
+          "accession": "p01009",
+          "protein_length": 418,
+          "source_database": "reviewed",
+          "organism": "9606",
+          "in_alphafold": true,
+          "in_bfvd": false,
+          "entry_protein_locations": [
+            {
+              "fragments": [
+                {
+                  "start": 219,
+                  "end": 313,
+                  "dc-status": "CONTINUOUS"
+                }
+              ],
+              "representative": false,
+              "model": null,
+              "score": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "accession": "PF00079",
+        "name": "Serpin (serine protease inhibitor)",
+        "source_database": "pfam",
+        "type": "domain",
+        "integrated": "IPR023796",
+        "member_databases": null,
+        "go_terms": null
+      },
+      "proteins": [
+        {
+          "accession": "p01009",
+          "protein_length": 418,
+          "source_database": "reviewed",
+          "organism": "9606",
+          "in_alphafold": true,
+          "in_bfvd": false,
+          "entry_protein_locations": [
+            {
+              "fragments": [
+                {
+                  "start": 54,
+                  "end": 415,
+                  "dc-status": "CONTINUOUS"
+                }
+              ],
+              "representative": false,
+              "model": "PF00079",
+              "score": 1.6e-123
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "accession": "PS00284",
+        "name": "Serpins signature",
+        "source_database": "prosite",
+        "type": "conserved_site",
+        "integrated": "IPR023795",
+        "member_databases": null,
+        "go_terms": null
+      },
+      "proteins": [
+        {
+          "accession": "p01009",
+          "protein_length": 418,
+          "source_database": "reviewed",
+          "organism": "9606",
+          "in_alphafold": true,
+          "in_bfvd": false,
+          "entry_protein_locations": [
+            {
+              "fragments": [
+                {
+                  "start": 388,
+                  "end": 398,
+                  "dc-status": "CONTINUOUS"
+                }
+              ],
+              "representative": false,
+              "model": "PS00284",
+              "score": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "accession": "PTHR11461",
+        "name": "SERINE PROTEASE INHIBITOR, SERPIN",
+        "source_database": "panther",
+        "type": "family",
+        "integrated": "IPR000215",
+        "member_databases": null,
+        "go_terms": null
+      },
+      "proteins": [
+        {
+          "accession": "p01009",
+          "protein_length": 418,
+          "source_database": "reviewed",
+          "organism": "9606",
+          "in_alphafold": true,
+          "in_bfvd": false,
+          "entry_protein_locations": [
+            {
+              "fragments": [
+                {
+                  "start": 50,
+                  "end": 416,
+                  "dc-status": "CONTINUOUS"
+                }
+              ],
+              "representative": true,
+              "model": "PTHR11461:SF165",
+              "score": 1.7e-101,
+              "subfamily": {
+                "accession": "PTHR11461:SF165",
+                "name": "ALPHA-1-ANTITRYPSIN"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "accession": "SM00093",
+        "name": "SERine Proteinase INhibitors",
+        "source_database": "smart",
+        "type": "domain",
+        "integrated": "IPR023796",
+        "member_databases": null,
+        "go_terms": null
+      },
+      "proteins": [
+        {
+          "accession": "p01009",
+          "protein_length": 418,
+          "source_database": "reviewed",
+          "organism": "9606",
+          "in_alphafold": true,
+          "in_bfvd": false,
+          "entry_protein_locations": [
+            {
+              "fragments": [
+                {
+                  "start": 59,
+                  "end": 415,
+                  "dc-status": "CONTINUOUS"
+                }
+              ],
+              "representative": false,
+              "model": "SM00093",
+              "score": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "accession": "SSF56574",
+        "name": "Serpins",
+        "source_database": "ssf",
+        "type": "homologous_superfamily",
+        "integrated": "IPR036186",
+        "member_databases": null,
+        "go_terms": null
+      },
+      "proteins": [
+        {
+          "accession": "p01009",
+          "protein_length": 418,
+          "source_database": "reviewed",
+          "organism": "9606",
+          "in_alphafold": true,
+          "in_bfvd": false,
+          "entry_protein_locations": [
+            {
+              "fragments": [
+                {
+                  "start": 6,
+                  "end": 415,
+                  "dc-status": "CONTINUOUS"
+                }
+              ],
+              "representative": true,
+              "model": "0039630",
+              "score": 0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

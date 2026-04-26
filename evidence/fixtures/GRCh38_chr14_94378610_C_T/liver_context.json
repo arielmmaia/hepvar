@@ -1,0 +1,13 @@
+{
+  "gtex": null,
+  "hpa": null,
+  "reactome": [
+    "Platelet degranulation ",
+    "COPII-mediated vesicle transport",
+    "Regulation of Insulin-like Growth Factor (IGF) transport and uptake by Insulin-like Growth Factor Binding Proteins (IGFBPs)",
+    "Cargo concentration in the ER",
+    "Neutrophil degranulation",
+    "Post-translational protein phosphorylation"
+  ],
+  "kegg": []
+}
