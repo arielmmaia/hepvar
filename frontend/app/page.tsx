@@ -1,6 +1,38 @@
+"use client";
+import { useEffect, useState } from "react";
 import { VariantInput } from "@/components/VariantInput";
+import { SetupWizard } from "@/components/SetupWizard";
+import { getSetupStatus, type SetupStatus } from "@/lib/setup";
 
 export default function Home() {
+  const [status, setStatus] = useState<SetupStatus | null>(null);
+  const [forceLanding, setForceLanding] = useState(false);
+
+  useEffect(() => {
+    let cancelled = false;
+    (async () => {
+      try {
+        const s = await getSetupStatus();
+        if (!cancelled) setStatus(s);
+      } catch {
+        if (!cancelled) setStatus({ anthropic: "missing", ncbi: "missing", alphagenome: "missing", all_ready: false });
+      }
+    })();
+    return () => { cancelled = true; };
+  }, []);
+
+  if (status === null) {
+    return (
+      <main className="max-w-[1180px] mx-auto px-6 md:px-10 pt-32 text-center text-muted font-mono text-[12px] uppercase tracking-[0.25em]">
+        loading…
+      </main>
+    );
+  }
+
+  if (!status.all_ready && !forceLanding) {
+    return <SetupWizard initialStatus={status} onComplete={() => setForceLanding(true)} />;
+  }
+
   return (
     <main className="max-w-[1180px] mx-auto px-6 md:px-10 pt-12 md:pt-20 pb-24">
       <header className="flex items-center justify-between">
@@ -9,6 +41,9 @@ export default function Home() {
           <span className="font-mono text-[11px] uppercase tracking-[0.25em] text-muted">v0.1 · opus 4.7</span>
         </div>
         <nav className="flex items-center gap-6 text-[13px] text-ink2">
+          <button onClick={() => setForceLanding(false)} className="hover:text-oxblood transition font-mono text-[12px] uppercase tracking-[0.18em] text-muted">
+            reconfigure keys
+          </button>
           <a className="hover:text-oxblood transition" href="https://github.com" target="_blank" rel="noreferrer">github</a>
           <a className="hover:text-oxblood transition" href="#about">about</a>
         </nav>
