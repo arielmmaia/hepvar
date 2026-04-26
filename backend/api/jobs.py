@@ -1,4 +1,8 @@
-"""In-memory job registry. One asyncio.Queue per job for SSE event streaming."""
+"""In-memory job registry. `job.events` is the single source of truth — every SSE
+client iterates that list using its own cursor. We do NOT use a queue: doing so
+caused every event to be yielded twice to a client that connected after the
+events were already in `job.events` (once from the snapshot replay, once from
+the queue), producing a visible loop in the streamed reasoning text."""
 from __future__ import annotations
 
 import asyncio
@@ -8,15 +12,12 @@ from dataclasses import dataclass, field
 from typing import Any
 
 
-SENTINEL = {"type": "__close__"}
-
-
 @dataclass
 class Job:
     id: str
     variant: dict
-    queue: asyncio.Queue = field(default_factory=lambda: asyncio.Queue(maxsize=2048))
-    events: list[dict] = field(default_factory=list)  # replay buffer
+    events: list[dict] = field(default_factory=list)
+    new_event: asyncio.Event = field(default_factory=asyncio.Event)
     report: dict | None = None
     started_at: float = field(default_factory=time.time)
     finished_at: float | None = None
@@ -41,10 +42,13 @@ def get_job(job_id: str) -> Job | None:
 def make_emitter(job: Job):
     async def emit(event: dict[str, Any]) -> None:
         job.events.append(event)
-        await job.queue.put(event)
+        # Wake every active stream waiting for new events.
+        job.new_event.set()
+        job.new_event.clear()
     return emit
 
 
 async def close_job(job: Job) -> None:
     job.finished_at = time.time()
-    await job.queue.put(SENTINEL)
+    job.new_event.set()
+    job.new_event.clear()

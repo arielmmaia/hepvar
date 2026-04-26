@@ -8,7 +8,7 @@ from typing import AsyncIterator
 from fastapi import APIRouter, BackgroundTasks, HTTPException
 from sse_starlette.sse import EventSourceResponse
 
-from backend.api.jobs import SENTINEL, close_job, create_job, get_job, make_emitter
+from backend.api.jobs import close_job, create_job, get_job, make_emitter
 from backend.pipeline.orchestrator import run_pipeline
 from shared.schemas import VariantInput
 
@@ -49,19 +49,26 @@ async def stream(job_id: str) -> EventSourceResponse:
         raise HTTPException(status_code=404, detail="job not found")
 
     async def gen() -> AsyncIterator[dict]:
-        # Replay anything emitted before the client connected (job started in background_task).
-        for ev in list(job.events):
-            yield {"data": json.dumps(ev)}
-
+        """`job.events` is authoritative; each connection has its own cursor.
+        No queue → no duplicate delivery. New events wake us via job.new_event."""
+        cursor = 0
         while True:
+            # Drain any events past our cursor.
+            while cursor < len(job.events):
+                ev = job.events[cursor]
+                cursor += 1
+                yield {"data": json.dumps(ev)}
+
+            # Job already finished and we've delivered everything → stop.
+            if job.finished_at is not None and cursor >= len(job.events):
+                return
+
+            # Wait for new event signal, with a periodic ping to keep the
+            # connection alive in proxies that idle-close.
             try:
-                ev = await asyncio.wait_for(job.queue.get(), timeout=120)
+                await asyncio.wait_for(job.new_event.wait(), timeout=15.0)
             except asyncio.TimeoutError:
                 yield {"event": "ping", "data": "{}"}
-                continue
-            if ev is SENTINEL or ev.get("type") == "__close__":
-                break
-            yield {"data": json.dumps(ev)}
 
     return EventSourceResponse(gen())
 
