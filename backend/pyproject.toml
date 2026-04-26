@@ -1,0 +1,50 @@
+[project]
+name = "hepvar"
+version = "0.1.0"
+description = "Hepatology rare-variant clinical intelligence powered by Opus 4.7"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+authors = [{ name = "Ariel Maia" }]
+dependencies = [
+  "fastapi>=0.115",
+  "uvicorn[standard]>=0.32",
+  "sse-starlette>=2.1",
+  "httpx[http2]>=0.27",
+  "anthropic>=0.39",
+  "pydantic>=2.9",
+  "pydantic-settings>=2.5",
+  "python-dotenv>=1.0",
+  "diskcache>=5.6",
+  "tenacity>=9.0",
+  "structlog>=24.4",
+  "biopython>=1.84",
+  "orjson>=3.10",
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=8.3",
+  "pytest-asyncio>=0.24",
+  "respx>=0.21",
+  "ruff>=0.7",
+]
+alphagenome = [
+  "alphagenome",
+]
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["tests"]
+pythonpath = ["."]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["api*", "pipeline*", "reasoning*", "cache*"]

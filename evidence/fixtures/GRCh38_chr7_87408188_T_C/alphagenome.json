@@ -1,0 +1,8 @@
+{
+  "rna_log2fc": null,
+  "splice_delta": null,
+  "atac_delta": null,
+  "tracks_used": [
+    "liver"
+  ]
+}

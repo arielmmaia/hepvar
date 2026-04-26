@@ -1,0 +1,26 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+node_modules/
+.next/
+out/
+dist/
+build/
+.cache/
+.DS_Store
+.idea/
+.vscode/
+.claude/
+.pytest_cache/
+
+# Reference-only (not part of the hackathon submission)
+past-copilot-prototypes/
+cap-2026-04-21-opus47-hackathon-details.md
+hackathon-proposal-submitted
+note-hepatology-variant-interpretation.md
+prj-hepvar-variant-interpreter.md

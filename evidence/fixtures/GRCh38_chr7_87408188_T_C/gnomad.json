@@ -1,0 +1,164 @@
+{
+  "data": {
+    "variant": {
+      "variant_id": "7-87408188-T-C",
+      "rsid": null,
+      "exome": {
+        "ac": 1,
+        "an": 1461868,
+        "af": 6.840562896239606e-07,
+        "populations": [
+          {
+            "id": "remaining",
+            "ac": 0,
+            "an": 60394
+          },
+          {
+            "id": "remaining_XX",
+            "ac": 0,
+            "an": 31798
+          },
+          {
+            "id": "remaining_XY",
+            "ac": 0,
+            "an": 28596
+          },
+          {
+            "id": "amr",
+            "ac": 0,
+            "an": 44724
+          },
+          {
+            "id": "amr_XX",
+            "ac": 0,
+            "an": 25690
+          },
+          {
+            "id": "amr_XY",
+            "ac": 0,
+            "an": 19034
+          },
+          {
+            "id": "fin",
+            "ac": 1,
+            "an": 53420
+          },
+          {
+            "id": "fin_XX",
+            "ac": 1,
+            "an": 27648
+          },
+          {
+            "id": "fin_XY",
+            "ac": 0,
+            "an": 25772
+          },
+          {
+            "id": "mid",
+            "ac": 0,
+            "an": 5768
+          },
+          {
+            "id": "mid_XX",
+            "ac": 0,
+            "an": 2506
+          },
+          {
+            "id": "mid_XY",
+            "ac": 0,
+            "an": 3262
+          },
+          {
+            "id": "nfe",
+            "ac": 0,
+            "an": 1111994
+          },
+          {
+            "id": "nfe_XX",
+            "ac": 0,
+            "an": 572272
+          },
+          {
+            "id": "nfe_XY",
+            "ac": 0,
+            "an": 539722
+          },
+          {
+            "id": "sas",
+            "ac": 0,
+            "an": 86256
+          },
+          {
+            "id": "sas_XX",
+            "ac": 0,
+            "an": 22040
+          },
+          {
+            "id": "sas_XY",
+            "ac": 0,
+            "an": 64216
+          },
+          {
+            "id": "asj",
+            "ac": 0,
+            "an": 26136
+          },
+          {
+            "id": "asj_XX",
+            "ac": 0,
+            "an": 12636
+          },
+          {
+            "id": "asj_XY",
+            "ac": 0,
+            "an": 13500
+          },
+          {
+            "id": "eas",
+            "ac": 0,
+            "an": 39696
+          },
+          {
+            "id": "eas_XX",
+            "ac": 0,
+            "an": 20710
+          },
+          {
+            "id": "eas_XY",
+            "ac": 0,
+            "an": 18986
+          },
+          {
+            "id": "afr",
+            "ac": 0,
+            "an": 33480
+          },
+          {
+            "id": "afr_XX",
+            "ac": 0,
+            "an": 19326
+          },
+          {
+            "id": "afr_XY",
+            "ac": 0,
+            "an": 14154
+          },
+          {
+            "id": "XX",
+            "ac": 1,
+            "an": 734626
+          },
+          {
+            "id": "XY",
+            "ac": 0,
+            "an": 727242
+          }
+        ],
+        "homozygote_count": 0,
+        "hemizygote_count": 0,
+        "flags": []
+      },
+      "genome": null
+    }
+  }
+}

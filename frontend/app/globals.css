@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght,SOFT@9..144,300..900,0..100&family=Geist:wght@300..700&family=JetBrains+Mono:wght@400;500;600&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+html, body { background: #F4F1EB; color: #1A1B22; }
+body { font-family: theme("fontFamily.body"), system-ui, sans-serif; -webkit-font-smoothing: antialiased; }
+
+::selection { background: #5E1A1A; color: #FBF9F4; }
+
+/* Subtle paper grain on the canvas */
+.paper {
+  background:
+    radial-gradient(1200px 600px at 80% -10%, rgba(184,115,31,0.08), transparent 60%),
+    radial-gradient(900px 500px at -10% 110%, rgba(15,75,75,0.06), transparent 65%),
+    #F4F1EB;
+}
+
+.hairline { border-color: #D6CFBE; }
+
+.serif-italic { font-family: theme("fontFamily.display"); font-style: italic; font-feature-settings: "ss01" on, "ss03" on; }
+
+/* Animated dots for live status */
+@keyframes pulseDot { 0%,100%{opacity:0.35} 50%{opacity:1} }
+.dot-pulse { animation: pulseDot 1.4s ease-in-out infinite; }
+
+/* Scrollbars (minimal) */
+*::-webkit-scrollbar { width: 8px; height: 8px; }
+*::-webkit-scrollbar-thumb { background: #D6CFBE; border-radius: 4px; }
+*::-webkit-scrollbar-track { background: transparent; }
+
+/* Markdown rendering inside reasoning pane */
+.prose-clinical h1, .prose-clinical h2, .prose-clinical h3 {
+  font-family: theme("fontFamily.display");
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  color: #1A1B22;
+  margin-top: 1.6em;
+  margin-bottom: 0.4em;
+}
+.prose-clinical h2 { font-size: 1.12rem; text-transform: uppercase; letter-spacing: 0.18em; color: #5E1A1A; border-bottom: 1px solid #D6CFBE; padding-bottom: 0.3rem; }
+.prose-clinical p { line-height: 1.7; margin: 0.6em 0; color: #2A2C36; }
+.prose-clinical ul, .prose-clinical ol { margin: 0.5em 0 0.8em 1.2em; }
+.prose-clinical li { margin: 0.25em 0; }
+.prose-clinical code { font-family: theme("fontFamily.mono"); background: rgba(184,115,31,0.10); padding: 1px 5px; border-radius: 3px; font-size: 0.92em; }
+.prose-clinical strong { color: #5E1A1A; }
+.prose-clinical em { color: #0F4B4B; font-style: italic; }
