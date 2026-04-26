@@ -1,0 +1,11 @@
+{
+  "gtex": null,
+  "hpa": null,
+  "reactome": [],
+  "kegg": [
+    "Endocrine resistance - Homo sapiens (human)",
+    "ABC transporters - Homo sapiens (human)",
+    "Bile secretion - Homo sapiens (human)",
+    "Cholesterol metabolism - Homo sapiens (human)"
+  ]
+}

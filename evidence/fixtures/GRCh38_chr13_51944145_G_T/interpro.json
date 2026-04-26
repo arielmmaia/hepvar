@@ -1,0 +1,1258 @@
+{
+  "count": 39,
+  "next": "https://www.ebi.ac.uk/interpro/api/entry/all/protein/UniProt/P35670?cursor=source%7Cs%7Cipr059000",
+  "previous": null,
+  "results": [
+    {
+      "metadata": {
+        "accession": "cd00371",
+        "name": "HMA",
+        "source_database": "cdd",
+        "type": "domain",
+        "integrated": "IPR006121",
+        "member_databases": null,
+        "go_terms": null
+      },
+      "proteins": [
+        {
+          "accession": "p35670",
+          "protein_length": 1465,
+          "source_database": "reviewed",
+          "organism": "9606",
+          "in_alphafold": true,
+          "in_bfvd": false,
+          "entry_protein_locations": [
+            {
+              "fragments": [
+                {
+                  "start": 61,
+                  "end": 124,
+                  "dc-status": "CONTINUOUS"
+                }
+              ],
+              "representative": false,
+              "model": "cd00371",
+              "score": 1.43772e-17
+            },
+            {
+              "fragments": [
+                {
+                  "start": 146,
+                  "end": 209,
+                  "dc-status": "CONTINUOUS"
+                }
+              ],
+              "representative": false,
+              "model": "cd00371",
+              "score": 7.28372e-19
+            },
+            {
+              "fragments": [
+                {
+                  "start": 260,
+                  "end": 318,
+                  "dc-status": "CONTINUOUS"
+                }
+              ],
+              "representative": false,
+              "model": "cd00371",
+              "score": 5.97918e-18
+            },
+            {
+              "fragments": [
+                {
+                  "start": 363,
+                  "end": 425,
+                  "dc-status": "CONTINUOUS"
+                }
+              ],
+              "representative": false,
+              "model": "cd00371",
+              "score": 1.01564e-21
+            },
+            {
+              "fragments": [
+                {
+                  "start": 492,
+                  "end": 554,
+                  "dc-status": "CONTINUOUS"
+                }
+              ],
+              "representative": false,
+              "model": "cd00371",
+              "score": 6.33932e-18
+            },
+            {
+              "fragments": [
+                {
+                  "start": 567,
+                  "end": 630,
+                  "dc-status": "CONTINUOUS"
+                }
+              ],
+              "representative": false,
+              "model": "cd00371",
+              "score": 3.88658e-17
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "accession": "cd02094",
+        "name": "P-type heavy metal-transporting ATPase, similar to human copper-transporting ATPases, ATP7A and ATP7B",
+        "source_database": "cdd",
+        "type": "domain",
+        "integrated": null,
+        "member_databases": null,
+        "go_terms": null
+      },
+      "proteins": [
+        {
+          "accession": "p35670",
+          "protein_length": 1465,
+          "source_database": "reviewed",
+          "organism": "9606",
+          "in_alphafold": true,
+          "in_bfvd": false,
+          "entry_protein_locations": [
+            {
+              "fragments": [
+                {
+                  "start": 652,
+                  "end": 1354,
+                  "dc-status": "CONTINUOUS"
+                }
+              ],
+              "representative": true,
+              "model": "cd02094",
+              "score": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "accession": "G3DSA:2.70.150.10",
+        "name": "Calcium-transporting ATPase, cytoplasmic transduction domain A",
+        "source_database": "cathgene3d",
+        "type": "homologous_superfamily",
+        "integrated": null,
+        "member_databases": null,
+        "go_terms": null
+      },
+      "proteins": [
+        {
+          "accession": "p35670",
+          "protein_length": 1465,
+          "source_database": "reviewed",
+          "organism": "9606",
+          "in_alphafold": true,
+          "in_bfvd": false,
+          "entry_protein_locations": [
+            {
+              "fragments": [
+                {
+                  "start": 784,
+                  "end": 907,
+                  "dc-status": "CONTINUOUS"
+                }
+              ],
+              "representative": false,
+              "model": "2kijA00",
+              "score": 8.7e-40
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "accession": "G3DSA:3.30.70.100",
+        "name": null,
+        "source_database": "cathgene3d",
+        "type": "homologous_superfamily",
+        "integrated": null,
+        "member_databases": null,
+        "go_terms": null
+      },
+      "proteins": [
+        {
+          "accession": "p35670",
+          "protein_length": 1465,
+          "source_database": "reviewed",
+          "organism": "9606",
+          "in_alphafold": true,
+          "in_bfvd": false,
+          "entry_protein_locations": [
+            {
+              "fragments": [
+                {
+                  "start": 53,
+                  "end": 127,
+                  "dc-status": "CONTINUOUS"
+                }
+              ],
+              "representative": true,
+              "model": "2n7yA00",
+              "score": 8.6e-21
+            },
+            {
+              "fragments": [
+                {
+                  "start": 138,
+                  "end": 215,
+                  "dc-status": "CONTINUOUS"
+                }
+              ],
+              "representative": true,
+              "model": "1q8lA00",
+              "score": 1.3e-23
+            },
+            {
+              "fragments": [
+                {
+                  "start": 257,
+                  "end": 327,
+                  "dc-status": "CONTINUOUS"
+                }
+              ],
+              "representative": true,
+              "model": "2ropA01",
+              "score": 8.8e-22
+            },
+            {
+              "fragments": [
+                {
+                  "start": 357,
+                  "end": 428,
+                  "dc-status": "CONTINUOUS"
+                }
+              ],
+              "representative": false,
+              "model": "6a71A00",
+              "score": 7.9e-24
+            },
+            {
+              "fragments": [
+                {
+                  "start": 485,
+                  "end": 561,
+                  "dc-status": "CONTINUOUS"
+                }
+              ],
+              "representative": true,
+              "model": "2ew9A01",
+              "score": 1.5e-26
+            },
+            {
+              "fragments": [
+                {
+                  "start": 562,
+                  "end": 633,
+                  "dc-status": "CONTINUOUS"
+                }
+              ],
+              "representative": true,
+              "model": "2ew9A02",
+              "score": 1e-23
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "accession": "G3DSA:3.40.1110.10",
+        "name": "Calcium-transporting ATPase, cytoplasmic domain N",
+        "source_database": "cathgene3d",
+        "type": "homologous_superfamily",
+        "integrated": "IPR023299",
+        "member_databases": null,
+        "go_terms": null
+      },
+      "proteins": [
+        {
+          "accession": "p35670",
+          "protein_length": 1465,
+          "source_database": "reviewed",
+          "organism": "9606",
+          "in_alphafold": true,
+          "in_bfvd": false,
+          "entry_protein_locations": [
+            {
+              "fragments": [
+                {
+                  "start": 1037,
+                  "end": 1193,
+                  "dc-status": "CONTINUOUS"
+                }
+              ],
+              "representative": false,
+              "model": "2arfA00",
+              "score": 6e-63
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "accession": "G3DSA:3.40.50.1000",
+        "name": "HAD superfamily/HAD-like",
+        "source_database": "cathgene3d",
+        "type": "homologous_superfamily",
+        "integrated": "IPR023214",
+        "member_databases": null,
+        "go_terms": null
+      },
+      "proteins": [
+        {
+          "accession": "p35670",
+          "protein_length": 1465,
+          "source_database": "reviewed",
+          "organism": "9606",
+          "in_alphafold": true,
+          "in_bfvd": false,
+          "entry_protein_locations": [
+            {
+              "fragments": [
+                {
+                  "start": 1010,
+                  "end": 1036,
+                  "dc-status": "C_TERMINAL_DISC"
+                },
+                {
+                  "start": 1194,
+                  "end": 1316,
+                  "dc-status": "N_TERMINAL_DISC"
+                }
+              ],
+              "representative": false,
+              "model": "2r8eA00",
+              "score": 1.7e-31
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "accession": "IPR001757",
+        "name": "P-type ATPase",
+        "source_database": "interpro",
+        "type": "family",
+        "integrated": null,
+        "member_databases": {
+          "ncbifam": {
+            "TIGR01494": "HAD-IC family P-type ATPase"
+          },
+          "prints": {
+            "PR00120": "HATPASE"
+          }
+        },
+        "go_terms": [
+          {
+            "identifier": "GO:0005215",
+            "name": "transporter activity",
+            "category": {
+              "code": "F",
+              "name": "molecular_function"
+            }
+          },
+          {
+            "identifier": "GO:0005524",
+            "name": "ATP binding",
+            "category": {
+              "code": "F",
+              "name": "molecular_function"
+            }
+          },
+          {
+            "identifier": "GO:0016887",
+            "name": "ATP hydrolysis activity",
+            "category": {
+              "code": "F",
+              "name": "molecular_function"
+            }
+          },
+          {
+            "identifier": "GO:0016020",
+            "name": "membrane",
+            "category": {
+              "code": "C",
+              "name": "cellular_component"
+            }
+          }
+        ]
+      },
+      "proteins": [
+        {
+          "accession": "p35670",
+          "protein_length": 1465,
+          "source_database": "reviewed",
+          "organism": "9606",
+          "in_alphafold": true,
+          "in_bfvd": false,
+          "entry_protein_locations": [
+            {
+              "fragments": [
+                {
+                  "start": 771,
+                  "end": 942,
+                  "dc-status": "CONTINUOUS"
+                }
+              ],
+              "representative": false,
+              "model": null,
+              "score": null
+            },
+            {
+              "fragments": [
+                {
+                  "start": 1163,
+                  "end": 1344,
+                  "dc-status": "CONTINUOUS"
+                }
+              ],
+              "representative": false,
+              "model": null,
+              "score": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "accession": "IPR006121",
+        "name": "Heavy metal-associated domain, HMA",
+        "source_database": "interpro",
+        "type": "domain",
+        "integrated": null,
+        "member_databases": {
+          "cdd": {
+            "cd00371": "HMA"
+          },
+          "profile": {
+            "PS50846": "Heavy-metal-associated domain profile"
+          },
+          "pfam": {
+            "PF00403": "Heavy-metal-associated domain"
+          }
+        },
+        "go_terms": [
+          {
+            "identifier": "GO:0046872",
+            "name": "metal ion binding",
+            "category": {
+              "code": "F",
+              "name": "molecular_function"
+            }
+          }
+        ]
+      },
+      "proteins": [
+        {
+          "accession": "p35670",
+          "protein_length": 1465,
+          "source_database": "reviewed",
+          "organism": "9606",
+          "in_alphafold": true,
+          "in_bfvd": false,
+          "entry_protein_locations": [
+            {
+              "fragments": [
+                {
+                  "start": 58,
+                  "end": 124,
+                  "dc-status": "CONTINUOUS"
+                }
+              ],
+              "representative": false,
+              "model": null,
+              "score": null
+            },
+            {
+              "fragments": [
+                {
+                  "start": 143,
+                  "end": 209,
+                  "dc-status": "CONTINUOUS"
+                }
+              ],
+              "representative": false,
+              "model": null,
+              "score": null
+            },
+            {
+              "fragments": [
+                {
+                  "start": 257,
+                  "end": 323,
+                  "dc-status": "CONTINUOUS"
+                }
+              ],
+              "representative": false,
+              "model": null,
+              "score": null
+            },
+            {
+              "fragments": [
+                {
+                  "start": 359,
+                  "end": 425,
+                  "dc-status": "CONTINUOUS"
+                }
+              ],
+              "representative": false,
+              "model": null,
+              "score": null
+            },
+            {
+              "fragments": [
+                {
+                  "start": 488,
+                  "end": 554,
+                  "dc-status": "CONTINUOUS"
+                }
+              ],
+              "representative": false,
+              "model": null,
+              "score": null
+            },
+            {
+              "fragments": [
+                {
+                  "start": 564,
+                  "end": 630,
+                  "dc-status": "CONTINUOUS"
+                }
+              ],
+              "representative": false,
+              "model": null,
+              "score": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "accession": "IPR006122",
+        "name": "Heavy metal-associated domain, copper ion-binding",
+        "source_database": "interpro",
+        "type": "domain",
+        "integrated": null,
+        "member_databases": {
+          "ncbifam": {
+            "TIGR00003": "copper ion binding protein"
+          }
+        },
+        "go_terms": [
+          {
+            "identifier": "GO:0005507",
+            "name": "copper ion binding",
+            "category": {
+              "code": "F",
+              "name": "molecular_function"
+            }
+          }
+        ]
+      },
+      "proteins": [
+        {
+          "accession": "p35670",
+          "protein_length": 1465,
+          "source_database": "reviewed",
+          "organism": "9606",
+          "in_alphafold": true,
+          "in_bfvd": false,
+          "entry_protein_locations": [
+            {
+              "fragments": [
+                {
+                  "start": 61,
+                  "end": 123,
+                  "dc-status": "CONTINUOUS"
+                }
+              ],
+              "representative": false,
+              "model": null,
+              "score": null
+            },
+            {
+              "fragments": [
+                {
+                  "start": 146,
+                  "end": 208,
+                  "dc-status": "CONTINUOUS"
+                }
+              ],
+              "representative": false,
+              "model": null,
+              "score": null
+            },
+            {
+              "fragments": [
+                {
+                  "start": 260,
+                  "end": 316,
+                  "dc-status": "CONTINUOUS"
+                }
+              ],
+              "representative": false,
+              "model": null,
+              "score": null
+            },
+            {
+              "fragments": [
+                {
+                  "start": 363,
+                  "end": 424,
+                  "dc-status": "CONTINUOUS"
+                }
+              ],
+              "representative": false,
+              "model": null,
+              "score": null
+            },
+            {
+              "fragments": [
+                {
+                  "start": 492,
+                  "end": 553,
+                  "dc-status": "CONTINUOUS"
+                }
+              ],
+              "representative": false,
+              "model": null,
+              "score": null
+            },
+            {
+              "fragments": [
+                {
+                  "start": 566,
+                  "end": 628,
+                  "dc-status": "CONTINUOUS"
+                }
+              ],
+              "representative": false,
+              "model": null,
+              "score": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "accession": "IPR008250",
+        "name": "P-type ATPase, A domain superfamily",
+        "source_database": "interpro",
+        "type": "homologous_superfamily",
+        "integrated": null,
+        "member_databases": {
+          "ssf": {
+            "SSF81653": "Calcium ATPase, transduction domain A"
+          }
+        },
+        "go_terms": null
+      },
+      "proteins": [
+        {
+          "accession": "p35670",
+          "protein_length": 1465,
+          "source_database": "reviewed",
+          "organism": "9606",
+          "in_alphafold": true,
+          "in_bfvd": false,
+          "entry_protein_locations": [
+            {
+              "fragments": [
+                {
+                  "start": 817,
+                  "end": 903,
+                  "dc-status": "CONTINUOUS"
+                }
+              ],
+              "representative": false,
+              "model": null,
+              "score": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "accession": "IPR017969",
+        "name": "Heavy-metal-associated, conserved site",
+        "source_database": "interpro",
+        "type": "conserved_site",
+        "integrated": null,
+        "member_databases": {
+          "prosite": {
+            "PS01047": "Heavy-metal-associated domain"
+          }
+        },
+        "go_terms": [
+          {
+            "identifier": "GO:0046872",
+            "name": "metal ion binding",
+            "category": {
+              "code": "F",
+              "name": "molecular_function"
+            }
+          }
+        ]
+      },
+      "proteins": [
+        {
+          "accession": "p35670",
+          "protein_length": 1465,
+          "source_database": "reviewed",
+          "organism": "9606",
+          "in_alphafold": true,
+          "in_bfvd": false,
+          "entry_protein_locations": [
+            {
+              "fragments": [
+                {
+                  "start": 64,
+                  "end": 93,
+                  "dc-status": "CONTINUOUS"
+                }
+              ],
+              "representative": false,
+              "model": null,
+              "score": null
+            },
+            {
+              "fragments": [
+                {
+                  "start": 149,
+                  "end": 178,
+                  "dc-status": "CONTINUOUS"
+                }
+              ],
+              "representative": false,
+              "model": null,
+              "score": null
+            },
+            {
+              "fragments": [
+                {
+                  "start": 263,
+                  "end": 292,
+                  "dc-status": "CONTINUOUS"
+                }
+              ],
+              "representative": false,
+              "model": null,
+              "score": null
+            },
+            {
+              "fragments": [
+                {
+                  "start": 365,
+                  "end": 394,
+                  "dc-status": "CONTINUOUS"
+                }
+              ],
+              "representative": false,
+              "model": null,
+              "score": null
+            },
+            {
+              "fragments": [
+                {
+                  "start": 494,
+                  "end": 523,
+                  "dc-status": "CONTINUOUS"
+                }
+              ],
+              "representative": false,
+              "model": null,
+              "score": null
+            },
+            {
+              "fragments": [
+                {
+                  "start": 570,
+                  "end": 599,
+                  "dc-status": "CONTINUOUS"
+                }
+              ],
+              "representative": false,
+              "model": null,
+              "score": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "accession": "IPR018303",
+        "name": "P-type ATPase, phosphorylation site",
+        "source_database": "interpro",
+        "type": "ptm",
+        "integrated": null,
+        "member_databases": {
+          "prosite": {
+            "PS00154": "E1-E2 ATPases phosphorylation site"
+          }
+        },
+        "go_terms": null
+      },
+      "proteins": [
+        {
+          "accession": "p35670",
+          "protein_length": 1465,
+          "source_database": "reviewed",
+          "organism": "9606",
+          "in_alphafold": true,
+          "in_bfvd": false,
+          "entry_protein_locations": [
+            {
+              "fragments": [
+                {
+                  "start": 1027,
+                  "end": 1033,
+                  "dc-status": "CONTINUOUS"
+                }
+              ],
+              "representative": false,
+              "model": null,
+              "score": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "accession": "IPR023214",
+        "name": "HAD superfamily",
+        "source_database": "interpro",
+        "type": "homologous_superfamily",
+        "integrated": null,
+        "member_databases": {
+          "cathgene3d": {
+            "G3DSA:3.40.50.1000": "HAD superfamily/HAD-like"
+          }
+        },
+        "go_terms": null
+      },
+      "proteins": [
+        {
+          "accession": "p35670",
+          "protein_length": 1465,
+          "source_database": "reviewed",
+          "organism": "9606",
+          "in_alphafold": true,
+          "in_bfvd": false,
+          "entry_protein_locations": [
+            {
+              "fragments": [
+                {
+                  "start": 1010,
+                  "end": 1316,
+                  "dc-status": "CONTINUOUS"
+                }
+              ],
+              "representative": false,
+              "model": null,
+              "score": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "accession": "IPR023298",
+        "name": "P-type ATPase, transmembrane domain superfamily",
+        "source_database": "interpro",
+        "type": "homologous_superfamily",
+        "integrated": null,
+        "member_databases": {
+          "ssf": {
+            "SSF81665": "Calcium ATPase, transmembrane domain M"
+          }
+        },
+        "go_terms": null
+      },
+      "proteins": [
+        {
+          "accession": "p35670",
+          "protein_length": 1465,
+          "source_database": "reviewed",
+          "organism": "9606",
+          "in_alphafold": true,
+          "in_bfvd": false,
+          "entry_protein_locations": [
+            {
+              "fragments": [
+                {
+                  "start": 757,
+                  "end": 1016,
+                  "dc-status": "CONTINUOUS"
+                }
+              ],
+              "representative": false,
+              "model": null,
+              "score": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "accession": "IPR023299",
+        "name": "P-type ATPase, cytoplasmic domain N",
+        "source_database": "interpro",
+        "type": "homologous_superfamily",
+        "integrated": null,
+        "member_databases": {
+          "ssf": {
+            "SSF81660": "Metal cation-transporting ATPase, ATP-binding domain N"
+          },
+          "cathgene3d": {
+            "G3DSA:3.40.1110.10": "Calcium-transporting ATPase, cytoplasmic domain N"
+          }
+        },
+        "go_terms": [
+          {
+            "identifier": "GO:0000166",
+            "name": "nucleotide binding",
+            "category": {
+              "code": "F",
+              "name": "molecular_function"
+            }
+          }
+        ]
+      },
+      "proteins": [
+        {
+          "accession": "p35670",
+          "protein_length": 1465,
+          "source_database": "reviewed",
+          "organism": "9606",
+          "in_alphafold": true,
+          "in_bfvd": false,
+          "entry_protein_locations": [
+            {
+              "fragments": [
+                {
+                  "start": 1037,
+                  "end": 1193,
+                  "dc-status": "CONTINUOUS"
+                }
+              ],
+              "representative": false,
+              "model": null,
+              "score": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "accession": "IPR027256",
+        "name": "P-type ATPase, subfamily IB",
+        "source_database": "interpro",
+        "type": "family",
+        "integrated": null,
+        "member_databases": {
+          "ncbifam": {
+            "TIGR01525": "heavy metal translocating P-type ATPase"
+          },
+          "prints": {
+            "PR00941": "CDATPASE"
+          }
+        },
+        "go_terms": [
+          {
+            "identifier": "GO:0019829",
+            "name": "ATPase-coupled monoatomic cation transmembrane transporter activity",
+            "category": {
+              "code": "F",
+              "name": "molecular_function"
+            }
+          },
+          {
+            "identifier": "GO:0006812",
+            "name": "monoatomic cation transport",
+            "category": {
+              "code": "P",
+              "name": "biological_process"
+            }
+          },
+          {
+            "identifier": "GO:0016020",
+            "name": "membrane",
+            "category": {
+              "code": "C",
+              "name": "cellular_component"
+            }
+          }
+        ]
+      },
+      "proteins": [
+        {
+          "accession": "p35670",
+          "protein_length": 1465,
+          "source_database": "reviewed",
+          "organism": "9606",
+          "in_alphafold": true,
+          "in_bfvd": false,
+          "entry_protein_locations": [
+            {
+              "fragments": [
+                {
+                  "start": 729,
+                  "end": 1373,
+                  "dc-status": "CONTINUOUS"
+                }
+              ],
+              "representative": false,
+              "model": null,
+              "score": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "accession": "IPR036163",
+        "name": "Heavy metal-associated domain superfamily",
+        "source_database": "interpro",
+        "type": "homologous_superfamily",
+        "integrated": null,
+        "member_databases": {
+          "ssf": {
+            "SSF55008": "HMA, heavy metal-associated domain"
+          }
+        },
+        "go_terms": [
+          {
+            "identifier": "GO:0046872",
+            "name": "metal ion binding",
+            "category": {
+              "code": "F",
+              "name": "molecular_function"
+            }
+          }
+        ]
+      },
+      "proteins": [
+        {
+          "accession": "p35670",
+          "protein_length": 1465,
+          "source_database": "reviewed",
+          "organism": "9606",
+          "in_alphafold": true,
+          "in_bfvd": false,
+          "entry_protein_locations": [
+            {
+              "fragments": [
+                {
+                  "start": 55,
+                  "end": 126,
+                  "dc-status": "CONTINUOUS"
+                }
+              ],
+              "representative": false,
+              "model": null,
+              "score": null
+            },
+            {
+              "fragments": [
+                {
+                  "start": 140,
+                  "end": 210,
+                  "dc-status": "CONTINUOUS"
+                }
+              ],
+              "representative": false,
+              "model": null,
+              "score": null
+            },
+            {
+              "fragments": [
+                {
+                  "start": 253,
+                  "end": 318,
+                  "dc-status": "CONTINUOUS"
+                }
+              ],
+              "representative": false,
+              "model": null,
+              "score": null
+            },
+            {
+              "fragments": [
+                {
+                  "start": 356,
+                  "end": 428,
+                  "dc-status": "CONTINUOUS"
+                }
+              ],
+              "representative": false,
+              "model": null,
+              "score": null
+            },
+            {
+              "fragments": [
+                {
+                  "start": 488,
+                  "end": 557,
+                  "dc-status": "CONTINUOUS"
+                }
+              ],
+              "representative": false,
+              "model": null,
+              "score": null
+            },
+            {
+              "fragments": [
+                {
+                  "start": 566,
+                  "end": 635,
+                  "dc-status": "CONTINUOUS"
+                }
+              ],
+              "representative": false,
+              "model": null,
+              "score": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "accession": "IPR036412",
+        "name": "HAD-like superfamily",
+        "source_database": "interpro",
+        "type": "homologous_superfamily",
+        "integrated": null,
+        "member_databases": {
+          "ssf": {
+            "SSF56784": "HAD-like"
+          }
+        },
+        "go_terms": null
+      },
+      "proteins": [
+        {
+          "accession": "p35670",
+          "protein_length": 1465,
+          "source_database": "reviewed",
+          "organism": "9606",
+          "in_alphafold": true,
+          "in_bfvd": false,
+          "entry_protein_locations": [
+            {
+              "fragments": [
+                {
+                  "start": 1024,
+                  "end": 1370,
+                  "dc-status": "CONTINUOUS"
+                }
+              ],
+              "representative": false,
+              "model": null,
+              "score": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "accession": "IPR044492",
+        "name": "P-type ATPase, haloacid dehalogenase domain",
+        "source_database": "interpro",
+        "type": "domain",
+        "integrated": null,
+        "member_databases": {
+          "sfld": {
+            "SFLDF00027": "p-type atpase"
+          }
+        },
+        "go_terms": null
+      },
+      "proteins": [
+        {
+          "accession": "p35670",
+          "protein_length": 1465,
+          "source_database": "reviewed",
+          "organism": "9606",
+          "in_alphafold": true,
+          "in_bfvd": false,
+          "entry_protein_locations": [
+            {
+              "fragments": [
+                {
+                  "start": 1007,
+                  "end": 1316,
+                  "dc-status": "CONTINUOUS"
+                }
+              ],
+              "representative": false,
+              "model": null,
+              "score": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "accession": "IPR059000",
+        "name": "P-type ATPase, A domain",
+        "source_database": "interpro",
+        "type": "domain",
+        "integrated": null,
+        "member_databases": {
+          "pfam": {
+            "PF00122": "P-type ATPase actuator domain"
+          }
+        },
+        "go_terms": null
+      },
+      "proteins": [
+        {
+          "accession": "p35670",
+          "protein_length": 1465,
+          "source_database": "reviewed",
+          "organism": "9606",
+          "in_alphafold": true,
+          "in_bfvd": false,
+          "entry_protein_locations": [
+            {
+              "fragments": [
+                {
+                  "start": 799,
+                  "end": 904,
+                  "dc-status": "CONTINUOUS"
+                }
+              ],
+              "representative": false,
+              "model": null,
+              "score": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

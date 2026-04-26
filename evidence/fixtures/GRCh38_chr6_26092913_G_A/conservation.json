@@ -1,0 +1,117 @@
+{
+  "species": [
+    {
+      "species": "pan_troglodytes",
+      "common_name": "Chimpanzee",
+      "residue": "C",
+      "is_gap": false,
+      "matches_human": true,
+      "perc_id": 99.7126
+    },
+    {
+      "species": "gorilla_gorilla",
+      "common_name": "Gorilla",
+      "residue": "C",
+      "is_gap": false,
+      "matches_human": true,
+      "perc_id": 99.1379
+    },
+    {
+      "species": "pongo_abelii",
+      "common_name": "Orangutan",
+      "residue": "C",
+      "is_gap": false,
+      "matches_human": true,
+      "perc_id": 97.4138
+    },
+    {
+      "species": "macaca_mulatta",
+      "common_name": "Rhesus macaque",
+      "residue": "C",
+      "is_gap": false,
+      "matches_human": true,
+      "perc_id": 94.2529
+    },
+    {
+      "species": "callithrix_jacchus",
+      "common_name": "Marmoset",
+      "residue": "C",
+      "is_gap": false,
+      "matches_human": true,
+      "perc_id": 90.5172
+    },
+    {
+      "species": "mus_musculus",
+      "common_name": "Mouse",
+      "residue": "L",
+      "is_gap": false,
+      "matches_human": false,
+      "perc_id": 66.2953
+    },
+    {
+      "species": "rattus_norvegicus",
+      "common_name": "Rat",
+      "residue": "T",
+      "is_gap": false,
+      "matches_human": false,
+      "perc_id": 67.2222
+    },
+    {
+      "species": "oryctolagus_cuniculus",
+      "common_name": "Rabbit",
+      "residue": "Y",
+      "is_gap": false,
+      "matches_human": false,
+      "perc_id": 70.2247
+    },
+    {
+      "species": "canis_lupus_familiaris",
+      "common_name": "Dog",
+      "residue": "K",
+      "is_gap": false,
+      "matches_human": false,
+      "perc_id": 54.1667
+    },
+    {
+      "species": "bos_taurus",
+      "common_name": "Cow",
+      "residue": "C",
+      "is_gap": false,
+      "matches_human": true,
+      "perc_id": 77.8736
+    },
+    {
+      "species": "sus_scrofa",
+      "common_name": "Pig",
+      "residue": "C",
+      "is_gap": false,
+      "matches_human": true,
+      "perc_id": 78.098
+    },
+    {
+      "species": "equus_caballus",
+      "common_name": "Horse",
+      "residue": "V",
+      "is_gap": false,
+      "matches_human": false,
+      "perc_id": 71.3092
+    },
+    {
+      "species": "ornithorhynchus_anatinus",
+      "common_name": "Platypus",
+      "residue": "Q",
+      "is_gap": false,
+      "matches_human": false,
+      "perc_id": 35.6771
+    },
+    {
+      "species": "anolis_carolinensis",
+      "common_name": "Anolis lizard",
+      "residue": "D",
+      "is_gap": false,
+      "matches_human": false,
+      "perc_id": 37.6238
+    }
+  ],
+  "human_residue": "C"
+}

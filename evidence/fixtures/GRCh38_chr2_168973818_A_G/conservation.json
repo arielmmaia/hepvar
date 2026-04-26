@@ -1,0 +1,181 @@
+{
+  "species": [
+    {
+      "species": "pan_troglodytes",
+      "common_name": "Chimpanzee",
+      "residue": "V",
+      "is_gap": false,
+      "matches_human": true,
+      "perc_id": 99.3187
+    },
+    {
+      "species": "gorilla_gorilla",
+      "common_name": "Gorilla",
+      "residue": "V",
+      "is_gap": false,
+      "matches_human": true,
+      "perc_id": 99.0916
+    },
+    {
+      "species": "pongo_abelii",
+      "common_name": "Orangutan",
+      "residue": "V",
+      "is_gap": false,
+      "matches_human": true,
+      "perc_id": 98.7131
+    },
+    {
+      "species": "macaca_mulatta",
+      "common_name": "Rhesus macaque",
+      "residue": "V",
+      "is_gap": false,
+      "matches_human": true,
+      "perc_id": 96.901
+    },
+    {
+      "species": "callithrix_jacchus",
+      "common_name": "Marmoset",
+      "residue": "S",
+      "is_gap": false,
+      "matches_human": false,
+      "perc_id": 93.2353
+    },
+    {
+      "species": "mus_musculus",
+      "common_name": "Mouse",
+      "residue": "V",
+      "is_gap": false,
+      "matches_human": true,
+      "perc_id": 81.6805
+    },
+    {
+      "species": "rattus_norvegicus",
+      "common_name": "Rat",
+      "residue": "M",
+      "is_gap": false,
+      "matches_human": false,
+      "perc_id": 81.77
+    },
+    {
+      "species": "oryctolagus_cuniculus",
+      "common_name": "Rabbit",
+      "residue": "V",
+      "is_gap": false,
+      "matches_human": true,
+      "perc_id": 89.8113
+    },
+    {
+      "species": "canis_lupus_familiaris",
+      "common_name": "Dog",
+      "residue": "V",
+      "is_gap": false,
+      "matches_human": true,
+      "perc_id": 89.3585
+    },
+    {
+      "species": "bos_taurus",
+      "common_name": "Cow",
+      "residue": "V",
+      "is_gap": false,
+      "matches_human": true,
+      "perc_id": 88
+    },
+    {
+      "species": "sus_scrofa",
+      "common_name": "Pig",
+      "residue": "I",
+      "is_gap": false,
+      "matches_human": false,
+      "perc_id": 85.5273
+    },
+    {
+      "species": "equus_caballus",
+      "common_name": "Horse",
+      "residue": "V",
+      "is_gap": false,
+      "matches_human": true,
+      "perc_id": 89.8944
+    },
+    {
+      "species": "monodelphis_domestica",
+      "common_name": "Opossum",
+      "residue": "V",
+      "is_gap": false,
+      "matches_human": true,
+      "perc_id": 78.6687
+    },
+    {
+      "species": "ornithorhynchus_anatinus",
+      "common_name": "Platypus",
+      "residue": "V",
+      "is_gap": false,
+      "matches_human": true,
+      "perc_id": 76.2855
+    },
+    {
+      "species": "gallus_gallus",
+      "common_name": "Chicken",
+      "residue": "V",
+      "is_gap": false,
+      "matches_human": true,
+      "perc_id": 73.2006
+    },
+    {
+      "species": "anolis_carolinensis",
+      "common_name": "Anolis lizard",
+      "residue": null,
+      "is_gap": true,
+      "matches_human": false,
+      "perc_id": 75
+    },
+    {
+      "species": "xenopus_tropicalis",
+      "common_name": "Western clawed frog",
+      "residue": "S",
+      "is_gap": false,
+      "matches_human": false,
+      "perc_id": 71.0897
+    },
+    {
+      "species": "danio_rerio",
+      "common_name": "Zebrafish",
+      "residue": "I",
+      "is_gap": false,
+      "matches_human": false,
+      "perc_id": 70.3364
+    },
+    {
+      "species": "oryzias_latipes",
+      "common_name": "Medaka",
+      "residue": "S",
+      "is_gap": false,
+      "matches_human": false,
+      "perc_id": 68.1585
+    },
+    {
+      "species": "petromyzon_marinus",
+      "common_name": "Sea lamprey",
+      "residue": "L",
+      "is_gap": false,
+      "matches_human": false,
+      "perc_id": 62.127
+    },
+    {
+      "species": "caenorhabditis_elegans",
+      "common_name": "C. elegans",
+      "residue": "V",
+      "is_gap": false,
+      "matches_human": true,
+      "perc_id": 33.8876
+    },
+    {
+      "species": "saccharomyces_cerevisiae",
+      "common_name": "Baker's yeast",
+      "residue": "L",
+      "is_gap": false,
+      "matches_human": false,
+      "perc_id": 28.9209
+    }
+  ],
+  "human_residue": "V"
+}

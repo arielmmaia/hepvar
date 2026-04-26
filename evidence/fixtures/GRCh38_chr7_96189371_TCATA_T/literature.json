@@ -1,0 +1,230 @@
+{
+  "hits": [
+    {
+      "pmid": "41727856",
+      "doi": "10.3389/fped.2025.1707993",
+      "title": "Case Report: Cystic fibrosis transmembrane conductance regulator gene heterozygous variation presenting with abdominal pain and hepatopancreatic lesions in a child.",
+      "journal": "Frontiers in pediatrics",
+      "year": 2025,
+      "abstract": null,
+      "language": "en",
+      "relevance_score": 3.0,
+      "matched_aliases": [
+        "chr7:96189371"
+      ],
+      "is_case_report": true,
+      "is_functional_study": false
+    },
+    {
+      "pmid": "41695748",
+      "doi": "10.3389/fped.2026.1714952",
+      "title": "Case Report: Sengers syndrome caused by a novel 7.6\u2005kb AGK deletion misdiagnosed as isolated congenital cataract.",
+      "journal": "Frontiers in pediatrics",
+      "year": 2026,
+      "abstract": null,
+      "language": "en",
+      "relevance_score": 3.0,
+      "matched_aliases": [
+        "chr7:96189371"
+      ],
+      "is_case_report": true,
+      "is_functional_study": false
+    },
+    {
+      "pmid": "41858058",
+      "doi": "10.1002/tpg2.70220",
+      "title": "The genome of a low-seeded mandarin, Premier, displays major structural changes due to gamma irradiation.",
+      "journal": "The plant genome",
+      "year": 2026,
+      "abstract": null,
+      "language": "en",
+      "relevance_score": 1.0,
+      "matched_aliases": [
+        "chr7:96189371"
+      ],
+      "is_case_report": false,
+      "is_functional_study": false
+    },
+    {
+      "pmid": "41829809",
+      "doi": "10.3390/plants15050779",
+      "title": "Trait Association for Flowering Time in Lentil from Global Multi-Environment Data Using GWAS and Machine Learning.",
+      "journal": "Plants (Basel, Switzerland)",
+      "year": 2026,
+      "abstract": null,
+      "language": "en",
+      "relevance_score": 1.0,
+      "matched_aliases": [
+        "chr7:96189371"
+      ],
+      "is_case_report": false,
+      "is_functional_study": false
+    },
+    {
+      "pmid": "41770782",
+      "doi": "10.1371/journal.pone.0343491",
+      "title": "Genome-wide association study in a diverse grapevine collection provides insights into the genetic basis of berry size and cluster architecture traits.",
+      "journal": "PloS one",
+      "year": 2026,
+      "abstract": null,
+      "language": "en",
+      "relevance_score": 1.0,
+      "matched_aliases": [
+        "chr7:96189371"
+      ],
+      "is_case_report": false,
+      "is_functional_study": false
+    },
+    {
+      "pmid": "41595509",
+      "doi": "10.3390/genes17010090",
+      "title": "Genome-Wide Identification of the Zinc Finger-Homeodomain (ZF-HD) Gene Family and Their Response to Cold Stress in Rosa chinensis.",
+      "journal": "Genes",
+      "year": 2026,
+      "abstract": null,
+      "language": "en",
+      "relevance_score": 1.0,
+      "matched_aliases": [
+        "chr7:96189371"
+      ],
+      "is_case_report": false,
+      "is_functional_study": false
+    },
+    {
+      "pmid": "41490991",
+      "doi": "10.1158/2767-9764.CRC-25-0452",
+      "title": "Copy-Number Aberrations in Circulating Tumor DNA Enable Diagnosis and Risk Stratification of Pediatric Neuroblastic Tumors.",
+      "journal": "Cancer research communications",
+      "year": 2026,
+      "abstract": null,
+      "language": "en",
+      "relevance_score": 1.0,
+      "matched_aliases": [
+        "chr7:96189371"
+      ],
+      "is_case_report": false,
+      "is_functional_study": false
+    },
+    {
+      "pmid": "41300709",
+      "doi": "10.3390/genes16111257",
+      "title": "Genome-Wide Identification and Tissue-Specific Expression Profiling of Goji CER Gene Family.",
+      "journal": "Genes",
+      "year": 2025,
+      "abstract": null,
+      "language": "en",
+      "relevance_score": 1.0,
+      "matched_aliases": [
+        "chr7:96189371"
+      ],
+      "is_case_report": false,
+      "is_functional_study": false
+    },
+    {
+      "pmid": "41283471",
+      "doi": "10.3390/pathophysiology32040057",
+      "title": "Systemic Sclerosis in Kazakh Patients: A Preliminary Case-Control Immunogenetic Profiling Study.",
+      "journal": "Pathophysiology : the official journal of the International Society for Pathophysiology",
+      "year": 2025,
+      "abstract": null,
+      "language": "en",
+      "relevance_score": 1.0,
+      "matched_aliases": [
+        "chr7:96189371"
+      ],
+      "is_case_report": false,
+      "is_functional_study": false
+    },
+    {
+      "pmid": "41256604",
+      "doi": "10.1101/2025.09.29.679244",
+      "title": "Whole-chromosome duplications drive antimicrobial resistance in Aspergillus fumigatus.",
+      "journal": "bioRxiv : the preprint server for biology",
+      "year": 2025,
+      "abstract": null,
+      "language": "en",
+      "relevance_score": 1.0,
+      "matched_aliases": [
+        "chr7:96189371"
+      ],
+      "is_case_report": false,
+      "is_functional_study": false
+    },
+    {
+      "pmid": "41210689",
+      "doi": "10.7150/jca.111126",
+      "title": "Local Genetic Correlations and Pleiotropy Reveal Shared Genetic Architecture Between COVID-19 Phenotypes and Prostate Cancer in European Populations.",
+      "journal": "Journal of Cancer",
+      "year": 2025,
+      "abstract": null,
+      "language": "en",
+      "relevance_score": 1.0,
+      "matched_aliases": [
+        "chr7:96189371"
+      ],
+      "is_case_report": false,
+      "is_functional_study": false
+    },
+    {
+      "pmid": "41153735",
+      "doi": "10.3390/biomedicines13102452",
+      "title": "Rare BLK, CEL, KLF11, PDX1, and PAX4 Gene Variants in Russian Patients with Monogenic Diabetes: Clinical and Molecular Characterization.",
+      "journal": "Biomedicines",
+      "year": 2025,
+      "abstract": null,
+      "language": "en",
+      "relevance_score": 1.0,
+      "matched_aliases": [
+        "chr7:96189371"
+      ],
+      "is_case_report": false,
+      "is_functional_study": false
+    },
+    {
+      "pmid": "41026105",
+      "doi": "10.1093/infdis/jiaf495",
+      "title": "Blood Cultures Contain Populations of Genetically Diverse Candida albicans Strains that May Differ in Echinocandin Tolerance and Fitness.",
+      "journal": "The Journal of infectious diseases",
+      "year": 2026,
+      "abstract": null,
+      "language": "en",
+      "relevance_score": 1.0,
+      "matched_aliases": [
+        "chr7:96189371"
+      ],
+      "is_case_report": false,
+      "is_functional_study": false
+    },
+    {
+      "pmid": "40919893",
+      "doi": "10.1093/bfgp/elaf013",
+      "title": "Identification of pathogenic cell types and shared genetic loci and genes for Alzheimer's disease and inflammatory bowel disease.",
+      "journal": "Briefings in functional genomics",
+      "year": 2025,
+      "abstract": null,
+      "language": "en",
+      "relevance_score": 1.0,
+      "matched_aliases": [
+        "chr7:96189371"
+      ],
+      "is_case_report": false,
+      "is_functional_study": false
+    },
+    {
+      "pmid": "40911248",
+      "doi": "10.1007/s10792-025-03740-x",
+      "title": "Identification of pathogenic variants in six Chinese families with keratoconus of autosomal dominant inheritance: pathogenicity analysis and variable phenotype.",
+      "journal": "International ophthalmology",
+      "year": 2025,
+      "abstract": null,
+      "language": "en",
+      "relevance_score": 1.0,
+      "matched_aliases": [
+        "chr7:96189371"
+      ],
+      "is_case_report": false,
+      "is_functional_study": false
+    }
+  ],
+  "alias_hash": "f3879c79cbbbd451"
+}

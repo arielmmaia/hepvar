@@ -1,0 +1,370 @@
+{
+  "hits": [
+    {
+      "pmid": "38752605",
+      "doi": "10.1111/jdv.20098",
+      "title": "Dermatologic manifestations of hereditary hemochromatosis: A systematic review.",
+      "journal": "Journal of the European Academy of Dermatology and Venereology : JEADV",
+      "year": 2025,
+      "abstract": "Hereditary hemochromatosis (HH) is a genetic disorder leading to excessive iron absorption, impacting multiple organs, notably the skin, nails and mucosae. The objective of this study is to elucidate the dermatologic manifestations, associated symptoms, pathophysiology and management recommendations of HH. We searched five primary databases (PubMed, Embase, Cochrane Library, Scopus and Web of Science) up to April 2023. Non-English articles were included to minimize language bias. The studies were evaluated using Oxford Centre for Evidence-based Medicine standards, with adherence to PRISMA guidelines. Inaccessible articles were directly sourced from authors. Out of the initial 1582 publications from 1904 to 2023, 22 studies (19 in English, 2 in French and 1 in German) were selected. Most reports were from the USA, UK and France and were predominantly case reports, covering 148 patients with skin symptoms related to hereditary hemochromatosis. We collected data on the cutaneous findings and, when available, their histopathological features. The current study highlights the scope, variety and traits of dermatologic symptoms in hereditary hemochromatosis, pinpointing research gaps and areas for future exploration. Our review accentuates the diverse dermatological manifestations of hereditary hemochromatosis, notably hyperpigmentation, hypertrichosis and resistant pruritus, often linked to excessive iron deposition and subsequent impairment of skin cell function. We also found controversial evidence indicating that skin cancers seem to be associated with hereditary hemochromatosis. Porphyria cutanea tarda and hereditary hemochromatosis were frequently reported together. Given hereditary hemochromatosis's genetic nature, early identification in one individual can substantially guide familial care and preemptive interventions. Clinicians should prioritize hereditary hemochromatosis as a differential when patients present with specific dermatological symptoms, especially in sun-exposed regions. A rigorous assessment ensures accurate diagnosis, facilitating optimal management for both the patient and their family.",
+      "language": "fr",
+      "relevance_score": 5.5,
+      "matched_aliases": [],
+      "is_case_report": true,
+      "is_functional_study": false
+    },
+    {
+      "pmid": "41595494",
+      "doi": "10.3390/genes17010074",
+      "title": "<i>TMPRSS6</i> Non-Coding Variants in the Expression of Iron Refractory Iron Deficiency Anemia in Monoallelic Subjects.",
+      "journal": "Genes",
+      "year": 2026,
+      "abstract": "<h4>Background</h4>Iron-refractory iron deficiency anemia (IRIDA) is a rare hereditary disorder caused by pathogenic variants in <i>TMPRSS6</i>, characterized by microcytic anemia, low circulating iron levels, and inappropriately high hepcidin levels. Although IRIDA is typically an autosomal recessive disorder, some individuals with a monoallelic pathogenic exonic <i>TMPRSS6</i> variant exhibit the phenotype, suggesting additional contributing factors. The mechanisms underlying monoallelic IRIDA remain unclear, complicating diagnosis. This study aimed to investigate the potential role of non-coding <i>TMPRSS6</i> variants and polygenic inheritance in monoallelic IRIDA.<h4>Methods</h4>We performed full-gene sequencing of <i>TMPRSS6</i> in a cohort of 27 subjects, including 6 families (7 symptomatic monoallelic, 7 asymptomatic monoallelic, and 4 wild-type subjects) and 9 isolated symptomatic monoallelic subjects. Whole-exome sequencing of other iron-regulating genes was conducted to evaluate polygenic inheritance. Non-coding variants were assessed for inheritance patterns using family segregation analysis, when available, and for pathogenic potential using in silico prediction tools.<h4>Results</h4>Sequencing identified 219 non-coding variants, of which 31 (14 <i>trans-</i>inherited and 17 with unknown inheritance) were exclusive to symptomatic subjects. Two <i>trans-</i>inherited variants (rs80140288 (c.229+945C>T) and rs146953827 (c.230-938_230-937del)) were predicted to affect splicing, while two additional variants (rs78987624 (c.-7001G>A) and rs117575523 (c.*503C>G)) were located in regulatory regions (with unknown inheritance). Whole-exome sequencing did not support polygenic involving other iron-regulating genes.<h4>Conclusions</h4>This study highlights four candidate non-coding variants that may contribute to IRIDA expression in monoallelic subjects, offering new insights into its genetic basis. Functional validation is required to confirm their role in disease pathogenesis, refine genotype-phenotype correlations, and improve diagnostic accuracy in monoallelic IRIDA.",
+      "language": "en",
+      "relevance_score": 5.0,
+      "matched_aliases": [
+        "HFE Cys282Tyr"
+      ],
+      "is_case_report": false,
+      "is_functional_study": true
+    },
+    {
+      "pmid": "41968586",
+      "doi": "10.1111/liv.70646",
+      "title": "Clinical Exome Sequencing in Unexplained Hyperferritinemia Reveals Digenic and Oligogenic Inheritance Beyond Iron Homeostasis.",
+      "journal": "Liver international : official journal of the International Association for the Study of the Liver",
+      "year": 2026,
+      "abstract": "<h4>Background and aims</h4>Hyperferritinemia encompasses heterogeneous genetic etiologies beyond HFE-related hemochromatosis. Current guidelines recommend testing for rare hemochromatosis genes, yet no consensus exists on comprehensive genomic approaches. We aimed to characterise the genetic landscape of unexplained hyperferritinemia using clinical exome sequencing (CES) and evaluate genotype-phenotype correlations across functional pathways.<h4>Methods</h4>In this retrospective study (2019-2024), consecutive patients with unexplained hyperferritinemia after exclusion of secondary causes underwent CES. Patients with known HFE p.Cys282Tyr homozygosity were not referred for CES. Variant filtering was performed using the Genomics England panel for iron metabolism and the French network for rare liver diseases panel, combined with phenotype-driven analysis based on Human Phenotype Ontology annotations for iron-related phenotypes. Genes were categorised into four pathways: systemic iron sensing, iron transport and storage, hepatic metabolism and erythropoiesis.<h4>Results</h4>Among 108 patients, CES identified at least one variant in 72 (66.7%), including 44 (40.7%) with likely pathogenic or pathogenic (LP/P) variants. HFE was the most frequently affected gene, followed by SERPINA1, ATP7B, and CP. Among patients without monogenic HFE alterations (n\u2009=\u200957), 21 (36.8%) carried variants, mainly affecting CP, ATP7B, SERPINA1 or GBA. Digenic or oligogenic inheritance was observed in 30.6% (22/72) of patients overall and in 20.5% (9/44) of those carrying LP/P variants, most frequently involving HFE-SERPINA1 and HFE-ATP7B combinations. Cross-pathway combinations occurred in 17 of 22 digenic patients (77.3%). The systemic iron sensing group exhibited significantly higher serum iron (p\u2009=\u20090.009) and transferrin saturation (p\u2009=\u20090.008).<h4>Conclusions</h4>CES reveals genetic heterogeneity beyond the traditional Mendelian framework, with frequent non-HFE gene involvement and digenic inheritance and should be considered after exclusion of HFE p.Cys282Tyr homozygosity.",
+      "language": "en",
+      "relevance_score": 5.0,
+      "matched_aliases": [
+        "HFE p.Cys282Tyr"
+      ],
+      "is_case_report": false,
+      "is_functional_study": true
+    },
+    {
+      "pmid": "41300832",
+      "doi": "10.3390/genes16111381",
+      "title": "Clinical and Molecular Clues to Diagnosing Hereditary Hyperferritinemia-Cataract Syndrome: Case Report and Literature Review.",
+      "journal": "Genes",
+      "year": 2025,
+      "abstract": "<b>Background</b><b>:</b> Hereditary hyperferritinemia-cataract syndrome (HHCS) is a rare autosomal dominant disorder characterized by persistently elevated serum ferritin and early-onset bilateral cataracts in the absence of systemic iron overload. It is caused by pathogenic variants in the iron-responsive element (IRE) of the <i>FTL</i> gene, leading to dysregulated L-ferritin synthesis. <b>Methods:</b> We evaluated a 12-year-old Czech girl with markedly elevated serum ferritin identified incidentally during workup for abdominal pain. Clinical assessment included biochemical, radiological, ophthalmological, and genetic testing of the proband and available family members. <b>Results:</b> Magnetic resonance imaging excluded systemic iron overload, while ophthalmological evaluation revealed bilateral cataracts. Family history indicated multiple affected relatives across three generations. Genetic testing confirmed a heterozygous <i>FTL</i> c.-168G>C variant. Additional screening for common <i>HFE</i> variants revealed heterozygous H63D in several family members, with no impact on ferritin or hepcidin levels. Beyond this case, we provide a comprehensive review of HHCS, including molecular mechanisms, an updated overview of reported <i>FTL</i> mutations, and ophthalmological features that distinguish HHCS cataracts from other congenital cataracts. <b>Conclusions:</b> This report underscores the translational relevance of combining molecular diagnostics, clinical evaluation, and family screening to improve recognition and management of HHCS, and to prevent misdiagnosis and unnecessary iron-depletion therapy.",
+      "language": "en",
+      "relevance_score": 4.6,
+      "matched_aliases": [
+        "HFE AND (\"case report\" OR mutation OR variant)"
+      ],
+      "is_case_report": true,
+      "is_functional_study": false
+    },
+    {
+      "pmid": "40763936",
+      "doi": "10.1111/cge.70035",
+      "title": "Pathogenic Variants in Mennonites From Southern Brazil: Implications for Preventive Measures in Public Health.",
+      "journal": "Clinical genetics",
+      "year": 2026,
+      "abstract": "The Mennonite population has a unique history of 500\u2009years of genetic isolation shaped by at least three demographic bottlenecks, founder effects, inbreeding, epidemics, and migrations. To evaluate their susceptibility for monogenic diseases (MD), we performed whole-exome sequencing on 325 volunteers from two South Brazilian Mennonite settlements (one urban and another rural). We identified 23 pathogenic variants (P) and 27 likely P, with 22.8% accounting for endocrine, nutritional, and metabolic MDs, 17.5% for developmental anomalies, and 10.5% for nervous system MDs. HFE rs1800562 causing hereditary hemochromatosis presented the highest frequency (7.54%), followed by BTD rs13078881 for biotinidase deficiency (7.08%), FLG rs61816761 for ichthyosis vulgaris and atopic dermatitis (3.38%), and FANCM rs147021911 for Fanconi anemia (3.08%). Genomic and genealogical analysis confirmed their European origin, with very low consanguinity and high heterozygosity coefficients, confirming a random selection of refugees that emigrated from widespread settlements in Russia to Brazil in 1930. There was also a slight deviation to Native Americans for self-reported admixed Mennonites. Even so, founder effects occurred for 96% of P, whose frequencies differed from non-Finnish Europeans, Amish, and Brazilian populations. These findings highlight the genetic risks in this population, reinforcing the importance of genetic counseling, screening programs, and Personalized and Preventive Medicine strategies to mitigate health risks associated with inherited conditions.",
+      "language": "pt",
+      "relevance_score": 4.1,
+      "matched_aliases": [],
+      "is_case_report": false,
+      "is_functional_study": false
+    },
+    {
+      "pmid": "39157504",
+      "doi": "10.13107/jocr.2024.v14.i08.4626",
+      "title": "Potential Correlation between Kienb\u00f6ck's Disease and Hereditary Hemochromatosis: A Case Report.",
+      "journal": "Journal of orthopaedic case reports",
+      "year": 2024,
+      "abstract": "<h4>Introduction</h4>Avascular necrosis of the lunate bone has been extensively researched, although the etiology of the condition remains controversial. Even though many treatments for the disease exist, a better understanding of the pathophysiology can improve our decision-making between preventive and therapeutic measures. Various hematological disorders have been found to predispose for Kienb\u00f6ck's disease. On the other hand, there has not yet been any reference in literature to a relationship between this condition and hereditary hemochromatosis (HH).<h4>Case report</h4>We present two cases of Kienb\u00f6ck's disease in two patients who are third-degree relatives and diagnosed with HH. A 61-year-old Caucasian female patient with type 1 HH presented with symptomatic Kienb\u00f6ck's disease on the left side. The patient is a third-degree relative of a 51-year-old male Caucasian patient with Kienbock's disease on the right side, known as having the same hereditary hematological condition.<h4>Conclusion</h4>Our findings suggest a potential correlation between the aforementioned conditions. The prevalence of these coexisting pathologies should be studied further.",
+      "language": "en",
+      "relevance_score": 4.0,
+      "matched_aliases": [
+        "HFE Cys282Tyr"
+      ],
+      "is_case_report": true,
+      "is_functional_study": false
+    },
+    {
+      "pmid": "40433503",
+      "doi": "10.1002/jha2.70054",
+      "title": "Sporadic Porphyria Cutanea Tarda, Cutaneous Sarcoidosis, and Compound Heterozygosity of HFE Mutations Cys282Tyr and His63Asp-A Case Report.",
+      "journal": "EJHaem",
+      "year": 2025,
+      "abstract": "Porphyria cutanea tarda (PCT) is caused by inherited or acquired defects of uroporphyrinogen decarboxylase (UROD) in the heme biosynthetic pathway. Altered iron homeostasis via hemochromatosis gene (HFE) mutations is one of many susceptibility factors associated with the sporadic form of PCT. Though sarcoidosis is not commonly associated with PCT, prior reports of hepatic sarcoidosis postulated that hepatic granulomas affect UROD activity by direct interference or immunological mechanisms. Here we describe a case of acquired PCT in the setting of (HFE):c.845G>A (p.Cys282Tyr) and (HFE):c.187C>G (p.His63Asp) compound heterozygosity, hepatic steatosis, and cutaneous sarcoidosis.",
+      "language": "en",
+      "relevance_score": 3.85,
+      "matched_aliases": [
+        "HFE Cys282Tyr"
+      ],
+      "is_case_report": true,
+      "is_functional_study": false
+    },
+    {
+      "pmid": "41727736",
+      "doi": "10.1016/j.rmcr.2026.102382",
+      "title": "A rare case report of decompensated cirrhosis from hereditary hemochromatosis following lung transplant in a person with cystic fibrosis.",
+      "journal": "Respiratory medicine case reports",
+      "year": 2026,
+      "abstract": "A 33-year-old woman with cystic fibrosis following bilateral sequential cadaveric lung transplantation experienced prolonged intermittent liver enzyme elevation. An abdominal ultrasound revealed increased hepatic echogenicity and cirrhotic features, warranting further investigation with iron studies and liver biopsy, which confirmed hereditary hemochromatosis. This rare case underscores the importance of considering hereditary hemochromatosis post lung transplantation irrespective of not receiving multiple blood products or iron replacement.",
+      "language": "en",
+      "relevance_score": 3.68,
+      "matched_aliases": [
+        "HFE AND (\"case report\" OR mutation OR variant)"
+      ],
+      "is_case_report": true,
+      "is_functional_study": false
+    },
+    {
+      "pmid": "38542306",
+      "doi": "10.3390/ijms25063334",
+      "title": "HFE Mutations in Neurodegenerative Disease as a Model of Hormesis.",
+      "journal": "International journal of molecular sciences",
+      "year": 2024,
+      "abstract": "Common variants in the iron regulatory protein HFE contribute to systematically increased iron levels, yet the effects in the brain are not fully characterized. It is commonly believed that iron dysregulation is a key contributor to neurodegenerative disease due to iron's ability to catalyze reactive oxygen species production. However, whether HFE variants exacerbate or protect against neurodegeneration has been heavily debated. Some claim that mutated HFE exacerbates oxidative stress and neuroinflammation, thus predisposing carriers to neurodegeneration-linked pathologies. However, H63D HFE has also been shown to slow the progression of multiple neurodegenerative diseases and to protect against environmental toxins that cause neurodegeneration. These conflicting results showcase the need to further understand the contribution of HFE variants to neurodegenerative disease heterogeneity. Data from mouse models consistently demonstrate robust neuroprotection against toxins known to increase the risk of neurodegenerative disease. This may represent an adaptive, or hormetic, response to increased iron, which leaves cells better protected against future stressors. This review describes the current research regarding the contribution of HFE variants to neurodegenerative disease prognosis in the context of a hormetic model. To our knowledge, this is the first time that a hormetic model for neurodegenerative disease has been presented.",
+      "language": "pt",
+      "relevance_score": 3.5,
+      "matched_aliases": [],
+      "is_case_report": false,
+      "is_functional_study": false
+    },
+    {
+      "pmid": "40016373",
+      "doi": "10.1007/s12687-025-00782-7",
+      "title": "Experiences of stigmatization and its impacts among individuals living with hereditary diseases and family members in Portugal: an exploratory study.",
+      "journal": "Journal of community genetics",
+      "year": 2025,
+      "abstract": "Stigma is defined as the perception of an undesirable attribute that leads to discrimination against individuals and groups. Stigmatisation is often triggered due to visible physical or cognitive differences. Although the literature consistently highlights the (fear of) stigmatisation as a significant concern among individuals living with hereditary conditions, no studies in Portugal have specifically provided evidence on this issue. This study aims to address this gap by examining the experiences and impact of stigma on individuals and families affected by hereditary diseases in Portugal. After receiving ethics approval, a total of 216 participants, including affected individuals, asymptomatic carriers and family members from families with a range of hereditary conditions, were recruited through patient support associations. Participants completed an online questionnaire via Limesurvey. Data were analysed through Exploratory Factor Analysis (EFA), median comparison tests, and thematic analysis. Of the participants, 78.7% were women, 55.6% had a university degree, and 20.4% were aged between 42 and 47 years. Findings indicate that stigma impacts individuals across various domains, including social interactions, institutional settings, the workplace, and healthcare. EFA identified a bi-factorial model of stigma, comprising Stigma Experiences and Perceived Support subscales, and the overall scale demonstrated high internal consistency (\u03b1\u2009=\u2009.879). Women and younger participants reported higher levels of stigma. Religiosity and humor emerged as key coping strategies. This study is the first in Portugal to assess stigma among individuals living with hereditary conditions. Our findings contributed to validating a measurement instrument, identified sociodemographic variations, and examined the psychosocial dimensions of stigma among affected patients. These findings highlight the need for comprehensive strategies to address and mitigate stigma, improve support systems, and enhance the well-being and healthcare experiences of individuals and families impacted by hereditary diseases.",
+      "language": "pt",
+      "relevance_score": 3.5,
+      "matched_aliases": [],
+      "is_case_report": false,
+      "is_functional_study": false
+    },
+    {
+      "pmid": "39738661",
+      "doi": "10.1038/s41598-024-83678-9",
+      "title": "Semantic aware enhanced event causality identification.",
+      "journal": "Scientific reports",
+      "year": 2024,
+      "abstract": "Event Causality Identification (ECI) aims to predict causal relations between events in a text. Existing research primarily focuses on leveraging external knowledge such as knowledge graphs and dependency trees to construct explicit structured features to enrich event representations. However, this approach underestimates the semantic features of the original input sentences and performs poorly in capturing implicit causal relations. Therefore, this paper proposes a new framework based on Hierarchical Feature Extraction and Prompt-aware Attention (HFEPA) to address the issues above. On the one hand, we introduce a Hierarchical Feature Extraction (HFE) module to extract two kinds of features based on the input sentences: event mention level and segment level, enriching the semantic information of events through the interaction between event pairs and different segments. On the other hand, we design a Prompt-aware Attention (PAA) module that utilizes implicit causal knowledge in pre-trained language models to capture potential relationship information between events. This information is then combined with the contextual information of the text sequence to enhance the model's ability to identify implicit causal relations between events. Additionally, this task faces challenges in the Chinese domain due to the limited scale of annotated datasets, leading to relatively slow research progress. To address this issue, we propose a new Chinese ECI dataset (Chinese News Causality), aiming to solve the current data scarcity problem in the Chinese domain. This dataset contains 25,629 event mentions and 5,569 causal event pairs, making it, to our knowledge, the largest Chinese dataset to date. We evaluate the effectiveness of HFEPA on both the EventStoryLine and Chinese News Causality datasets, and experimental results show that HFEPA significantly outperforms previous methods. The CNC dataset is available at https://github.com/twinkle121/CNC .",
+      "language": "es",
+      "relevance_score": 3.5,
+      "matched_aliases": [],
+      "is_case_report": false,
+      "is_functional_study": false
+    },
+    {
+      "pmid": "41942437",
+      "doi": "10.1038/s41467-026-71367-2",
+      "title": "Osteoarthritis and analgesic consumption in haemochromatosis HFE C282Y homozygotes with normal or low iron parameters.",
+      "journal": "Nature communications",
+      "year": 2026,
+      "abstract": "We studied 132,525 Danish general population individuals to examine whether risk of osteoarthritis and/or use of pain-relieving medication was increased in haemochromatosis C282Y homozygotes with normal or low plasma iron, transferrin saturation, or ferritin. We genotyped all 132,525 individuals for the HFE C282Y and H63D variants. During a median follow-up of 40 years, 31,636 individuals had osteoarthritis. Risk of osteoarthritis was increased even in C282Y homozygotes with normal or low plasma iron (hazard ratio:1.37;95% confidence interval:1.12-1.68 compared to non-carriers with normal/low iron), transferrin saturation (1.55;1.10-2.16), or ferritin (1.96;1.11-3.45). Here we show that risk of osteoarthritis is increased in those C282Y homozygotes not usually recommended for genotyping according to clinical guidelines, challenging the presumption that the increased risk of osteoarthritis is mainly caused by systemic iron accumulation. Indeed, C282Y homozygotes with normal or low ferritin levels had a particularly high cumulative incidence of any osteoarthritis (24% at age 60 years, 60% at age 80 years).",
+      "language": "en",
+      "relevance_score": 2.6,
+      "matched_aliases": [
+        "HFE C282Y"
+      ],
+      "is_case_report": false,
+      "is_functional_study": false
+    },
+    {
+      "pmid": "41951274",
+      "doi": "10.1016/j.jhepr.2026.101781",
+      "title": "Genetic and lifestyle modifiers of haemochromatosis-related clinical outcomes in HFE C282Y homozygotes.",
+      "journal": "JHEP reports : innovation in hepatology",
+      "year": 2026,
+      "abstract": "<h4>Background & aims</h4>The iron overload disease haemochromatosis is primarily caused by HFE p.C282Y homozygosity, yet penetrance of clinical outcomes (including liver disease/cancer) varies. We aimed to estimate the effect of genetic and lifestyle factors on disease penetrance and expressivity in HFE C282Y homozygotes.<h4>Methods</h4>We analysed 2,893 C282Y homozygous UK Biobank participants (n = 1,295 male). We ascertained haemochromatosis from medical records, liver disease/cancer, osteoarthritis, joint replacement surgeries, and dementia diagnoses. We derived polygenic scores (PGS) for iron biomarkers, including hepcidin and transferrin saturation (TSAT). Sex-stratified logistic regression assessed associations with clinical outcomes. We used time-to-event regression estimating effects of age, lifestyle, and PGS, and estimated effects of rare HFE variants using whole-genome sequencing data.<h4>Results</h4>In male HFE C282Y homozygotes, higher TSAT PGS increased the likelihood of diagnosis of haemochromatosis, and separately any clinical consequence (odds ratio [OR]<sub>top-vs-bottom-PGS-quintile</sub> = 1.83, 95% CI: 1.26-2.66, p = 0.001). Cumulative incidence of assessed haemochromatosis clinical outcomes in men by age 80 years was 64.5% (highest quintile) vs. 51.6% (lowest) (p for difference = 0.025). In women, TSAT PGS increased haemochromatosis likelihood (cumulative incidence: 45.3% vs. 23.3% [highest/lower quintile], p = 0.00001) but not liver disease. PGS for other iron biomarkers was not significantly associated with clinical outcomes. Rare heterozygous predicted loss-of-function variants in HFE increased haemochromatosis likelihood in non-C282Y homozygotes (aggregate OR = 14.8, 95% CI 4.7-41.1, p = 0.003), highlighting the importance of sequencing undiagnosed individuals to find rare causes of haemochromatosis.<h4>Conclusion</h4>Higher genetically predicted TSAT significantly increased risk of clinical outcomes in HFE C282Y homozygotes. Combined with modifiable lifestyle factors, genetic information could refine risk stratification and personalise iron monitoring, following validation.<h4>Impact and implications</h4>There is a pressing clinical need to understand the wide variation in clinical outcomes observed in HFE C282Y homozygotes. Higher genetically predicted TSAT significantly increased the risk of clinical outcomes, including liver and musculoskeletal complications, in HFE C282Y homozygotes, highlighting non-HFE genetic influence on disease penetrance. These results are relevant for physicians and researchers, because combining genetic factors (TSAT PGS) with demographic and lifestyle factors provided the highest prediction accuracy for haemochromatosis and related clinical outcomes. Practically, integrating polygenic risk assessments with existing patient care pathways could enhance precision therapies by enabling the earlier, targeted management of high-risk HFE C282Y homozygotes, although external validation of these predictive models is required before clinical adoption.",
+      "language": "en",
+      "relevance_score": 2.6,
+      "matched_aliases": [
+        "HFE C282Y"
+      ],
+      "is_case_report": false,
+      "is_functional_study": false
+    },
+    {
+      "pmid": null,
+      "doi": "10.1101/2025.08.22.25334187",
+      "title": "Genetic and lifestyle modifiers of haemochromatosis-related clinical outcomes in HFE C282Y homozygotes: prospective cohort study in UK Biobank",
+      "journal": null,
+      "year": 2025,
+      "abstract": "<h4>Background</h4>  The iron overload disease haemochromatosis is primarily caused by HFE p.C282Y homozygosity, yet penetrance of clinical outcomes (including liver disease/cancer) varies. We estimated the effect of genetic and lifestyle factors on disease penetrance and expressivity in C282Y homozygotes. <h4>Methods</h4>  We analysed 2,893 C282Y homozygous UK Biobank participants (n=1,295 male). We ascertained haemochromatosis from medical records, liver disease/cancer, osteoarthritis, joint replacement surgeries, and dementia diagnoses. We derived polygenic scores (PGS) for iron biomarkers including hepcidin and transferrin saturation (TSAT). Sex-stratified logistic regression assessed associations with clinical outcomes. We used time-to-event regression estimating effects of age, lifestyle, and PGS. We estimated effects of rare HFE variants using whole genome sequencing data. <h4>Results</h4>  In male HFE C282Y homozygotes, higher TSAT PGS increased likelihood of diagnosis of haemochromatosis, and separately any clinical consequence (OR top-vs-bottom-PGS-quintile =1.83, 95%CI: 1.26-2.66, p=0.001). Cumulative incidence of assessed haemochromatosis clinical outcomes in men by age 80 was 64.5% (highest quintile) versus 51.6% (lowest) (p-value for difference=0.025). In females, TSAT PGS increased haemochromatosis likelihood (cumulative incidence: 45.3% vs. 23.3% [highest/lower quintile], p=0.00001) but not liver disease. PGS for other iron biomarkers were not significantly associated with clinical outcomes. Rare heterozygous predicted loss-of-function variants in HFE increased haemochromatosis likelihood in non-C282Y homozygotes (aggregate-OR=14.8, 95%CI 4.7-41.1, p=0.003), highlighting the importance of sequencing undiagnosed individuals to find rare causes of haemochromatosis. <h4>Conclusion</h4>  Higher genetically predicted transferrin saturation significantly increased risk of clinical outcomes in HFE C282Y homozygotes. Combined with modifiable lifestyle factors, genetic information could refine risk stratification and personalise iron monitoring, following validation.",
+      "language": "en",
+      "relevance_score": 2.6,
+      "matched_aliases": [
+        "HFE C282Y"
+      ],
+      "is_case_report": false,
+      "is_functional_study": false
+    },
+    {
+      "pmid": null,
+      "doi": "10.1101/2025.03.18.25324165",
+      "title": "Chondrocalcinosis and the haemochromatosis linked<i>HFE</i>C282Y homozygous variant in the UK Biobank",
+      "journal": null,
+      "year": 2025,
+      "abstract": "<h4>Background</h4> C282Y genetic homozygosity is the main cause of the iron-overload disorder haemochromatosis. Musculoskeletal pain and arthropathy are common in haemochromatosis, but less is known about chondrocalcinosis (cartilage calcification) with the C282Y variant, especially in the community. We assessed knee chondrocalcinosis in iDXA (dual-energy X-ray absorptiometer) images from UK Biobank volunteers by HFE genotype. <h4>Methods</h4> Data were from 236 European genetic ancestry C282Y homozygotes and 236 age, sex, and BMI-matched controls with no C282Y alleles (48-80 years, mean 64.6, SD \u00b17.6). 435 of 472 participants had relevant left and right knee iDXA imaging. Evidence of chondrocalcinosis was assessed by an experienced reporting radiographer blind to genotype to ensure unbiased and objective evaluation. Logistic regression models were age, sex and BMI matched. <h4>Results</h4> Knee chondrocalcinosis was present in 15.9% (14/88) of C282Y homozygous males and <5.9% (<5/84) of males without variants (OR=7.76, 95% CI: 1.71\u201335.25, p=0.008). 57.1% (8/14) of the male homozygotes with knee chondrocalcinosis reported knee pain during the previous three months, but <28.6% also had a haemochromatosis diagnosis. In females, 6.0% (8/134) of C282Y homozygotes had knee chondrocalcinosis, vs <3.9% (<5/129) without variants. However, the odds of chondrocalcinosis were not significantly higher in C282Y homozygotes (OR=1.98, 95% CI: 0.58-6.76, p=0.273), therefore a larger sample size may be required to detect a smaller effect in female homozygotes. <h4>Conclusion</h4> In this community genotyped sample, male C282Y homozygotes had a markedly increased odds of knee chondrocalcinosis. Evaluation of serum ferritin levels to identify possible haemochromatosis may be justified in knee chondrocalcinosis management.",
+      "language": "en",
+      "relevance_score": 2.6,
+      "matched_aliases": [
+        "HFE C282Y"
+      ],
+      "is_case_report": false,
+      "is_functional_study": false
+    },
+    {
+      "pmid": "41633988",
+      "doi": "10.1038/s41467-025-65511-7",
+      "title": "The landscape of hereditary haemochromatosis risk and diagnosis across the British Isles and Ireland.",
+      "journal": "Nature communications",
+      "year": 2026,
+      "abstract": "Hereditary haemochromatosis is caused by pathogenic variants in the homoeostatic iron regulator gene HFE. Outcomes include liver cancer, cirrhosis and arthropathy, but penetrance is incomplete. Here, we use genetic data from >400,000 subjects to determine the genetic risk across 29 regions of the British Isles and Ireland. Northwest Irish and Outer Hebrideans are at the highest risk (1/54 - 1/62 carry the major risk genotype), Mainland Scots are also at increased risk (1/117), declining to 1/212 in Southern England. We also assessed the prevalence of clinically diagnosed haemochromatosis in >63 million people in NHS England and identified 70,365 cases. White Irish individuals have the highest prevalence (3.7x white British). Among white British, prevalence varied 11-fold from 1/1972 in parts of Kent to 1/177 in Liverpool. Discrepancies between genetic risks and prevalences of clinical diagnoses for Birmingham, Cumbria, Northumberland and Durham suggest under-diagnosis in these regions. We show heightened genetic risk of haemochromatosis in people of Northwest Irish and Hebridean ancestry and suggest health-economic modelling of community screening should be targeted to these priority areas.",
+      "language": "en",
+      "relevance_score": 2.6,
+      "matched_aliases": [
+        "HFE p.Cys282Tyr"
+      ],
+      "is_case_report": false,
+      "is_functional_study": false
+    },
+    {
+      "pmid": "40440589",
+      "doi": "10.1212/wnl.0000000000213743",
+      "title": "Haemochromatosis Genotypes and Incident Dementia in a Prospective Study of Older Adults.",
+      "journal": "Neurology",
+      "year": 2025,
+      "abstract": "<h4>Background and objectives</h4>Variants in the homeostatic iron regulator (<i>HFE</i>) gene are prevalent among individuals of European ancestry and have been linked to an increased risk of dementia. This study aimed to evaluate the effects of <i>HFE</i> p.Cys282Tyr and p.His63Asp variants on serum ferritin levels and the incidence of dementia in a cohort of initially healthy older adults.<h4>Method</h4>This prospective longitudinal study used data from the Aspirin in Reducing Events in the Elderly trial. Participants had no history of cardiovascular disease, dementia, or cognitive decline at enrollment. Genotyping for <i>HFE</i> p.Cys282Tyr and p.His63Asp variants was conducted using microarrays, and baseline serum ferritin concentrations were measured in peripheral blood samples. Dementia diagnoses were confirmed by an adjudication committee over a median follow-up of 6.4 years. Associations were evaluated using Cox proportional hazards models adjusted for related covariates.<h4>Results</h4>The study included 12,174 unrelated, healthy participants of European ancestry aged 70 years or older, comprising 5,583 men (45.9%) and 6,591 women (54.1%). The median age was 73.7 years (interquartile range [IQR]: 71.6-76.9) for men and 73.9 years (IQR: 71.7-77.5) for women. Compared with the wild-type group, men with p.Cys282Tyr+/+ (<i>p</i> = 0.048) and p.Cys282Tyr+/p.His63Asp + genotypes (<i>p</i> < 0.001) had significantly higher baseline ferritin levels. Women with p.His63Asp+/+ (<i>p</i> = 0.015) and p.Cys282Tyr+/p.His63Asp+ (<i>p</i> < 0.001) genotypes also exhibited elevated ferritin levels. No significant association was observed between baseline serum ferritin levels and dementia risk. However, men with p.His63Asp+/+ genotype had a significantly higher risk of incident dementia (adjusted hazard ratio = 2.39, 95% CI 1.25-4.57, <i>p</i> = 0.009) compared with those without <i>HFE</i> variations. This association was not observed in women.<h4>Discussion</h4>Among initially healthy older adults, <i>HFE</i> p.His63Asp homozygosity was associated with a higher risk of incident dementia in men but not women. These findings highlight a potential sex-specific genetic risk factor for dementia and warrant further research into the underlying mechanisms linking p.His63Asp and dementia.",
+      "language": "en",
+      "relevance_score": 2.6,
+      "matched_aliases": [
+        "HFE p.Cys282Tyr"
+      ],
+      "is_case_report": false,
+      "is_functional_study": false
+    },
+    {
+      "pmid": "30651232",
+      "doi": "10.1136/bmj.k5222",
+      "title": "Common conditions associated with hereditary haemochromatosis genetic variants: cohort study in UK Biobank.",
+      "journal": "BMJ (Clinical research ed.)",
+      "year": 2019,
+      "abstract": "<h4>Objective</h4>To compare prevalent and incident morbidity and mortality between those with the <i>HFE</i> p.C282Y genetic variant (responsible for most hereditary haemochromatosis type 1) and those with no p.C282Y mutations, in a large UK community sample of European descent.<h4>Design</h4>Cohort study.<h4>Setting</h4>22 centres across England, Scotland, and Wales in UK Biobank (2006-10).<h4>Participants</h4>451\u2009243 volunteers of European descent aged 40 to 70 years, with a mean follow-up of seven years (maximum 9.4 years) through hospital inpatient diagnoses and death certification.<h4>Main outcome measure</h4>Odds ratios and Cox hazard ratios of disease rates between participants with and without the haemochromatosis mutations, adjusted for age, genotyping array type, and genetic principal components. The sexes were analysed separately as morbidity due to iron excess occurs later in women.<h4>Results</h4>Of 2890 participants homozygous for p.C282Y (0.6%, or 1 in 156), haemochromatosis was diagnosed in 21.7% (95% confidence interval 19.5% to 24.1%, 281/1294) of men and 9.8% (8.4% to 11.2%, 156/1596) of women by end of follow-up. p.C282Y homozygous men aged 40 to 70 had a higher prevalence of diagnosed haemochromatosis (odds ratio 411.1, 95% confidence interval 299.0 to 565.3, P<0.001), liver disease (4.30, 2.97 to 6.18, P<0.001), rheumatoid arthritis (2.23, 1.51 to 3.31, P<0.001), osteoarthritis (2.01, 1.71 to 2.36, P<0.001), and diabetes mellitus (1.53, 1.16 to 1.98, P=0.002), versus no p.C282Y mutations (n=175\u2009539). During the seven year follow-up, 15.7% of homozygous men developed at least one incident associated condition versus 5.0% (P<0.001) with no p.C282Y mutations (women 10.1% <i>v</i> 3.4%, P<0.001). Haemochromatosis diagnoses were more common in p.C282Y/p.H63D heterozygotes, but excess morbidity was modest.<h4>Conclusions</h4>In a large community sample, <i>HFE</i> p.C282Y homozygosity was associated with substantial prevalent and incident clinically diagnosed morbidity in both men and women. As p.C282Y associated iron overload is preventable and treatable if intervention starts early, these findings justify re-examination of options for expanded early case ascertainment and screening.",
+      "language": "en",
+      "relevance_score": 2.6,
+      "matched_aliases": [
+        "HFE AND (\"Hereditary haemochromatosis type 1\")"
+      ],
+      "is_case_report": false,
+      "is_functional_study": false
+    },
+    {
+      "pmid": "42005156",
+      "doi": "10.7759/cureus.105412",
+      "title": "Irony of Iron Overload: Hereditary Hemochromatosis Complicated by Alcoholic Hepatitis, Gastrointestinal Bleeding, and Intramuscular Hematoma.",
+      "journal": "Cureus",
+      "year": 2026,
+      "abstract": "Hereditary hemochromatosis (HH) is an autosomal recessive disorder characterized by excessive iron absorption and accumulation. The\u00a0<i>HFE</i>\u00a0gene C282Y mutation is most commonly implicated, while the H63D variant is less penetrant and rarely causes significant iron overload. However, alcohol use accelerates hepatic iron accumulation and worsens liver injury, creating a complex interplay between genetic and environmental factors. A 47-year-old woman with chronic heavy alcohol use presented with progressive jaundice and generalized weakness. Laboratory evaluation revealed markedly elevated aspartate aminotransferase (AST) of 542 U/L, alanine aminotransferase (ALT) of 185 U/L, total bilirubin of 22.2 mg/dL, and ferritin of 17,741 ng/mL. Imaging demonstrated hepatomegaly with coarse echotexture suggestive of cirrhosis. Genetic testing identified heterozygosity for the H63D variant of the <i>HFE</i> gene. She was initially treated for severe alcoholic hepatitis with oral prednisolone based on an elevated Maddrey's Discriminant Function (MDF) score of 73.4; however, therapy was discontinued after the Lille score exceeded 0.45 at day 7, indicating poor response to corticosteroids. Her hospital course was complicated by recurrent gastrointestinal (GI) bleeding due to esophageal ulceration, esophageal varices, portal hypertensive gastropathy, and a Dieulafoy lesion requiring endoscopic clipping and band ligation. She also developed a large intramuscular hematoma in the left vastus lateralis muscle, requiring interventional drainage and multiple blood transfusions. She was ultimately discharged to a subacute rehabilitation facility for alcohol detoxification with plans for close outpatient follow-up with gastroenterology\u00a0and hepatology. This case highlights the paradoxical coexistence of extreme hyperferritinemia with severe anemia in advanced liver disease complicated by recurrent hemorrhage. The markedly elevated ferritin likely reflected a combination of hepatic inflammation, alcohol-related injury, and dysregulated iron metabolism rather than primary genetic hemochromatosis. Although the H63D variant alone rarely leads to significant clinical disease, chronic alcohol use may contribute to worsening hepatic dysfunction and iron imbalance. Additionally, the presence of multiple GI bleeding sources and a spontaneous intramuscular hematoma illustrates the complex hemostatic disturbances associated with advanced cirrhosis. Early recognition of atypical bleeding manifestations in patients with decompensated liver disease is essential to guide timely intervention and improve clinical outcomes.",
+      "language": "en",
+      "relevance_score": 2.6,
+      "matched_aliases": [
+        "HFE AND (\"case report\" OR mutation OR variant)"
+      ],
+      "is_case_report": false,
+      "is_functional_study": false
+    },
+    {
+      "pmid": "39632350",
+      "doi": "10.1111/bjh.19941",
+      "title": "Iron overload in hereditary spherocytosis: Are genetic factors the cause?",
+      "journal": "British journal of haematology",
+      "year": 2026,
+      "abstract": "Non-transfusional iron overload (IOL) in hereditary spherocytosis (HS) is poorly documented compared with other red blood cell disorders. We studied 13 HS adults with confirmed IOL to identify potential genetic factors. Using a next-generation sequencing panel of 46 genes related to HS, anaemia and iron metabolism, we found no association between IOL and the genes involved in HS nor the HFE:p.(Cys282Tyr) variant responsible for hereditary haemochromatosis. However, potential genetic factors contributing to IOL were identified in some patients, including variants in HJV (haemojuvelin), SLC40A1 (ferroportin), PKLR (pyruvate kinase), ABCG5 and ABCB8, highlighting the need for larger studies.",
+      "language": "en",
+      "relevance_score": 2.47,
+      "matched_aliases": [
+        "HFE Cys282Tyr"
+      ],
+      "is_case_report": false,
+      "is_functional_study": false
+    },
+    {
+      "pmid": "41488822",
+      "doi": "10.14740/gr2100",
+      "title": "&lt;i&gt;HFE&lt;/i&gt;-C282Y/C282Y Hemochromatosis Patients Have Lower Serum Transferrin and Strong Negative Correlations Between Iron, Ferritin, and Transferrin Saturation Versus Transferrin Compared With &lt;i&gt;HFE&lt;/i&gt;-wt/wt Wild-Type Subjects.",
+      "journal": "Gastroenterology research",
+      "year": 2025,
+      "abstract": "<h4>Background</h4><i>HFE</i>-C282Y/C282Y hemochromatosis patients have lower serum transferrin levels than normal individuals, but the reason for this discrepancy has drawn little scientific attention and remains unclarified. The objective of this study was to examine transferrin levels and their correlations with other biochemical iron status markers in Danish patients with the C282Y/C282Y variant and compare with corresponding correlations in a population of healthy Danes with the <i>HFE</i>-wt/wt genotype.<h4>Methods</h4>The study comprised 21 patients (11 men) who completed a questionnaire about age, number of years with hemochromatosis, and at least 10 consecutive blood sample results, including ferritin, iron, transferrin and transferrin saturation (TSAT). The control group consisted of 958 persons (441 men).<h4>Results</h4>The findings were comparable in both genders: 1) All but one patient had significantly lower transferrin levels than controls; 2) Serum iron and ferritin showed negative correlations with transferrin; 3) TSAT displayed strong negative correlations with transferrin; 4) Positive correlations were present between iron and ferritin, iron and TSAT, and ferritin and TSAT.<h4>Conclusions</h4>Hemochromatosis patients had lower transferrin levels than controls, contributing to a higher TSAT; the explanation for this remains unsolved. Patients displayed negative correlations between iron and ferritin vs. transferrin, as well as negative correlations between TSAT and transferrin, suggesting that high TSAT levels may accelerate the degradation of transferrin. In <i>HFE</i>-patients, transferrin metabolism is not clarified, and the potential influence of the C282Y/C282Y variant is unknown. Contrary to \"normal\" metabolism, which is primarily regulated by iron levels, many patients maintain low transferrin and high TSAT even after iron depletion. It would be valuable to explore whether this decrease in transferrin reflects reduced hepatic synthesis or increased degradation. There is a need for further investigation of this important dilemma in <i>HFE</i>-hemochromatosis.",
+      "language": "en",
+      "relevance_score": 2.0,
+      "matched_aliases": [
+        "HFE C282Y"
+      ],
+      "is_case_report": false,
+      "is_functional_study": false
+    },
+    {
+      "pmid": "38392579",
+      "doi": "10.3390/jpm14020145",
+      "title": "Towards Personalized Treatment in Haemophilia: The Role of Genetic Factors in Iron and Heme Control to Identify Patients at Risk for Haemophilic Arthropathy.",
+      "journal": "Journal of personalized medicine",
+      "year": 2024,
+      "abstract": "The treatment landscape for haemophilia is changing rapidly, creating opportunities for personalized treatment. As major morbidity is still caused by haemophilic arthropathy, understanding the factors affecting joint damage and joint damage progression might lead to more individualized treatment regimens. We investigated the association of <i>HFE</i> mutations or <i>HMOX1</i> polymorphisms affecting iron/heme handling with radiographic joint damage in 252 haemophilia patients (severe and moderate). Although iron levels and transferrin saturation were significantly increased in the 95 patients with an <i>HFE</i> mutation, neither carrying this mutation nor the <i>HMOX1</i> polymorphism was associated with radiographic joint damage, and the same was true after adjustment for well-known factors associated with arthropathy. In conclusion, this study does not support the hypothesis that <i>HFE</i> mutations or <i>HMOX1</i> polymorphisms can be used to predict the development of haemophilic arthropathy.",
+      "language": "en",
+      "relevance_score": 2.0,
+      "matched_aliases": [
+        "HFE Cys282Tyr"
+      ],
+      "is_case_report": false,
+      "is_functional_study": false
+    },
+    {
+      "pmid": "41513126",
+      "doi": "10.1016/j.amjms.2026.01.004",
+      "title": "Macrocyte subpopulations in hemochromatosis probands with HFE p.C282Y homozygosity: Clinical and laboratory associations.",
+      "journal": "The American journal of the medical sciences",
+      "year": 2026,
+      "abstract": "<h4>Background</h4>The elevated average mean corpuscular volume (MCV) of adults with hemochromatosis and HFE p.C282Y (rs1800562) homozygosity is incompletely understood.<h4>Methods</h4>We retrospectively measured percentages of small (100.0-109.9 fL) and large (110.0-200.0 fL) macrocytes in automated hematology analyzer erythrocyte volume histograms of hemochromatosis probands with p.C282Y homozygosity and iron overload without cirrhosis. We evaluated associations of small and large macrocyte percentages with age, sex, body mass index (BMI), daily alcohol consumption, diabetes, hemochromatosis arthropathy, transferrin saturation (TS), and serum ferritin (SF) at diagnosis.<h4>Results</h4>There were 69 probands (46 men, 23 women) of mean age 49 \u00b1 15 y. Median BMI was 27.5 kg/m<sup>2</sup> (16.9, 46.3). Ten probands (14.5%) had diabetes and seven (10.1%) had arthropathy. Mean TS, SF, and MCV were 81 \u00b1 14%, 791 \u00b1 480 \u00b5g/L, and 95.5 \u00b1 4.1 fL, respectively. Mean small and large macrocyte percentages were 17.9 \u00b1 14.3 % and 31.3 \u00b1 8.2 %, respectively. Correlations of small and large macrocyte percentages with age were significant (r<sub>69</sub> = 0.3937; p = 0.0008 and r<sub>69</sub> = 0.2634; p = 0.0288, respectively). The mean small macrocyte percentage of 11 probands who reported daily alcohol consumption was greater than that of the 58 other probands (20.6 \u00b1 2.9 % and 17.4 \u00b1 4.4 %, respectively; p = 0.0070). The correlation of large macrocyte percentages with TS was significant (r<sub>69</sub> = 0.2661; p = 0.0271). Linear regressions confirmed these positive associations: small macrocyte percentages with age (p = 0.0012) and daily alcohol consumption (p = 0.0355); and large macrocyte percentages with age (p = 0.0306) and TS (p = 0.0247).<h4>Conclusions</h4>In HFE p.C282Y homozygotes, small macrocyte percentages are associated with age and daily alcohol consumption and large macrocyte percentages are associated with age and TS.",
+      "language": "en",
+      "relevance_score": 2.0,
+      "matched_aliases": [
+        "HFE p.C282Y"
+      ],
+      "is_case_report": false,
+      "is_functional_study": false
+    },
+    {
+      "pmid": "41901670",
+      "doi": "10.3390/medicina62030589",
+      "title": "&lt;i&gt;HFE&lt;/i&gt; p.C282Y Polymorphism and Risk of Metabolic Syndrome Components: Systematic Review and Meta-Analysis.",
+      "journal": "Medicina (Kaunas, Lithuania)",
+      "year": 2026,
+      "abstract": "<i>Background and Objectives</i>: Metabolic syndrome is a common condition associated with a higher risk of diabetes and cardiovascular disease. Altered iron metabolism, especially iron overload, may play a role in the development of insulin resistance, hypertension, and other metabolic abnormalities. Although the p.C282Y polymorphism of the <i>HFE</i> gene affects iron regulation and may contribute to these metabolic changes, previous studies have reported inconsistent findings, thus highlighting the need for a comprehensive meta-analysis. <i>Materials and Methods</i>: A systematic literature search was performed in PubMed, Scopus, and Web of Science to examine the associations between the <i>HFE</i> p.C282Y polymorphism and components of metabolic syndrome. Observational studies were included if they compared the frequencies of diabetes, hypertension, and abdominal obesity, as well as levels of triglycerides and high-density lipoprotein cholesterol, between carriers and non-carriers of the p.C282Y variant. <i>Results</i>: A total of 17 studies were included in the meta-analysis, and the pooled analysis demonstrated no significant association between the <i>HFE</i> p.C282Y polymorphism and diabetes, hypertension, triglyceride levels, or HDL cholesterol levels under the codominant model. Similarly, analyses performed using the homozygous model did not reveal any statistically significant associations. <i>Conclusions</i>: This meta-analysis found no statistically significant association between the <i>HFE</i> p.C282Y polymorphism and any of the considered components of metabolic syndrome under the examined genetic models.",
+      "language": "en",
+      "relevance_score": 2.0,
+      "matched_aliases": [
+        "HFE p.C282Y"
+      ],
+      "is_case_report": false,
+      "is_functional_study": false
+    },
+    {
+      "pmid": "41768868",
+      "doi": "10.14740/jh2155",
+      "title": "Mean Corpuscular Volume in &lt;i&gt;HFE&lt;/i&gt; p.C282Y/p.H63D Compound Heterozygotes With High Iron Phenotypes: Clinical and Laboratory Associations.",
+      "journal": "Journal of hematology",
+      "year": 2026,
+      "abstract": "<h4>Background</h4>The aim of this study was to define the relationships between mean corpuscular volume (MCV) and 12 clinical and laboratory variables in <i>HFE</i> p.C282Y (rs1800562)/p.H63D (rs1799945) compound heterozygotes.<h4>Methods</h4>We retrospectively studied self-reported non-Hispanic white adult compound heterozygotes with transferrin saturation (TS) > 50% and serum ferritin (SF) > 300 \u00b5g/L (men) or TS > 45% and SF > 200 \u00b5g/L (women) who participated in primary care-based screening. In post-screening evaluations, we excluded participants with anemia, pregnancy, or medication use that increases MCV. We defined heavy alcohol intake as > 28 g/day in men and > 14 g/day in women. We determined associations of MCV with the following clinical and laboratory variables: age, sex, body mass index (BMI), diabetes, daily intakes of heme, non-heme, and supplemental iron, daily intakes of alcohol, swollen or tender second/third metacarpophalangeal (MCP) joints, reports of therapeutic phlebotomy, TS, and SF.<h4>Results</h4>There were 74 participants (37 men, 37 women) of mean age 59 \u00b1 12 (SD) years. Mean screening TS and SF were 65\u00b113% and 529 \u00b1 169 \u00b5g/L (men) and 59 \u00b1 14% and 376 \u00b1 195 \u00b5g/L (women). Post-screening values did not differ significantly. Mean MCV was 95.7 \u00b1 4.0 fL. There was a negative correlation of MCV with BMI (P = 0.0488) and positive correlations of MCV with age (P = 0.0098), daily heme iron intake (P = 0.0333), and daily alcohol intake (P = 0.0113). Mean MCVs of 19 participants with and 55 without heavy alcohol intake were 97.8 \u00b1 3.8 fL and 95.0 \u00b1 3.9 fL, respectively; P = 0.0074). Linear regression on MCV confirmed positive associations with age (P = 0.0064) and daily alcohol intake (P = 0.0151). MCV was not significantly associated with sex, diabetes, daily intakes of non-heme and supplemental iron, swollen or tender second/third MCP joints, reports of therapeutic phlebotomy, TS, or SF.<h4>Conclusion</h4>MCV in <i>HFE</i> p.C282Y/p.H63D compound heterozygotes with high iron phenotypes is positively associated with age and daily alcohol intake, after adjustment for other variables.",
+      "language": "en",
+      "relevance_score": 2.0,
+      "matched_aliases": [
+        "HFE p.C282Y"
+      ],
+      "is_case_report": false,
+      "is_functional_study": false
+    }
+  ],
+  "alias_hash": "73367c902483b7e5"
+}

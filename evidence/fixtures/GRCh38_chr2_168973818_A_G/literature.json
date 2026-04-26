@@ -1,0 +1,378 @@
+{
+  "hits": [
+    {
+      "pmid": "40508041",
+      "doi": "10.3390/ijms26115232",
+      "title": "Correction of a Traffic-Defective Missense ABCB11 Variant Responsible for Progressive Familial Intrahepatic Cholestasis Type 2.",
+      "journal": "International journal of molecular sciences",
+      "year": 2025,
+      "abstract": "Progressive familial intrahepatic cholestasis type 2 (PFIC2) is a severe hepatocellular cholestasis due to biallelic variations in the <i>ABCB11</i> (ATP-binding cassette B11) gene encoding the canalicular bile salt export pump (BSEP). Some missense variants identified in patients with PFIC2 do not traffic properly to the canalicular membrane. However, 4-phenybutyrate (4-PB) has been shown in vitro to partially correct the mis-trafficking of selected variants, resulting in an improvement of the medical conditions of corresponding PFIC2 patients. Herein, we report the ability of 4-PB analogous or homologous drugs and of non-4-PB related chemical correctors to rescue the canalicular expression and the activity of the folding-defective Abcb11<sup>R1128C</sup> variant. New compounds, either identified by screening a chemical library or designed by structural homology with 4-PB (or its metabolites) and synthesized, were evaluated in vitro for their ability to (i) correct the canalicular localization of Abcb11<sup>R1128C</sup> after transfection in hepatocellular polarized cell lines; (ii) restore the <sup>3</sup>H-taurocholate transport of the Abcb11<sup>R1128C</sup> protein in Madin-Darby canine kidney (MDCK) cells stably co-expressing Abcb11 and the sodium taurocholate co-transporting polypeptide (Ntcp/<i>Slc10A1</i>). Glycerol phenylbutyrate (GPB), phenylacetate (PA, the active metabolite of 4-PB), 3-hydroxy-2-methyl-4-phenylbutyrate (HMPB, a 4-PB metabolite analog chemically synthesized in our laboratory) and 4-oxo-1,2,3,4-tetrahydro-naphthalene-carboxylate (OTNC, from the chemical library screening) significantly increased the proportion of canalicular Abcb11<sup>R1128C</sup> protein. GPB, PA, ursodeoxycholic acid (UDCA), alone or in combination with 4-PB, suberoylanilide hydroxamic acid (SAHA), C18, VX-445, and/or VX-661, significantly corrected both the traffic and the activity of Abcb11<sup>R1128C</sup>. Such correctors could represent new pharmacological insights for improving the condition of patients with ABCB11 deficiency due to missense variations affecting the transporter's traffic.",
+      "language": "en",
+      "relevance_score": 5.6,
+      "matched_aliases": [
+        "ABCB11 AND (\"PFIC2\" OR \"BRIC2\")"
+      ],
+      "is_case_report": false,
+      "is_functional_study": true
+    },
+    {
+      "pmid": "41511375",
+      "doi": "10.3390/cells15010092",
+      "title": "MYO5B Deficiency-Associated Cholestasis and the Role of the Bile Salt Export Pump.",
+      "journal": "Cells",
+      "year": 2026,
+      "abstract": "Variants of the <i>MYO5B</i> gene, which encodes the molecular motor protein myosin-Vb, have gained prominence as a causative factor in familial intrahepatic cholestasis (FIC). Understanding the disease mechanism is pivotal for therapy development and clinical decision-making. The prevailing theory for the mechanism underlying <i>MYO5B</i>-associated cholestasis implicates faulty trafficking of the <i>ABCB11</i>-encoded bile salt export pump (BSEP) in hepatocytes due to dysfunctional myosin-Vb. This is supported by cell and mouse studies. However, while BSEP localization was abnormal in some patients' liver biopsies, BSEP appeared normally localized in others, raising questions with regard to the role of BSEP in <i>MYO5B</i>-associated FIC. We present a focused systematic narrative review of all cases of <i>MYO5B</i> variant-associated isolated FIC reported in the MEDLINE database. We assembled a comprehensive patient dataset and assessed clinical features of <i>MYO5B</i>-associated FIC, their relationship with <i>MYO5B</i> genotype, the clinical value and significance of BSEP abnormalities, and the relationship of <i>MYO5B</i>-associated FIC to <i>ABCB11</i> variant-associated FIC. Our review revealed that aberrant BSEP localization correlated with the absence of one <i>MYO5B</i> allele carrying a truncating nonsense or frameshift variant. Notably, biochemical and clinical parameters including treatment outcome were indistinguishable between patients presenting with normal and aberrant BSEP localization. Further, myosin-Vb and BSEP deficiency-associated FIC patient cohorts showed distinct biochemical and clinical phenotypes, indicating different underlying mechanisms. This suggests that whether or not BSEP localization was abnormal depended on the <i>MYO5B</i> genotype without a predictable effect on clinical parameters and treatment response. Treatment decisions should be guided by clinical parameters rather than by genotype or immunohistochemistry findings.",
+      "language": "en",
+      "relevance_score": 5.0,
+      "matched_aliases": [
+        "ABCB11 AND (\"case report\" OR mutation OR variant)"
+      ],
+      "is_case_report": false,
+      "is_functional_study": true
+    },
+    {
+      "pmid": "40776909",
+      "doi": "10.3389/fmed.2025.1637289",
+      "title": "Case Report: Genetic predisposition to low-dose NSAID-induced liver injury in real-world China.",
+      "journal": "Frontiers in medicine",
+      "year": 2025,
+      "abstract": "Non-steroidal anti-inflammatory drug (NSAID)-induced liver injury represents approximately 10% of reported drug-induced liver injury (DILI) cases, predominantly through idiosyncratic mechanisms. While epidemiological data are largely derived from Western populations with high NSAID utilization, China exhibits lower use of NSAIDs due to cultural preferences and the widespread use of traditional therapies. During the 2022-2023 Omicron outbreak in China, we observed a surge in DILI cases coinciding with increased NSAID use. This study reports two young male patients who developed severe cholestatic DILI following low-dose ibuprofen intake (400\u202fmg), despite lacking conventional risk factors. Genetic analysis revealed compound heterozygous mutations in <i>ABCB11</i> (encoding the bile salt export pump, BSEP), including the known risk variant p.V444A and the synonymous SNP p.A1028A, with Patient 1 harboring an additional p.A865V mutation. Immunohistochemistry demonstrated abnormal BSEP expression patterns-reduced membrane localization in Patient 2 and intracellular retention in Patient 1-mirroring the pathological features of progressive familial intrahepatic cholestasis type 2 (PFIC-2). These findings suggest that NSAIDs may unmask latent BSEP dysfunction in genetically predisposed individuals, precipitating refractory cholestasis. Our study highlights <i>ABCB11</i> polymorphisms as critical determinants of NSAID-related DILI susceptibility, even at therapeutic doses. In addition, we propose mechanistic insights into BSEP dysfunction-mediated cholestasis and emphasize pharmacogenetic considerations in NSAID safety assessment across populations.",
+      "language": "en",
+      "relevance_score": 4.6,
+      "matched_aliases": [
+        "ABCB11 V444A"
+      ],
+      "is_case_report": true,
+      "is_functional_study": false
+    },
+    {
+      "pmid": "41395309",
+      "doi": "10.3389/fped.2025.1648663",
+      "title": "Case Report: Sustained biochemical remission following early initiation of odevixibat in an infant with monoallelic ABCB11 mutation and histologically confirmed PFIC2.",
+      "journal": "Frontiers in pediatrics",
+      "year": 2025,
+      "abstract": "<h4>Introduction</h4>Progressive familial intrahepatic cholestasis (PFIC) are rare genetic hepatocellular disorders that affect bile secretion and predominantly manifest in early childhood. PFIC2, which is caused by mutations in the ABCB11 gene, often progresses to end-stage liver disease.<h4>Case presentation</h4>We present the case of a male infant with PFIC2, which was associated with a heterozygous frameshift mutation in the ABCB11 gene as well as an additional heterozygous variant in the ATP8B1 gene. Initial clinical management involved ursodeoxycholic acid (UDCA) administration and fat-soluble vitamin supplementation. However, it was only after switching treatment to the ileal bile acid transporter (IBAT) inhibitor odevixibat at three months of age, that the patient exhibited significant improvement, including normalization of cholestasis parameters and liver enzymes. Liver function has remained stable on therapy for 2.5 years during which time the patient has maintained normal growth and development with no evidence of disease progression.<h4>Discussion</h4>This case study highlights the effectiveness of odevixibat in managing PFIC2, demonstrating sustained disease suppression and symptomatic relief. It also emphasizes the importance of comprehensive clinical evaluation and accurate disease characterization as well as the potential of targeted therapies in improving outcomes for patients with PFIC2.",
+      "language": "en",
+      "relevance_score": 4.6,
+      "matched_aliases": [
+        "ABCB11 AND (\"PFIC2\" OR \"BRIC2\")"
+      ],
+      "is_case_report": true,
+      "is_functional_study": false
+    },
+    {
+      "pmid": "40486902",
+      "doi": "10.1016/j.crwh.2025.e00714",
+      "title": "Early-onset intrahepatic cholestasis of pregnancy resulting from a genetic mutation: A case report.",
+      "journal": "Case reports in women's health",
+      "year": 2025,
+      "abstract": "Intrahepatic cholestasis of pregnancy (ICP) is a pregnancy-specific condition characterized by pruritus and elevated bile acids. It typically manifests in the third trimester of pregnancy and has been associated with hormonal and genetic factors. Early-onset ICP poses unique diagnostic challenges and may contribute to increased risks of adverse maternal and fetal outcomes. We present a case of severe ICP identified in the early second trimester and later attributed to a rare gene variant. A 24-year-old patient (G3P0202) was admitted at 17\u00a0weeks of gestation with pruritis, abdominal pain, and jaundice. Laboratory studies were notable for elevated total and direct bilirubin as well as elevated bile acids. The patient's medical history included early-onset ICP accompanied by jaundice in all previous pregnancies. A cholestasis gene panel revealed an autosomal recessive variant in the ABCB11 gene, which encodes a bile salt export pump and is associated with benign recurrent intrahepatic cholestasis (BRIC). Throughout the duration of her pregnancy, the patient was co-managed with the hepatobiliary service, and her symptoms were adequately controlled with ursodeoxycholic acid, rifampin, and hydroxyzine. She labored spontaneously at 34\u00a0weeks of gestation and delivered a healthy infant. This case underscores the importance of genetic evaluation in the assessment of atypical ICP, particularly in early-onset, recurrent, or treatment-refractory cases. It also highlights the need for multidisciplinary management of complex cases with obstetricians, hepatologists, and genetic counselors.",
+      "language": "en",
+      "relevance_score": 4.6,
+      "matched_aliases": [
+        "ABCB11 AND (\"case report\" OR mutation OR variant)"
+      ],
+      "is_case_report": true,
+      "is_functional_study": false
+    },
+    {
+      "pmid": "39344700",
+      "doi": "10.4285/ctr.24.0016",
+      "title": "Hepatocellular carcinoma associated with progressive intrahepatic familial cholestasis type 2: a case report.",
+      "journal": "Clinical transplantation and research",
+      "year": 2024,
+      "abstract": "Progressive familial intrahepatic cholestasis type 2 (PFIC2) is an autosomal recessive disorder typically presenting in infancy with cholestasis and rapidly progressing to cirrhosis. PFIC has been associated with an elevated risk of hepatocellular carcinoma (HCC), a neoplasm that is uncommon in children. PFIC type 4 has the strongest link to this type of cancer, although a few cases have also been connected to PFIC2. Herein, we report the case of a 2-year-old boy who underwent liver transplantation due to PFIC2. Histological examination showed cirrhosis and four small HCCs. Over a 20-year period following the transplantation, there was no recurrence of the disease or HCC. Although rare, HCC development can occur in PFIC and may complicate the prognosis. Liver transplantation offers a potential cure for both the metabolic disease and the neoplasm.",
+      "language": "en",
+      "relevance_score": 4.0,
+      "matched_aliases": [
+        "ABCB11 V444A"
+      ],
+      "is_case_report": true,
+      "is_functional_study": false
+    },
+    {
+      "pmid": "39149201",
+      "doi": "10.1002/jpr3.12069",
+      "title": "Odevixibat as an adjunctive treatment for refractory pruritus in rare variants of cholestatic liver disease.",
+      "journal": "JPGN reports",
+      "year": 2024,
+      "abstract": "<h4>Objectives</h4>Odevixibat, a reversible ileal bile acid transport inhibitor, has been shown to reduce serum bile acids (sBA) and pruritus mostly in children with progressive familial intrahepatic cholestasis (PFIC) 1 and 2 in clinical trials and case reports. There are currently no published case reports or series describing its use in rare variants of cholestatic liver disease.<h4>Methods</h4>We describe three children with progressive cholestatic liver disease who developed refractory pruritus, who had a genotypic diagnosis of <i>AKR1D1</i>, <i>ABCB4</i> variant, and <i>PKHD1</i> and <i>PKHD2</i> variants; all being variants of unknown significance as per the American College of Medical Genetics and Genomics guidelines.<h4>Results</h4>On Odevixibat there was a significant improvement in sBA (absolute change from baseline: -196 and -393\u2009\u03bcmol/L) and pruritus in two children with heterozygous <i>AKR1D1</i> and <i>ABCB4</i> mutations. The child with <i>ABCB4</i> variants was found to have features of sclerosing cholangitis along with a diagnosis of Crohn's disease, which represents the first reported usage of Odevixibat in such a case with good response. There was some reported improvement in the third child with <i>PKHD1</i> and <i>PKHD2</i> variants; however, we hypothesize that no sustained improvement could be due to severe and progressive nature of the disease. There were no side effects reported and it was well tolerated in all.<h4>Conclusion</h4>We suggest that Odevixibat may be used as an adjunctive drug in refractory pruritus and could be started early in the course of disease if clinically and phenotypically indicated.",
+      "language": "en",
+      "relevance_score": 4.0,
+      "matched_aliases": [
+        "ABCB11 Val444Ala"
+      ],
+      "is_case_report": true,
+      "is_functional_study": false
+    },
+    {
+      "pmid": "34013234",
+      "doi": "10.14744/turkpediatriars.2020.74507",
+      "title": "Benign recurrent intrahepatic cholestasis type 2 in a child: A case report and novel mutation.",
+      "journal": "Turkish archives of pediatrics",
+      "year": 2021,
+      "abstract": "Benign recurrent intrahepatic cholestasis is a rare disorder characterized by recurrent episodes of cholestatic jaundice without liver damage. A mutation in the ABCB11 gene encoding bile salt export pump protein causes the disease. A 16-year-old boy with severe jaundice is presented here. His laboratory tests were consistent with intrahepatic cholestasis despite having normal gamma-glutamyl transpeptidase levels. Acute and chronic liver diseases with viral, metabolic, and autoimmune etiology were excluded. Magnetic resonance imaging revealed normal intra- and extrahepatic bile ducts. A liver biopsy showed cholestasis in the centrilobular and intermediate zones and sinusoidal dilatation. Genetic testing revealed a homozygous c.3083_3084delCAinsTG (Ala1028Val) mutation in the ABCB11 gene. The patient was treated with ursodeoxycholic acid 20 mg/kg/day and cholestyramine 4 g twice daily, and total bilirubin decreased to normal ranges after two months of therapy. This mutation (c.3083_3084delCAinsTG) in the ABCB11 gene is the first reported in a patient with benign recurrent intrahepatic cholestasis type 2.",
+      "language": "en",
+      "relevance_score": 4.0,
+      "matched_aliases": [
+        "ABCB11 p.V444A"
+      ],
+      "is_case_report": true,
+      "is_functional_study": false
+    },
+    {
+      "pmid": null,
+      "doi": "10.21203/rs.3.rs-7301463/v1",
+      "title": "First Trimester Recurrent Severe Cholestasis and Jaundice: A Case Report on ABCB11 Gene Mutation and hCG-Mediated Pathogenesis with Successful Management",
+      "journal": null,
+      "year": 2025,
+      "abstract": "<title>Abstract</title>  <p>  <bold>Background</bold>  Intrahepatic cholestasis of pregnancy (ICP) typically presents in the second or third trimester with pruritus and elevated serum bile acid levels, resolving postpartum. Early-onset ICP in the first trimester is rare and poses diagnostic and therapeutic challenges.  <bold>Case presentation</bold>  We report a case of a 25-year-old female patient who presented with recurrent severe cholestasis and jaundice during the first trimester of pregnancy. The patient had a history of similar symptoms during her first pregnancy, which resolved following termination. Patient\u2019s liver function was normal when not pregnant. Comprehensive laboratory tests and imaging ruled out other potential causes of liver disease. Genetic sequencing revealed a heterozygous mutation in the  <italic>ABCB11</italic>  gene, which is associated with impaired bile salt export pump (BSEP) function. The onset of symptoms correlated with elevated human chorionic gonadotropin (HCG) levels, indicating that HCG, rather than estrogen, is a major factor. The patient showed limited response to standard treatments, including ursodeoxycholic acid (UDCA) and S-adenosyl-L-methionine (SAMe). However, after treatment with cholestyramine, a bile acid sequestrant, her clinical condition improved significantly.  <bold>Conclusions</bold>  These findings suggest that severe cholestasis and jaundice in early pregnancy can be managed through symptomatic treatment and vigilant monitoring, ensuring the safety of both mother and fetus without the need for termination. Further studies are warranted to investigate the role of HCG in the pathogenesis of early-onset ICP.  </p>",
+      "language": "en",
+      "relevance_score": 4.0,
+      "matched_aliases": [
+        "ABCB11 AND (\"case report\" OR mutation OR variant)"
+      ],
+      "is_case_report": true,
+      "is_functional_study": false
+    },
+    {
+      "pmid": "34775709",
+      "doi": "10.3760/cma.j.cn112137-20210221-00449",
+      "title": "[Research on the relationship between V444A mutation of ABCB11 gene and primary intrahepatic stone].",
+      "journal": "Zhonghua yi xue za zhi",
+      "year": 2021,
+      "abstract": "<b>Objective:</b> To investigate the relationship between V444A mutation of the ABCB11 gene and primary intrahepatic stone (PIS). <b>Methods:</b> A total of 164 patients (including 91 males and 73 females, with an average age of (46.0\u00b113.0) years) with PIS and 164 healthy (including 99 males and 65 females, with an average age of (43.8\u00b116.7) years) volunteers were enrolled in this case-control study between October 2017 and June 2019. TaqMan-MGB was used for detecting the V444A polymorphism site of the ABCB11 gene. All the genotypes and allele frequencies were calculated. Pearson chi-squared test was performed to detect the differences in allele and genotype distribution between the two groups. Logistic regression analysis was used to identify genotypes associated with PIS. <b>Results:</b> There was no significant difference in age and gender between the two groups(both <i>P</i>>0.05). The distributions of V444A allele and genotype accorded with Hardy-Weinberg equilibrium law (<i>P</i>=0.161), which indicated that the selected control group represented statistically acceptable sample. Two alleles of T and C, and three genotypes of TT, TC and CC were detected in the locus of V444A. The T and C allele frequencies in the PIS group and the control group were 28.4% vs 35.4%, and 71.6% vs 64.6%, respectively. The frequencies of the T and C alleles were not different between the two groups (<i>P</i>=0.054). The frequencies of TT, TC and CC genotypes in the two groups were 5.5%, 45.7%, 48.8%, and 14.6%, 41.5%, 43.9%, respectively, with significant difference between the two groups (<i>P</i>=0.023). Logistic regression analysis revealed the V444A polymorphism (TC heterozygous mutation) was associated with PIS. <b>Conclusion:</b> ABCB11 gene polymorphism at the site of V444A may be related to the susceptibility of PIS.",
+      "language": "ch",
+      "relevance_score": 3.5,
+      "matched_aliases": [
+        "ABCB11 V444A"
+      ],
+      "is_case_report": false,
+      "is_functional_study": false
+    },
+    {
+      "pmid": "39432639",
+      "doi": "10.1097/md.0000000000039972",
+      "title": "Unexplored topics in intrahepatic cholestasis of pregnancy: A review and bibliometric analysis.",
+      "journal": "Medicine",
+      "year": 2024,
+      "abstract": "To conduct a comprehensive bibliometric analysis of research published on intrahepatic cholestasis of pregnancy (ICP) and explore the related frontiers and critical issues concerning it, we searched the Web of Science Core Collection for ICP-related publications from the beginning of 2001 until August of 2023. CiteSpace and VOSviewer were utilized to evaluate the contribution and co-occurrence relationships of various countries and regions, institutes and so on to identify new frontiers and currently exciting topics. Our bibliometric analysis scrutinized 933 articles from 59 countries/regions. China has generated the largest number of publications (31.6% of the total), whereas Germany ranked first when it came to citations per publication. The Imperial College London ranked first with respect to publication output on ICP and betweenness centrality. The Journal of Maternal-Fetal & Neonatal Medicine was the journal with the highest plurality of papers. Authors such as Williamson, Beuers, Ulrich, and Shao were the most influential. Pregnancy, ursodeoxycholic acid, and ICP were principally noted in publications. Cluster analysis of the references that correlated with the 933 publications showed that they clustered into mortality, ABCB11, BSEP, MRP2, bile acid, and intrahepatic cholestasis. ICP is associated with adverse clinical outcomes for both the mother and fetus. This study provides a critical analysis of the current status and future research trends regarding ICP. It can serve as a useful reference, allowing researchers to conduct in-depth investigations into this promising field.",
+      "language": "fr",
+      "relevance_score": 3.5,
+      "matched_aliases": [],
+      "is_case_report": false,
+      "is_functional_study": false
+    },
+    {
+      "pmid": "40195555",
+      "doi": "10.1038/s42003-025-07908-0",
+      "title": "A structural and mechanistic model for BSEP dysfunction in PFIC2 cholestatic disease.",
+      "journal": "Communications biology",
+      "year": 2025,
+      "abstract": "BSEP (ABCB11) transports bile salts across the canalicular membrane of hepatocytes, where they are incorporated into bile. Biallelic mutations in BSEP can cause Progressive Familial Intrahepatic Cholestasis Type 2 (PFIC2), a rare pediatric disease characterized by hepatic bile acid accumulation leading to hepatotoxicity and, ultimately, liver failure. The most frequently occurring PFIC2 disease-causing mutations are missense mutations, which often display a phenotype with decreased protein expression and impaired maturation and trafficking to the canalicular membrane. To characterize the mutational effects on protein thermodynamic stability, we carried out biophysical characterization of 13 distinct PFIC2-associated variants using in-cell thermal shift (CETSA) measurements. These experiments reveal a cluster of residues localized to the NBD2-ICL2 interface, which exhibit severe destabilization relative to wild-type BSEP. A high-resolution (2.8\u2009\u00c5) cryo-EM structure provides a framework for rationalizing the CETSA results, revealing a novel, NBD2-localized mechanism through which the most severe missense patient mutations drive cholestatic disease. These findings suggest potential strategies for identifying mechanism-based small molecule correctors to address BSEP trafficking defects and advance novel therapies for PFIC2 and other cholestatic diseases.",
+      "language": "en",
+      "relevance_score": 2.6,
+      "matched_aliases": [
+        "ABCB11 V444A"
+      ],
+      "is_case_report": false,
+      "is_functional_study": false
+    },
+    {
+      "pmid": "40697762",
+      "doi": "10.5223/pghn.2025.28.4.245",
+      "title": "Genetic Variants and Long-Term Outcomes in Korean Children with Progressive Familial Intrahepatic Cholestasis.",
+      "journal": "Pediatric gastroenterology, hepatology & nutrition",
+      "year": 2025,
+      "abstract": "<h4>Purpose</h4>The aim of this study was to elucidate the genetic variants associated with progressive familial intrahepatic cholestasis (PFIC), a rare class of disorders driven by pathogenic monogenic variants in bile acid transporters. Furthermore, the long-term clinical outcomes of PFIC patients were evaluated.<h4>Methods</h4>A retrospective cohort study was conducted at Seoul National University Hospital and included pediatric patients diagnosed with PFIC and confirmed by genetic testing between January 2000 and October 2024. Genetic testing, encompassing either single-gene testing or a neonatal cholestasis 34-gene panel, was performed for all patients.<h4>Results</h4>Six patients were identified, including five with PFIC2, classified as bile salt export pump deficiency, and one with PFIC3, classified as multidrug resistance protein 3 deficiency. The median age of symptom onset was 3 months. The genetic analyses revealed no widely known variants associated with PFIC. However, a novel frameshift variant (c.589dup, p.(Glu197GlyfsTer8)) was detected in the <i>ABCB11</i> gene. Additionally, a missense variant (c.3812T>A, p.(Ile1271Asn)) was commonly identified in the same gene. All patients ultimately underwent liver transplantation; two patients who developed hepatocellular carcinoma (HCC) were diagnosed at a median age of 1.6 years. Notably, all patients survived without recurrence after transplantation, with a median follow-up duration of 12.0 years.<h4>Conclusion</h4>This study is the first documented case of PFIC3 in a Korean child. Genotype is not associated with the risk of developing HCC. Given the early diagnosis of HCC observed in some patients, routine surveillance for HCC is strongly recommended in all patients with PFIC2.",
+      "language": "en",
+      "relevance_score": 2.6,
+      "matched_aliases": [
+        "ABCB11 Val444Ala"
+      ],
+      "is_case_report": false,
+      "is_functional_study": false
+    },
+    {
+      "pmid": "31335238",
+      "doi": "10.1080/15513815.2019.1641860",
+      "title": "Phenotype-Genotype Correlation of North Indian Progressive Familial Intrahepatic Cholestasis type2 Children Shows p.Val444Ala and p.Asn591Ser Variants and Retained BSEP Expression.",
+      "journal": "Fetal and pediatric pathology",
+      "year": 2020,
+      "abstract": "<i>Backgrounds and Aims:</i> Progressive familial intrahepatic cholestasis type 2 (PFIC2) is caused by a defect or deficiency of bile salt export protein (BSEP) due to mutation in the ABCB11 gene. We intend to evaluate the phenotype-genotype correlation in 10 diagnosed cases of PFIC2 in a single tertiary care center in North India. <i>Methods:</i> The clinical, biochemical, histopathological, immunohistochemical, ultrastructural and genetic data of the 10 diagnosed cases of PFIC2 were recorded. <i>Results:</i> Icterus, pruritus and bleeding manifestations were the commonest clinical symptoms. Giant cell transformation was seen in 50% of the patients. Two predominant genetic variants were ABCB11 missense p.Val444Ala (c. 1331\u2009T\u2009>\u2009C) and ABCB11 missense p.Asn591Ser (c. 1772\u2009A\u2009>\u2009G) in their homozygous or compound heterozygous states and were associated with retained BSEP immunopositivity and reduced but retained BSEP immunopositivity respectively. <i>Conclusion:</i> Retention of BSEP is common in North Indian children of PFIC2 with no phenotype-genotype correlation.",
+      "language": "en",
+      "relevance_score": 2.6,
+      "matched_aliases": [
+        "ABCB11 p.Val444Ala"
+      ],
+      "is_case_report": false,
+      "is_functional_study": false
+    },
+    {
+      "pmid": "40513781",
+      "doi": "10.1016/j.jlr.2025.100840",
+      "title": "An ABCB11 variant registry and novel knockin mouse model of PFIC2 based on the clinically relevant ABCB11 E297G variant.",
+      "journal": "Journal of lipid research",
+      "year": 2025,
+      "abstract": "Progressive familial intrahepatic cholestasis type 2 (PFIC2) is a rare pediatric cholestatic liver disease caused by genetic deficiency in the bile salt export pump (BSEP, ABCB11). BSEP is an ATP-binding cassette transporter and the primary regulator of hepatic bile acid efflux. Loss of BSEP function in PFIC2 leads to cholestasis and intrahepatic accumulation of bile acids, the native toxicity of which drives progressive liver injury, in a manner that correlates with ABCB11 genotype. Here, to support ongoing PFIC2 research, we present two novel translational tools, 1) a codified evidence-based catalog of published disease relevant ABCB11 mutations and 2) a knockin mouse model of the PFIC2-associated missense variant E297G. Using a combination of AI-based indexing of the literature and manual review, we identified 476 nonbenign ABCB11 variants in published patients with cholestatic disease, of which 240 were associated with PFIC2. Additionally, we present phenotypic validation of a novel knockin mouse model of the cholestasis-associated ABCB11 E297G variant. Bsep<sup>E297G</sup> homozygous mice recapitulate the core molecular and pathophysiological aspects of PFIC2, including perturbed Bsep processing and membrane trafficking, cholestasis, and hepatotoxicity. Moreover, and consistent with clinical data, pharmacological ileal bile acid transporter inhibition improved the cholestatic phenotype of Bsep<sup>E297G</sup> mice through increased fecal bile acid excretion. Together, these tools can support clinical and translational efforts to advance understanding and treatment of PFIC2.",
+      "language": "en",
+      "relevance_score": 2.6,
+      "matched_aliases": [
+        "ABCB11 AND (\"PFIC2\" OR \"BRIC2\")"
+      ],
+      "is_case_report": false,
+      "is_functional_study": false
+    },
+    {
+      "pmid": "39262913",
+      "doi": "10.1177/1753495x241263441",
+      "title": "Genetic issues in ICP.",
+      "journal": "Obstetric medicine",
+      "year": 2024,
+      "abstract": "Intrahepatic cholestasis of pregnancy (ICP) is the commonest gestational liver disorder with variable global incidence. Genetic susceptibility, combined with hormonal and environmental influences, contributes to ICP aetiology. Adverse pregnancy outcomes linked to elevated serum bile acids highlight the importance of comprehensive risk assessment. <i>ABCB4</i> and <i>ABCB11</i> gene variants play a significant role in about 20% of severe ICP cases. Several other genes including <i>ATP8B1</i>, <i>NR1H4</i>, <i>ABCC2</i>, <i>TJP2</i>, <i>SERPINA1</i>, <i>GCKR</i> and <i>HNF4A</i> have also been implicated with ICP. Additionally<i>, ABCB4</i> variants elevate the risk of drug-induced intrahepatic cholestasis, gallstone disease, gallbladder and bile duct carcinoma, liver cirrhosis and abnormal liver function tests. Genetic variations, both rare and common, intricately contribute to ICP susceptibility. Leveraging genetic insights holds promise for personalised management and intervention strategies. Further research is needed to elucidate variant-specific phenotypic expressions and therapeutic implications, advancing precision medicine in ICP management.",
+      "language": "en",
+      "relevance_score": 2.0,
+      "matched_aliases": [
+        "ABCB11 V444A"
+      ],
+      "is_case_report": false,
+      "is_functional_study": false
+    },
+    {
+      "pmid": "39845355",
+      "doi": "10.5114/ceh.2024.140450",
+      "title": "Evaluation of the significance of single nucleotide polymorphisms of the <i>ABCB11</i> gene as biomarkers of hepatological complications in Epstein-Barr virus infection in children.",
+      "journal": "Clinical and experimental hepatology",
+      "year": 2024,
+      "abstract": "<h4>Aim of the study</h4>To evaluate single nucleotide polymorphisms of the adenosine triphosphate (ATP) binding cassette subfamily B member 11 (<i>ABCB11</i>) gene, rs11568364 and rs2287622, as potential predictors of hepatologic complications during Epstein-Barr virus (EBV) infection among children.<h4>Material and methods</h4>The study group consisted of 54 children aged 1 to 18 years hospitalised from 01.12.2018 to 31.12.2020 in the Department of Paediatrics, Infectious Diseases and Hepatology with hepatological complications in the course of serologically and molecularly confirmed EBV infection. Real-time PCR using TaqMan probes was used to determine single-nucleotide variability in the <i>ABCB11</i> gene.<h4>Results</h4>It was found that the presence of the T allele for the rs2287622 marker increases the probability of hepatitis three times and the possibility of hepatitis with cholestasis almost four times in EBV-infected patients.<h4>Conclusions</h4>The rs2287622 polymorphism of the <i>ABCB11</i> gene appears to have an impact on the occurrence of hepatological complications in the course of EBV infection in children.",
+      "language": "en",
+      "relevance_score": 2.0,
+      "matched_aliases": [
+        "ABCB11 V444A"
+      ],
+      "is_case_report": false,
+      "is_functional_study": false
+    },
+    {
+      "pmid": "29998165",
+      "doi": "10.1159/000484612",
+      "title": "A Complex Case of Cholestasis in a Patient with ABCB4 and ABCB11 Mutations.",
+      "journal": "GE Portuguese journal of gastroenterology",
+      "year": 2018,
+      "abstract": "The low-phospholipid-associated cholelithiasis (LPAC) syndrome is a form of symptomatic cholelithiasis occurring in young adults, characterized by recurrence of symptoms after cholecystectomy and presence of hepatolithiasis. The case refers to a healthy 39-year-old Caucasian male who presented with abdominal pain and jaundice. His blood tests showed conjugated hyperbilirubinemia and elevated liver enzymes (total bilirubin 6.65 mg/dL, \u03b3-glutamyltransferase 699 IU/L) and abdominal computed tomography revealed dilation of common bile duct and left intrahepatic ducts. Magnetic resonance cholangiopancreatography identified choledocholithiasis, retrieved by endoscopic retrograde cholangiopancreatography, after which there was a worsening of jaundice (total bilirubin 23 mg/dL), which persisted for several weeks, possibly due to ciprofloxacin toxicity. After an extensive workup including liver biopsy, the identification of two foci of hepatolithiasis on reevaluation abdominal ultrasound raised the hypothesis of LPAC syndrome and the patient was started on ursodeoxycholic acid, with remarkable improvement. Genetic testing identified the mutation c.1954A>G (p.Arg652Gly) in ABCB4 gene (homozygous) and c.1331T>C (p.Val444Ala) in ABCB11 gene (heterozygous). In conclusion, we describe the unique case of an adult male with choledocholithiasis, hepatolithiasis, and persistent conjugated hyperbilirubinemia after retrieval of stones, fulfilling the criteria for LPAC syndrome and with possible superimposed drug-induced liver injury, in whom ABCB4 and ABCB11 mutations were found, both of which had not been previously described in association with LPAC.",
+      "language": "en",
+      "relevance_score": 2.0,
+      "matched_aliases": [
+        "ABCB11 Val444Ala"
+      ],
+      "is_case_report": false,
+      "is_functional_study": false
+    },
+    {
+      "pmid": "40980121",
+      "doi": "10.3389/fped.2025.1582769",
+      "title": "The role of &lt;i&gt;LSR&lt;/i&gt; gene variants in early onset intrahepatic cholestasis: a case series with treatment options.",
+      "journal": "Frontiers in pediatrics",
+      "year": 2025,
+      "abstract": "We report on three children with novel variants in the lipolysis-stimulated lipoprotein receptor (<i>LSR</i>) gene with clinical presentation with early onset intrahepatic cholestasis and the main symptom being uncontrollable itching. Two patients showed dystrophy, short stature and microcephaly, whilst one patient had neurological developmental delay. LSR is one component of special tricellular tight junctions (tTJs) with expression in the liver and brain. We analyzed clinical data for all patients and performed multigene panel sequencing followed by Human Phenotype Ontology (HPO) based exome analysis, classifying the sequenced variants according to the American College of Medical Genetics and Genomics (ACMG) guidelines. We performed immunostaining on the liver cryosections. The lack of LSR expression in immunofluorescence of the patients' liver tissue confirmed the pathogenicity of genetic variants. We analyzed bile acids (BA) and their derivatives by ultra-performance liquid chromatography-mass spectrometry (UPLC-MS) in two of the three patients, confirming disturbed bile salt secretion. We also describe the use of an ileal bile acid transport (IBAT) inhibitor in two patients with LSR-associated intrahepatic cholestasis for the first time. Both patients showed a good response to the therapy in terms of itch control. In conclusion, LSR-associated early onset intrahepatic cholestasis is a new and likely underdiagnosed disease. Patients with an unclear progressive familial intrahepatic cholestasis (PFIC)-like clinical picture should therefore undergo genetic testing of the <i>LSR</i> gene. Treatment with an IBAT inhibitor should be considered.",
+      "language": "en",
+      "relevance_score": 2.0,
+      "matched_aliases": [
+        "ABCB11 p.V444A"
+      ],
+      "is_case_report": false,
+      "is_functional_study": false
+    },
+    {
+      "pmid": "36982896",
+      "doi": "10.3390/ijms24065823",
+      "title": "Molecular and Clinical Links between Drug-Induced Cholestasis and Familial Intrahepatic Cholestasis.",
+      "journal": "International journal of molecular sciences",
+      "year": 2023,
+      "abstract": "Idiosyncratic Drug-Induced Liver Injury (iDILI) represents an actual health challenge, accounting for more than 40% of hepatitis cases in adults over 50 years and more than 50% of acute fulminant hepatic failure cases. In addition, approximately 30% of iDILI are cholestatic (drug-induced cholestasis (DIC)). The liver's metabolism and clearance of lipophilic drugs depend on their emission into the bile. Therefore, many medications cause cholestasis through their interaction with hepatic transporters. The main canalicular efflux transport proteins include: 1. the bile salt export pump (BSEP) protein (<i>ABCB11</i>); 2. the multidrug resistance protein-2 (MRP2, <i>ABCC2</i>) regulating the bile salts' independent flow by excretion of glutathione; 3. the multidrug resistance-1 protein (MDR1, <i>ABCB1</i>) that transports organic cations; 4. the multidrug resistance-3 protein (MDR3, <i>ABCB4</i>). Two of the most known proteins involved in bile acids' (BAs) metabolism and transport are BSEP and MDR3. BSEP inhibition by drugs leads to reduced BAs' secretion and their retention within hepatocytes, exiting in cholestasis, while mutations in the <i>ABCB4</i> gene expose the biliary epithelium to the injurious detergent actions of BAs, thus increasing susceptibility to DIC. Herein, we review the leading molecular pathways behind the DIC, the links with the other clinical forms of familial intrahepatic cholestasis, and, finally, the main cholestasis-inducing drugs.",
+      "language": "en",
+      "relevance_score": 2.0,
+      "matched_aliases": [
+        "ABCB11 p.V444A"
+      ],
+      "is_case_report": false,
+      "is_functional_study": false
+    },
+    {
+      "pmid": "35884482",
+      "doi": "10.3390/cancers14143421",
+      "title": "Genetics in Familial Intrahepatic Cholestasis: Clinical Patterns and Development of Liver and Biliary Cancers: A Review of the Literature.",
+      "journal": "Cancers",
+      "year": 2022,
+      "abstract": "The family of inherited intrahepatic cholestasis includes autosomal recessive cholestatic rare diseases of childhood involved in bile acids secretion or bile transport defects. Specific genetic pathways potentially cause many otherwise unexplained cholestasis or hepatobiliary tumours in a healthy liver. Lately, next-generation sequencing and whole-exome sequencing have improved the diagnostic procedures of familial intrahepatic cholestasis (FIC), as well as the discovery of several genes responsible for FIC. Moreover, mutations in these genes, even in the heterozygous status, may be responsible for cryptogenic cholestasis in both young and adults. Mutations in FIC genes can influence serum and hepatic levels of bile acids. Experimental studies on the <i>NR1H4</i> gene have shown that high bile acids concentrations cause excessive production of inflammatory cytokines, resistance to apoptosis, and increased cell regeneration, all risk conditions for developing hepatocellular carcinoma (HCC) and cholangiocarcinoma (CCA). <i>NR1H4</i> gene encodes farnesoid X-activated receptor having a pivotal role in bile salts synthesis. Moreover, HCC and CCA can emerge in patients with several FIC genes such as <i>ABCB11</i>, <i>ABCB4</i> and <i>TJP2</i>. Herein, we reviewed the available data on FIC-related hepatobiliary cancers, reporting on genetics to the pathophysiology, the risk factors and the clinical presentation.",
+      "language": "en",
+      "relevance_score": 2.0,
+      "matched_aliases": [
+        "ABCB11 p.V444A"
+      ],
+      "is_case_report": false,
+      "is_functional_study": false
+    },
+    {
+      "pmid": "39984942",
+      "doi": "10.1186/s13023-025-03599-2",
+      "title": "Genotypes and different clinical variants between children and adults in progressive familial intrahepatic cholestasis: a state-of-the-art review.",
+      "journal": "Orphanet journal of rare diseases",
+      "year": 2025,
+      "abstract": "<h4>Introduction</h4>Progressive Familial intrahepatic cholestasis (PFIC) are rare disorders of bile acid (BAs) secretion and transport with a genetic background. PFIC are paediatric manifestations, but the same variants causing PFIC can also cause cholestasis with a later paediatric onset or adult-onset cholestatic disease (AOCD). Pruritus is a symptom of cholestasis that can be so devastating that it requires a liver transplant (LT) in children; some PFIC types have been described as at risk of liver cancer development. Commonly prescribed medications for PFIC symptoms can partially relieve pruritus without changing the natural history of the disease. Recently, a therapy reducing the intestinal resorption of BAs has been approved; it is effective on both pruritus and cholestasis in PFIC, potentially being a disease-modifying intervention.<h4>Areas covered</h4>The clinical and genetic characteristics of different PFIC and AOCD are summarized to provide a common background for geneticists and paediatric and adult hepatologists in diagnosis and management.<h4>Expert opinion</h4>Collaboration between paediatric and adult hepatologists and geneticists will become crucial for cholestatic disease research and patient treatment. Therefore, adult hepatologists will need to learn more about FIC. This might enable the implementation of individualized surveillance in FIC patients and the evaluation of patient family histories.",
+      "language": "en",
+      "relevance_score": 2.0,
+      "matched_aliases": [
+        "ABCB11 p.Val444Ala"
+      ],
+      "is_case_report": false,
+      "is_functional_study": false
+    },
+    {
+      "pmid": "34964797",
+      "doi": "10.1097/md.0000000000028011",
+      "title": "The role of p.Val444Ala variant in the ABCB11 gene and susceptibility to biliary atresia in Vietnamese patients.",
+      "journal": "Medicine",
+      "year": 2021,
+      "abstract": "<h4>Abstract</h4>Biliary atresia (BA) is the most serious type of obstructive cholangiopathy that occurs in infants. BA can be the cause of death in children under 2 years if untreated early. However, the etiology of the disease is not known. BA is considered to be the result of the destruction of the bile duct system including the accumulation of bile acids. The bile salt export pump, a transporter protein encoded by the ABCB11 gene, plays the main role in the exportation and accumulation of bile acids. The p.Val444Ala variant in this gene is known to be associated with many cholestatic diseases. However, to date no study have been performed to evaluate the association of this variant with susceptibility to the risk of BA. In this study, we aimed to identify the frequency of p.Val444Ala variant and the risk of BA in Vietnamese patients.The polymerase chain reaction (PCR)- restriction fragment length polymorphism method was used to determine the frequency of alleles c.1331T>C (p.Val444Ala, rs2287622) in the ABCB11 gene in 266 Vietnamese patients with BA and 150 healthy people. The gene segment containing the variant was amplified by PCR with specific primers, after that the PCR products were cut by HaeIII restriction enzyme and analyzed on agarose gel to determine the genotypes. The frequency of alleles was assessed statistically to determine the association between these alleles and the risk of disease in patients.In our study, the frequency of alleles c.1331T>C (p.Val444Ala, rs2287622) in the ABCB11 gene was investigated the first time in the patients with BA. The results showed that CC and TC genotypes were significantly different between BA patients and healthy people (P\u200a<\u200a.01), and the C allele was associated with an increased risk of BA (odds ratio\u200a=\u200a2.47; 95% confidence interval: 1.84-3.32; P\u200a<\u200a.01). The initial results of clinical, biochemical, and genetic analysis in our study suggested that the p.Val444Ala variant in the ABCB11 gene may be a susceptibility factor for the disease in Vietnamese patients with BA. These results provided new insights into the role of this ABCB11 variant in the pathogenesis of BA.",
+      "language": "en",
+      "relevance_score": 2.0,
+      "matched_aliases": [
+        "ABCB11 p.Val444Ala"
+      ],
+      "is_case_report": false,
+      "is_functional_study": false
+    },
+    {
+      "pmid": "35029214",
+      "doi": "10.1097/md.0000000000028547",
+      "title": "Biliary atresia combined Wilson disease identified by whole exome sequencing in Vietnamese patient with severe liver failure.",
+      "journal": "Medicine",
+      "year": 2022,
+      "abstract": "<h4>Rationale</h4>Hepatobiliary diseases such as biliary atresia (BA), Wilson disease, and progressive familial intrahepatic cholestasis are common causes of morbidity and mortality in young children. Affected patients progress rapidly to end-stage cirrhosis and require liver transplantation or die. Mutations in many genes have been identified to play an important role in the pathogenesis of hepatobiliary diseases.<h4>Patient concerns and diagnosis</h4>In this study, we identified mutations in an 8-year-old girl who had severe liver failure. The patient was first diagnosed with BA at 2.5\u200amonths of age and has undergone Kasai surgery to connect the umbilical cord and jejunum. After that, the patient suddenly had unusual developments with symptoms of jaundice, acute liver failure with hemolysis. She was tested and diagnosed with Wilson disease.<h4>Interventions and outcomes</h4>She was treated according to the regimen for a patient with Wilson disease but had abnormal progress leading to severe liver failure. Genetic analysis was performed by whole exome sequencing and Sanger sequencing methods. The genetic analysis revealed that the patient had a homozygous mutation (p.Gly17Glyfs77\u2217) in the KRT18 gene, a double heterozygous mutation (p.Ser105\u2217 and p.Pro992Leu) in the ATP7B gene, and a homozygous variant (p.Val444Ala) in the ABCB11 gene. In silico prediction of mutations indicated that these mutations are the cause of the severe liver failure in the patient.<h4>Lesson</h4>This is a rare clinical case of a BA patient combined with Wilson disease. Our results suggested that whole exome sequencing is an effective diagnostic tool and emphasizes the importance of early diagnosis and appropriate management to save lives and prevent serious complications in the patient.",
+      "language": "en",
+      "relevance_score": 2.0,
+      "matched_aliases": [
+        "ABCB11 p.Val444Ala"
+      ],
+      "is_case_report": false,
+      "is_functional_study": false
+    },
+    {
+      "pmid": "33070363",
+      "doi": "10.1111/apt.16118",
+      "title": "Review article: liver disease in adults with variants in the cholestasis-related genes ABCB11, ABCB4 and ATP8B1.",
+      "journal": "Alimentary pharmacology & therapeutics",
+      "year": 2020,
+      "abstract": "<h4>Background</h4>Children with intrahepatic cholestasis and genetic variants which result in the disruption of the formation and maintenance of bile (ABCB11, ABCB4 and ATP8B1) generally have a rapidly progressive clinical course. Adults with different phenotypes of cholestasis are increasingly being evaluated for variants in these genes associated with childhood diseases.<h4>Aims</h4>To review the literature with respect to the presence of variants in cholestasis-related genes in adults with various liver phenotypes, and provide clinical implications of the findings.<h4>Methods</h4>A search of the literature on variants in specific cholestasis-related genes in adults was conducted.<h4>Results</h4>The common variant p.Val444Ala in ABCB11 confers increased risk of drug-induced liver injury and intrahepatic cholestasis of pregnancy (ICP). Individuals with variants in ABCB4 are at risk of ICP and low phospholipid-associated cholelithiasis. Variants in ABCB4, and possibly ABCB11 and ATP8B1, can be identified in up to a third of patients with cryptogenic chronic cholestasis.<h4>Conclusions</h4>Individuals with variants in ABCB11 rarely develop cholestasis until BSEP function dips below a threshold, which is also affected by other factors (e.g., drugs, hormones). However, variants in ABCB4 and consequent reduction in MDR3 protein, have a more linear dose-response curve. In individuals with an ABCB11 variant, medications known to reduce BSEP activity should be used cautiously; they should be monitored during pregnancy for ICP; and first-degree relatives should be counselled and screened. No proven management strategy exists, although ursodeoxycholic acid may be beneficial. Further work is needed to define the genotype-phenotype correlation and natural history, and to evaluate the penetrance.",
+      "language": "en",
+      "relevance_score": 2.0,
+      "matched_aliases": [
+        "ABCB11 p.Val444Ala"
+      ],
+      "is_case_report": false,
+      "is_functional_study": false
+    }
+  ],
+  "alias_hash": "a948d101e4ee66d5"
+}

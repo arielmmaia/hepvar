@@ -61,3 +61,11 @@ class Settings(BaseSettings):
 @lru_cache
 def get_settings() -> Settings:
     return Settings()
+
+
+def reload_settings() -> Settings:
+    """Clear the lru_cache and re-read .env. Call after `.env` is modified
+    (e.g. by the setup wizard's POST /api/setup/keys endpoint) so subsequent
+    requests see the new key values without restarting uvicorn."""
+    get_settings.cache_clear()
+    return get_settings()

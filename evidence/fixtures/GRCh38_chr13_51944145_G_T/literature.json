@@ -1,0 +1,370 @@
+{
+  "hits": [
+    {
+      "pmid": "38921036",
+      "doi": "10.3390/cimb46060365",
+      "title": "Obesity as a Confounding Factor in the Diagnosis of Wilson's Disease: Case Report of Two Siblings with the Same Genotype but Different Clinical Courses.",
+      "journal": "Current issues in molecular biology",
+      "year": 2024,
+      "abstract": "Wilson's disease (WD) is a biallelic disease-causing variant in the <i>ATP7B</i> gene on chromosome 13q14.3 that results in copper accumulation in many organs, particularly the liver and brain. The phenotypic spectrum is wide and symptoms at onset can be heterogeneous. We describe two Sicilian siblings, a young man and his elder sister, both compound heterozygous for the variants c.1286-2A>G and c.2668G>A (p.Val890Met) in the <i>ATB7B</i> gene. The male patient presented with liver cirrhosis, which quickly progressed to end-stage liver disease (Child-Pugh score = C10), while his sister had moderate steatotic liver disease (SLD). Our findings highlight that SLD may not always be related to obesity in overweight patients, especially when there are other potential risk factors such as a family history of chronic liver disease, or the persistence of high transaminase despite the adoption of adequate dietary and pharmacological intervention. Screening for conditions such as WD could identify patients at risk of developing SLD and avoid delays in diagnosis. Phenotypic variability in WD is considerable; therefore, further studies are needed to identify which WD patients have a greater risk of developing SLD and determine factors that can predict the severity of the disease.",
+      "language": "it",
+      "relevance_score": 6.1,
+      "matched_aliases": [],
+      "is_case_report": true,
+      "is_functional_study": false
+    },
+    {
+      "pmid": "41981235",
+      "doi": "10.1038/s41434-026-00611-7",
+      "title": "CRISPR/Cas9-mediated gene correction of Wilson disease H1069Q point mutation in patient-specific induced pluripotent stem cells.",
+      "journal": "Gene therapy",
+      "year": 2026,
+      "abstract": "The innovative clustered regularly interspaced short palindromic repeats (CRISPR) associated nuclease 9 (Cas9) gene editing technique may represent a suitable therapeutic opportunity for the treatment of inherited diseases such as Wilson disease (WD). This monogenetic liver disease is based on a mutation of the ATP7B gene and leads to a functional deterioration in copper (Cu) excretion. Excess Cu accumulations in organs such as the liver and brain lead to severe cytotoxicity, followed by acute or chronic liver failure and/or neurological symptoms, and even death, which makes cellular Cu excretion indispensable for any potential WD therapy, e.g., gene therapy. A life-long treatment with zinc or chelators such as D-penicillamine may improve the course of the disease, but serious side effects have been observed in a significant portion of patients. In this study, isolated urinary epithelial cells from a WD patient carrying the ATP7B H1069Q mutation were reprogrammed into induced pluripotent stem cells (iPSCs). Using the CRISPR/Cas9 technology, ATP7B H1069Q was corrected by the additional use of single-stranded oligo DNA nucleotides (ssODNs). After differentiation into hepatocyte-like cells (HLCs), a high resistance to Cu was observed, plus a recovery of ATP7B trafficking. This is the first study to confirm that CRISPR/Cas9-mediated correction of the ATP7B point mutation H1069Q is possible and could open new possibilities for future applications.",
+      "language": "en",
+      "relevance_score": 5.6,
+      "matched_aliases": [
+        "ATP7B H1069Q"
+      ],
+      "is_case_report": false,
+      "is_functional_study": true
+    },
+    {
+      "pmid": "41847123",
+      "doi": "10.3389/fgene.2026.1766223",
+      "title": "Multiscale computational genomics in Wilson disease: from atomic dynamics to clinical prediction.",
+      "journal": "Frontiers in genetics",
+      "year": 2026,
+      "abstract": "Wilson disease (WD) is an autosomal recessive disorder caused by pathogenic variants in the ATP7B gene, leading to toxic copper accumulation. The integration of computational genomics approaches is now essential for deciphering the complex genotype-phenotype relationships and advancing towards targeted therapies. This review synthesizes how multiscale computational strategies are transforming WD research. At the atomic level, molecular dynamics (MD) simulations reveal the conformational dynamics of the ATP7B protein, the functional impact of mutations, and the detailed copper transport cycle. At the systems level, machine learning (ML) models integrate genomic, epigenomic, transcriptomic, and clinical data to classify variant pathogenicity, predict disease subtypes, and forecast clinical outcomes such as cirrhosis or neurological deterioration. Furthermore, multi-omics network analyses uncover disease-associated regulatory modules, elucidate the role of epigenetic dysregulation, and implicate emerging pathways like cuproptosis in WD pathogenesis. Critically, these computational insights are increasingly guiding therapeutic innovation, including the in silico design of allosteric modulators (e.g., nanobodies) and pharmacological chaperones to correct ATP7B folding. By bridging scales from molecular structure to patient phenotypes, computational genomics provides a powerful, integrative framework that holds the potential to accelerate the development of dynamic, mechanism-based therapies and pave the way for personalized medicine in Wilson disease.",
+      "language": "en",
+      "relevance_score": 5.6,
+      "matched_aliases": [
+        "ATP7B H1069Q"
+      ],
+      "is_case_report": false,
+      "is_functional_study": true
+    },
+    {
+      "pmid": "40661833",
+      "doi": "10.1155/humu/7485658",
+      "title": "Functional Screen of Wilson Disease ATP7B Variants Reveals Residual Transport Activities.",
+      "journal": "Human mutation",
+      "year": 2025,
+      "abstract": "Wilson disease is a disorder of copper (Cu) homeostasis caused by the malfunction of Cu transporter ATP7B and associated Cu accumulation in tissues. The existence of over 700 disease-associated variants in the <i>ATP7B</i> gene and a broad spectrum of disease manifestations complicate the analysis of genotype-phenotype correlations and the development of better treatments for this disorder. To assist such studies, we screen 101 variants of ATP7B for expression and Cu transport activity in human fibroblasts lacking active ATP-dependent Cu transporters. The ClinVar database classified 59 of these as variants of uncertain significance or having conflicting pathogenicity classifications; six variants were not in the database. Thirty-three of the variants have been previously characterized by other assays. Only three variants (S657R, G1061E, and G1266R) resulted in the complete inactivation of Cu transport. The in silico analysis of these mutants was used to rationalize this drastic effect on ATP7B activity. The remaining ATP7B variants showed a range of Cu transport activities. Coexpression of variants with different properties yielded activity values different from the simple average. The advantages and limitations of this functional screen are discussed.",
+      "language": "en",
+      "relevance_score": 5.6,
+      "matched_aliases": [
+        "ATP7B H1069Q"
+      ],
+      "is_case_report": false,
+      "is_functional_study": true
+    },
+    {
+      "pmid": "42000590",
+      "doi": "10.1016/j.jhepr.2026.101815",
+      "title": "Wilson disease is a single gene disorder - comprehensive analysis of patients with prior negative genetic testing.",
+      "journal": "JHEP reports : innovation in hepatology",
+      "year": 2026,
+      "abstract": "<h4>Background & aims</h4>Wilson disease (WD) is an autosomal recessive disorder caused by damaging ATP7B variants. Up to 20% of clinically diagnosed cases remain genetically unexplained. We aimed to analyze patients with WD (Leipzig score \u22654) with zero or one known ATP7B variant using state-of-the-art methods.<h4>Methods</h4>Among 761 patients from four WD cohorts previously screened for ATP7B variants, 44 with zero or one known variant in ATP7B were sequenced by current best practice methods (whole genome sequencing) and the data were analyzed in a stepwise approach: first searching for pathogenic variants in ATP7B, then in 97 copper-related genes, and finally in 4,304 genes linked to liver or neurological diseases. If unsolved, long-read ATP7B sequencing and/or ATP7B protein surrogate peptide analysis was conducted when possible.<h4>Results</h4>A total of 5.8% of patients had zero or only one known variant in ATP7B. Median (range) Leipzig score was 6 (4-11). Primary presentations at diagnosis were hepatic (24), neurologic (12), or mixed (8). Genetic analysis of ATP7B resolved 52% (23/44) of cases: 7 through reclassification of previously reported findings and 16 by whole genome sequencing detecting previously unreported ATP7B variants. ATP7B peptide measurement detected six additional patients with ATP7B protein defects, supporting pathogenicity of variants. Together, these methods confirmed ATP7B dysfunction in 66% (29/44). In our entire cohort, this corresponded to genetic confirmation in 98% (746/761). Comprehensive screening of other genes did not identify alternative genetic causes.<h4>Conclusion</h4>Our comprehensive data strongly support WD as a single-gene disease. Genetic reevaluation, ATP7B resequencing, and peptide analysis should be performed in unresolved cases.<h4>Impact and implications</h4>This work addresses the molecular diagnostic gap in clinically confirmed Wilson disease by demonstrating that most genetically unresolved cases can be explained by previously undetected or misclassified ATP7B variants when modern genomic and functional approaches are applied. The findings are particularly relevant for clinicians and patients facing diagnostic uncertainty, as they reinforce Wilson disease as a single-gene disorder rather than a genetic heterogeneous condition. Practically, the study supports routine genetic reevaluation using contemporary whole-genome sequencing and targeted functional assays in unresolved cases, improving diagnostic certainty, genetic counseling, and cascade testing. While some advanced analyses were not feasible in all patients, the results highlight the value of revisiting negative genetic findings before considering alternative diagnoses.",
+      "language": "en",
+      "relevance_score": 5.6,
+      "matched_aliases": [
+        "ATP7B His1069Gln"
+      ],
+      "is_case_report": false,
+      "is_functional_study": true
+    },
+    {
+      "pmid": "41680931",
+      "doi": "10.1186/s40246-026-00926-x",
+      "title": "Genetic findings in ten Ecuadorian patients with suspected Wilson's disease.",
+      "journal": "Human genomics",
+      "year": 2026,
+      "abstract": "<h4>Background</h4>Wilson disease is a rare autosomal recessive disorder caused by variations in ATP7B, leading to copper accumulation and multisystemic damage. Diagnosis is often delayed due to its heterogeneous clinical presentation and limited genetic data in underrepresented populations.<h4>Methods</h4>We characterized ten Ecuadorian patients with clinical suspicion of Wilson disease using whole-exome sequencing (WES), selected to enable simultaneous assessment of ATP7B and other metabolic genes relevant to Wilson-like phenotypes. Variants were interpreted following HGNC and ACMG/AMP guidelines. Ancestry was examined in nine patients using ADMIXTURE and PCA with a reference panel of 968 individuals from African, European, and Indigenous American populations. ATP7B expression was quantified by RT-qPCR in the one patient lacking identifiable coding-region variants.<h4>Results</h4>Six patients were homozygous and two were compound heterozygous for pathogenic or likely pathogenic ATP7B variants. The recurrent alleles c.2052dupC p.(Met685*) (Guayaquil) and c.2012_2013insAT p.(Met671Ilefs*) (Ca\u00f1ar/Cuenca) showed geographic and ancestry patterns consistent with known demographic structure in Ecuador, though not sufficient to infer founder effects. Additional variants included c.3188\u00a0C\u2009>\u2009T p.(Ala1603Val), c.3727\u00a0C\u2009>\u2009G p.(Leu1243Val), c.2318G\u2009>\u2009A p.(Cys773Tyr), and c.2080\u00a0C\u2009>\u2009T p.(Arg694Trp). One patient with no detectable ATP7B coding-region variation demonstrated\u2009~\u20099.8-fold reduced ATP7B expression, supporting the clinical diagnosis.<h4>Conclusions</h4>This study provides an integrated clinical, molecular, and ancestry framework for characterizing Wilson disease in an underrepresented population. The identification of regionally recurrent ATP7B variants, together with the diversity of clinical presentations, highlights the need for comprehensive diagnostic approaches in admixed populations. Larger studies incorporating segregation and functional assays will be essential to refine variant interpretation and improve access to molecular diagnosis in Latin America.",
+      "language": "en",
+      "relevance_score": 5.6,
+      "matched_aliases": [
+        "ATP7B His1069Gln"
+      ],
+      "is_case_report": false,
+      "is_functional_study": true
+    },
+    {
+      "pmid": "41465155",
+      "doi": "10.3390/genes16121482",
+      "title": "WES-Based Screening of a Swedish Patient Series with Parkinson's Disease.",
+      "journal": "Genes",
+      "year": 2025,
+      "abstract": "<b>Background/Objective:</b> Genetic factors contribute significantly to Parkinson's disease (PD), especially in cases with early onset or positive family history. However, previous investigations of the genetic landscape in PD populations were mainly based on targeted genotyping. The aim of this study was to investigate the prevalence of pathogenic variants in known PD-associated genes in a series of Swedish PD patients. <b>Methods:</b> We performed whole-exome sequencing on 285 PD probands from southern Sweden. Our series was enriched for patients with early disease onset or positive family history. We focused on 44 genes previously linked to PD. <b>Results:</b> We identified a <i>CHCHD2</i> p.(Phe84LeufsTer6) frameshift variant in two unrelated patients and report the first PD case of Swedish ancestry carrying the <i>VPS35</i> p.(Asp620Asn) variant. Additionally, in one patient each, we found an <i>SNCA</i> duplication, an <i>SNCA</i> p.(Ala53Thr) variant, and a <i>LRRK2</i> p.(Gly2019Ser) variant. Thus, only 2.1% (<i>n</i> = 6) of patients in this series had Mendelian monogenic PD forms. In addition, forty-three patients carried variants in <i>GBA1</i>, including T369M, which may lack disease-association in our population (<i>n</i> = 12); E326K (<i>n</i> = 22), which is classified as a PD risk variant; as well as N370S (<i>n</i> = 3), R329H (<i>n</i> = 3), S107L (<i>n</i> = 1), and L444P (<i>n</i> = 1), with one patient harboring both T369M and E326K. Pathogenic variants in <i>ARSA</i>, <i>ATP7B</i>, and <i>PRKN</i> genes were also detected in heterozygote form, but their role in PD remains uncertain. <b>Conclusions:</b> Monogenic forms of PD are rare in southern Sweden, even among the familial and early-onset PD patients that were overrepresented in our study. Our findings highlight the genetic diversity in Swedish PD patients and identify key variants for further functional and clinical studies.",
+      "language": "en",
+      "relevance_score": 5.0,
+      "matched_aliases": [
+        "ATP7B His1069Gln"
+      ],
+      "is_case_report": false,
+      "is_functional_study": true
+    },
+    {
+      "pmid": "36872857",
+      "doi": "10.14802/jmd.22161",
+      "title": "Clinical Characteristics, Genetic Features, and Long-Term Outcome of Wilson's Disease in a Taiwanese Population: An 11-Year Follow-Up Study.",
+      "journal": "Journal of movement disorders",
+      "year": 2023,
+      "abstract": "<h4>Objective</h4>aaWilson's disease (WD) is a rare genetic disorder of copper metabolism, and longitudinal follow-up studies are limited. We performed a retrospective analysis to determine the clinical characteristics and long-term outcomes in a large WD cohort.<h4>Methods</h4>aaMedical records of WD patients diagnosed from 2006-2021 at National Taiwan University Hospital were retrospectively evaluated for clinical presentations, neuroimages, genetic information, and follow-up outcomes.<h4>Results</h4>aaThe present study enrolled 123 WD patients (mean follow-up: 11.12 \u00b1 7.41 years), including 74 patients (60.2%) with hepatic features and 49 patients (39.8%) with predominantly neuropsychiatric symptoms. Compared to the hepatic group, the neuropsychiatric group exhibited more Kayser-Fleischer rings (77.6% vs. 41.9%, p < 0.01), lower serum ceruloplasmin levels (4.9 \u00b1 3.9 vs. 6.3 \u00b1 3.9 mg/dL, p < 0.01), smaller total brain and subcortical gray matter volumes (p < 0.0001), and worse functional outcomes during follow-up (p = 0.0003). Among patients with available DNA samples (n = 59), the most common mutations were p.R778L (allelic frequency of 22.03%) followed by p.P992L (11.86%) and p.T935M (9.32%). Patients with at least one allele of p.R778L had a younger onset age (p = 0.04), lower ceruloplasmin levels (p < 0.01), lower serum copper levels (p = 0.03), higher percentage of the hepatic form (p = 0.03), and a better functional outcome during follow-up (p = 0.0012) compared to patients with other genetic variations.<h4>Conclusion</h4>aaThe distinct clinical characteristics and long-term outcomes of patients in our cohort support the ethnic differences regarding the mutational spectrum and clinical presentations in WD.",
+      "language": "en",
+      "relevance_score": 5.0,
+      "matched_aliases": [
+        "ATP7B p.H1069Q"
+      ],
+      "is_case_report": false,
+      "is_functional_study": true
+    },
+    {
+      "pmid": "39093796",
+      "doi": "10.1097/md.0000000000038849",
+      "title": "A novel mutation in the ATP7B gene causing hepatolenticular degeneration in a Chinese family: A case report.",
+      "journal": "Medicine",
+      "year": 2024,
+      "abstract": "<h4>Introduction</h4>Hepatolenticular degeneration (Wilson disease) is an autosomal recessive monogenic disorder caused by mutations in the ATPase copper transporting beta (ATP7B) gene located on human chromosome 13. This gene encodes a copper-transporting P-type ATPase (ATP7B). Recent studies have revealed that the ATP7B gene is predominantly affected by a few hotspot mutations, with the His1069Gln mutation in exon 14 accounting for 50 to 80% of cases. In China, the Arg778Leu mutation in exon 8 is the most prevalent. However, the discovery of novel mutant genes persists.<h4>Case presentation</h4>A 56-year-old Chinese female was referred to our hospital with a liver injury and cirrhosis. Her parents, 2 younger brothers, and children exhibited no signs of liver function impairment. Whole-exome sequencing was conducted on the proband's genomic DNA, and Sanger sequencing was performed on 6 family members for first-generation verification.<h4>Conclusions</h4>We identified a novel c.3715G\u2005>\u2005T (p.Val1239Phe) variant mutation in the ATP7B gene in the patient. The ATP7B c.3715G\u2005>\u2005T (p.Val1239Phe) variant is predicted to impact the copper transport P-type ATPase. When combined with another mutant gene to form a compound heterozygous mutation, it can lead to hepatolenticular degeneration. This discovery broadens the range of pathogenic genes in the ATP7B gene.",
+      "language": "en",
+      "relevance_score": 4.6,
+      "matched_aliases": [
+        "ATP7B His1069Gln"
+      ],
+      "is_case_report": true,
+      "is_functional_study": false
+    },
+    {
+      "pmid": "28842499",
+      "doi": "10.1074/jbc.m117.807263",
+      "title": "Human copper transporter ATP7B (Wilson disease protein) forms stable dimers <i>in vitro</i> and in cells.",
+      "journal": "The Journal of biological chemistry",
+      "year": 2017,
+      "abstract": "ATP7B is a copper-transporting P<sub>1B</sub>-type ATPase (Cu-ATPase) with an essential role in human physiology. Mutations in ATP7B cause the potentially fatal Wilson disease, and changes in ATP7B expression are observed in several cancers. Despite its physiologic importance, the biochemical information about ATP7B remains limited because of a complex multidomain organization of the protein. By analogy with the better characterized prokaryotic Cu-ATPases, ATP7B is assumed to be a single-chain monomer. We show that in eukaryotic cells, human ATP7B forms dimers that can be purified following solubilization. Deletion of the four N-terminal metal-binding domains, characteristic for human ATP7B, does not disrupt dimerization, <i>i.e.</i> the dimer interface is formed by the domains that are conserved among Cu-ATPases. Unlike the full-length ATP7B, which is targeted to the <i>trans</i>-Golgi network, 1-4\u0394MBD-7B is targeted primarily to vesicles. This result and the analysis of differentially tagged ATP7B variants indicate that the dimeric structure is retained during ATP7B trafficking between the intracellular compartments. Purified dimeric species of 1-4\u0394MBD-7B were characterized by a negative stain electron microscopy in the presence of ADP/MgCl<sub>2</sub> Single-particle analysis yielded a low-resolution 3D model that provides the first insight into an overall architecture of a human Cu-ATPase, positions of the main domains, and a dimer interface.",
+      "language": "en",
+      "relevance_score": 4.6,
+      "matched_aliases": [
+        "ATP7B AND (\"Wilson disease\")"
+      ],
+      "is_case_report": false,
+      "is_functional_study": true
+    },
+    {
+      "pmid": null,
+      "doi": "10.21203/rs.3.rs-8649506/v1",
+      "title": "An incidental heterozygous ATP7B nonsense variant leading to a diagnostic pitfall for Wilson disease: a pediatric case report",
+      "journal": null,
+      "year": 2026,
+      "abstract": "<title>Abstract</title>  <p>  <bold>Background</bold>  Wilson disease (WD) is an autosomal recessive disorder caused by pathogenic variants in ATP7B, resulting in impaired copper transport and progressive copper accumulation, most prominently affecting the liver. With the growing use of genetic testing, incidental detection of ATP7B pathogenic/likely pathogenic variants in individuals without typical hepatic phenotypes can prompt overdiagnosis and unnecessary investigations. This case highlights the importance of interpreting a single heterozygous ATP7B variant in the context of phenotype and a standardized biochemical diagnostic pathway for WD.  <bold>Case presentation</bold>  A 13-year-old boy presented with brief paroxysmal attacks for >1 year, markedly worsened over the preceding month. Episodes were triggered by rising from sitting, characterized by transient postural instability with unilateral head deviation and ipsilateral dystonic/choreiform movements, lasted ~10 seconds, and resolved spontaneously. Consciousness was preserved, with no incontinence, convulsions, or postictal symptoms. Interictal neurological examination was normal. Ambulatory EEG monitoring captured three typical attacks without epileptiform discharges or ictal EEG correlates, and brain MRI was unremarkable. A slit-lamp examination revealed no Kayser\u2013Fleischer ring. A low serum copper level (9.43 \u03bcmol/L; reference 10.50\u201329.90) prompted further evaluation; genetic testing incidentally identified a heterozygous ATP7B variant (NM_000053.4:c.2851C>T; p.Gln951Ter), reported as likely pathogenic. WD was considered. However, ceruloplasmin was normal (231.6 mg/L; reference 200.0\u2013420.0), copper oxidase was normal (0.372 OD; >0.200), liver biochemistry was normal (ALT 11 U/L, AST 16 U/L, GGT 14 U/L; bilirubin within reference range), and abdominal ultrasound showed a normal liver and biliary tree. Urinary copper was reported as not elevated (quantitative 24-h value not available). Overall, findings did not support WD.  <bold>Conclusions</bold>  This case illustrates a diagnostic pitfall: incidental heterozygous ATP7B nonsense variants may lead to anchoring bias toward WD in individuals without hepatic phenotypes. WD diagnosis should rely on integrated clinical and standardized copper-metabolism evidence, avoiding attribution based on genetics or a single biochemical abnormality alone.  </p>",
+      "language": "en",
+      "relevance_score": 4.6,
+      "matched_aliases": [
+        "ATP7B AND (\"Wilson disease\")"
+      ],
+      "is_case_report": true,
+      "is_functional_study": false
+    },
+    {
+      "pmid": "41867937",
+      "doi": "10.3389/fped.2026.1763338",
+      "title": "Case Report: Genetic testing reveals Wilson disease with familial hypertriglyceridemia in a 12-year-old boy.",
+      "journal": "Frontiers in pediatrics",
+      "year": 2026,
+      "abstract": "Wilson disease (WD) and familial hypertriglyceridemia (FHTG) are both genetic metabolic diseases, and their comorbidity is extremely rare. This article reports a case of WD with FHTG in a 12-year-old Chinese boy. The patient was diagnosed due to elevated transaminase levels, combined with clinical manifestations, copper metabolism indexes, lipid profile analysis, and genetic testing results (pathogenic mutations of <i>ATP7B</i> and <i>APOA5</i>). The patient was treated using a copper chelating agent to lower copper levels and fibrate drugs to lower lipid levels, which resulted in improvements in his liver function and blood lipid indices. This case serves as a source of reference for the diagnosis and treatment of other similar cases. It not only reveals the potential interaction between copper metabolism disorders and lipid abnormalities, but also highlights the importance of systematic genetic testing to identify comorbid inheritance.",
+      "language": "en",
+      "relevance_score": 4.6,
+      "matched_aliases": [
+        "ATP7B AND (\"case report\" OR mutation OR variant)"
+      ],
+      "is_case_report": true,
+      "is_functional_study": false
+    },
+    {
+      "pmid": "36830958",
+      "doi": "10.3390/biomedicines11020420",
+      "title": "A Century of Progress on Wilson Disease and the Enduring Challenges of Genetics, Diagnosis, and Treatment.",
+      "journal": "Biomedicines",
+      "year": 2023,
+      "abstract": "Wilson disease (WD) is a rare, inherited metabolic disorder manifested with varying clinical presentations including hepatic, neurological, psychiatric, and ophthalmological features, often in combination. Causative mutations in the <i>ATP7B</i> gene result in copper accumulation in hepatocytes and/or neurons, but clinical diagnosis remains challenging. Diagnosis is complicated by mild, non-specific presentations, mutations exerting no clear effect on protein function, and inconclusive laboratory tests, particularly regarding serum ceruloplasmin levels. As early diagnosis and effective treatment are crucial to prevent progressive damage, we report here on the establishment of a global collaboration of researchers, clinicians, and patient advocacy groups to identify and address the outstanding challenges posed by WD.",
+      "language": "fr",
+      "relevance_score": 4.1,
+      "matched_aliases": [],
+      "is_case_report": false,
+      "is_functional_study": false
+    },
+    {
+      "pmid": "35566651",
+      "doi": "10.3390/jcm11092528",
+      "title": "Eye Involvement in Wilson's Disease: A Review of the Literature.",
+      "journal": "Journal of clinical medicine",
+      "year": 2022,
+      "abstract": "Wilson's disease (WD) is an autosomal recessive genetic disorder due to a mutation of the ATP7B gene, resulting in impaired hepatic copper excretion and accumulation in various tissues. Ocular findings are one of the hallmarks of the disease. Many ophthalmological manifestations have been described and new techniques are currently available to improve their diagnosis and to follow their evolution. We have performed a systematic PubMed search to summarize available data of the recent literature on the most frequent ophthalmological disorders associated with WD, and to discuss the newest techniques used for their detection and follow-up during treatment. In total, 49 articles were retained for this review. The most common ocular findings seen in WD patients are Kayser-Fleischer ring (KFR) and sunflower cataracts. Other ocular manifestations may involve retinal tissue, visual systems and eye mobility. Diagnosis and follow-up under decoppering treatment of these ocular findings are generally easily performed with slit-lamp examination (SLE). However, new techniques are available for the precocious detection of ocular findings due to WD and may be of great value for non-experimented ophthalmologists and non-ophthalmologists practitioners. Among those techniques, anterior segment optical coherence tomography (AS-OCT) and Scheimpflug imaging are discussed.",
+      "language": "fr",
+      "relevance_score": 4.1,
+      "matched_aliases": [],
+      "is_case_report": false,
+      "is_functional_study": false
+    },
+    {
+      "pmid": "39273284",
+      "doi": "10.3390/ijms25179335",
+      "title": "The Spectrum of Disease-Associated Alleles in Countries with a Predominantly Slavic Population.",
+      "journal": "International journal of molecular sciences",
+      "year": 2024,
+      "abstract": "There are more than 260 million people of Slavic descent worldwide, who reside mainly in Eastern Europe but also represent a noticeable share of the population in the USA and Canada. Slavic populations, particularly Eastern Slavs and some Western Slavs, demonstrate a surprisingly high degree of genetic homogeneity, and, consequently, remarkable contribution of recurrent alleles associated with hereditary diseases. Along with pan-European pathogenic variants with clearly elevated occurrence in Slavic people (e.g., <i>ATP7B</i> c.3207C>A and <i>PAH</i> c.1222C>T), there are at least 52 pan-Slavic germ-line mutations (e.g., <i>NBN</i> c.657_661del and <i>BRCA1</i> c.5266dupC) as well as several disease-predisposing alleles characteristic of the particular Slavic communities (e.g., Polish <i>SDHD</i> c.33C>A and Russian <i>ARSB</i> c.1562G>A variants). From a clinical standpoint, Slavs have some features of a huge founder population, thus providing a unique opportunity for efficient genetic studies.",
+      "language": "es",
+      "relevance_score": 3.5,
+      "matched_aliases": [],
+      "is_case_report": false,
+      "is_functional_study": false
+    },
+    {
+      "pmid": "38928192",
+      "doi": "10.3390/ijms25126487",
+      "title": "The Role of Copper Overload in Modulating Neuropsychiatric Symptoms.",
+      "journal": "International journal of molecular sciences",
+      "year": 2024,
+      "abstract": "Copper is a transition metal essential for growth and development and indispensable for eukaryotic life. This metal is essential to neuronal function: its deficiency, as well as its overload have been associated with multiple neurodegenerative disorders such as Alzheimer's disease and Wilson's disease and psychiatric conditions such as schizophrenia, bipolar disorder, and major depressive disorders. Copper plays a fundamental role in the development and function of the human Central Nervous System (CNS), being a cofactor of multiple enzymes that play a key role in physiology during development. In this context, we thought it would be timely to summarize data on alterations in the metabolism of copper at the CNS level that might influence the development of neuropsychiatric symptoms. We present a non-systematic review with the study selection based on the authors' judgement to offer the reader a perspective on the most significant elements of neuropsychiatric symptoms in Wilson's disease. We highlight that Wilson's disease is characterized by marked heterogeneity in clinical presentation among patients with the same mutation. This should motivate more research efforts to disentangle the role of environmental factors in modulating the expression of genetic predisposition to this disorder.",
+      "language": "it",
+      "relevance_score": 3.5,
+      "matched_aliases": [],
+      "is_case_report": false,
+      "is_functional_study": false
+    },
+    {
+      "pmid": "29954118",
+      "doi": "10.3390/ijms19071892",
+      "title": "An \u03b1B-Crystallin Peptide Rescues Compartmentalization and Trafficking Response to Cu Overload of ATP7B-H1069Q, the Most Frequent Cause of Wilson Disease in the Caucasian Population.",
+      "journal": "International journal of molecular sciences",
+      "year": 2018,
+      "abstract": "The H1069Q substitution is the most frequent mutation of the Cu transporter ATP7B that causes Wilson disease in the Caucasian population. ATP7B localizes to the Golgi complex in hepatocytes, but, in the presence of excessive Cu, it relocates to the endo-lysosomal compartment to excrete Cu via bile canaliculi. In contrast, ATP7B-H1069Q is strongly retained in the ER, does not reach the Golgi complex and fails to move to the endo-lysosomal compartment in the presence of excessive Cu, thus causing toxic Cu accumulation. We have previously shown that, in transfected cells, the small heat-shock protein \u03b1B-crystallin is able to correct the mislocalization of ATP7B-H1069Q and its trafficking in the presence of Cu overload. Here, we first show that the \u03b1-crystallin domain of \u03b1B-crystallin mimics the effect of the full-length protein, whereas the N- and C-terminal domains have no such effect. Next, and most importantly, we demonstrate that a twenty-residue peptide derived from the \u03b1-crystallin domain of \u03b1B-crystallin fully rescues Golgi localization and the trafficking response of ATP7B-H1069Q in the presence of Cu overload. In addition, we show that this peptide interacts with the mutant transporter in the live cell. These results open the way to attempt developing a pharmacologically active peptide to specifically contrast the Wilson disease form caused by the ATP7B-H1069Q mutant.",
+      "language": "en",
+      "relevance_score": 2.6,
+      "matched_aliases": [
+        "ATP7B H1069Q"
+      ],
+      "is_case_report": false,
+      "is_functional_study": false
+    },
+    {
+      "pmid": "41152442",
+      "doi": "10.1038/s41598-025-21455-y",
+      "title": "Novel and less invasive biomarker assays to measure liver ATP7B in Wilson disease patients.",
+      "journal": "Scientific reports",
+      "year": 2025,
+      "abstract": "Novel therapies for Wilson disease (WD) will require appropriate biomarkers and clinically relevant endpoints to demonstrate therapeutic efficacy. We aimed to develop robust, minimally invasive biomarker assays to assess target engagement in future clinical trials for WD therapeutics. We conducted a single-center, sample collection biomarker study in 21 patients with WD and 6 control participants. Serum, liver fine needle aspiration biopsy (FNA), and liver core needle biopsy (CNB) samples were collected from participants. RNA and protein were isolated from serum exosome and biopsy samples. Samples were analyzed for mRNA expression by quantitative PCR and for protein expression by a novel electrochemiluminescence (ECL) immunoassay. ATP7B mRNA was detectable in FNA, CNB, and serum exosome samples. However, serum exosomes are not yet a viable method for ATP7B quantification. ATP7B protein was only detectable in CNB samples. We compared the FNA and CNB results for five WD patients and found mRNA expression levels to be comparable with an R<sup>2</sup> of 0.64 with statistical significance. The methods we developed may be useful in clinical settings to quantify hepatocyte-specific expression of ATP7B for the development of novel therapeutics for Wilson disease.",
+      "language": "en",
+      "relevance_score": 2.6,
+      "matched_aliases": [
+        "ATP7B H1069Q"
+      ],
+      "is_case_report": false,
+      "is_functional_study": false
+    },
+    {
+      "pmid": "40504409",
+      "doi": "10.1007/s11910-025-01424-8",
+      "title": "Pitfalls in the Diagnosis of Wilson Disease.",
+      "journal": "Current neurology and neuroscience reports",
+      "year": 2025,
+      "abstract": "<h4>Purpose of review</h4>Wilson disease (WD), an uncommon autosomal recessive (AR) hereditary disorder characterized by abnormal accumulation of copper primarily in the liver and secondarily in other organs like the brain, is caused by a deficiency in the ATP7B transporter gene. The key to successful therapy is early diagnosis.<h4>Recent findings</h4>Mutant genes need to be inherited from both parents for phenotypic expression. The ATP7B gene located on chromosome 13q14.3 comprises 20 introns and 21 exons, encodes a protein of 165 amino acids, and this helps in incorporation of copper into ceruloplasmin, the copper binding protein. So far, more than 800 mutations have been reported, of which 380 have confirmed involvement in the pathogenesis of WD. The most common mutations are H1069Q and R778L in European and Asian populations respectively. Approximately 90%-98% of WD subjects are heterozygous, showing different mutations in each of the alleles encoding the ATP7B. Conversely, the phenotype and the penetrance of WD can be extremely variable. Even patients carrying two disease-causing mutations do not necessarily have a demonstrable alteration of copper metabolism. Considering the possibility of late-onset disease, asymptomatic cases, and phenotypic variability, it is crucial to evaluate previous and future generations of the index case. WD ranges from being asymptomatic in some patients to result in acute liver failure and/or a variety of neuropsychiatric disorders among others. Although WD may be present at any age, is more common between the ages of 5 and 35\u00a0years. However, it should be investigated in patients with liver failure of unknown cause and those with liver disease associated with neuropsychiatric symptomatology. Diagnosis requires a combination of clinical signs and symptoms, as well as relevant diagnostic tests such as measurement of serum ceruloplasmin, urinary excretion of copper, liver biopsy or genetic testing. Treatment is lifelong and includes chelating agents (penicillamine and trientine) and inhibitors of copper absorption (zinc salts). Liver transplant is an option for patients with end-stage liver disease. The key to successful therapy is early diagnosis.",
+      "language": "en",
+      "relevance_score": 2.6,
+      "matched_aliases": [
+        "ATP7B H1069Q"
+      ],
+      "is_case_report": false,
+      "is_functional_study": false
+    },
+    {
+      "pmid": "38397079",
+      "doi": "10.3390/ijms25042402",
+      "title": "Epidemiology of Wilson's Disease and Pathogenic Variants of the <i>ATP7B</i> Gene Leading to Diversified Protein Disfunctions.",
+      "journal": "International journal of molecular sciences",
+      "year": 2024,
+      "abstract": "Wilson's disease (WD) is an autosomal recessive disorder characterized by toxic accumulation of copper in the liver, brain, and other organs. The disease is caused by pathogenic variants in the <i>ATP7B</i> gene, which encodes a P-type copper transport ATPase. Diagnosing WD is associated with numerous difficulties due to the wide range of clinical manifestations and its unknown dependence on the physiological characteristics of the patient. This leads to a delay in the start of therapy and the subsequent deterioration of the patient's condition. However, in recent years, molecular genetic testing of patients using next generation sequencing (NGS) has been gaining popularity. This immediately affected the detection speed of WD. If, previously, the frequency of this disease was estimated at 1:35,000-45,000 people, now, when conducting large molecular genetic studies, the frequency is calculated as 1:7026 people. This certainly points to the problem of identifying WD patients. This review provides an update on the performance of epidemiological studies of WD and describes normal physiological functions of the protein and diversified disfunctions depending on pathogenic variants of the <i>ATP7B</i> gene. Future prospects in the development of WD genetic diagnostics are also discussed.",
+      "language": "en",
+      "relevance_score": 2.6,
+      "matched_aliases": [
+        "ATP7B His1069Gln"
+      ],
+      "is_case_report": false,
+      "is_functional_study": false
+    },
+    {
+      "pmid": "35762218",
+      "doi": "10.1002/humu.24428",
+      "title": "Polarized trafficking and copper transport activity of ATP7B: A mutational approach to establish genotype-phenotype correlation in Wilson disease.",
+      "journal": "Human mutation",
+      "year": 2022,
+      "abstract": "Mutation in ATP7B gene causes Wilson disease (WD) that is characterized by severe hepatic and neurological symptoms. ATP7B localizes at the trans-Golgi Network (TGN) transporting copper to copper-dependent enzymes and traffics in apically targeted vesicles upon intracellular copper elevation. To decode the cellular underpinnings of WD manifestation we investigated copper-responsive polarized trafficking and copper transport activity of 15 WD causing point mutations in ATP7B. Amino-terminal mutations Gly85Val, Leu168Pro, and Gly591Asp displayed TGN and subapical localization whereas, Leu492Ser mislocalized at the basolateral region. The actuator domain mutation Gly875Arg shows retention in the endoplasmic reticulum (ER), Ala874Val and Leu795Phe show partial targeting to TGN and post-Golgi vesicles. The nucleotide-binding domain mutations His1069Gln and Leu1083Phe also display impaired targeting. The C-terminal mutations Leu1373Pro/Arg is arrested at ER but Ser1423Asn shows TGN localization. Transmembrane mutant Arg778Leu resides in ER and TGN while Arg969Gln is exclusively ER localized. Cellular Cu level does not alter the targeting of any of the studied mutations. Mutants that traffic to TGN exhibits biosynthetic function. Finally, we correlated cellular phenotypes with the clinical manifestation of the two most prevalent mutations; the early onset and more aggressive WD caused by Arg778Leu and the milder form of WD caused by mutation His1069Gln.",
+      "language": "en",
+      "relevance_score": 2.6,
+      "matched_aliases": [
+        "ATP7B His1069Gln"
+      ],
+      "is_case_report": false,
+      "is_functional_study": false
+    },
+    {
+      "pmid": "41225982",
+      "doi": "10.3390/diagnostics15212689",
+      "title": "Evaluation of the Relationship Between Neurologic Manifestations and Genetic Mutations in Wilson's Disease with Next-Generation Sequencing.",
+      "journal": "Diagnostics (Basel, Switzerland)",
+      "year": 2025,
+      "abstract": "<b>Background</b>: Wilson's disease (WD) is a rare autosomal recessive disorder caused by mutations in the <i>ATP7B</i> gene, leading to copper accumulation in the liver and brain. Given the clinical heterogeneity of the disease, this study aimed to characterize the mutational spectrum of <i>ATP7B</i> and explore genotype-phenotype correlations in Turkish patients. <b>Methods</b>: Whole-exome sequencing (WES) was performed in 17 Turkish patients clinically diagnosed with WD. Variants were annotated and evaluated using five in silico prediction tools (REVEL, CADD, PolyPhen, SIFT, MutationTaster). Copy number variation (CNV) analysis was conducted using the CLC Genomics Server (Version 22.0.2). <b>Results</b>: A total of 14 distinct <i>ATP7B</i> variants were identified, comprising 12 missense, 1 nonsense, and 1 frameshift mutation. Variant distribution showed some phenotype-specific patterns: four variants were found more frequently in hepatic cases and three in neurological cases, although no statistically significant or consistent correlation between genotype and clinical presentation could be established. The most frequent mutation was p.His1069Gln, present in both phenotypes. All missense variants were predicted to be pathogenic by at least three computational tools, with high concordance among platforms. No pathogenic CNVs were detected. <b>Conclusions</b>: This study expands the mutational landscape of <i>ATP7B</i> in Turkish patients with WD and supports the utility of WES combined with in silico tools for accurate variant classification. The results emphasize the genetic heterogeneity of WD and suggest possible associations between certain mutations and clinical phenotypes.",
+      "language": "en",
+      "relevance_score": 2.6,
+      "matched_aliases": [
+        "ATP7B p.H1069Q"
+      ],
+      "is_case_report": false,
+      "is_functional_study": false
+    },
+    {
+      "pmid": "39056796",
+      "doi": "10.3390/cells13141214",
+      "title": "Navigating the CRISPR/Cas Landscape for Enhanced Diagnosis and Treatment of Wilson's Disease.",
+      "journal": "Cells",
+      "year": 2024,
+      "abstract": "The clustered regularly interspaced short palindromic repeats (CRISPR)/CRISPR-associated protein (Cas) system continues to evolve, thereby enabling more precise detection and repair of mutagenesis. The development of CRISPR/Cas-based diagnosis holds promise for high-throughput, cost-effective, and portable nucleic acid screening and genetic disease diagnosis. In addition, advancements in transportation strategies such as adeno-associated virus (AAV), lentiviral vectors, nanoparticles, and virus-like vectors (VLPs) offer synergistic insights for gene therapeutics in vivo. Wilson's disease (WD), a copper metabolism disorder, is primarily caused by mutations in the ATPase copper transporting beta (<i>ATP7B</i>) gene. The condition is associated with the accumulation of copper in the body, leading to irreversible damage to various organs, including the liver, nervous system, kidneys, and eyes. However, the heterogeneous nature and individualized presentation of physical and neurological symptoms in WD patients pose significant challenges to accurate diagnosis. Furthermore, patients must consume copper-chelating medication throughout their lifetime. Herein, we provide a detailed description of WD and review the application of novel CRISPR-based strategies for its diagnosis and treatment, along with the challenges that need to be overcome.",
+      "language": "en",
+      "relevance_score": 2.6,
+      "matched_aliases": [
+        "ATP7B p.H1069Q"
+      ],
+      "is_case_report": false,
+      "is_functional_study": false
+    },
+    {
+      "pmid": "40351566",
+      "doi": "10.5334/tohm.938",
+      "title": "Current Management of Neurological Wilson's Disease.",
+      "journal": "Tremor and other hyperkinetic movements (New York, N.Y.)",
+      "year": 2025,
+      "abstract": "Wilson's disease (WD) is a disorder of copper metabolism due to variants in the <i>ATP7B</i> gene. This autosomal recessively inherited disorder is characterized by the accumulation of copper in various body parts, mainly the liver, brain, and kidneys. Initially, WD was described to involve the hepatic and neurological systems. Subsequently, diverse presentations have been reported with skeletal and hematological manifestations and various constellations of symptoms. Neurological manifestations of WD are varied, ranging from asymptomatic neurological state to refractory dystonia. Earlier, the diagnosis was based only on measuring serum ceruloplasmin levels, urinary copper levels, and imaging. Advanced genetic testing has provided an additional mode of diagnosis in the patient, screening of the family members and, a way to better understand the genotype-phenotype associations of the disease if there are any. In the last few decades, the treatment of WD has evolved from symptomatic treatment and chelation therapy to many new advanced measures for both copper chelation and symptomatic relief. With a better understanding of the genetic aspects of WD in recent years, there has been more focus on gene therapy, novel therapies targeting ATP7B genes, and therapies targeting mutant proteins to prevent copper accumulation. This article highlights the advances in diagnostic methods and treatment modalities in WD.",
+      "language": "en",
+      "relevance_score": 2.6,
+      "matched_aliases": [
+        "ATP7B p.H1069Q"
+      ],
+      "is_case_report": false,
+      "is_functional_study": false
+    },
+    {
+      "pmid": "39737993",
+      "doi": "10.1038/s41467-024-55134-9",
+      "title": "Orthogonal and multiplexable genetic perturbations with an engineered prime editor and a diverse RNA array.",
+      "journal": "Nature communications",
+      "year": 2024,
+      "abstract": "Programmable and modular systems capable of orthogonal genomic and transcriptomic perturbations are crucial for biological research and treating human genetic diseases. Here, we present the minimal versatile genetic perturbation technology (mvGPT), a flexible toolkit designed for simultaneous and orthogonal gene editing, activation, and repression in human cells. The mvGPT combines an engineered compact prime editor (PE), a fusion activator MS2-p65-HSF1 (MPH), and a drive-and-process multiplex array that produces RNAs tailored to different types of genetic perturbation. mvGPT can precisely edit human genome via PE coupled with a prime editing guide RNA and a nicking guide RNA, activate endogenous gene expression using PE with a truncated single guide RNA containing MPH-recruiting MS2 aptamers, and silence endogenous gene expression via RNA interference with a short-hairpin RNA. We showcase the versatility of mvGPT by simultaneously correcting a c.3207C>A mutation in the ATP7B gene linked to Wilson's disease, upregulating the PDX1 gene expression to potentially treat Type I diabetes, and suppressing the TTR gene to manage transthyretin amyloidosis. In addition to plasmid delivery, we successfully utilize various methods to deliver the mvGPT payload, demonstrating its potential for future in vivo applications.",
+      "language": "en",
+      "relevance_score": 2.6,
+      "matched_aliases": [
+        "ATP7B p.H1069Q"
+      ],
+      "is_case_report": false,
+      "is_functional_study": false
+    }
+  ],
+  "alias_hash": "313a1a58e633136e"
+}

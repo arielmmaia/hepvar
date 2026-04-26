@@ -1,0 +1,435 @@
+{
+  "count": 10,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "metadata": {
+        "accession": "cd07221",
+        "name": "Patatin-like phospholipase domain containing protein 3",
+        "source_database": "cdd",
+        "type": "domain",
+        "integrated": "IPR039185",
+        "member_databases": null,
+        "go_terms": null
+      },
+      "proteins": [
+        {
+          "accession": "q9nst1",
+          "protein_length": 481,
+          "source_database": "reviewed",
+          "organism": "9606",
+          "in_alphafold": true,
+          "in_bfvd": false,
+          "entry_protein_locations": [
+            {
+              "fragments": [
+                {
+                  "start": 8,
+                  "end": 259,
+                  "dc-status": "CONTINUOUS"
+                }
+              ],
+              "representative": false,
+              "model": "cd07221",
+              "score": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "accession": "G3DSA:3.40.1090.10",
+        "name": "Cytosolic phospholipase A2 catalytic domain",
+        "source_database": "cathgene3d",
+        "type": "homologous_superfamily",
+        "integrated": null,
+        "member_databases": null,
+        "go_terms": null
+      },
+      "proteins": [
+        {
+          "accession": "q9nst1",
+          "protein_length": 481,
+          "source_database": "reviewed",
+          "organism": "9606",
+          "in_alphafold": true,
+          "in_bfvd": false,
+          "entry_protein_locations": [
+            {
+              "fragments": [
+                {
+                  "start": 6,
+                  "end": 94,
+                  "dc-status": "CONTINUOUS"
+                }
+              ],
+              "representative": false,
+              "model": "4akfA01",
+              "score": 3.2e-08
+            },
+            {
+              "fragments": [
+                {
+                  "start": 95,
+                  "end": 252,
+                  "dc-status": "CONTINUOUS"
+                }
+              ],
+              "representative": false,
+              "model": "4akfA01",
+              "score": 1.2e-13
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "accession": "IPR002641",
+        "name": "Patatin-like phospholipase domain",
+        "source_database": "interpro",
+        "type": "domain",
+        "integrated": null,
+        "member_databases": {
+          "profile": {
+            "PS51635": "Patatin-like phospholipase (PNPLA) domain profile"
+          },
+          "pfam": {
+            "PF01734": "Patatin-like phospholipase"
+          }
+        },
+        "go_terms": [
+          {
+            "identifier": "GO:0006629",
+            "name": "lipid metabolic process",
+            "category": {
+              "code": "P",
+              "name": "biological_process"
+            }
+          }
+        ]
+      },
+      "proteins": [
+        {
+          "accession": "q9nst1",
+          "protein_length": 481,
+          "source_database": "reviewed",
+          "organism": "9606",
+          "in_alphafold": true,
+          "in_bfvd": false,
+          "entry_protein_locations": [
+            {
+              "fragments": [
+                {
+                  "start": 10,
+                  "end": 179,
+                  "dc-status": "CONTINUOUS"
+                }
+              ],
+              "representative": false,
+              "model": null,
+              "score": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "accession": "IPR016035",
+        "name": "Acyl transferase/acyl hydrolase/lysophospholipase",
+        "source_database": "interpro",
+        "type": "homologous_superfamily",
+        "integrated": null,
+        "member_databases": {
+          "ssf": {
+            "SSF52151": "FabD/lysophospholipase-like"
+          }
+        },
+        "go_terms": null
+      },
+      "proteins": [
+        {
+          "accession": "q9nst1",
+          "protein_length": 481,
+          "source_database": "reviewed",
+          "organism": "9606",
+          "in_alphafold": true,
+          "in_bfvd": false,
+          "entry_protein_locations": [
+            {
+              "fragments": [
+                {
+                  "start": 8,
+                  "end": 260,
+                  "dc-status": "CONTINUOUS"
+                }
+              ],
+              "representative": false,
+              "model": null,
+              "score": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "accession": "IPR033562",
+        "name": "Patatin-like phospholipase domain-containing protein",
+        "source_database": "interpro",
+        "type": "family",
+        "integrated": null,
+        "member_databases": {
+          "panther": {
+            "PTHR12406": "CALCIUM-INDEPENDENT PHOSPHOLIPASE A2 IPLA2 -RELATED"
+          }
+        },
+        "go_terms": [
+          {
+            "identifier": "GO:0016787",
+            "name": "hydrolase activity",
+            "category": {
+              "code": "F",
+              "name": "molecular_function"
+            }
+          },
+          {
+            "identifier": "GO:0016042",
+            "name": "lipid catabolic process",
+            "category": {
+              "code": "P",
+              "name": "biological_process"
+            }
+          }
+        ]
+      },
+      "proteins": [
+        {
+          "accession": "q9nst1",
+          "protein_length": 481,
+          "source_database": "reviewed",
+          "organism": "9606",
+          "in_alphafold": true,
+          "in_bfvd": false,
+          "entry_protein_locations": [
+            {
+              "fragments": [
+                {
+                  "start": 5,
+                  "end": 353,
+                  "dc-status": "CONTINUOUS"
+                }
+              ],
+              "representative": false,
+              "model": null,
+              "score": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "accession": "IPR039185",
+        "name": "1-acylglycerol-3-phosphate O-acyltransferase PNPLA3",
+        "source_database": "interpro",
+        "type": "family",
+        "integrated": null,
+        "member_databases": {
+          "cdd": {
+            "cd07221": "Patatin-like phospholipase domain containing protein 3"
+          }
+        },
+        "go_terms": [
+          {
+            "identifier": "GO:0003841",
+            "name": "1-acylglycerol-3-phosphate O-acyltransferase activity",
+            "category": {
+              "code": "F",
+              "name": "molecular_function"
+            }
+          },
+          {
+            "identifier": "GO:0019433",
+            "name": "triglyceride catabolic process",
+            "category": {
+              "code": "P",
+              "name": "biological_process"
+            }
+          }
+        ]
+      },
+      "proteins": [
+        {
+          "accession": "q9nst1",
+          "protein_length": 481,
+          "source_database": "reviewed",
+          "organism": "9606",
+          "in_alphafold": true,
+          "in_bfvd": false,
+          "entry_protein_locations": [
+            {
+              "fragments": [
+                {
+                  "start": 8,
+                  "end": 259,
+                  "dc-status": "CONTINUOUS"
+                }
+              ],
+              "representative": false,
+              "model": null,
+              "score": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "accession": "PF01734",
+        "name": "Patatin-like phospholipase",
+        "source_database": "pfam",
+        "type": "domain",
+        "integrated": "IPR002641",
+        "member_databases": null,
+        "go_terms": null
+      },
+      "proteins": [
+        {
+          "accession": "q9nst1",
+          "protein_length": 481,
+          "source_database": "reviewed",
+          "organism": "9606",
+          "in_alphafold": true,
+          "in_bfvd": false,
+          "entry_protein_locations": [
+            {
+              "fragments": [
+                {
+                  "start": 10,
+                  "end": 178,
+                  "dc-status": "CONTINUOUS"
+                }
+              ],
+              "representative": false,
+              "model": "PF01734",
+              "score": 1.2e-19
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "accession": "PS51635",
+        "name": "Patatin-like phospholipase (PNPLA) domain profile",
+        "source_database": "profile",
+        "type": "domain",
+        "integrated": "IPR002641",
+        "member_databases": null,
+        "go_terms": null
+      },
+      "proteins": [
+        {
+          "accession": "q9nst1",
+          "protein_length": 481,
+          "source_database": "reviewed",
+          "organism": "9606",
+          "in_alphafold": true,
+          "in_bfvd": false,
+          "entry_protein_locations": [
+            {
+              "fragments": [
+                {
+                  "start": 10,
+                  "end": 179,
+                  "dc-status": "CONTINUOUS"
+                }
+              ],
+              "representative": false,
+              "model": "PS51635",
+              "score": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "accession": "PTHR12406",
+        "name": "CALCIUM-INDEPENDENT PHOSPHOLIPASE A2 IPLA2 -RELATED",
+        "source_database": "panther",
+        "type": "family",
+        "integrated": "IPR033562",
+        "member_databases": null,
+        "go_terms": null
+      },
+      "proteins": [
+        {
+          "accession": "q9nst1",
+          "protein_length": 481,
+          "source_database": "reviewed",
+          "organism": "9606",
+          "in_alphafold": true,
+          "in_bfvd": false,
+          "entry_protein_locations": [
+            {
+              "fragments": [
+                {
+                  "start": 5,
+                  "end": 353,
+                  "dc-status": "CONTINUOUS"
+                }
+              ],
+              "representative": true,
+              "model": "PTHR12406:SF22",
+              "score": 3.4e-100,
+              "subfamily": {
+                "accession": "PTHR12406:SF22",
+                "name": "1-ACYLGLYCEROL-3-PHOSPHATE O-ACYLTRANSFERASE PNPLA3"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "accession": "SSF52151",
+        "name": "FabD/lysophospholipase-like",
+        "source_database": "ssf",
+        "type": "homologous_superfamily",
+        "integrated": "IPR016035",
+        "member_databases": null,
+        "go_terms": null
+      },
+      "proteins": [
+        {
+          "accession": "q9nst1",
+          "protein_length": 481,
+          "source_database": "reviewed",
+          "organism": "9606",
+          "in_alphafold": true,
+          "in_bfvd": false,
+          "entry_protein_locations": [
+            {
+              "fragments": [
+                {
+                  "start": 8,
+                  "end": 260,
+                  "dc-status": "CONTINUOUS"
+                }
+              ],
+              "representative": true,
+              "model": "0048659",
+              "score": 7.85e-46
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

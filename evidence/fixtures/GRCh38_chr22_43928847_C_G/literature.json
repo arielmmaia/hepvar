@@ -1,0 +1,377 @@
+{
+  "hits": [
+    {
+      "pmid": "41118258",
+      "doi": "10.1172/jci.insight.193805",
+      "title": "PNPLA3-I148M genetic variant rewires lipid metabolism to drive programmed cell death in human hepatocytes.",
+      "journal": "JCI insight",
+      "year": 2025,
+      "abstract": "Genetic variants in lipid metabolism influence the risk of developing metabolic dysfunction-associated steatotic liver disease (MASLD), cirrhosis, and end-stage liver disease (ESLD). The mechanisms by which these variants drive disease are poorly understood. Because of the PNPLA3-I148M variant's strong correlation with all stages of the MASLD spectrum and the lack of tractable therapeutic targets, we sought to understand its impact on cellular function and liver metabolism. Primary human hepatocytes (HAHs) and induced pluripotent stem cell-derived (iPSC-derived) hepatocytes (iHeps) from healthy individuals possessing the PNPLA3-I148M mutation were characterized for changes in lipid metabolism, cellular stress, and survival. Using lipidomics, metabolomics, stable isotope tracing, and flux propensity analysis, we created a comprehensive metabolic profile of the changes associated with the PNPLA3-I148M variant. Functional analysis showed that the presence of the PNPLA3-I148M variant increased endoplasmic reticulum stress, mitochondrial dysfunction, and peroxisomal \u03b2-oxidation, ultimately leading to cell death via ferroptosis. Nutritional interventions, ferroptosis-specific inhibitors, and genetic approaches modulating GPX4 activity in PNPLA3-I148M HAHs and iHeps decreased programmed cell death. Our findings indicate that therapies targeting ferroptosis in patients carrying the PNPLA3-I148M variant could affect the development of MASLD and ESLD and highlight the utility of iPSC-based models for the study of genetic contributions to hepatic disorders.",
+      "language": "en",
+      "relevance_score": 5.0,
+      "matched_aliases": [
+        "PNPLA3 I148M"
+      ],
+      "is_case_report": false,
+      "is_functional_study": true
+    },
+    {
+      "pmid": "37749332",
+      "doi": "10.1038/s41591-023-02553-8",
+      "title": "Interaction between estrogen receptor-\u03b1 and PNPLA3 p.I148M variant drives fatty liver disease susceptibility in women.",
+      "journal": "Nature medicine",
+      "year": 2023,
+      "abstract": "Fatty liver disease (FLD) caused by metabolic dysfunction is the leading cause of liver disease and the prevalence is rising, especially in women. Although during reproductive age women are protected against FLD, for still unknown and understudied reasons some develop rapidly progressive disease at the menopause. The patatin-like phospholipase domain-containing 3 (PNPLA3) p.I148M variant accounts for the largest fraction of inherited FLD variability. In the present study, we show that there is a specific multiplicative interaction between female sex and PNPLA3 p.I148M in determining FLD in at-risk individuals (steatosis and fibrosis, P\u2009<\u200910<sup>-10</sup>; advanced fibrosis/hepatocellular carcinoma, P\u2009=\u20090.034) and in the general population (P\u2009<\u200910<sup>-7</sup> for alanine transaminase levels). In individuals with obesity, hepatic PNPLA3 expression was higher in women than in men (P\u2009=\u20090.007) and in mice correlated with estrogen levels. In human hepatocytes and liver organoids, PNPLA3 was induced by estrogen receptor-\u03b1 (ER-\u03b1) agonists. By chromatin immunoprecipitation and luciferase assays, we identified and characterized an ER-\u03b1-binding site within a PNPLA3 enhancer and demonstrated via CRISPR-Cas9 genome editing that this sequence drives PNPLA3 p.I148M upregulation, leading to lipid droplet accumulation and fibrogenesis in three-dimensional multilineage spheroids with stellate cells. These data suggest that a functional interaction between ER-\u03b1 and PNPLA3 p.I148M variant contributes to FLD in women.",
+      "language": "en",
+      "relevance_score": 5.0,
+      "matched_aliases": [
+        "PNPLA3 p.I148M"
+      ],
+      "is_case_report": false,
+      "is_functional_study": true
+    },
+    {
+      "pmid": "35433529",
+      "doi": "10.2147/jhc.s355540",
+      "title": "Impact of PNPLA3 p.I148M and Hepatic Steatosis on Long-Term Outcomes for Hepatocellular Carcinoma and HBsAg Seroclearance in Chronic Hepatitis B.",
+      "journal": "Journal of hepatocellular carcinoma",
+      "year": 2022,
+      "abstract": "<h4>Background</h4>Coexistence of hepatitis B and nonalcoholic fatty liver disease is common; however, little is known about the impact of hepatic steatosis and its major genetic determinants on the natural history of HBV infection. We aimed to study the effects of hepatic steatosis and PNPLA3 variant p.I148M on the risk of hepatocellular carcinoma (HCC) and the lifetime probability of HBsAg seroclearance, which is associated with functional remission and improved long-term outcome of HBV infection.<h4>Methods</h4>We conducted a cohort study of 2385 male, HBsAg-positive Taiwanese civil servants recruited in 1989-1992, and followed up until 2019. Cox regression with competing-risk models was used to estimate sub-distribution hazard ratios (sHRs) and 95% confidence intervals (CIs).<h4>Results</h4>Of 2385 participants, 628 experienced HBsAg seroclearance and 217 developed HCC. Hepatic steatosis, excess body-mass index, and the PNPLA3-148M variant were significantly associated with higher HBsAg seroclearance rate. However, multivariate analyses accounting for HBsAg seroclearance and various HCC risk factors showed that, while steatosis was associated with decreased HCC risk (sHR [95% CI]: 0.49 [0.36-0.66]), carriage of the PNPLA3-148M variant allele (vs II homozygotes: 1.64 [1.20-2.25] for MI heterozygotes; 1.83 [1.20-2.78] for MM homozygotes) and obesity (1.51 [1.07-2.13]) were associated with increased risk. The inverse hepatic steatosis-HCC association persisted after additional adjustment for other viral factors or using different follow-up time cut-offs to account for reverse causality. Moreover, the PNPLA3 MM genotype was positively associated with elevations of ALT and AST and liver cirrhosis, while hepatic steatosis was positively associated with ALT but inversely associated with AST and liver cirrhosis.<h4>Conclusion</h4>Hepatic steatosis and PNPLA3-148M variant appeared to have distinct impacts on the development of HBV-related progressive liver disease and HCC. PNPLA3 p.I148M, but not a diagnosis of hepatic steatosis, can help to identify HBV carriers with high-risk fatty liver disease in the progression to HCC.",
+      "language": "en",
+      "relevance_score": 5.0,
+      "matched_aliases": [
+        "PNPLA3 p.I148M"
+      ],
+      "is_case_report": false,
+      "is_functional_study": true
+    },
+    {
+      "pmid": null,
+      "doi": "10.21203/rs.3.rs-9203531/v1",
+      "title": "Analysis of TM6SF2, PNPLA3, and ATG16L1 Genetic Variants in MASLD and MASH: An Egyptian Case-control Study",
+      "journal": null,
+      "year": 2026,
+      "abstract": "<title>Abstract</title>  <p>  <bold>Background</bold>  Metabolic dysfunction associated steatotic liver disease (MASLD) and metabolic dysfunction associated steatohepatitis (MASH), represent complex metabolic liver diseases and a rapidly growing public health burden, particularly in Egypt. Genetic susceptibility plays a pivotal role in modulating disease progression. Variants in Patatin-like phospholipase domain-containing protein 3 (PNPLA3), transmembrane 6 superfamily member 2 (TM6SF2) and Autophagy Related 16-Like 1 (ATG16L1) are among the most relevant genetic determinants implicated in hepatic lipid metabolism, autophagy regulation, and hepatocellular injury. The interplay between these genetic variants and metabolic stress regulators is increasingly recognized as central to disease heterogeneity.  <bold>Aims</bold>  This case-control study aimed to provide an integrative evaluation of these genetic variants, elucidating their biochemical associations, and mechanistic roles in MASLD and MASH.  <bold>Methodology:</bold>  150 patients with fibroscan-confirmed MASLD, 150 with MASH and 150 healthy controls were genotyped for PNPLA3 (rs738409), TM6SF2 (rs58542926), and ATG16L1 (rs2241880) using real-time TaqMan assays. Genotypic data were correlated with liver injury biomarkers, lipid profiles, and insulin resistance indices.  <bold>Results</bold>  TM6SF2 (rs58542926) TT and CT genotypes, as well as PNPLA3 (rs738409) CG genotype were strongly associated with exacerbated hepatic steatosis and elevated biochemical markers of liver injury. The G allele of ATG16L1 demonstrated modulatory effects on autophagy-related inflammatory pathways. PNPLA3 and ATG16L1 exert complementary and additive effects on hepatic fat accumulation and metabolic derangements.  <bold>Conclusions</bold>  The investigated genetic variants showed exhibited biochemical signatures influencing hepatic fat accumulation, autophagy activity, inflammatory response, and fibrosis progression among Egyptian patients. Functional insights were integrated to illuminate how these variants shape disease pathophysiology.  <bold>Clinical trial registration</bold>  Not applicable.  </p>",
+      "language": "en",
+      "relevance_score": 5.0,
+      "matched_aliases": [
+        "rs738409"
+      ],
+      "is_case_report": false,
+      "is_functional_study": true
+    },
+    {
+      "pmid": "36684893",
+      "doi": "10.3389/fpubh.2022.1090101",
+      "title": "Communicating <i>PNPLA3</i> genetic risk status for NAFLD among Mexican-origin men.",
+      "journal": "Frontiers in public health",
+      "year": 2022,
+      "abstract": "<h4>Introduction</h4>The burden of non-alcoholic fatty liver disease (NAFLD) continues to disproportionately impact under-resourced communities in the U.S., particularly Mexican-origin populations. Genetic polymorphisms such as the rs738409 C/G variant in patatin-like phospholipase domain-containing 3 (<i>PNPLA3</i>) have been associated with higher prevalence of and progression along the NAFLD spectrum. This qualitative study conducted in the U.S. Southwest aimed to assess Mexican-origin men's experience receiving genetic testing for <i>PNPLA3</i> risk carrier status.<h4>Methods</h4>Semi-structured interviews were conducted with 17 Mexican-origin men whose NAFLD status and genetic predisposition were determined as part of a previous cross-sectional study. The interview guide included questions exploring participants' insights on how genetic risk status was delivered, how the information influenced their motivation for lifestyle modification to reduce NAFLD risk, and any knowledge sharing that occurred with family members after learning of their <i>PNPLA3</i> risk status. Interviews were conducted and audio recorded in English (<i>n</i> = 6) and Spanish (<i>n</i> = 11) and uploaded into NVivo software for data analysis and interpretation. Guided by the Health Belief Model, a thematic analysis approach was used to identify primary themes.<h4>Results</h4>Results highlighted men's preference for receiving this type of genetic risk information through a letter sent to their homes. General comprehension of <i>PNPLA3</i> risk status was deemed high and most men stated sharing their genetic predisposition to NAFLD with their immediate family members. Participants also indicated that family and awareness of this genetic risk acted as primary motivators for implementing behavior changes (e.g., diet, physical activity) toward the prevention of more severe liver conditions.<h4>Discussion</h4>Findings from this qualitative study suggest the feasibility of communicating genetic risk for NAFLD among Mexican-origin men. Future strategies for the dissemination of genetic risk results among Mexican-origin individuals should consider familial and cultural appropriate strategies.",
+      "language": "es",
+      "relevance_score": 3.5,
+      "matched_aliases": [],
+      "is_case_report": false,
+      "is_functional_study": false
+    },
+    {
+      "pmid": "41143242",
+      "doi": "10.1016/j.jhepr.2025.101539",
+      "title": "Artificial intelligence as a ploy to delve into the intricate link between genetics and mitochondria in patients with MASLD.",
+      "journal": "JHEP reports : innovation in hepatology",
+      "year": 2025,
+      "abstract": "<h4>Background & aims</h4>Mitochondrial (mt-) <i>D-loop</i> and cell-free circulating (ccf-) mtDNA fragments, respectively reflecting mt-mass and tissue damage, are promising metabolic dysfunction-associated steatotic liver disease (MASLD) biomarkers. We previously found that <i>PNPLA3</i>/<i>MBOAT7</i>/<i>TM6SF2</i> deficiency in HepG2 cells increased mt-mass, <i>D-loop</i> levels, and ccf-COXIII release. We explored mt-biogenesis and mt-biomarkers in patients with MASLD stratified by the number of risk variants (NRV = 3). We exploited GPT-4 to develop and validate new risk scores, predicting MASLD evolution, in two independent cohorts by integrating anthropometric and genetic data with mt-biomarkers.<h4>Methods</h4>A cohort of 28 patients with MASLD (Discovery cohort) was consecutively enrolled for hepatic mt-dynamics assessment by transmission electron microscopy and immunohistochemistry. Data were confirmed by quantitative real time-PCR in a retrospective cohort (Hepatic Validation, n = 184). <i>D-loop</i> and ccf-COXIII were retrospectively measured in peripheral blood mononuclear cells and serum samples of biopsied outpatients with MASLD (Serum Validation cohort, n = 824) and individuals with non-invasive MASLD diagnosis (n = 386, Non-invasive cohort). Risk scores were developed using random forest algorithms.<h4>Results</h4>In the Discovery and Hepatic Validation cohorts, the <i>PNPLA3</i>/<i>MBOAT7</i>/<i>TM6SF2</i> variants altered hepatic mt-dynamics, enhancing mt-content and <i>D-loop</i> levels (<i>p</i> <0.05) through the p38/PGC-1\u03b1 pathway. Furthermore, NRV = 3 patients showed an increase in mt-fragmentation at transmission electron microscopy (TEM) and ccf-COXIII release (<i>p</i> <0.05). In the Serum Validation cohort, circulating <i>D-loop</i> and ccf-COXIII positively correlated with genetics [\u03b2 <sub><i>D-loop</i></sub> :0.17 (95% CI: 0.04-0.29), <i>p</i> = 0.01; \u03b2<sub>ccf-COXIII</sub>:0.33 (95% CI: 0.19-0.46), <i>p</i> <0.0001] and MASLD severity [OR <sub><i>D-loop</i></sub> :1.31 (95% CI: 1.01-1.71), <i>p</i> = 0.03; OR<sub>ccf-COXIII</sub>:2.41 (95% CI: 1.69-3.44), <i>p</i> <0.0001] at multivariate analysis. Random forest allowed prediction models named Mitochondrial, Anthropometric, and Genetic Integration with Computational intelligence for assessing hepatocellular carcinoma risk (MAGIC-H), considering age, BMI genetics, <i>D-loop</i>, and ccf-COXIII. In both Serum and Non-invasive cohorts, the MAGIC-H score reached AUC >85% in identifying HCC cases regardless of cirrhosis, outperforming existing non-invasive tests.<h4>Conclusions</h4>Mt-biomarkers have a prognostic significance in genetically-predisposed patients with MASLD.<h4>Impact and implications</h4>The study highlights that genetic variants in <i>PNPLA3</i>, <i>MBOAT7</i>, and <i>TM6SF2</i> genes deeply contribute to metabolic dysfunction-associated steatotic liver disease (MASLD) progression by affecting hepatic mitochondrial adaptability. It also identified two novel biomarkers of mitochondrial origin which are strongly linked to disease severity and genetic background of patients with MASLD. The use of generative artificial intelligence tools, such as GPT-4, can enhance the use of biomarkers and polygenic risk scores for clinical risk stratification. We developed a customized version of GPT-4 (rsGPT-4), which identified a machine-learning approach (random forest) as the best method for creating prediction models for metabolic dysfunction-associated steatohepatitis, fibrosis, and hepatocellular carcinoma. The new scores combined the two mitochondrial biomarkers, genetic data, and anthropometric data and outperformed existing non-invasive tests for monitoring patients with MASLD.",
+      "language": "it",
+      "relevance_score": 3.5,
+      "matched_aliases": [],
+      "is_case_report": false,
+      "is_functional_study": false
+    },
+    {
+      "pmid": "39125390",
+      "doi": "10.3390/nu16152510",
+      "title": "The Outcome of Metabolic and Bariatric Surgery in Morbidly Obese Patients with Different Genetic Variants Associated with Obesity: A Systematic Review.",
+      "journal": "Nutrients",
+      "year": 2024,
+      "abstract": "Metabolic and bariatric surgery (MBS) effectively treats obesity and related comorbidities, though individual responses vary. This systematic review examines how genetic variants influence MBS outcomes in morbidly obese patients. A comprehensive search in PubMed, Embase, Medline, and the Cochrane Library identified 1572 studies, with 52 meeting the inclusion criteria. Two reviewers independently filtered and selected studies, including relevant cross-references. Research focused on polymorphisms in genes such as UCP2, UCP3, 5-HT2C, MC4R, FKBP5, FTO, CAT haplotypes, LYPAL-1, PTEN, FABP-2, CNR1, LEP656, LEP223, GLP-1R, APOA-1, APOE, ADIPOQ, IL-6, PGC1a, TM6SF2, MBOAT7, PNPLA3, TCF7L2, ESR1, GHSR, GHRL, CD40L, DIO2, ACSL5, CG, TAS2R38, CD36, OBPIIa, NPY, BDNF, CLOCK, and CAMKK2. Most studies explored associations with post-surgery weight loss, while some examined metabolic, cardiovascular, taste, and eating behavior effects as well. Understanding the role of genetic factors in weight loss and metabolic outcomes post-MBS can help tailor personalized treatment plans for improved efficacy and long-term success. Further research with larger sample sizes and extended follow-up is needed to clarify the effects of many genetic variants on MBS outcomes in morbidly obese patients.",
+      "language": "it",
+      "relevance_score": 3.5,
+      "matched_aliases": [],
+      "is_case_report": false,
+      "is_functional_study": false
+    },
+    {
+      "pmid": "38322111",
+      "doi": "10.1177/20420188241227766",
+      "title": "Liver Biopsy Handling of Metabolic-Associated Fatty Liver Disease (MAFLD): the Children's Hospital of Eastern Ontario grossing protocol.",
+      "journal": "Therapeutic advances in endocrinology and metabolism",
+      "year": 2024,
+      "abstract": "Metabolic-(non-alcoholic) associated fatty liver disease (MAFLD/NAFLD) has increasingly become a worldwide epidemic. It has been suggested that renaming NAFLD to MAFLD is critical in identifying patients with advanced fibrosis and poor cardiovascular outcomes. There are concerns that the progression to non-alcoholic steatohepatitis (NASH) may become a constant drive in the future healthcare of children and adolescents. There is a necessity to tackle the emerging risk factors for NASH-associated hepatocellular carcinoma (HCC). In this narrative review, we present the current protocol of liver biopsy separated between pre-analytical, analytical, and post-analytical handling. Genetic association investigations have identified single nucleotide polymorphisms implicated in the progression of MAFLD-HCC, many of which seem to belong to the lipid metabolism pathways. PNPLA3 rs738409 variant, TM6SF2 rs58542926 variant, MBOAT7 rs641738 variant, and GCKR variants seem to be significantly associated with NAFLD disease susceptibility. In disclosing the current comprehensive protocol performed at the Children's Hospital of Eastern Ontario, Ottawa, ON, Canada, we support the most recent Kulkarni-Sarin's pledge to rename NAFLD to MAFLD. Grossing of the liver biopsy is key to identifying histologic, immunophenotypical, and ultrastructure data and properly preserving tissue for molecular genomics data.",
+      "language": "fr",
+      "relevance_score": 3.5,
+      "matched_aliases": [],
+      "is_case_report": false,
+      "is_functional_study": false
+    },
+    {
+      "pmid": "41457599",
+      "doi": "10.13345/j.cjb.250434",
+      "title": "[PNPLA3 gene I148M polymorphism induces hepatic fibrosis via cholesterol metabolic dysregulation in mice].",
+      "journal": "Sheng wu gong cheng xue bao = Chinese journal of biotechnology",
+      "year": 2025,
+      "abstract": null,
+      "language": "ch",
+      "relevance_score": 2.5,
+      "matched_aliases": [
+        "PNPLA3 I148M",
+        "PNPLA3 Ile148Met",
+        "PNPLA3 p.I148M",
+        "PNPLA3 p.Ile148Met",
+        "PNPLA3 c.444C>G",
+        "rs738409"
+      ],
+      "is_case_report": false,
+      "is_functional_study": false
+    },
+    {
+      "pmid": "40029157",
+      "doi": "10.1111/liv.70051",
+      "title": "PNPLA3 I148M and Hepatocellular Carcinoma.",
+      "journal": "Liver international : official journal of the International Association for the Study of the Liver",
+      "year": 2025,
+      "abstract": "Hepatocellular carcinoma (HCC) is the third leading cause of cancer-related death worldwide. With the widespread implementation of HBV vaccination and the availability of highly effective antiviral therapies, the incidence of metabolic dysfunction-associated steatotic liver disease (MASLD)-related HCC has proportionally increased. Notably, up to 20%-30% of MASLD-related HCC cases develop in the absence of overt cirrhosis. Several genetic variants, primarily in genes related to lipid metabolism, play a key role in HCC development in individuals with MASLD and alcohol-related liver disease. Among these, the rs738409 C>G polymorphism (I148M) in the patatin-like phospholipase domain-containing protein 3 (PNPLA3) gene is the strongest genetic factor predisposing to the entire spectrum of MASLD conditions, including cirrhosis and HCC. Importantly, combining PNPLA3 I148M with multiple genetic variants robustly associated with progressive liver disease (i.e., polygenic risk scores) improves risk stratification and prediction of HCC in at-risk individuals compared to the single variant alone. In this review, we will discuss the latest evidence on the epidemiology of HCC and the contribution of PNPLA3 and PNPLA3-based polygenic risk scores to the development of HCC in at-risk individuals.",
+      "language": "en",
+      "relevance_score": 2.0,
+      "matched_aliases": [
+        "PNPLA3 I148M"
+      ],
+      "is_case_report": false,
+      "is_functional_study": false
+    },
+    {
+      "pmid": "41046517",
+      "doi": "10.1016/j.celrep.2025.116371",
+      "title": "PNPLA3-I148M is a neomorph that interferes with two primary hepatic triglyceride clearance pathways.",
+      "journal": "Cell reports",
+      "year": 2025,
+      "abstract": "The common variant PNPLA3-I148M, globally, is the most significant genetic risk factor for fatty liver disease. However, it is unclear precisely how I148M drives disease risk. Using human hepatoma cells expressing endogenous I148M, we find that the variant impairs cellular secretion of apolipoprotein B (ApoB), the scaffolding protein of very-low-density lipoprotein (VLDL). This is not due to loss-of-function of wild-type PNPLA3. Expression of human I148M in primary hepatocytes and mice also hinders VLDL secretion. Lipidomic profiling reveals a shift from polyunsaturated phosphatidylcholine to polyunsaturated triglycerides in I148M cells, reducing membrane fluidity and, concomitantly, VLDL biogenesis. ApoB secretion is substantially rescued in I148M cells overexpressing ABHD5/CGI-58, an I148M-binding partner that normally activates ATGL/PNPLA2-mediated triglyceride lipolysis. Conversely, knocking down CGI-58 or PNPLA2 mimics I148M. We propose that I148M is a neomorph that exacerbates fatty liver risk by simultaneously impeding two major CGI-58-dependent pathways for liver triglyceride clearance: lipolysis and secretion.",
+      "language": "en",
+      "relevance_score": 2.0,
+      "matched_aliases": [
+        "PNPLA3 I148M"
+      ],
+      "is_case_report": false,
+      "is_functional_study": false
+    },
+    {
+      "pmid": "40851509",
+      "doi": "10.1111/liv.70287",
+      "title": "Impact of PNPLA3 I148M on Drug-Induced Hepatocellular Liver Injury: A Systematic Review and Meta-Analysis.",
+      "journal": "Liver international : official journal of the International Association for the Study of the Liver",
+      "year": 2025,
+      "abstract": "<h4>Background and aims</h4>The role of the patatin-like phospholipase domain-containing protein 3 (PNPLA3)-I148M variant in drug-induced liver injury (DILI) remains unclear. This systematic review with meta-analysis investigated whether carriage of PNPLA3 I148M may contribute to the development of hepatocellular DILI.<h4>Methods</h4>Scientific databases were searched up to January 31st, 2025 for studies investigating serum transaminase elevations in response to drug treatment. Studies were included if serum transaminases were elevated in at least one genetic subgroup (II/IM/MM), and the possible presence of relevant hepatocellular DILI was estimated based on Hy's law. The meta-analysis reported on any increase in transaminases compared to baseline levels.<h4>Results</h4>Eight articles covering thirteen studies with a total of 8235 patients were included in the systematic review, of which 5 studies comprising 3480 individuals were eligible for the meta-analysis. Patients were treated with small molecules (n\u2009=\u2009602), biologicals (n\u2009=\u20093221), or chemotherapeutic treatments (n\u2009=\u20094412). None of the studies reported conclusively more occurrence of relevant hepatocellular DILI based on PNPLA3 I148M carriage. The meta-analysis suggested amplified drug-induced transaminase elevations in response to adomeglivant and basal insulin peglispro in metabolically impaired individuals with PNPLA3-IM/MM compared to PNPLA3-II (odds ratio\u2009=\u20091.53, 95% CI\u2009=\u20091.22-1.92). None of the studies were primarily designed to detect the outcome of interest.<h4>Conclusions</h4>Low to no evidence suggests that carriage of PNPLA3 I148M confers susceptibility to develop clinically relevant hepatocellular DILI; although it may potentiate drug-induced transaminase elevations in response to adomeglivant and basal insulin peglispro in metabolically impaired individuals.",
+      "language": "en",
+      "relevance_score": 2.0,
+      "matched_aliases": [
+        "PNPLA3 I148M"
+      ],
+      "is_case_report": false,
+      "is_functional_study": false
+    },
+    {
+      "pmid": "41340406",
+      "doi": "10.17998/jlc.2025.11.16",
+      "title": "PNPLA3 I148M is unrelated to HCC occurrence but associates with poorer tumor differentiation in Korean MASLD: a prospective cohort of 562 patients.",
+      "journal": "Journal of liver cancer",
+      "year": 2026,
+      "abstract": "<h4>Backgrounds/aims</h4>The patatin-like phospholipase domain-containing protein 3 (PNPLA3) I148M variant has been implicated in metabolic dysfunction-associated steatotic liver disease (MASLD), but its role in hepatocellular carcinoma (HCC) development is unclear. This study examines the association between the PNPLA3 I148M variant and HCC occurrence.<h4>Methods</h4>A total of 562 MASLD patients, with and without HCC, were prospectively and consecutively enrolled at two universityaffiliated hospital between June 2024 and June 2025. Genomic DNA was extracted from buccal swabs or liver biopsy samples, and single nucleotide polymorphism genotyping was performed to determine the rs738409 genotype at codon 148 of PNPLA3. The histological grade of HCC was assessed using the Edmondson-Steiner (ES) grading system in patients who underwent core-needle liver biopsy.<h4>Results</h4>Among 474 non-HCC patients, the GG genotype was found in 39.9%, GC in 37.1%, and CC in 23.0%. In 88 HCC patients, these frequencies were 45.5%, 36.4%, and 18.2%, respectively. No significant differences in GG genotype distribution were observed between HCC and non-HCC groups (P=0.509), nor in subgroups by sex, age, obesity status, cirrhosis status, fibrosis-4 index, or liver stiffness measurement. However, among HCC patients with histological grading, the GG genotype was significantly associated with higher ES grades (P=0.0076).<h4>Conclusions</h4>The PNPLA3 I148M GG genotype was not significantly associated with increased HCC occurrence in Korean MASLD patients within the present cohort. Although the GG genotype is known to play a role in development and progression of MASLD, further studies are warranted to clarify its contribution to tumor initiation and dedifferentiation.",
+      "language": "en",
+      "relevance_score": 2.0,
+      "matched_aliases": [
+        "PNPLA3 I148M"
+      ],
+      "is_case_report": false,
+      "is_functional_study": false
+    },
+    {
+      "pmid": "39262132",
+      "doi": "10.1111/liv.16088",
+      "title": "Sex-specific effects of PNPLA3 I148M.",
+      "journal": "Liver international : official journal of the International Association for the Study of the Liver",
+      "year": 2025,
+      "abstract": "Metabolic dysfunction-associated steatotic liver disease (MASLD, previously termed NAFLD, nonalcoholic fatty liver disease) is a complex multifactorial disease showing generally higher prevalence and severity in men than in women. With respect to women, men are also more prone to develop metabolic dysfunction-associated steatohepatitis, fibrosis and liver-related complications. Several genetic, hormonal, environmental and lifestyle factors may contribute to sex differences in MASLD development, progression and outcomes. However, after menopause, the sex-specific prevalence of MASLD shows an opposite trend between men and women, pointing to the relevance of oestrogen signalling in the sexual dimorphism of MASLD. The patatin-like phospholipase domain-containing protein 3 (PNPLA3) gene, that encodes a triacylglycerol lipase that plays a crucial role in lipid metabolism, has emerged as a key player in the pathogenesis of MASLD, with the I148M variant being strongly associated with increased liver fat content and disease severity. Recent advances indicate that carrying the PNPLA3 I148M variant can be a risk factor for MASLD especially for women. To elucidate the molecular mechanisms underlying the sex-specific role of PNPLA3 I148M in the development of MASLD, several in\u00a0vitro, ex\u00a0vivo and in\u00a0vivo models have been developed.",
+      "language": "en",
+      "relevance_score": 2.0,
+      "matched_aliases": [
+        "PNPLA3 I148M"
+      ],
+      "is_case_report": false,
+      "is_functional_study": false
+    },
+    {
+      "pmid": "41244049",
+      "doi": "10.3389/fendo.2025.1689656",
+      "title": "<i>PNPLA3</i>-Ile148Met and <i>TM6SF2</i>-Glu167Lys increase susceptibility to metabolic dysfunction-associated steatotic liver disease in children.",
+      "journal": "Frontiers in endocrinology",
+      "year": 2025,
+      "abstract": "<h4>Background</h4>With the rising global prevalence of childhood obesity, the incidence of metabolic dysfunction-associated steatotic liver disease (MASLD) in pediatric and adolescent populations is also increasing. The genetic mechanisms underlying MASLD remain incompletely elucidated. This study aimed to investigate the roles of eight genetic loci-<i>PNPLA3</i>-Ile148Met, <i>PNPLA3</i>-Lys434Glu, <i>GCKR</i>-Leu446Pro, <i>TM6SF2</i>-Glu167Lys, <i>LEPR</i>-Lys109Arg, <i>LEPR</i>-Lys656Asn, <i>IRS1</i>-Gly971Arg, and <i>KLB</i>-Arg728Gln-in the susceptibility to MASLD in Chinese children and adolescents, in order to provide scientific evidence for genetic research on MASLD. We hypothesized that <i>PNPLA3</i>-Ile148Met and <i>TM6SF2</i>-Glu167Lys variants confer susceptibility to MASLD in children.<h4>Methods</h4>A total of 350 children and adolescents aged 7-17 years were enrolled, including 196 with MASLD (case group) and 154 healthy controls. Demographics, medical history, anthropometric measurements, and hepatic B-ultrasound data were collected. Fasting morning blood samples were obtained for biochemical analysis and genotyping. Statistical analyses included chi-square tests, Fisher's exact tests, and multivariate logistic regression to identify predictive factors for pediatric MASLD.<h4>Results</h4>The allele frequencies of <i>PNPLA3</i>-Ile148Met, <i>PNPLA3</i>-Lys434Glu, and <i>TM6SF2</i>-Glu167Lys were significantly higher in the MASLD group than in the control group (<i>PNPLA3</i>-Ile148Met and <i>TM6SF2</i>-Glu167Lys: both P_FDR < 0.001; <i>PNPLA3</i>-Lys434Glu: P_FDR=0.024), indicating an association with increased MASLD risk. In contrast, the allele frequencies of <i>GCKR</i>-Leu446Pro and <i>LEPR</i>-Lys109Arg were significantly lower in the MASLD group (P_FDR=0.009), suggesting potential protective effects. Multivariate logistic regression identified male sex, the <i>PNPLA3</i>-Ile148Met-GG genotype, and the <i>TM6SF2</i>-Glu167Lys-CT genotype as independent risk factors for MASLD. Additionally, carriers of the <i>PNPLA3</i> rs738409 GG genotype exhibited significantly higher levels of AST, ALT, and TC compared to those with the GC genotype (all P_FDR < 0.001).<h4>Conclusion</h4>The <i>PNPLA3</i>-Ile148Met and <i>TM6SF2</i>-Glu167Lys gene polymorphisms are independent risk factors that significantly increase the risk of MASLD in Chinese children. Additionally, the <i>PNPLA3</i>-Lys434Glu variant is associated with increased risk at the allele level. In contrast, <i>GCKR</i>-Leu446Pro and <i>LEPR</i>-Lys109Arg may confer protective effects. This study provides new evidence for genetic susceptibility to MASLD in the pediatric population.",
+      "language": "en",
+      "relevance_score": 2.0,
+      "matched_aliases": [
+        "PNPLA3 Ile148Met"
+      ],
+      "is_case_report": false,
+      "is_functional_study": false
+    },
+    {
+      "pmid": "41497303",
+      "doi": "10.4103/ijem.ijem_57_25",
+      "title": "Association of the Rs738409 Polymorphism in &lt;i&gt;PNPLA3&lt;/i&gt; with Development and Severity of Nonalcoholic Fatty Liver Disease.",
+      "journal": "Indian journal of endocrinology and metabolism",
+      "year": 2025,
+      "abstract": "<h4>Introduction</h4>Nonalcoholic fatty liver disease (NAFLD) is a common disorder with a complex aetiology. The polymorphic variant rs738409 in the <i>PNPLA3</i> gene has been reported to be associated with NAFLD among several ethnic populations. The present study aims to identify the potential association of rs738409 with NAFLD and correlate it with disease severity and biochemical parameters.<h4>Methods</h4>The Ile148Met variant was genotyped using polymerase chain reaction (PCR)-RFLP-based techniques among 99 NAFLD cases and 100 ethnicity-matched controls.<h4>Results</h4>We identified statistically significant differences in genotype and allele frequencies of rs738409 between cases and controls. The risk genotype and allele were associated with higher FIB-4 and controlled attenuation parameter (CAP) scores but not with liver stiffness measurement (LSM) values. The mean CAP score was significantly higher among carriers of the risk allele.<h4>Conclusion</h4>The Ile148Met variant of the <i>PNPLA3</i> gene is a predisposing risk factor for the development of NAFLD and is associated with increased severity of hepatic steatosis among the ethnic Bengali population of West Bengal.",
+      "language": "en",
+      "relevance_score": 2.0,
+      "matched_aliases": [
+        "PNPLA3 Ile148Met"
+      ],
+      "is_case_report": false,
+      "is_functional_study": false
+    },
+    {
+      "pmid": null,
+      "doi": "10.1101/2024.09.02.24312965",
+      "title": "Association of the rs738409 polymorphism in<i>PNPLA3</i>with development and severity of non-alcoholic fatty liver disease in ethnic Bengali population of West Bengal",
+      "journal": null,
+      "year": 2024,
+      "abstract": "<h4>ABSTRACT</h4> <h4>Background and Objectives</h4> Non-alcoholic Fatty Liver Disease (NAFLD) is a common disorder with a complex etiology. Polymorphic variant rs738409 (Ile148Met) in the PNPLA3 gene has been reported to be associated with NAFLD among several ethnic populations. The present study aims to identify the potential association of this PNPLA3 gene variant with NAFLD among the ethnic Bengali population of West Bengal and correlate it with disease severity and biochemical parameters. <h4>Materials and Methods</h4> The Ile148Met variant was genotyped among 99 clinically diagnosed NAFLD cases and 100 ethnicity-matched controls from West Bengal using PCR-RFLP-based techniques. <h4>Results</h4> We identify statistically significant differences in genotype and allele frequencies of rs738409 between NAFLD cases and controls (P = 0.001 & 0.0057). The frequency distribution of risk genotype (GG) and risk allele (G allele) was significantly associated with a higher FIB-4 score (P = 0.0251) and Controlled Attenuation Parameter (CAP) score (P = 0.0072) but not with Liver Stiffness Measurement (LSM) value. The mean CAP score was significantly higher among the risk allele (G allele) carrier than the \u2018C\u2019 allele carrier (272.49\u00b151.99 vs 247.38\u00b149.46; P = 0.0328). In patients with NAFLD, the CC genotype was associated with a higher level of total bilirubin (P = 0.0189). <h4>Conclusion</h4> The Ile148Met variant of the PNPLA3 gene is a predisposing risk factor for the development of NAFLD and is associated with increased severity of hepatic steatosis among the ethnic Bengali population of West Bengal.",
+      "language": "en",
+      "relevance_score": 2.0,
+      "matched_aliases": [
+        "PNPLA3 Ile148Met"
+      ],
+      "is_case_report": false,
+      "is_functional_study": false
+    },
+    {
+      "pmid": "40650184",
+      "doi": "10.3390/ijms26136406",
+      "title": "Polymorphism's MBOAT7 as Risk and MTARC1 as Protection for Liver Fibrosis in MASLD.",
+      "journal": "International journal of molecular sciences",
+      "year": 2025,
+      "abstract": "Previous large-scale genetic studies identified single-nucleotide polymorphisms (SNPs) of the membrane bound O-acyltransferase domain containing 7 (MBOAT7) and patatin-like phospholipase domain containing 3 (PNPLA3) genes as risk factors for metabolic dysfunction-associated steatotic liver disease (MASLD). However, this has not yet been investigated in Brazilian patients. In this study, we evaluated the association between the PNPLA3 variant rs738409 and MBOAT7 variant rs641738 and the risk of hepatic fibrosis or liver cirrhosis in MASLD etiology. In parallel, we also aimed to evaluate a protective SNP of the mitochondrial amidoxime-reducing component 1 (MTARC1) gene. We also evaluated TM6SF2 rs58542926, GCKR rs1260326 and rs780094, and HSD17B13 rs72613567 and they were not associated with liver fibrosis. The study was conducted at the Department of Gastroenterology and Nutrology, Hospital das Cl\u00ednicas da Faculdade de Medicina da Universidade de S\u00e3o Paulo (HCFMUSP), and included 113 patients with liver fibrosis (F0-F1), 99 patients with significant liver fibrosis (F2-F4), and 90 controls. SNPs were genotyped by quantitative PCR, using TaqMan allelic discrimination assays. Overall, the PNPLA3 GG genotype was more frequent in F2-F4 (23%) and F0-F1 (22%) patients than in controls (9%; <i>p</i> = 0.02). The MBOAT7 TT genotype was significantly associated with fibrosis, with a prevalence of 23% in F2-F4 patients versus 10% in F0-F1 and 11% in controls (<i>p</i> = 0.01). This association was confirmed by regression analysis (OR = 5.01 95% CI: 1.86-13.49; <i>p</i> = 1.41 \u00d7 10<sup>-3</sup>). The protective MTARC1 AA genotypes were more frequent in controls (52%) when compared to patients with fibrosis (5% <i>p</i> = 2.76 \u00d7 10<sup>-20</sup>).",
+      "language": "en",
+      "relevance_score": 2.0,
+      "matched_aliases": [
+        "PNPLA3 Ile148Met"
+      ],
+      "is_case_report": false,
+      "is_functional_study": false
+    },
+    {
+      "pmid": "36947711",
+      "doi": "10.1111/apt.17477",
+      "title": "Adverse effect of PNPLA3 p.I148M genetic variant on kidney function in middle-aged individuals with metabolic dysfunction.",
+      "journal": "Alimentary pharmacology & therapeutics",
+      "year": 2023,
+      "abstract": "<h4>Background</h4>The PNPLA3 p.I148M variant is the main genetic determinant of nonalcoholic fatty liver disease, and PNPLA3 silencing is being evaluated to treat this liver condition. Data suggest that the p.I148M variant predisposes to kidney damage, but the relative contribution to kidney function, compared to overall genetic susceptibility, is not defined.<h4>Aims</h4>We aimed to assess the effect of PNPLA3 p.I148M on the estimated glomerular filtration rate (eGFR) in individuals with metabolic dysfunction.<h4>Methods</h4>We included 1144 middle-aged individuals from the Liver-Bible-2022 cohort. Glomerular filtration rate (eGFR) was estimated using the Chronic Kidney Disease Epidemiology Collaboration equation. The effect of PNPLA3 p.I148M on eGFR<sub>CKD-EPI</sub> levels was tested under additive genetic models adjusted for clinical predictors, ethnicity and a polygenic risk score of chronic kidney disease (PRS-CKD). In a subset of 144 individuals, we examined the effect of PNPLA3 p.I148M on eGFR<sub>CKD-EPI</sub> over a median follow-up of 17\u2009months.<h4>Results</h4>The p.I148M variant was associated with lower eGFR<sub>CKD-EPI</sub> levels (-1.24\u2009mL/min/1.73\u2009m<sup>2</sup> per allele, 95% CI: -2.32 to -0.17; p\u00a0=\u00a00.023), independent of age, sex, height, waist circumference, systolic blood pressure, LDL-cholesterol, transaminases, fasting insulin, albuminuria, lipid-lowering drugs, ethnicity and PRS-CKD score. In the prospective evaluation, the p.I148M variant was independently associated with faster eGFR<sub>CKD-EPI</sub> decline (\u0394eGFR<sub>CKD-EPI</sub> -3.57\u2009mL/min/1.73\u2009m<sup>2</sup> per allele, 95% CI: -6.94 to -0.21; p\u00a0=\u00a00.037).<h4>Conclusions</h4>We found a detrimental impact of the PNPLA3 p.I148M variant on eGFR<sub>CKD-EPI</sub> levels in middle-aged individuals with metabolic dysfunction. This association was independent of established risk factors, ethnicity and genetic predisposition to CKD. PNPLA3 p.I148M silencing may protect against kidney damage progression in carriers.",
+      "language": "en",
+      "relevance_score": 2.0,
+      "matched_aliases": [
+        "PNPLA3 p.I148M"
+      ],
+      "is_case_report": false,
+      "is_functional_study": false
+    },
+    {
+      "pmid": "31454802",
+      "doi": "10.1159/000502008",
+      "title": "Four-Week Omega-3 Supplementation in Carriers of the Prosteatotic PNPLA3 p.I148M Genetic Variant: An Open-Label Study.",
+      "journal": "Lifestyle genomics",
+      "year": 2019,
+      "abstract": "<h4>Background/aims</h4>The PNPLA3 loss-of-function variant p.I148M is a strong genetic determinant of nonalcoholic fatty liver disease. The PNPLA3 protein functions as an intracellular lipase in the liver, with a greater activity on unsaturated fatty acids. This study aimed to determine whether short-term supplementation with omega-3 fatty acids impacts hepatic steatosis differently in PNPLA3 p.148I wild-type individuals as compared to homozygous carriers of the PNPLA3 p.148M variant.<h4>Methods</h4>Twenty subjects with hepatic steatosis (50% women, age 18-77 years) were included. Ten subjects homozygous for the PNPLA3 148M variant were matched to 10 wild-type individuals. The subjects received 4\u00a0g omega-3 fatty acids (1,840 mg eicosapentaenoic acid and 1,520 mg docosahexaenoic acid) a day for 4 weeks. Transient elastography with a controlled attenuation parameter (CAP) was used to quantify liver fat before and after the intervention. Body composition, fibrosis, liver function tests, serum free fatty acids (FFA) and glucose markers were compared.<h4>Results</h4>Patients homozygous for the PNPLA3 p.148M variant (risk group) demonstrated no significant changes in CAP compared to baseline (284 \u00b1 55 vs. 287 \u00b1 65 dB/m) as did the control group (256 \u00b1 56 vs. 262 \u00b1 55 dB/m). While serum liver enzyme activities remained unchanged in both groups, the risk group displayed significantly (p = 0.02) lower baseline FFA concentrations (334.5 [range 281.0-431.0] vs. 564.5 [range 509.0-682.0] \u03bcmol/L), which markedly increased by 9.1% after the intervention. In contrast, FFA concentrations decreased significantly (p = 0.01) by 28.3% in the wild-type group.<h4>Conclusions</h4>Short-term omega-3 fatty acid supplementation did not significantly alter hepatic steatosis. The nutrigenomic and metabolic effects of omega-3 fatty acids should be investigated further in carriers of the PNPLA3 148M risk variant.",
+      "language": "en",
+      "relevance_score": 2.0,
+      "matched_aliases": [
+        "PNPLA3 p.I148M"
+      ],
+      "is_case_report": false,
+      "is_functional_study": false
+    },
+    {
+      "pmid": "40747912",
+      "doi": "10.1111/liv.70240",
+      "title": "Fifteen Years of PNPLA3: Transforming Hepatology Through Human Genetics.",
+      "journal": "Liver international : official journal of the International Association for the Study of the Liver",
+      "year": 2025,
+      "abstract": "Steatotic liver disease (SLD), caused by excess lipid accumulation in hepatocytes, is now a leading global liver condition triggered by metabolic dysfunction, alcohol, toxins and heritable factors. The main genetic determinant is the common PNPLA3 p.I148M variant, which explains a substantial portion of SLD interindividual and interethnic variability, up to a quarter of liability to cirrhosis and liver cancer in the general population. Discovered in 2008 through genome-wide association studies, this variant increases the risk of liver steatosis, inflammation, fibrosis and the risk of complications as hepatocellular carcinoma. Carriers, particularly homozygotes, show higher susceptibility to liver damage, with the variant interacting with environmental factors such as increased adiposity, diet, insulin resistance and female sex. Experimental models indicate a complex mechanistic impact, involving lipid transfer and retinoid metabolism. Phase 1 clinical trials exploring PNPLA3 inhibitors, such as siRNA and antisense oligonucleotides, are promising, demonstrating up to 40% reductions in hepatic fat and inflammation in homozygous carriers. These advances suggest that targeting PNPLA3 can pave the way for precision medicine in hepatology. Overall, the discovery of PNPLA3's role has significantly enhanced understanding of liver steatosis, steatohepatitis and potential therapeutic interventions, highlighting its importance as a therapeutic target for SLD.",
+      "language": "en",
+      "relevance_score": 2.0,
+      "matched_aliases": [
+        "PNPLA3 p.I148M"
+      ],
+      "is_case_report": false,
+      "is_functional_study": false
+    },
+    {
+      "pmid": "38632349",
+      "doi": "10.1038/s41588-024-01720-y",
+      "title": "Integrative common and rare variant analyses provide insights into the genetic architecture of liver cirrhosis.",
+      "journal": "Nature genetics",
+      "year": 2024,
+      "abstract": "We report a multi-ancestry genome-wide association study on liver cirrhosis and its associated endophenotypes, alanine aminotransferase (ALT) and \u03b3-glutamyl transferase. Using data from 12 cohorts, including 18,265 cases with cirrhosis, 1,782,047 controls, up to 1 million individuals with liver function tests and a validation cohort of 21,689 cases and 617,729 controls, we identify and validate 14 risk associations for cirrhosis. Many variants are located near genes involved in hepatic lipid metabolism. One of these, PNPLA3 p.Ile148Met, interacts with alcohol intake, obesity and diabetes on the risk of cirrhosis and hepatocellular carcinoma (HCC). We develop a polygenic risk score that associates with the progression from cirrhosis to HCC. By focusing on prioritized genes from common variant analyses, we find that rare coding variants in GPAM associate with lower ALT, supporting GPAM as a potential target for therapeutic inhibition. In conclusion, this study provides insights into the genetic underpinnings of cirrhosis.",
+      "language": "en",
+      "relevance_score": 2.0,
+      "matched_aliases": [
+        "PNPLA3 p.Ile148Met"
+      ],
+      "is_case_report": false,
+      "is_functional_study": false
+    },
+    {
+      "pmid": "40580198",
+      "doi": "10.1111/apt.70256",
+      "title": "Meta-Analysis: Effects of Steatotic Liver Disease-Associated Genetic Risk Alleles on Longitudinal Outcomes.",
+      "journal": "Alimentary pharmacology & therapeutics",
+      "year": 2025,
+      "abstract": "<h4>Background</h4>Genetic variants associated with risk of steatotic liver disease (SLD) may also influence clinical events.<h4>Aims</h4>To perform a systematic review and meta-analysis to determine the impact of SLD-associated genetic variants on hepatic and extrahepatic complications in SLD.<h4>Methods</h4>We searched PubMed, Embase and Medline databases from inception through July 4th, 2024 for studies on adults with SLD that reported effects of PNPLA3, TM6SF2, MBOAT7, HSD17B13 and GCKR variants on the incidence of cirrhosis, major adverse liver outcomes (MALO), cardiovascular disease, extrahepatic malignancy and overall or cause-specific mortality. We pooled hazard ratios and 95% confidence intervals from these outcomes to allow for comparison.<h4>Results</h4>We screened 6475 studies and included 40 in the final analysis. PNPLA3-rs738409-GG genotype (vs. CC genotype) was associated with significantly higher incidence of MALO (sHR 2.30 [95% CI 1.66-3.18]), liver-related mortality (sHR 2.83 [95% CI 1.58-5.06]) and all-cause mortality (HR 1.24 [95% CI 1.04-1.47]). TM6SF2-rs58542926-CT or TT (vs. CC) genotype was associated with a higher incidence of hepatocellular carcinoma (sHR 2.12 [95% CI 1.66-2.70]). MALO was significantly associated with MBOAT7 -rs641738-TT (vs. CC) genotype (sHR 1.21 [95% CI 1.1-1.33]). Limitations in the literature include inconsistent outcome reporting and distribution of fibrosis stage, and a relative paucity of studies on both alcohol-associated liver disease and non-PNPLA3 genetic variants.<h4>Conclusions</h4>Variants in PNPLA3, TM6SF2 and MBOAT7 are significantly associated with hepatic outcomes, especially with advanced baseline liver disease, with modest effects on extrahepatic outcomes. Routine genotyping may improve risk stratification in SLD patients with advanced liver disease.",
+      "language": "en",
+      "relevance_score": 2.0,
+      "matched_aliases": [
+        "PNPLA3 p.Ile148Met"
+      ],
+      "is_case_report": false,
+      "is_functional_study": false
+    },
+    {
+      "pmid": "38674389",
+      "doi": "10.3390/genes15040455",
+      "title": "Relevance of <i>PNPLA3</i>, <i>TM6SF2</i>, <i>HSD17B13</i>, and <i>GCKR</i> Variants to MASLD Severity in an Egyptian Population.",
+      "journal": "Genes",
+      "year": 2024,
+      "abstract": "Metabolic dysfunction-associated steatotic liver disease (MASLD), formerly known as non-alcoholic fatty liver disease (NAFLD), is a frequent clinical condition globally. Single nucleotide polymorphisms (SNPs) associated with NAFLD have been proposed in the literature and based on bioinformatic screening. The association between NAFLD and genetic variants in Egyptians is still unclear. Hence, we sought to investigate the association of some genetic variants with NAFLD in Egyptians. Egyptians have been categorized into either the MASLD group (n = 205) or the healthy control group (n = 187). The severity of hepatic steatosis and liver fibrosis was assessed by a Fibroscan device. TaqMan-based genotyping assays were employed to explore the association of selected SNPs with MASLD. <i>PNPLA3</i> rs738409 C>G variant is associated with the presence of MASLD with liver fibrosis, the severity of both hepatic steatosis and liver fibrosis, increased systolic and diastolic blood pressure and increased alanine aminotransferase (all <i>p</i> < 0.05), while the <i>TM6SF2</i> rs58542926 C>T, <i>HSD17B13</i> rs9992651 G>A, and <i>GCKR</i> rs1260326 T>C variants were not (all <i>p</i> > 0.05). The <i>TM6SF2</i> rs58542926 T allele is associated with increased fasting blood glucose and a decreased waist circumference. The <i>GCKR</i> rs1260326 C allele is associated with decreased aspartate transaminase and diastolic blood pressure (all <i>p</i> < 0.05). Only after adjusting for the risk factors (age, sex, BMI, WC, HDL, TG, diabetes mellitus, and hypertension) F2 liver fibrosis score is negatively correlated with the <i>HSD17B13</i> rs9992651 GA genotype. This study offers evidence for the association of the <i>PNPLA3</i> rs738409 C>G variant with MASLD among Egyptians and for the association of the <i>PNPLA3</i> rs738409 G allele, the <i>TM6SF2</i> rs58542926 T allele, and the <i>GCKR</i> rs1260326 C allele with some parameters of cardiometabolic criteria.",
+      "language": "en",
+      "relevance_score": 2.0,
+      "matched_aliases": [
+        "PNPLA3 p.Ile148Met"
+      ],
+      "is_case_report": false,
+      "is_functional_study": false
+    },
+    {
+      "pmid": "41351026",
+      "doi": "10.1186/s40001-025-03467-6",
+      "title": "The impact of asparaginase phenotype-related single nucleotide polymorphisms on prognosis in pediatric B-cell precursor acute lymphoblastic leukemia.",
+      "journal": "European journal of medical research",
+      "year": 2025,
+      "abstract": "<h4>Background</h4>Pediatric B-cell precursor acute lymphoblastic leukemia (BCP-ALL) is a significant hematological malignancy and asparaginase plays a significant role in the treatment of BCP-ALL. However, the prognostic value of asparaginase phenotype-related single nucleotide polymorphisms (SNPs) in BCP-ALL remains unclear.<h4>Methods</h4>Here, we examined clinical characteristics, genetic mutations, asparaginase phenotype-related SNPs (ADSL (793-49A\u2009>\u2009C), NFATC2 (2722\u2009+\u200912367\u00a0T\u2009>\u2009A), PNPLA3 (444C\u2009>\u2009G), and SOD2 (47A\u2009>\u2009G)) and treatment outcomes in a retrospective cohort of 356 newly diagnosed BCP-ALL patients.<h4>Results</h4>Kaplan-Meier survival analysis of relapse-free survival (RFS) identified five significant risk factors: age\u2009\u2265\u200910\u00a0years, white blood cell count\u2009\u2265\u200950\u2009\u00d7\u200910<sup>9</sup>/L, minimal residual disease (MRD)\u2009\u2265\u20091.0% at Day 15, MRD\u2009\u2265\u20090.01% at Day 33, and the ADSL (793-49A\u2009>\u2009C) AC/CC genotype (all P\u2009<\u20090.05). Notably, multivariate Cox regression analysis confirmed MRD\u2009\u2265\u20091.0% at Day 15, NF1 mutations, and the ADSL (793-49A\u2009>\u2009C) AC/CC genotype as independent poor prognostic factors for RFS. Differences in clinical characteristics between ADSL (793-49A\u2009>\u2009C) variant and wild genotypes were observed, revealing higher proportion of females, steroid non-responder and MRD\u2009\u2265\u20091.0% at Day 15 in the variant group.<h4>Conclusions</h4>These findings underscore the importance of asparaginase phenotype-related SNP, ADSL (793-49A\u2009>\u2009C), in personalized treatment strategies based on genetic profiling and clinical parameters, potentially enhancing therapeutic efficacy and patient outcomes in pediatric BCP-ALL.",
+      "language": "en",
+      "relevance_score": 2.0,
+      "matched_aliases": [
+        "PNPLA3 c.444C>G"
+      ],
+      "is_case_report": false,
+      "is_functional_study": false
+    }
+  ],
+  "alias_hash": "4e26dfa851a9718e"
+}

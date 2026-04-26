@@ -1,0 +1,11 @@
+{
+  "gtex": null,
+  "hpa": null,
+  "reactome": [
+    "Acyl chain remodeling of DAG and TAG"
+  ],
+  "kegg": [
+    "Glycerolipid metabolism - Homo sapiens (human)",
+    "Metabolic pathways - Homo sapiens (human)"
+  ]
+}

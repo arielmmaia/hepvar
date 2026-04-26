@@ -1,0 +1,1556 @@
+[
+  {
+    "seq_region_name": "13",
+    "strand": 1,
+    "start": 51944145,
+    "id": "13_51944145_G/T",
+    "colocated_variants": [
+      {
+        "phenotype_or_disease": 1,
+        "strand": 1,
+        "id": "CM930059",
+        "start": 51944145,
+        "seq_region_name": "13",
+        "end": 51944145,
+        "allele_string": "HGMD_MUTATION"
+      },
+      {
+        "var_synonyms": {
+          "ClinVar": [
+            "RCV002321470",
+            "RCV000078049",
+            "RCV000004052",
+            "VCV000003848",
+            "RCV003502350",
+            "VCV002746502"
+          ],
+          "OMIM": [
+            606882.0006
+          ],
+          "UniProt": [
+            "VAR_000758"
+          ]
+        },
+        "seq_region_name": "13",
+        "start": 51944145,
+        "allele_string": "G/A/T",
+        "end": 51944145,
+        "pubmed": [
+          25741868,
+          23757202,
+          31942415,
+          34691145,
+          31482689,
+          7626145,
+          9887381,
+          8533760,
+          10544227,
+          20301685,
+          15523622,
+          10502777,
+          11857545,
+          17717039,
+          8298641,
+          9352458,
+          9724794,
+          16207219,
+          18692069,
+          24897373,
+          28717664,
+          36553628,
+          32785571,
+          33262485,
+          30026388,
+          36192438,
+          39056796,
+          39498263
+        ],
+        "strand": 1,
+        "phenotype_or_disease": 1,
+        "clin_sig": [
+          "likely_benign",
+          "pathogenic"
+        ],
+        "clin_sig_allele": "A:likely_benign;T:pathogenic",
+        "id": "rs76151636",
+        "frequencies": {
+          "T": {
+            "gnomadg_sas": 0,
+            "gnomade_mid": 0,
+            "gnomadg_afr": 4.812e-05,
+            "gnomadg_nfe": 0.001676,
+            "gnomade_eas": 0,
+            "eas": 0,
+            "gnomade_amr": 0.0004472,
+            "gnomade_sas": 0,
+            "sas": 0,
+            "gnomadg_amr": 0.0003269,
+            "gnomade_afr": 2.987e-05,
+            "gnomadg_fin": 0.0006589,
+            "afr": 0,
+            "gnomadg_mid": 0,
+            "gnomade_fin": 0.0004682,
+            "gnomadg_eas": 0,
+            "amr": 0,
+            "gnomadg": 0.0009324,
+            "gnomadg_ami": 0,
+            "gnomade": 0.0009447,
+            "gnomade_asj": 0.005471,
+            "gnomadg_remaining": 0.000473,
+            "gnomade_nfe": 0.001021,
+            "eur": 0.001,
+            "af": 0.0002,
+            "gnomade_remaining": 0.0009438,
+            "gnomadg_asj": 0.003744
+          }
+        }
+      }
+    ],
+    "allele_string": "G/T",
+    "transcript_consequences": [
+      {
+        "hgvsp": "ENSP00000242839.5:p.His1069Gln",
+        "protein_start": 1069,
+        "canonical": 1,
+        "codons": "caC/caA",
+        "cadd_phred": 22.8,
+        "cds_end": 3207,
+        "protein_id": "ENSP00000242839",
+        "gene_symbol_source": "HGNC",
+        "cadd_raw": 3.529049,
+        "biotype": "protein_coding",
+        "sift_prediction": "deleterious_low_confidence",
+        "strand": -1,
+        "transcript_id": "ENST00000242839.10",
+        "variant_allele": "T",
+        "cdna_start": 3320,
+        "swissprot": [
+          "P35670.247"
+        ],
+        "cds_start": 3207,
+        "impact": "MODERATE",
+        "uniparc": [
+          "UPI00001FCE15"
+        ],
+        "amino_acids": "H/Q",
+        "hgvsc": "ENST00000242839.10:c.3207C>A",
+        "consequence_terms": [
+          "missense_variant"
+        ],
+        "uniprot_isoform": [
+          "P35670-1"
+        ],
+        "alphamissense": {
+          "am_pathogenicity": 0.9933,
+          "am_class": "likely_pathogenic"
+        },
+        "hgnc_id": "HGNC:870",
+        "gene_symbol": "ATP7B",
+        "gene_id": "ENSG00000123191",
+        "sift_score": 0,
+        "protein_end": 1069,
+        "cdna_end": 3320,
+        "exon": "14/21",
+        "domains": [
+          {
+            "db": "ENSP_mappings",
+            "name": "2arf"
+          },
+          {
+            "name": "2koy",
+            "db": "ENSP_mappings"
+          },
+          {
+            "db": "Gene3D",
+            "name": 3
+          },
+          {
+            "name": 3,
+            "db": "Gene3D"
+          },
+          {
+            "name": "7xuk",
+            "db": "ENSP_mappings"
+          },
+          {
+            "name": "7xum",
+            "db": "ENSP_mappings"
+          },
+          {
+            "db": "ENSP_mappings",
+            "name": "7xun"
+          },
+          {
+            "name": "7xuo",
+            "db": "ENSP_mappings"
+          },
+          {
+            "name": "8ioy",
+            "db": "ENSP_mappings"
+          },
+          {
+            "db": "ENSP_mappings",
+            "name": "AF"
+          },
+          {
+            "db": "Phobius",
+            "name": "CYTOPLASMIC_DOMAIN"
+          },
+          {
+            "db": "Pfam",
+            "name": "PF00702"
+          },
+          {
+            "db": "PANTHER",
+            "name": "PTHR46594"
+          },
+          {
+            "name": "SFLDF00027",
+            "db": "SFLD"
+          },
+          {
+            "db": "SFLD",
+            "name": "SFLDS00003"
+          },
+          {
+            "name": "SSF56784",
+            "db": "Superfamily"
+          },
+          {
+            "name": "TIGR01525",
+            "db": "NCBIFAM"
+          },
+          {
+            "db": "CDD",
+            "name": "cd02094"
+          }
+        ]
+      },
+      {
+        "cds_end": 2874,
+        "cadd_phred": 22.8,
+        "codons": "caC/caA",
+        "uniparc": [
+          "UPI0001A51B93"
+        ],
+        "impact": "MODERATE",
+        "protein_start": 958,
+        "hgvsp": "ENSP00000383217.3:p.His958Gln",
+        "sift_prediction": "deleterious_low_confidence",
+        "biotype": "protein_coding",
+        "uniprot_isoform": [
+          "P35670-3"
+        ],
+        "consequence_terms": [
+          "missense_variant"
+        ],
+        "cadd_raw": 3.529049,
+        "gene_symbol_source": "HGNC",
+        "hgvsc": "ENST00000400366.6:c.2874C>A",
+        "protein_id": "ENSP00000383217",
+        "amino_acids": "H/Q",
+        "gene_symbol": "ATP7B",
+        "cdna_start": 2874,
+        "variant_allele": "T",
+        "hgnc_id": "HGNC:870",
+        "transcript_id": "ENST00000400366.6",
+        "strand": -1,
+        "exon": "15/22",
+        "domains": [
+          {
+            "name": 3,
+            "db": "Gene3D"
+          },
+          {
+            "db": "Gene3D",
+            "name": 3
+          },
+          {
+            "db": "ENSP_mappings",
+            "name": "AF"
+          },
+          {
+            "db": "Phobius",
+            "name": "CYTOPLASMIC_DOMAIN"
+          },
+          {
+            "db": "Pfam",
+            "name": "PF00702"
+          },
+          {
+            "db": "SFLD",
+            "name": "SFLDF00027"
+          },
+          {
+            "db": "SFLD",
+            "name": "SFLDG00002"
+          },
+          {
+            "db": "Superfamily",
+            "name": "SSF56784"
+          },
+          {
+            "db": "NCBIFAM",
+            "name": "TIGR01525"
+          },
+          {
+            "name": "cd02094",
+            "db": "CDD"
+          }
+        ],
+        "cdna_end": 2874,
+        "sift_score": 0,
+        "protein_end": 958,
+        "cds_start": 2874,
+        "swissprot": [
+          "P35670.247"
+        ],
+        "gene_id": "ENSG00000123191"
+      },
+      {
+        "hgvsp": "ENSP00000383221.3:p.His639Gln",
+        "protein_start": 639,
+        "impact": "MODERATE",
+        "trembl": [
+          "F5H562.101"
+        ],
+        "uniparc": [
+          "UPI00015DFE00"
+        ],
+        "codons": "caC/caA",
+        "cadd_phred": 22.8,
+        "cds_end": 1917,
+        "protein_id": "ENSP00000383221",
+        "amino_acids": "H/Q",
+        "hgvsc": "ENST00000400370.8:c.1917C>A",
+        "gene_symbol_source": "HGNC",
+        "cadd_raw": 3.529049,
+        "consequence_terms": [
+          "missense_variant"
+        ],
+        "biotype": "protein_coding",
+        "sift_prediction": "deleterious",
+        "strand": -1,
+        "transcript_id": "ENST00000400370.8",
+        "hgnc_id": "HGNC:870",
+        "variant_allele": "T",
+        "gene_symbol": "ATP7B",
+        "cdna_start": 1991,
+        "gene_id": "ENSG00000123191",
+        "cds_start": 1917,
+        "sift_score": 0,
+        "protein_end": 639,
+        "cdna_end": 1991,
+        "domains": [
+          {
+            "db": "Pfam",
+            "name": "PF00702"
+          },
+          {
+            "name": 3,
+            "db": "Gene3D"
+          },
+          {
+            "name": "TIGR01525",
+            "db": "NCBIFAM"
+          },
+          {
+            "db": "SFLD",
+            "name": "SFLDF00027"
+          },
+          {
+            "name": "SFLDG00002",
+            "db": "SFLD"
+          },
+          {
+            "name": "PTHR46594",
+            "db": "PANTHER"
+          },
+          {
+            "name": "CYTOPLASMIC_DOMAIN",
+            "db": "Phobius"
+          },
+          {
+            "db": "Superfamily",
+            "name": "SSF56784"
+          },
+          {
+            "db": "ENSP_mappings",
+            "name": "AF"
+          }
+        ],
+        "exon": "6/13"
+      },
+      {
+        "protein_start": 1004,
+        "hgvsp": "ENSP00000393343.2:p.His1004Gln",
+        "trembl": [
+          "F5H748.97"
+        ],
+        "impact": "MODERATE",
+        "uniparc": [
+          "UPI00020658C6"
+        ],
+        "codons": "caC/caA",
+        "cadd_phred": 22.8,
+        "cds_end": 3012,
+        "protein_id": "ENSP00000393343",
+        "amino_acids": "H/Q",
+        "hgvsc": "ENST00000418097.7:c.3012C>A",
+        "gene_symbol_source": "HGNC",
+        "cadd_raw": 3.529049,
+        "consequence_terms": [
+          "missense_variant"
+        ],
+        "biotype": "protein_coding",
+        "sift_prediction": "deleterious",
+        "strand": -1,
+        "transcript_id": "ENST00000418097.7",
+        "hgnc_id": "HGNC:870",
+        "variant_allele": "T",
+        "cdna_start": 3086,
+        "gene_symbol": "ATP7B",
+        "gene_id": "ENSG00000123191",
+        "cds_start": 3012,
+        "protein_end": 1004,
+        "sift_score": 0.04,
+        "cdna_end": 3086,
+        "domains": [
+          {
+            "name": 3,
+            "db": "Gene3D"
+          },
+          {
+            "name": 3,
+            "db": "Gene3D"
+          },
+          {
+            "name": "CYTOPLASMIC_DOMAIN",
+            "db": "Phobius"
+          },
+          {
+            "name": "PF00702",
+            "db": "Pfam"
+          },
+          {
+            "db": "SFLD",
+            "name": "SFLDF00027"
+          },
+          {
+            "name": "SFLDG00002",
+            "db": "SFLD"
+          },
+          {
+            "name": "SSF56784",
+            "db": "Superfamily"
+          },
+          {
+            "name": "cd02094",
+            "db": "CDD"
+          }
+        ],
+        "exon": "13/20"
+      },
+      {
+        "cds_start": 2955,
+        "polyphen_prediction": "probably_damaging",
+        "cdna_start": 3208,
+        "variant_allele": "T",
+        "strand": -1,
+        "transcript_id": "ENST00000448424.7",
+        "biotype": "protein_coding",
+        "sift_prediction": "deleterious",
+        "gene_symbol_source": "HGNC",
+        "cadd_raw": 3.529049,
+        "protein_id": "ENSP00000416738",
+        "cds_end": 2955,
+        "codons": "caC/caA",
+        "cadd_phred": 22.8,
+        "protein_start": 985,
+        "hgvsp": "ENSP00000416738.3:p.His985Gln",
+        "trembl": [
+          "E7ET55.106"
+        ],
+        "domains": [
+          {
+            "db": "Gene3D",
+            "name": 3
+          },
+          {
+            "db": "Gene3D",
+            "name": 3
+          },
+          {
+            "db": "Phobius",
+            "name": "CYTOPLASMIC_DOMAIN"
+          },
+          {
+            "name": "PF00702",
+            "db": "Pfam"
+          },
+          {
+            "name": "SFLDF00027",
+            "db": "SFLD"
+          },
+          {
+            "db": "SFLD",
+            "name": "SFLDG00002"
+          },
+          {
+            "db": "Superfamily",
+            "name": "SSF56784"
+          },
+          {
+            "name": "TIGR01525",
+            "db": "NCBIFAM"
+          },
+          {
+            "name": "cd02094",
+            "db": "CDD"
+          }
+        ],
+        "exon": "12/19",
+        "sift_score": 0,
+        "protein_end": 985,
+        "cdna_end": 3208,
+        "gene_id": "ENSG00000123191",
+        "gene_symbol": "ATP7B",
+        "hgnc_id": "HGNC:870",
+        "consequence_terms": [
+          "missense_variant"
+        ],
+        "polyphen_score": 0.997,
+        "amino_acids": "H/Q",
+        "hgvsc": "ENST00000448424.7:c.2955C>A",
+        "uniparc": [
+          "UPI000387C1B7"
+        ],
+        "impact": "MODERATE"
+      },
+      {
+        "biotype": "retained_intron",
+        "consequence_terms": [
+          "non_coding_transcript_exon_variant"
+        ],
+        "cadd_raw": 3.529049,
+        "gene_symbol_source": "HGNC",
+        "hgvsc": "ENST00000466629.1:n.427C>A",
+        "cadd_phred": 22.8,
+        "impact": "MODIFIER",
+        "exon": "2/2",
+        "cdna_end": 427,
+        "gene_id": "ENSG00000123191",
+        "gene_symbol": "ATP7B",
+        "cdna_start": 427,
+        "variant_allele": "T",
+        "hgnc_id": "HGNC:870",
+        "transcript_id": "ENST00000466629.1",
+        "strand": -1
+      },
+      {
+        "hgnc_id": "HGNC:870",
+        "variant_allele": "T",
+        "gene_symbol": "ATP7B",
+        "strand": -1,
+        "transcript_id": "ENST00000634296.2",
+        "gene_id": "ENSG00000123191",
+        "cadd_phred": 22.8,
+        "intron": "12/18",
+        "trembl": [
+          "A0A0U1RRG1.30"
+        ],
+        "impact": "MODIFIER",
+        "uniparc": [
+          "UPI002644FE11"
+        ],
+        "consequence_terms": [
+          "intron_variant",
+          "NMD_transcript_variant"
+        ],
+        "biotype": "nonsense_mediated_decay",
+        "protein_id": "ENSP00000489512",
+        "hgvsc": "ENST00000634296.2:c.*894-1591C>A",
+        "gene_symbol_source": "HGNC",
+        "cadd_raw": 3.529049
+      },
+      {
+        "transcript_id": "ENST00000634308.1",
+        "strand": -1,
+        "gene_symbol": "ATP7B",
+        "cdna_start": 3065,
+        "variant_allele": "T",
+        "hgnc_id": "HGNC:870",
+        "gene_id": "ENSG00000123191",
+        "exon": "14/21",
+        "cdna_end": 3065,
+        "uniparc": [
+          "UPI000719A0CF"
+        ],
+        "impact": "MODIFIER",
+        "trembl": [
+          "A0A0U1RQY8.50"
+        ],
+        "cadd_phred": 22.8,
+        "cadd_raw": 3.529049,
+        "gene_symbol_source": "HGNC",
+        "hgvsc": "ENST00000634308.1:c.*308C>A",
+        "protein_id": "ENSP00000489234",
+        "biotype": "nonsense_mediated_decay",
+        "consequence_terms": [
+          "3_prime_UTR_variant",
+          "NMD_transcript_variant"
+        ]
+      },
+      {
+        "hgvsc": "ENST00000634620.1:n.3951C>A",
+        "gene_symbol_source": "HGNC",
+        "cadd_raw": 3.529049,
+        "consequence_terms": [
+          "non_coding_transcript_exon_variant"
+        ],
+        "biotype": "retained_intron",
+        "impact": "MODIFIER",
+        "cadd_phred": 22.8,
+        "gene_id": "ENSG00000123191",
+        "cdna_end": 3951,
+        "exon": "10/17",
+        "strand": -1,
+        "transcript_id": "ENST00000634620.1",
+        "variant_allele": "T",
+        "hgnc_id": "HGNC:870",
+        "gene_symbol": "ATP7B",
+        "cdna_start": 3951
+      },
+      {
+        "impact": "MODIFIER",
+        "cadd_phred": 22.8,
+        "hgvsc": "ENST00000634810.1:n.2552C>A",
+        "cadd_raw": 3.529049,
+        "gene_symbol_source": "HGNC",
+        "consequence_terms": [
+          "non_coding_transcript_exon_variant"
+        ],
+        "biotype": "retained_intron",
+        "transcript_id": "ENST00000634810.1",
+        "strand": -1,
+        "variant_allele": "T",
+        "hgnc_id": "HGNC:870",
+        "gene_symbol": "ATP7B",
+        "cdna_start": 2552,
+        "gene_id": "ENSG00000123191",
+        "cdna_end": 2552,
+        "exon": "7/14"
+      },
+      {
+        "biotype": "protein_coding",
+        "sift_prediction": "deleterious_low_confidence",
+        "consequence_terms": [
+          "missense_variant"
+        ],
+        "cadd_raw": 3.529049,
+        "gene_symbol_source": "HGNC",
+        "hgvsc": "ENST00000634844.1:c.3063C>A",
+        "amino_acids": "H/Q",
+        "protein_id": "ENSP00000489398",
+        "cds_end": 3063,
+        "cadd_phred": 22.8,
+        "codons": "caC/caA",
+        "uniparc": [
+          "UPI000189A747"
+        ],
+        "trembl": [
+          "B7ZLR4.113"
+        ],
+        "impact": "MODERATE",
+        "hgvsp": "ENSP00000489398.1:p.His1021Gln",
+        "protein_start": 1021,
+        "exon": "14/21",
+        "domains": [
+          {
+            "db": "Superfamily",
+            "name": "SSF56784"
+          },
+          {
+            "name": "SFLDG00002",
+            "db": "SFLD"
+          },
+          {
+            "name": "SFLDF00027",
+            "db": "SFLD"
+          },
+          {
+            "name": "cd02094",
+            "db": "CDD"
+          },
+          {
+            "name": 3,
+            "db": "Gene3D"
+          },
+          {
+            "db": "Gene3D",
+            "name": 3
+          },
+          {
+            "db": "Pfam",
+            "name": "PF00702"
+          },
+          {
+            "db": "NCBIFAM",
+            "name": "TIGR01525"
+          },
+          {
+            "db": "PANTHER",
+            "name": "PTHR46594"
+          },
+          {
+            "db": "Phobius",
+            "name": "CYTOPLASMIC_DOMAIN"
+          }
+        ],
+        "cdna_end": 3137,
+        "sift_score": 0,
+        "protein_end": 1021,
+        "cds_start": 3063,
+        "gene_id": "ENSG00000123191",
+        "cdna_start": 3137,
+        "gene_symbol": "ATP7B",
+        "variant_allele": "T",
+        "hgnc_id": "HGNC:870",
+        "transcript_id": "ENST00000634844.1",
+        "strand": -1
+      },
+      {
+        "variant_allele": "T",
+        "hgnc_id": "HGNC:870",
+        "cadd_phred": 22.8,
+        "gene_symbol": "ATP7B",
+        "strand": -1,
+        "transcript_id": "ENST00000635406.1",
+        "impact": "MODIFIER",
+        "consequence_terms": [
+          "downstream_gene_variant"
+        ],
+        "distance": 47,
+        "biotype": "protein_coding_CDS_not_defined",
+        "gene_id": "ENSG00000123191",
+        "gene_symbol_source": "HGNC",
+        "cadd_raw": 3.529049
+      },
+      {
+        "gene_id": "ENSG00000123191",
+        "cadd_raw": 3.529049,
+        "gene_symbol_source": "HGNC",
+        "consequence_terms": [
+          "upstream_gene_variant"
+        ],
+        "distance": 4155,
+        "biotype": "retained_intron",
+        "transcript_id": "ENST00000673696.1",
+        "impact": "MODIFIER",
+        "strand": -1,
+        "hgnc_id": "HGNC:870",
+        "variant_allele": "T",
+        "cadd_phred": 22.8,
+        "gene_symbol": "ATP7B"
+      },
+      {
+        "cadd_phred": 22.8,
+        "codons": "caC/caA",
+        "cds_end": 2973,
+        "trembl": [
+          "A0A669KB88.24"
+        ],
+        "impact": "MODERATE",
+        "protein_start": 991,
+        "hgvsp": "ENSP00000501168.1:p.His991Gln",
+        "uniparc": [
+          "UPI00020658C2"
+        ],
+        "consequence_terms": [
+          "missense_variant"
+        ],
+        "biotype": "protein_coding",
+        "sift_prediction": "deleterious",
+        "hgvsc": "ENST00000673772.1:c.2973C>A",
+        "protein_id": "ENSP00000501168",
+        "amino_acids": "H/Q",
+        "cadd_raw": 3.529049,
+        "gene_symbol_source": "HGNC",
+        "variant_allele": "T",
+        "hgnc_id": "HGNC:870",
+        "gene_symbol": "ATP7B",
+        "cdna_start": 3047,
+        "transcript_id": "ENST00000673772.1",
+        "strand": -1,
+        "cdna_end": 3047,
+        "sift_score": 0,
+        "protein_end": 991,
+        "exon": "13/20",
+        "domains": [
+          {
+            "db": "Phobius",
+            "name": "CYTOPLASMIC_DOMAIN"
+          },
+          {
+            "name": 3,
+            "db": "Gene3D"
+          },
+          {
+            "name": 3,
+            "db": "Gene3D"
+          },
+          {
+            "name": "PF00702",
+            "db": "Pfam"
+          },
+          {
+            "db": "NCBIFAM",
+            "name": "TIGR01525"
+          },
+          {
+            "db": "SFLD",
+            "name": "SFLDF00027"
+          },
+          {
+            "name": "SFLDG00002",
+            "db": "SFLD"
+          },
+          {
+            "name": "cd02094",
+            "db": "CDD"
+          },
+          {
+            "name": "SSF56784",
+            "db": "Superfamily"
+          },
+          {
+            "name": "PTHR46594",
+            "db": "PANTHER"
+          }
+        ],
+        "gene_id": "ENSG00000123191",
+        "cds_start": 2973
+      },
+      {
+        "cadd_phred": 22.8,
+        "impact": "MODIFIER",
+        "trembl": [
+          "A0A669KB21.19"
+        ],
+        "uniparc": [
+          "UPI002645C554"
+        ],
+        "consequence_terms": [
+          "3_prime_UTR_variant",
+          "NMD_transcript_variant"
+        ],
+        "biotype": "nonsense_mediated_decay",
+        "hgvsc": "ENST00000673864.2:c.*1951C>A",
+        "protein_id": "ENSP00000501045",
+        "cadd_raw": 3.529049,
+        "gene_symbol_source": "HGNC",
+        "hgnc_id": "HGNC:870",
+        "variant_allele": "T",
+        "cdna_start": 3744,
+        "gene_symbol": "ATP7B",
+        "transcript_id": "ENST00000673864.2",
+        "strand": -1,
+        "cdna_end": 3744,
+        "exon": "15/22",
+        "gene_id": "ENSG00000123191"
+      },
+      {
+        "consequence_terms": [
+          "non_coding_transcript_exon_variant"
+        ],
+        "biotype": "retained_intron",
+        "hgvsc": "ENST00000673867.1:n.3346C>A",
+        "cadd_raw": 3.529049,
+        "gene_symbol_source": "HGNC",
+        "cadd_phred": 22.8,
+        "impact": "MODIFIER",
+        "cdna_end": 3346,
+        "exon": "1/8",
+        "gene_id": "ENSG00000123191",
+        "variant_allele": "T",
+        "hgnc_id": "HGNC:870",
+        "cdna_start": 3346,
+        "gene_symbol": "ATP7B",
+        "transcript_id": "ENST00000673867.1",
+        "strand": -1
+      },
+      {
+        "strand": -1,
+        "transcript_id": "ENST00000673923.1",
+        "impact": "MODIFIER",
+        "variant_allele": "T",
+        "hgnc_id": "HGNC:870",
+        "cadd_phred": 22.8,
+        "gene_symbol": "ATP7B",
+        "gene_id": "ENSG00000123191",
+        "gene_symbol_source": "HGNC",
+        "cadd_raw": 3.529049,
+        "consequence_terms": [
+          "upstream_gene_variant"
+        ],
+        "distance": 4530,
+        "biotype": "retained_intron"
+      },
+      {
+        "hgvsc": "ENST00000674126.1:n.3570C>A",
+        "cadd_raw": 3.529049,
+        "gene_symbol_source": "HGNC",
+        "consequence_terms": [
+          "non_coding_transcript_exon_variant"
+        ],
+        "biotype": "retained_intron",
+        "impact": "MODIFIER",
+        "cadd_phred": 22.8,
+        "gene_id": "ENSG00000123191",
+        "cdna_end": 3570,
+        "exon": "2/4",
+        "transcript_id": "ENST00000674126.1",
+        "strand": -1,
+        "hgnc_id": "HGNC:870",
+        "variant_allele": "T",
+        "gene_symbol": "ATP7B",
+        "cdna_start": 3570
+      },
+      {
+        "cadd_raw": 3.529049,
+        "gene_symbol_source": "HGNC",
+        "protein_id": "ENSP00000500964",
+        "sift_prediction": "deleterious",
+        "biotype": "protein_coding",
+        "trembl": [
+          "A0A669KA36.23"
+        ],
+        "hgvsp": "ENSP00000500964.2:p.His862Gln",
+        "protein_start": 862,
+        "cds_end": 2586,
+        "cadd_phred": 22.8,
+        "codons": "caC/caA",
+        "cds_start": 2586,
+        "swissprot": [
+          "P35670.247"
+        ],
+        "transcript_id": "ENST00000674147.2",
+        "strand": -1,
+        "cdna_start": 2699,
+        "variant_allele": "T",
+        "hgvsc": "ENST00000674147.2:c.2586C>A",
+        "amino_acids": "H/Q",
+        "uniprot_isoform": [
+          "P35670-2"
+        ],
+        "consequence_terms": [
+          "missense_variant"
+        ],
+        "uniparc": [
+          "UPI00001FCE1A"
+        ],
+        "impact": "MODERATE",
+        "gene_id": "ENSG00000123191",
+        "exon": "10/17",
+        "domains": [
+          {
+            "db": "Gene3D",
+            "name": 3
+          },
+          {
+            "name": 3,
+            "db": "Gene3D"
+          },
+          {
+            "db": "ENSP_mappings",
+            "name": "AF"
+          },
+          {
+            "name": "AF",
+            "db": "ENSP_mappings"
+          },
+          {
+            "name": "NON_CYTOPLASMIC_DOMAIN",
+            "db": "Phobius"
+          },
+          {
+            "db": "Pfam",
+            "name": "PF00702"
+          },
+          {
+            "name": "PTHR46594",
+            "db": "PANTHER"
+          },
+          {
+            "db": "SFLD",
+            "name": "SFLDF00027"
+          },
+          {
+            "name": "SFLDS00003",
+            "db": "SFLD"
+          },
+          {
+            "name": "SSF56784",
+            "db": "Superfamily"
+          },
+          {
+            "db": "NCBIFAM",
+            "name": "TIGR01525"
+          },
+          {
+            "name": "cd02094",
+            "db": "CDD"
+          }
+        ],
+        "cdna_end": 2699,
+        "sift_score": 0,
+        "protein_end": 862,
+        "gene_symbol": "ATP7B",
+        "hgnc_id": "HGNC:870"
+      },
+      {
+        "hgvsp": "ENSP00000518961.1:p.His853Gln",
+        "protein_start": 853,
+        "trembl": [
+          "A0AAQ5BGP2.3"
+        ],
+        "codons": "caC/caA",
+        "cadd_phred": 22.8,
+        "cds_end": 2559,
+        "protein_id": "ENSP00000518961",
+        "gene_symbol_source": "HGNC",
+        "cadd_raw": 3.529049,
+        "biotype": "protein_coding",
+        "sift_prediction": "deleterious",
+        "strand": -1,
+        "transcript_id": "ENST00000713659.1",
+        "variant_allele": "T",
+        "cdna_start": 3337,
+        "polyphen_prediction": "possibly_damaging",
+        "cds_start": 2559,
+        "impact": "MODERATE",
+        "uniparc": [
+          "UPI0020179C02"
+        ],
+        "amino_acids": "H/Q",
+        "hgvsc": "ENST00000713659.1:c.2559C>A",
+        "consequence_terms": [
+          "missense_variant"
+        ],
+        "polyphen_score": 0.689,
+        "hgnc_id": "HGNC:870",
+        "gene_symbol": "ATP7B",
+        "gene_id": "ENSG00000123191",
+        "sift_score": 0,
+        "protein_end": 853,
+        "cdna_end": 3337,
+        "domains": [
+          {
+            "name": 3,
+            "db": "Gene3D"
+          },
+          {
+            "db": "Gene3D",
+            "name": 3
+          },
+          {
+            "name": "CYTOPLASMIC_DOMAIN",
+            "db": "Phobius"
+          },
+          {
+            "name": "PF00702",
+            "db": "Pfam"
+          },
+          {
+            "db": "PANTHER",
+            "name": "PTHR46594"
+          },
+          {
+            "db": "SFLD",
+            "name": "SFLDF00027"
+          },
+          {
+            "name": "SFLDG00002",
+            "db": "SFLD"
+          },
+          {
+            "name": "SSF56784",
+            "db": "Superfamily"
+          },
+          {
+            "name": "TIGR01525",
+            "db": "NCBIFAM"
+          },
+          {
+            "db": "CDD",
+            "name": "cd02094"
+          }
+        ],
+        "exon": "10/17"
+      },
+      {
+        "cdna_start": 2775,
+        "variant_allele": "T",
+        "strand": -1,
+        "transcript_id": "ENST00000713660.1",
+        "cds_start": 2721,
+        "polyphen_prediction": "benign",
+        "cds_end": 2721,
+        "codons": "caC/caA",
+        "cadd_phred": 22.8,
+        "protein_start": 907,
+        "hgvsp": "ENSP00000518962.1:p.His907Gln",
+        "trembl": [
+          "A0AAQ5BGL6.3"
+        ],
+        "biotype": "protein_coding",
+        "sift_prediction": "deleterious",
+        "gene_symbol_source": "HGNC",
+        "cadd_raw": 3.529049,
+        "protein_id": "ENSP00000518962",
+        "gene_symbol": "ATP7B",
+        "hgnc_id": "HGNC:870",
+        "domains": [
+          {
+            "db": "Gene3D",
+            "name": 3
+          },
+          {
+            "name": 3,
+            "db": "Gene3D"
+          },
+          {
+            "name": "CYTOPLASMIC_DOMAIN",
+            "db": "Phobius"
+          },
+          {
+            "name": "PF00702",
+            "db": "Pfam"
+          },
+          {
+            "db": "PANTHER",
+            "name": "PTHR46594"
+          },
+          {
+            "db": "SFLD",
+            "name": "SFLDF00027"
+          },
+          {
+            "db": "SFLD",
+            "name": "SFLDG00002"
+          },
+          {
+            "name": "SSF56784",
+            "db": "Superfamily"
+          },
+          {
+            "name": "TIGR01525",
+            "db": "NCBIFAM"
+          },
+          {
+            "name": "cd02094",
+            "db": "CDD"
+          }
+        ],
+        "exon": "11/18",
+        "sift_score": 0,
+        "protein_end": 907,
+        "cdna_end": 2775,
+        "gene_id": "ENSG00000123191",
+        "uniparc": [
+          "UPI0000229610"
+        ],
+        "impact": "MODERATE",
+        "consequence_terms": [
+          "missense_variant"
+        ],
+        "polyphen_score": 0.141,
+        "amino_acids": "H/Q",
+        "hgvsc": "ENST00000713660.1:c.2721C>A"
+      },
+      {
+        "cadd_raw": 3.529049,
+        "gene_symbol_source": "HGNC",
+        "hgvsc": "ENST00000873567.1:c.3207C>A",
+        "amino_acids": "H/Q",
+        "protein_id": "ENSP00000543626",
+        "biotype": "protein_coding",
+        "sift_prediction": "deleterious_low_confidence",
+        "consequence_terms": [
+          "missense_variant"
+        ],
+        "uniparc": [
+          "UPI00001FCE15"
+        ],
+        "impact": "MODERATE",
+        "protein_start": 1069,
+        "hgvsp": "ENSP00000543626.1:p.His1069Gln",
+        "cds_end": 3207,
+        "cadd_phred": 22.8,
+        "codons": "caC/caA",
+        "cds_start": 3207,
+        "gene_id": "ENSG00000123191",
+        "exon": "15/22",
+        "domains": [
+          {
+            "db": "Gene3D",
+            "name": 3
+          },
+          {
+            "name": 3,
+            "db": "Gene3D"
+          },
+          {
+            "db": "Phobius",
+            "name": "CYTOPLASMIC_DOMAIN"
+          },
+          {
+            "db": "Pfam",
+            "name": "PF00702"
+          },
+          {
+            "name": "PTHR46594",
+            "db": "PANTHER"
+          },
+          {
+            "name": "SFLDF00027",
+            "db": "SFLD"
+          },
+          {
+            "name": "SFLDS00003",
+            "db": "SFLD"
+          },
+          {
+            "db": "Superfamily",
+            "name": "SSF56784"
+          },
+          {
+            "db": "NCBIFAM",
+            "name": "TIGR01525"
+          },
+          {
+            "db": "CDD",
+            "name": "cd02094"
+          }
+        ],
+        "cdna_end": 3408,
+        "sift_score": 0,
+        "protein_end": 1069,
+        "alphamissense": {
+          "am_pathogenicity": 0.9933,
+          "am_class": "likely_pathogenic"
+        },
+        "transcript_id": "ENST00000873567.1",
+        "strand": -1,
+        "gene_symbol": "ATP7B",
+        "cdna_start": 3408,
+        "variant_allele": "T",
+        "hgnc_id": "HGNC:870"
+      },
+      {
+        "gene_id": "ENSG00000123191",
+        "cds_start": 3063,
+        "cdna_end": 3262,
+        "sift_score": 0,
+        "protein_end": 1021,
+        "domains": [
+          {
+            "db": "Gene3D",
+            "name": 3
+          },
+          {
+            "db": "Gene3D",
+            "name": 3
+          },
+          {
+            "name": "CYTOPLASMIC_DOMAIN",
+            "db": "Phobius"
+          },
+          {
+            "name": "PF00702",
+            "db": "Pfam"
+          },
+          {
+            "name": "PTHR46594",
+            "db": "PANTHER"
+          },
+          {
+            "name": "SFLDF00027",
+            "db": "SFLD"
+          },
+          {
+            "name": "SFLDG00002",
+            "db": "SFLD"
+          },
+          {
+            "db": "Superfamily",
+            "name": "SSF56784"
+          },
+          {
+            "db": "NCBIFAM",
+            "name": "TIGR01525"
+          },
+          {
+            "db": "CDD",
+            "name": "cd02094"
+          }
+        ],
+        "exon": "15/22",
+        "transcript_id": "ENST00000873568.1",
+        "strand": -1,
+        "hgnc_id": "HGNC:870",
+        "variant_allele": "T",
+        "gene_symbol": "ATP7B",
+        "cdna_start": 3262,
+        "hgvsc": "ENST00000873568.1:c.3063C>A",
+        "protein_id": "ENSP00000543627",
+        "amino_acids": "H/Q",
+        "cadd_raw": 3.529049,
+        "gene_symbol_source": "HGNC",
+        "consequence_terms": [
+          "missense_variant"
+        ],
+        "sift_prediction": "deleterious_low_confidence",
+        "biotype": "protein_coding",
+        "impact": "MODERATE",
+        "hgvsp": "ENSP00000543627.1:p.His1021Gln",
+        "protein_start": 1021,
+        "uniparc": [
+          "UPI000189A747"
+        ],
+        "cadd_phred": 22.8,
+        "codons": "caC/caA",
+        "cds_end": 3063
+      },
+      {
+        "cds_end": 3201,
+        "cadd_phred": 22.8,
+        "codons": "caC/caA",
+        "uniparc": [
+          "UPI002016B45C"
+        ],
+        "impact": "MODERATE",
+        "hgvsp": "ENSP00000543628.1:p.His1067Gln",
+        "protein_start": 1067,
+        "sift_prediction": "deleterious_low_confidence",
+        "biotype": "protein_coding",
+        "consequence_terms": [
+          "missense_variant"
+        ],
+        "polyphen_score": 0.959,
+        "cadd_raw": 3.529049,
+        "gene_symbol_source": "HGNC",
+        "hgvsc": "ENST00000873569.1:c.3201C>A",
+        "protein_id": "ENSP00000543628",
+        "amino_acids": "H/Q",
+        "gene_symbol": "ATP7B",
+        "cdna_start": 3993,
+        "hgnc_id": "HGNC:870",
+        "variant_allele": "T",
+        "transcript_id": "ENST00000873569.1",
+        "strand": -1,
+        "exon": "14/21",
+        "domains": [
+          {
+            "name": 3,
+            "db": "Gene3D"
+          },
+          {
+            "db": "Phobius",
+            "name": "CYTOPLASMIC_DOMAIN"
+          },
+          {
+            "name": "PF00702",
+            "db": "Pfam"
+          },
+          {
+            "db": "PANTHER",
+            "name": "PTHR46594"
+          },
+          {
+            "name": "SFLDF00027",
+            "db": "SFLD"
+          },
+          {
+            "name": "SFLDG00002",
+            "db": "SFLD"
+          },
+          {
+            "db": "Superfamily",
+            "name": "SSF56784"
+          },
+          {
+            "name": "TIGR01525",
+            "db": "NCBIFAM"
+          },
+          {
+            "name": "cd02094",
+            "db": "CDD"
+          }
+        ],
+        "cdna_end": 3993,
+        "sift_score": 0,
+        "protein_end": 1067,
+        "cds_start": 3201,
+        "polyphen_prediction": "probably_damaging",
+        "gene_id": "ENSG00000123191"
+      },
+      {
+        "gene_id": "ENSG00000123191",
+        "polyphen_prediction": "probably_damaging",
+        "cds_start": 3201,
+        "cdna_end": 3376,
+        "sift_score": 0,
+        "protein_end": 1067,
+        "exon": "15/22",
+        "domains": [
+          {
+            "db": "Gene3D",
+            "name": 3
+          },
+          {
+            "name": "CYTOPLASMIC_DOMAIN",
+            "db": "Phobius"
+          },
+          {
+            "db": "Pfam",
+            "name": "PF00702"
+          },
+          {
+            "name": "PTHR46594",
+            "db": "PANTHER"
+          },
+          {
+            "db": "SFLD",
+            "name": "SFLDF00027"
+          },
+          {
+            "db": "SFLD",
+            "name": "SFLDG00002"
+          },
+          {
+            "db": "Superfamily",
+            "name": "SSF56784"
+          },
+          {
+            "db": "NCBIFAM",
+            "name": "TIGR01525"
+          },
+          {
+            "db": "CDD",
+            "name": "cd02094"
+          }
+        ],
+        "transcript_id": "ENST00000873570.1",
+        "strand": -1,
+        "variant_allele": "T",
+        "hgnc_id": "HGNC:870",
+        "cdna_start": 3376,
+        "gene_symbol": "ATP7B",
+        "hgvsc": "ENST00000873570.1:c.3201C>A",
+        "protein_id": "ENSP00000543629",
+        "amino_acids": "H/Q",
+        "cadd_raw": 3.529049,
+        "gene_symbol_source": "HGNC",
+        "consequence_terms": [
+          "missense_variant"
+        ],
+        "polyphen_score": 0.959,
+        "biotype": "protein_coding",
+        "sift_prediction": "deleterious_low_confidence",
+        "impact": "MODERATE",
+        "hgvsp": "ENSP00000543629.1:p.His1067Gln",
+        "protein_start": 1067,
+        "uniparc": [
+          "UPI002016B45C"
+        ],
+        "cadd_phred": 22.8,
+        "codons": "caC/caA",
+        "cds_end": 3201
+      },
+      {
+        "sift_score": 0,
+        "protein_end": 1069,
+        "cdna_end": 3689,
+        "exon": "15/22",
+        "domains": [
+          {
+            "name": 3,
+            "db": "Gene3D"
+          },
+          {
+            "name": 3,
+            "db": "Gene3D"
+          },
+          {
+            "name": "CYTOPLASMIC_DOMAIN",
+            "db": "Phobius"
+          },
+          {
+            "db": "Pfam",
+            "name": "PF00702"
+          },
+          {
+            "name": "PTHR46594",
+            "db": "PANTHER"
+          },
+          {
+            "db": "SFLD",
+            "name": "SFLDF00027"
+          },
+          {
+            "db": "SFLD",
+            "name": "SFLDS00003"
+          },
+          {
+            "name": "SSF56784",
+            "db": "Superfamily"
+          },
+          {
+            "name": "TIGR01525",
+            "db": "NCBIFAM"
+          },
+          {
+            "name": "cd02094",
+            "db": "CDD"
+          }
+        ],
+        "gene_id": "ENSG00000123191",
+        "cds_start": 3207,
+        "variant_allele": "T",
+        "hgnc_id": "HGNC:870",
+        "gene_symbol": "ATP7B",
+        "cdna_start": 3689,
+        "strand": -1,
+        "transcript_id": "ENST00000911501.1",
+        "alphamissense": {
+          "am_class": "likely_pathogenic",
+          "am_pathogenicity": 0.9933
+        },
+        "consequence_terms": [
+          "missense_variant"
+        ],
+        "biotype": "protein_coding",
+        "sift_prediction": "deleterious_low_confidence",
+        "amino_acids": "H/Q",
+        "protein_id": "ENSP00000581560",
+        "hgvsc": "ENST00000911501.1:c.3207C>A",
+        "gene_symbol_source": "HGNC",
+        "cadd_raw": 3.529049,
+        "codons": "caC/caA",
+        "cadd_phred": 22.8,
+        "cds_end": 3207,
+        "protein_start": 1069,
+        "hgvsp": "ENSP00000581560.1:p.His1069Gln",
+        "impact": "MODERATE",
+        "uniparc": [
+          "UPI00001FCE15"
+        ]
+      }
+    ],
+    "end": 51944145,
+    "input": "13 51944145 51944145 G/T 1",
+    "assembly_name": "GRCh38",
+    "most_severe_consequence": "missense_variant"
+  }
+]

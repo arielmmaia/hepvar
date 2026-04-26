@@ -1,0 +1,827 @@
+{
+  "count": 22,
+  "next": "https://www.ebi.ac.uk/interpro/api/entry/all/protein/UniProt/Q30201?cursor=source%7Cs%7Csm00407",
+  "previous": null,
+  "results": [
+    {
+      "metadata": {
+        "accession": "cd21021",
+        "name": "Class Ib major histocompatibility complex (MHC) immunoglobulin domain of human leukocyte antigen H; member of the C1-set of Ig superfamily (IgSF) domains",
+        "source_database": "cdd",
+        "type": "domain",
+        "integrated": null,
+        "member_databases": null,
+        "go_terms": null
+      },
+      "proteins": [
+        {
+          "accession": "q30201",
+          "protein_length": 348,
+          "source_database": "reviewed",
+          "organism": "9606",
+          "in_alphafold": true,
+          "in_bfvd": false,
+          "entry_protein_locations": [
+            {
+              "fragments": [
+                {
+                  "start": 204,
+                  "end": 297,
+                  "dc-status": "CONTINUOUS"
+                }
+              ],
+              "representative": true,
+              "model": "cd21021",
+              "score": 1.96533e-72
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "accession": "G3DSA:2.60.40.10",
+        "name": "Immunoglobulins",
+        "source_database": "cathgene3d",
+        "type": "homologous_superfamily",
+        "integrated": "IPR013783",
+        "member_databases": null,
+        "go_terms": null
+      },
+      "proteins": [
+        {
+          "accession": "q30201",
+          "protein_length": 348,
+          "source_database": "reviewed",
+          "organism": "9606",
+          "in_alphafold": true,
+          "in_bfvd": false,
+          "entry_protein_locations": [
+            {
+              "fragments": [
+                {
+                  "start": 205,
+                  "end": 295,
+                  "dc-status": "CONTINUOUS"
+                }
+              ],
+              "representative": false,
+              "model": "1a6zA02",
+              "score": 5.1e-29
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "accession": "G3DSA:3.30.500.10",
+        "name": "MHC class I-like antigen recognition-like",
+        "source_database": "cathgene3d",
+        "type": "homologous_superfamily",
+        "integrated": "IPR037055",
+        "member_databases": null,
+        "go_terms": null
+      },
+      "proteins": [
+        {
+          "accession": "q30201",
+          "protein_length": 348,
+          "source_database": "reviewed",
+          "organism": "9606",
+          "in_alphafold": true,
+          "in_bfvd": false,
+          "entry_protein_locations": [
+            {
+              "fragments": [
+                {
+                  "start": 23,
+                  "end": 204,
+                  "dc-status": "CONTINUOUS"
+                }
+              ],
+              "representative": true,
+              "model": "1a6zA01",
+              "score": 6.5e-62
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "accession": "IPR001039",
+        "name": "MHC class I alpha chain, alpha1 alpha2 domains",
+        "source_database": "interpro",
+        "type": "domain",
+        "integrated": null,
+        "member_databases": {
+          "prints": {
+            "PR01638": "MHCCLASSI"
+          }
+        },
+        "go_terms": null
+      },
+      "proteins": [
+        {
+          "accession": "q30201",
+          "protein_length": 348,
+          "source_database": "reviewed",
+          "organism": "9606",
+          "in_alphafold": true,
+          "in_bfvd": false,
+          "entry_protein_locations": [
+            {
+              "fragments": [
+                {
+                  "start": 83,
+                  "end": 112,
+                  "dc-status": "CONTINUOUS"
+                }
+              ],
+              "representative": false,
+              "model": null,
+              "score": null
+            },
+            {
+              "fragments": [
+                {
+                  "start": 114,
+                  "end": 130,
+                  "dc-status": "CONTINUOUS"
+                }
+              ],
+              "representative": false,
+              "model": null,
+              "score": null
+            },
+            {
+              "fragments": [
+                {
+                  "start": 134,
+                  "end": 151,
+                  "dc-status": "CONTINUOUS"
+                }
+              ],
+              "representative": false,
+              "model": null,
+              "score": null
+            },
+            {
+              "fragments": [
+                {
+                  "start": 180,
+                  "end": 198,
+                  "dc-status": "CONTINUOUS"
+                }
+              ],
+              "representative": false,
+              "model": null,
+              "score": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "accession": "IPR003006",
+        "name": "Immunoglobulin/major histocompatibility complex, conserved site",
+        "source_database": "interpro",
+        "type": "conserved_site",
+        "integrated": null,
+        "member_databases": {
+          "prosite": {
+            "PS00290": "Immunoglobulins and major histocompatibility complex proteins signature"
+          }
+        },
+        "go_terms": null
+      },
+      "proteins": [
+        {
+          "accession": "q30201",
+          "protein_length": 348,
+          "source_database": "reviewed",
+          "organism": "9606",
+          "in_alphafold": true,
+          "in_bfvd": false,
+          "entry_protein_locations": [
+            {
+              "fragments": [
+                {
+                  "start": 280,
+                  "end": 286,
+                  "dc-status": "CONTINUOUS"
+                }
+              ],
+              "representative": false,
+              "model": null,
+              "score": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "accession": "IPR003597",
+        "name": "Immunoglobulin C1-set",
+        "source_database": "interpro",
+        "type": "domain",
+        "integrated": null,
+        "member_databases": {
+          "pfam": {
+            "PF07654": "Immunoglobulin C1-set domain"
+          },
+          "smart": {
+            "SM00407": "Immunoglobulin C-Type"
+          }
+        },
+        "go_terms": null
+      },
+      "proteins": [
+        {
+          "accession": "q30201",
+          "protein_length": 348,
+          "source_database": "reviewed",
+          "organism": "9606",
+          "in_alphafold": true,
+          "in_bfvd": false,
+          "entry_protein_locations": [
+            {
+              "fragments": [
+                {
+                  "start": 214,
+                  "end": 292,
+                  "dc-status": "CONTINUOUS"
+                }
+              ],
+              "representative": false,
+              "model": null,
+              "score": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "accession": "IPR007110",
+        "name": "Immunoglobulin-like domain",
+        "source_database": "interpro",
+        "type": "domain",
+        "integrated": null,
+        "member_databases": {
+          "profile": {
+            "PS50835": "Ig-like domain profile"
+          }
+        },
+        "go_terms": null
+      },
+      "proteins": [
+        {
+          "accession": "q30201",
+          "protein_length": 348,
+          "source_database": "reviewed",
+          "organism": "9606",
+          "in_alphafold": true,
+          "in_bfvd": false,
+          "entry_protein_locations": [
+            {
+              "fragments": [
+                {
+                  "start": 207,
+                  "end": 286,
+                  "dc-status": "CONTINUOUS"
+                }
+              ],
+              "representative": false,
+              "model": null,
+              "score": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "accession": "IPR011161",
+        "name": "MHC class I-like antigen recognition-like",
+        "source_database": "interpro",
+        "type": "domain",
+        "integrated": null,
+        "member_databases": {
+          "pfam": {
+            "PF16497": "MHC-I family domain",
+            "PF00129": "Class I Histocompatibility antigen, domains alpha 1 and 2"
+          }
+        },
+        "go_terms": null
+      },
+      "proteins": [
+        {
+          "accession": "q30201",
+          "protein_length": 348,
+          "source_database": "reviewed",
+          "organism": "9606",
+          "in_alphafold": true,
+          "in_bfvd": false,
+          "entry_protein_locations": [
+            {
+              "fragments": [
+                {
+                  "start": 27,
+                  "end": 200,
+                  "dc-status": "CONTINUOUS"
+                }
+              ],
+              "representative": false,
+              "model": null,
+              "score": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "accession": "IPR011162",
+        "name": "MHC classes I/II-like antigen recognition protein",
+        "source_database": "interpro",
+        "type": "homologous_superfamily",
+        "integrated": null,
+        "member_databases": {
+          "ssf": {
+            "SSF54452": "MHC antigen-recognition domain"
+          }
+        },
+        "go_terms": null
+      },
+      "proteins": [
+        {
+          "accession": "q30201",
+          "protein_length": 348,
+          "source_database": "reviewed",
+          "organism": "9606",
+          "in_alphafold": true,
+          "in_bfvd": false,
+          "entry_protein_locations": [
+            {
+              "fragments": [
+                {
+                  "start": 27,
+                  "end": 202,
+                  "dc-status": "CONTINUOUS"
+                }
+              ],
+              "representative": false,
+              "model": null,
+              "score": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "accession": "IPR013783",
+        "name": "Immunoglobulin-like fold",
+        "source_database": "interpro",
+        "type": "homologous_superfamily",
+        "integrated": null,
+        "member_databases": {
+          "cathgene3d": {
+            "G3DSA:2.60.40.10": "Immunoglobulins"
+          }
+        },
+        "go_terms": null
+      },
+      "proteins": [
+        {
+          "accession": "q30201",
+          "protein_length": 348,
+          "source_database": "reviewed",
+          "organism": "9606",
+          "in_alphafold": true,
+          "in_bfvd": false,
+          "entry_protein_locations": [
+            {
+              "fragments": [
+                {
+                  "start": 205,
+                  "end": 295,
+                  "dc-status": "CONTINUOUS"
+                }
+              ],
+              "representative": false,
+              "model": null,
+              "score": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "accession": "IPR036179",
+        "name": "Immunoglobulin-like domain superfamily",
+        "source_database": "interpro",
+        "type": "homologous_superfamily",
+        "integrated": null,
+        "member_databases": {
+          "ssf": {
+            "SSF48726": "Immunoglobulin"
+          }
+        },
+        "go_terms": null
+      },
+      "proteins": [
+        {
+          "accession": "q30201",
+          "protein_length": 348,
+          "source_database": "reviewed",
+          "organism": "9606",
+          "in_alphafold": true,
+          "in_bfvd": false,
+          "entry_protein_locations": [
+            {
+              "fragments": [
+                {
+                  "start": 210,
+                  "end": 299,
+                  "dc-status": "CONTINUOUS"
+                }
+              ],
+              "representative": false,
+              "model": null,
+              "score": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "accession": "IPR037055",
+        "name": "MHC class I-like antigen recognition-like superfamily",
+        "source_database": "interpro",
+        "type": "homologous_superfamily",
+        "integrated": null,
+        "member_databases": {
+          "cathgene3d": {
+            "G3DSA:3.30.500.10": "MHC class I-like antigen recognition-like"
+          }
+        },
+        "go_terms": null
+      },
+      "proteins": [
+        {
+          "accession": "q30201",
+          "protein_length": 348,
+          "source_database": "reviewed",
+          "organism": "9606",
+          "in_alphafold": true,
+          "in_bfvd": false,
+          "entry_protein_locations": [
+            {
+              "fragments": [
+                {
+                  "start": 23,
+                  "end": 204,
+                  "dc-status": "CONTINUOUS"
+                }
+              ],
+              "representative": false,
+              "model": null,
+              "score": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "accession": "IPR050208",
+        "name": "Antigen-presenting and immune regulatory MHC class I-related",
+        "source_database": "interpro",
+        "type": "family",
+        "integrated": null,
+        "member_databases": {
+          "panther": {
+            "PTHR16675": "Antigen-presenting and immune regulatory MHC class I-related"
+          }
+        },
+        "go_terms": null
+      },
+      "proteins": [
+        {
+          "accession": "q30201",
+          "protein_length": 348,
+          "source_database": "reviewed",
+          "organism": "9606",
+          "in_alphafold": true,
+          "in_bfvd": false,
+          "entry_protein_locations": [
+            {
+              "fragments": [
+                {
+                  "start": 19,
+                  "end": 325,
+                  "dc-status": "CONTINUOUS"
+                }
+              ],
+              "representative": false,
+              "model": null,
+              "score": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "accession": "PF00129",
+        "name": "Class I Histocompatibility antigen, domains alpha 1 and 2",
+        "source_database": "pfam",
+        "type": "domain",
+        "integrated": "IPR011161",
+        "member_databases": null,
+        "go_terms": null
+      },
+      "proteins": [
+        {
+          "accession": "q30201",
+          "protein_length": 348,
+          "source_database": "reviewed",
+          "organism": "9606",
+          "in_alphafold": true,
+          "in_bfvd": false,
+          "entry_protein_locations": [
+            {
+              "fragments": [
+                {
+                  "start": 27,
+                  "end": 200,
+                  "dc-status": "CONTINUOUS"
+                }
+              ],
+              "representative": false,
+              "model": "PF00129",
+              "score": 7.5e-40
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "accession": "PF07654",
+        "name": "Immunoglobulin C1-set domain",
+        "source_database": "pfam",
+        "type": "domain",
+        "integrated": "IPR003597",
+        "member_databases": null,
+        "go_terms": null
+      },
+      "proteins": [
+        {
+          "accession": "q30201",
+          "protein_length": 348,
+          "source_database": "reviewed",
+          "organism": "9606",
+          "in_alphafold": true,
+          "in_bfvd": false,
+          "entry_protein_locations": [
+            {
+              "fragments": [
+                {
+                  "start": 214,
+                  "end": 289,
+                  "dc-status": "CONTINUOUS"
+                }
+              ],
+              "representative": false,
+              "model": "PF07654",
+              "score": 4.1e-10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "accession": "PR01638",
+        "name": "MHCCLASSI",
+        "source_database": "prints",
+        "type": "family",
+        "integrated": "IPR001039",
+        "member_databases": null,
+        "go_terms": null
+      },
+      "proteins": [
+        {
+          "accession": "q30201",
+          "protein_length": 348,
+          "source_database": "reviewed",
+          "organism": "9606",
+          "in_alphafold": true,
+          "in_bfvd": false,
+          "entry_protein_locations": [
+            {
+              "fragments": [
+                {
+                  "start": 83,
+                  "end": 112,
+                  "dc-status": "CONTINUOUS"
+                }
+              ],
+              "representative": false,
+              "model": "PR01638",
+              "score": 0.00524
+            },
+            {
+              "fragments": [
+                {
+                  "start": 114,
+                  "end": 130,
+                  "dc-status": "CONTINUOUS"
+                }
+              ],
+              "representative": false,
+              "model": "PR01638",
+              "score": 6.25e-06
+            },
+            {
+              "fragments": [
+                {
+                  "start": 134,
+                  "end": 151,
+                  "dc-status": "CONTINUOUS"
+                }
+              ],
+              "representative": false,
+              "model": "PR01638",
+              "score": 3.14e-06
+            },
+            {
+              "fragments": [
+                {
+                  "start": 180,
+                  "end": 198,
+                  "dc-status": "CONTINUOUS"
+                }
+              ],
+              "representative": false,
+              "model": "PR01638",
+              "score": 1.99e-05
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "accession": "PS00290",
+        "name": "Immunoglobulins and major histocompatibility complex proteins signature",
+        "source_database": "prosite",
+        "type": "conserved_site",
+        "integrated": "IPR003006",
+        "member_databases": null,
+        "go_terms": null
+      },
+      "proteins": [
+        {
+          "accession": "q30201",
+          "protein_length": 348,
+          "source_database": "reviewed",
+          "organism": "9606",
+          "in_alphafold": true,
+          "in_bfvd": false,
+          "entry_protein_locations": [
+            {
+              "fragments": [
+                {
+                  "start": 280,
+                  "end": 286,
+                  "dc-status": "CONTINUOUS"
+                }
+              ],
+              "representative": false,
+              "model": "PS00290",
+              "score": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "accession": "PS50835",
+        "name": "Ig-like domain profile",
+        "source_database": "profile",
+        "type": "domain",
+        "integrated": "IPR007110",
+        "member_databases": null,
+        "go_terms": null
+      },
+      "proteins": [
+        {
+          "accession": "q30201",
+          "protein_length": 348,
+          "source_database": "reviewed",
+          "organism": "9606",
+          "in_alphafold": true,
+          "in_bfvd": false,
+          "entry_protein_locations": [
+            {
+              "fragments": [
+                {
+                  "start": 207,
+                  "end": 286,
+                  "dc-status": "CONTINUOUS"
+                }
+              ],
+              "representative": false,
+              "model": "PS50835",
+              "score": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "accession": "PTHR16675",
+        "name": "Antigen-presenting and immune regulatory MHC class I-related",
+        "source_database": "panther",
+        "type": "family",
+        "integrated": "IPR050208",
+        "member_databases": null,
+        "go_terms": null
+      },
+      "proteins": [
+        {
+          "accession": "q30201",
+          "protein_length": 348,
+          "source_database": "reviewed",
+          "organism": "9606",
+          "in_alphafold": true,
+          "in_bfvd": false,
+          "entry_protein_locations": [
+            {
+              "fragments": [
+                {
+                  "start": 19,
+                  "end": 325,
+                  "dc-status": "CONTINUOUS"
+                }
+              ],
+              "representative": true,
+              "model": "PTHR16675:SF172",
+              "score": 4.5e-92,
+              "subfamily": {
+                "accession": "PTHR16675:SF172",
+                "name": "HEREDITARY HEMOCHROMATOSIS PROTEIN"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "accession": "SM00407",
+        "name": "Immunoglobulin C-Type",
+        "source_database": "smart",
+        "type": "domain",
+        "integrated": "IPR003597",
+        "member_databases": null,
+        "go_terms": null
+      },
+      "proteins": [
+        {
+          "accession": "q30201",
+          "protein_length": 348,
+          "source_database": "reviewed",
+          "organism": "9606",
+          "in_alphafold": true,
+          "in_bfvd": false,
+          "entry_protein_locations": [
+            {
+              "fragments": [
+                {
+                  "start": 220,
+                  "end": 292,
+                  "dc-status": "CONTINUOUS"
+                }
+              ],
+              "representative": false,
+              "model": "SM00407",
+              "score": 8.4e-14
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

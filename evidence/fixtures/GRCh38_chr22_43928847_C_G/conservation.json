@@ -1,0 +1,157 @@
+{
+  "species": [
+    {
+      "species": "pan_troglodytes",
+      "common_name": "Chimpanzee",
+      "residue": "I",
+      "is_gap": false,
+      "matches_human": true,
+      "perc_id": 98.3368
+    },
+    {
+      "species": "gorilla_gorilla",
+      "common_name": "Gorilla",
+      "residue": "I",
+      "is_gap": false,
+      "matches_human": true,
+      "perc_id": 93.9597
+    },
+    {
+      "species": "pongo_abelii",
+      "common_name": "Orangutan",
+      "residue": "I",
+      "is_gap": false,
+      "matches_human": true,
+      "perc_id": 97.0833
+    },
+    {
+      "species": "macaca_mulatta",
+      "common_name": "Rhesus macaque",
+      "residue": "I",
+      "is_gap": false,
+      "matches_human": true,
+      "perc_id": 92.9314
+    },
+    {
+      "species": "callithrix_jacchus",
+      "common_name": "Marmoset",
+      "residue": "I",
+      "is_gap": false,
+      "matches_human": true,
+      "perc_id": 88.2845
+    },
+    {
+      "species": "mus_musculus",
+      "common_name": "Mouse",
+      "residue": "I",
+      "is_gap": false,
+      "matches_human": true,
+      "perc_id": 71.6146
+    },
+    {
+      "species": "rattus_norvegicus",
+      "common_name": "Rat",
+      "residue": "I",
+      "is_gap": false,
+      "matches_human": true,
+      "perc_id": 65.4118
+    },
+    {
+      "species": "oryctolagus_cuniculus",
+      "common_name": "Rabbit",
+      "residue": "Q",
+      "is_gap": false,
+      "matches_human": false,
+      "perc_id": 47.8555
+    },
+    {
+      "species": "canis_lupus_familiaris",
+      "common_name": "Dog",
+      "residue": "I",
+      "is_gap": false,
+      "matches_human": true,
+      "perc_id": 66.5899
+    },
+    {
+      "species": "bos_taurus",
+      "common_name": "Cow",
+      "residue": "V",
+      "is_gap": false,
+      "matches_human": false,
+      "perc_id": 62.1868
+    },
+    {
+      "species": "sus_scrofa",
+      "common_name": "Pig",
+      "residue": "I",
+      "is_gap": false,
+      "matches_human": true,
+      "perc_id": 67.3469
+    },
+    {
+      "species": "equus_caballus",
+      "common_name": "Horse",
+      "residue": "L",
+      "is_gap": false,
+      "matches_human": false,
+      "perc_id": 63.6364
+    },
+    {
+      "species": "monodelphis_domestica",
+      "common_name": "Opossum",
+      "residue": "I",
+      "is_gap": false,
+      "matches_human": true,
+      "perc_id": 55.6017
+    },
+    {
+      "species": "gallus_gallus",
+      "common_name": "Chicken",
+      "residue": "L",
+      "is_gap": false,
+      "matches_human": false,
+      "perc_id": 38.8476
+    },
+    {
+      "species": "anolis_carolinensis",
+      "common_name": "Anolis lizard",
+      "residue": "A",
+      "is_gap": false,
+      "matches_human": false,
+      "perc_id": 40.9449
+    },
+    {
+      "species": "xenopus_tropicalis",
+      "common_name": "Western clawed frog",
+      "residue": "V",
+      "is_gap": false,
+      "matches_human": false,
+      "perc_id": 39.759
+    },
+    {
+      "species": "danio_rerio",
+      "common_name": "Zebrafish",
+      "residue": "I",
+      "is_gap": false,
+      "matches_human": true,
+      "perc_id": 39.3235
+    },
+    {
+      "species": "oryzias_latipes",
+      "common_name": "Medaka",
+      "residue": "A",
+      "is_gap": false,
+      "matches_human": false,
+      "perc_id": 37.3777
+    },
+    {
+      "species": "petromyzon_marinus",
+      "common_name": "Sea lamprey",
+      "residue": "V",
+      "is_gap": false,
+      "matches_human": false,
+      "perc_id": 41.5842
+    }
+  ],
+  "human_residue": "I"
+}
