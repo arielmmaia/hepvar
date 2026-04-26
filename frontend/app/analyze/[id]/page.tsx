@@ -38,10 +38,10 @@ export default function AnalyzePage({ params }: { params: Promise<{ id: string }
   const thinkingBuf = useRef("");
 
   useEffect(() => {
-    // React 19 Strict Mode in dev mounts effects twice. Each mount opens a new
-    // EventSource and the backend replays every prior event on the new connection,
-    // so without these resets the reasoning/thinking buffers accumulate duplicate
-    // streams and the synthesis appears to "loop from the start".
+    // Reset only when the job id actually changes — not on every effect run —
+    // because the backend resumes via Last-Event-ID on reconnect, so any
+    // re-mount that opens a fresh EventSource will pick up *after* the events
+    // we've already processed and not replay the synthesis from scratch.
     reasoningBuf.current = "";
     thinkingBuf.current = "";
     setSteps({});

@@ -75,15 +75,18 @@ async def _timed(name: str, coro, emit: Emitter, packet_setter):
 
 
 def _summarise_for_event(name: str, data) -> dict:
-    """Compact event payload for the SSE stream — full data is in the final report."""
+    """Compact event payload for the SSE stream — full data is in the final report.
+
+    Uses mode='json' on Pydantic dumps so datetime/Enum/etc. become JSON-native
+    types and json.dumps() in the SSE generator doesn't raise.
+    """
     if data is None:
         return {}
     if hasattr(data, "model_dump"):
-        return data.model_dump()
+        return data.model_dump(mode="json")
     if isinstance(data, list):
-        return {"count": len(data), "items": [d.model_dump() if hasattr(d, "model_dump") else d for d in data[:10]]}
+        return {"count": len(data), "items": [d.model_dump(mode="json") if hasattr(d, "model_dump") else d for d in data[:10]]}
     if isinstance(data, dict):
-        # trim long keys
         out = {}
         for k, v in data.items():
             if isinstance(v, str) and len(v) > 800:

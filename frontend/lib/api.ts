@@ -20,8 +20,14 @@ export async function startAnalysis(v: VariantInput): Promise<{ jobId: string }>
 
 export function streamJob(jobId: string, onEvent: (e: StreamEvent) => void): () => void {
   const es = new EventSource(`${API_BASE}/api/jobs/${jobId}/stream`);
+  // Defensive dedup: even though the backend uses Last-Event-ID for clean
+  // resume, if the browser EventSource ever re-delivers an id we've already
+  // processed (it shouldn't, but safety first), drop the duplicate.
+  const seen = new Set<string>();
   es.onmessage = (m) => {
     if (!m.data) return;
+    if (m.lastEventId && seen.has(m.lastEventId)) return;
+    if (m.lastEventId) seen.add(m.lastEventId);
     try {
       const ev = JSON.parse(m.data) as StreamEvent;
       onEvent(ev);
@@ -31,7 +37,9 @@ export function streamJob(jobId: string, onEvent: (e: StreamEvent) => void): () 
     }
   };
   es.onerror = () => {
-    /* SSE auto-reconnects unless closed; leave it. */
+    /* SSE auto-reconnects unless closed. With Last-Event-ID set on the
+       browser side and respected on the backend, the new connection
+       resumes past the last-seen event instead of replaying from 0. */
   };
   return () => es.close();
 }
