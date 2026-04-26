@@ -1,0 +1,1029 @@
+{
+  "count": 20,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "metadata": {
+        "accession": "cd03249",
+        "name": "ATP-binding cassette domain of a mitochondrial protein MTABC3 and related proteins",
+        "source_database": "cdd",
+        "type": "domain",
+        "integrated": null,
+        "member_databases": null,
+        "go_terms": null
+      },
+      "proteins": [
+        {
+          "accession": "p21439",
+          "protein_length": 1286,
+          "source_database": "reviewed",
+          "organism": "9606",
+          "in_alphafold": true,
+          "in_bfvd": false,
+          "entry_protein_locations": [
+            {
+              "fragments": [
+                {
+                  "start": 395,
+                  "end": 631,
+                  "dc-status": "CONTINUOUS"
+                }
+              ],
+              "representative": false,
+              "model": "cd03249",
+              "score": 0
+            },
+            {
+              "fragments": [
+                {
+                  "start": 1034,
+                  "end": 1280,
+                  "dc-status": "CONTINUOUS"
+                }
+              ],
+              "representative": false,
+              "model": "cd03249",
+              "score": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "accession": "cd18578",
+        "name": "Six-transmembrane helical domain 2 (TMD2) of P-glycoprotein 1 (Pgp) and related proteins",
+        "source_database": "cdd",
+        "type": "domain",
+        "integrated": null,
+        "member_databases": null,
+        "go_terms": null
+      },
+      "proteins": [
+        {
+          "accession": "p21439",
+          "protein_length": 1286,
+          "source_database": "reviewed",
+          "organism": "9606",
+          "in_alphafold": true,
+          "in_bfvd": false,
+          "entry_protein_locations": [
+            {
+              "fragments": [
+                {
+                  "start": 701,
+                  "end": 1017,
+                  "dc-status": "CONTINUOUS"
+                }
+              ],
+              "representative": false,
+              "model": "cd18578",
+              "score": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "accession": "G3DSA:1.20.1560.10",
+        "name": "ABC transporter type 1, transmembrane domain",
+        "source_database": "cathgene3d",
+        "type": "homologous_superfamily",
+        "integrated": "IPR036640",
+        "member_databases": null,
+        "go_terms": null
+      },
+      "proteins": [
+        {
+          "accession": "p21439",
+          "protein_length": 1286,
+          "source_database": "reviewed",
+          "organism": "9606",
+          "in_alphafold": true,
+          "in_bfvd": false,
+          "entry_protein_locations": [
+            {
+              "fragments": [
+                {
+                  "start": 44,
+                  "end": 383,
+                  "dc-status": "C_TERMINAL_DISC"
+                },
+                {
+                  "start": 633,
+                  "end": 638,
+                  "dc-status": "NC_TERMINAL_DISC"
+                },
+                {
+                  "start": 697,
+                  "end": 1004,
+                  "dc-status": "N_TERMINAL_DISC"
+                }
+              ],
+              "representative": true,
+              "model": "5ko2A01",
+              "score": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "accession": "G3DSA:3.40.50.300",
+        "name": "P-loop containing nucleotide triphosphate hydrolases",
+        "source_database": "cathgene3d",
+        "type": "homologous_superfamily",
+        "integrated": "IPR027417",
+        "member_databases": null,
+        "go_terms": null
+      },
+      "proteins": [
+        {
+          "accession": "p21439",
+          "protein_length": 1286,
+          "source_database": "reviewed",
+          "organism": "9606",
+          "in_alphafold": true,
+          "in_bfvd": false,
+          "entry_protein_locations": [
+            {
+              "fragments": [
+                {
+                  "start": 384,
+                  "end": 632,
+                  "dc-status": "CONTINUOUS"
+                }
+              ],
+              "representative": true,
+              "model": "5ko2A02",
+              "score": 0
+            },
+            {
+              "fragments": [
+                {
+                  "start": 1024,
+                  "end": 1285,
+                  "dc-status": "CONTINUOUS"
+                }
+              ],
+              "representative": true,
+              "model": "5ko2B03",
+              "score": 2.1e-96
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "accession": "IPR003439",
+        "name": "ABC transporter-like, ATP-binding domain",
+        "source_database": "interpro",
+        "type": "domain",
+        "integrated": null,
+        "member_databases": {
+          "profile": {
+            "PS50893": "ATP-binding cassette, ABC transporter-type domain profile"
+          },
+          "pfam": {
+            "PF00005": "ABC transporter"
+          }
+        },
+        "go_terms": [
+          {
+            "identifier": "GO:0005524",
+            "name": "ATP binding",
+            "category": {
+              "code": "F",
+              "name": "molecular_function"
+            }
+          },
+          {
+            "identifier": "GO:0016887",
+            "name": "ATP hydrolysis activity",
+            "category": {
+              "code": "F",
+              "name": "molecular_function"
+            }
+          }
+        ]
+      },
+      "proteins": [
+        {
+          "accession": "p21439",
+          "protein_length": 1286,
+          "source_database": "reviewed",
+          "organism": "9606",
+          "in_alphafold": true,
+          "in_bfvd": false,
+          "entry_protein_locations": [
+            {
+              "fragments": [
+                {
+                  "start": 394,
+                  "end": 630,
+                  "dc-status": "CONTINUOUS"
+                }
+              ],
+              "representative": false,
+              "model": null,
+              "score": null
+            },
+            {
+              "fragments": [
+                {
+                  "start": 1034,
+                  "end": 1279,
+                  "dc-status": "CONTINUOUS"
+                }
+              ],
+              "representative": false,
+              "model": null,
+              "score": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "accession": "IPR003593",
+        "name": "AAA+ ATPase domain",
+        "source_database": "interpro",
+        "type": "domain",
+        "integrated": null,
+        "member_databases": {
+          "smart": {
+            "SM00382": "ATPases associated with a variety of cellular activities"
+          }
+        },
+        "go_terms": null
+      },
+      "proteins": [
+        {
+          "accession": "p21439",
+          "protein_length": 1286,
+          "source_database": "reviewed",
+          "organism": "9606",
+          "in_alphafold": true,
+          "in_bfvd": false,
+          "entry_protein_locations": [
+            {
+              "fragments": [
+                {
+                  "start": 421,
+                  "end": 613,
+                  "dc-status": "CONTINUOUS"
+                }
+              ],
+              "representative": false,
+              "model": null,
+              "score": null
+            },
+            {
+              "fragments": [
+                {
+                  "start": 1061,
+                  "end": 1256,
+                  "dc-status": "CONTINUOUS"
+                }
+              ],
+              "representative": false,
+              "model": null,
+              "score": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "accession": "IPR011527",
+        "name": "ABC transporter type 1, transmembrane domain",
+        "source_database": "interpro",
+        "type": "domain",
+        "integrated": null,
+        "member_databases": {
+          "profile": {
+            "PS50929": "ABC transporter integral membrane type-1 fused domain profile"
+          },
+          "pfam": {
+            "PF13748": "ABC transporter transmembrane region",
+            "PF06472": "ABC transporter transmembrane region 2",
+            "PF00664": "ABC transporter transmembrane region"
+          }
+        },
+        "go_terms": [
+          {
+            "identifier": "GO:0005524",
+            "name": "ATP binding",
+            "category": {
+              "code": "F",
+              "name": "molecular_function"
+            }
+          },
+          {
+            "identifier": "GO:0140359",
+            "name": "ABC-type transporter activity",
+            "category": {
+              "code": "F",
+              "name": "molecular_function"
+            }
+          },
+          {
+            "identifier": "GO:0055085",
+            "name": "transmembrane transport",
+            "category": {
+              "code": "P",
+              "name": "biological_process"
+            }
+          },
+          {
+            "identifier": "GO:0016020",
+            "name": "membrane",
+            "category": {
+              "code": "C",
+              "name": "cellular_component"
+            }
+          }
+        ]
+      },
+      "proteins": [
+        {
+          "accession": "p21439",
+          "protein_length": 1286,
+          "source_database": "reviewed",
+          "organism": "9606",
+          "in_alphafold": true,
+          "in_bfvd": false,
+          "entry_protein_locations": [
+            {
+              "fragments": [
+                {
+                  "start": 58,
+                  "end": 359,
+                  "dc-status": "CONTINUOUS"
+                }
+              ],
+              "representative": false,
+              "model": null,
+              "score": null
+            },
+            {
+              "fragments": [
+                {
+                  "start": 712,
+                  "end": 999,
+                  "dc-status": "CONTINUOUS"
+                }
+              ],
+              "representative": false,
+              "model": null,
+              "score": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "accession": "IPR017871",
+        "name": "ABC transporter-like, conserved site",
+        "source_database": "interpro",
+        "type": "conserved_site",
+        "integrated": null,
+        "member_databases": {
+          "prosite": {
+            "PS00211": "ABC transporters family signature"
+          }
+        },
+        "go_terms": [
+          {
+            "identifier": "GO:0005524",
+            "name": "ATP binding",
+            "category": {
+              "code": "F",
+              "name": "molecular_function"
+            }
+          },
+          {
+            "identifier": "GO:0016887",
+            "name": "ATP hydrolysis activity",
+            "category": {
+              "code": "F",
+              "name": "molecular_function"
+            }
+          }
+        ]
+      },
+      "proteins": [
+        {
+          "accession": "p21439",
+          "protein_length": 1286,
+          "source_database": "reviewed",
+          "organism": "9606",
+          "in_alphafold": true,
+          "in_bfvd": false,
+          "entry_protein_locations": [
+            {
+              "fragments": [
+                {
+                  "start": 533,
+                  "end": 547,
+                  "dc-status": "CONTINUOUS"
+                }
+              ],
+              "representative": false,
+              "model": null,
+              "score": null
+            },
+            {
+              "fragments": [
+                {
+                  "start": 1182,
+                  "end": 1196,
+                  "dc-status": "CONTINUOUS"
+                }
+              ],
+              "representative": false,
+              "model": null,
+              "score": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "accession": "IPR027417",
+        "name": "P-loop containing nucleoside triphosphate hydrolase",
+        "source_database": "interpro",
+        "type": "homologous_superfamily",
+        "integrated": null,
+        "member_databases": {
+          "cathgene3d": {
+            "G3DSA:3.40.50.300": "P-loop containing nucleotide triphosphate hydrolases"
+          },
+          "ssf": {
+            "SSF52540": "P-loop containing nucleoside triphosphate hydrolases"
+          }
+        },
+        "go_terms": null
+      },
+      "proteins": [
+        {
+          "accession": "p21439",
+          "protein_length": 1286,
+          "source_database": "reviewed",
+          "organism": "9606",
+          "in_alphafold": true,
+          "in_bfvd": false,
+          "entry_protein_locations": [
+            {
+              "fragments": [
+                {
+                  "start": 384,
+                  "end": 632,
+                  "dc-status": "CONTINUOUS"
+                }
+              ],
+              "representative": false,
+              "model": null,
+              "score": null
+            },
+            {
+              "fragments": [
+                {
+                  "start": 1024,
+                  "end": 1285,
+                  "dc-status": "CONTINUOUS"
+                }
+              ],
+              "representative": false,
+              "model": null,
+              "score": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "accession": "IPR036640",
+        "name": "ABC transporter type 1, transmembrane domain superfamily",
+        "source_database": "interpro",
+        "type": "homologous_superfamily",
+        "integrated": null,
+        "member_databases": {
+          "cathgene3d": {
+            "G3DSA:1.20.1560.10": "ABC transporter type 1, transmembrane domain"
+          },
+          "ssf": {
+            "SSF90123": "ABC transporter transmembrane region"
+          }
+        },
+        "go_terms": [
+          {
+            "identifier": "GO:0005524",
+            "name": "ATP binding",
+            "category": {
+              "code": "F",
+              "name": "molecular_function"
+            }
+          },
+          {
+            "identifier": "GO:0016020",
+            "name": "membrane",
+            "category": {
+              "code": "C",
+              "name": "cellular_component"
+            }
+          }
+        ]
+      },
+      "proteins": [
+        {
+          "accession": "p21439",
+          "protein_length": 1286,
+          "source_database": "reviewed",
+          "organism": "9606",
+          "in_alphafold": true,
+          "in_bfvd": false,
+          "entry_protein_locations": [
+            {
+              "fragments": [
+                {
+                  "start": 44,
+                  "end": 1018,
+                  "dc-status": "CONTINUOUS"
+                }
+              ],
+              "representative": false,
+              "model": null,
+              "score": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "accession": "IPR039421",
+        "name": "Type 1 protein exporter",
+        "source_database": "interpro",
+        "type": "family",
+        "integrated": null,
+        "member_databases": {
+          "panther": {
+            "PTHR24222": "ABC TRANSPORTER B FAMILY",
+            "PTHR24221": "ATP-BINDING CASSETTE SUB-FAMILY B",
+            "PTHR43394": "ATP-DEPENDENT PERMEASE MDL1, MITOCHONDRIAL"
+          }
+        },
+        "go_terms": null
+      },
+      "proteins": [
+        {
+          "accession": "p21439",
+          "protein_length": 1286,
+          "source_database": "reviewed",
+          "organism": "9606",
+          "in_alphafold": true,
+          "in_bfvd": false,
+          "entry_protein_locations": [
+            {
+              "fragments": [
+                {
+                  "start": 28,
+                  "end": 634,
+                  "dc-status": "CONTINUOUS"
+                }
+              ],
+              "representative": false,
+              "model": null,
+              "score": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "accession": "PF00005",
+        "name": "ABC transporter",
+        "source_database": "pfam",
+        "type": "domain",
+        "integrated": "IPR003439",
+        "member_databases": null,
+        "go_terms": null
+      },
+      "proteins": [
+        {
+          "accession": "p21439",
+          "protein_length": 1286,
+          "source_database": "reviewed",
+          "organism": "9606",
+          "in_alphafold": true,
+          "in_bfvd": false,
+          "entry_protein_locations": [
+            {
+              "fragments": [
+                {
+                  "start": 412,
+                  "end": 561,
+                  "dc-status": "CONTINUOUS"
+                }
+              ],
+              "representative": false,
+              "model": "PF00005",
+              "score": 6.3e-34
+            },
+            {
+              "fragments": [
+                {
+                  "start": 1052,
+                  "end": 1210,
+                  "dc-status": "CONTINUOUS"
+                }
+              ],
+              "representative": false,
+              "model": "PF00005",
+              "score": 2.9e-28
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "accession": "PF00664",
+        "name": "ABC transporter transmembrane region",
+        "source_database": "pfam",
+        "type": "family",
+        "integrated": "IPR011527",
+        "member_databases": null,
+        "go_terms": null
+      },
+      "proteins": [
+        {
+          "accession": "p21439",
+          "protein_length": 1286,
+          "source_database": "reviewed",
+          "organism": "9606",
+          "in_alphafold": true,
+          "in_bfvd": false,
+          "entry_protein_locations": [
+            {
+              "fragments": [
+                {
+                  "start": 58,
+                  "end": 345,
+                  "dc-status": "CONTINUOUS"
+                }
+              ],
+              "representative": false,
+              "model": "PF00664",
+              "score": 2.5e-83
+            },
+            {
+              "fragments": [
+                {
+                  "start": 712,
+                  "end": 985,
+                  "dc-status": "CONTINUOUS"
+                }
+              ],
+              "representative": true,
+              "model": "PF00664",
+              "score": 4.2e-74
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "accession": "PS00211",
+        "name": "ABC transporters family signature",
+        "source_database": "prosite",
+        "type": "conserved_site",
+        "integrated": "IPR017871",
+        "member_databases": null,
+        "go_terms": null
+      },
+      "proteins": [
+        {
+          "accession": "p21439",
+          "protein_length": 1286,
+          "source_database": "reviewed",
+          "organism": "9606",
+          "in_alphafold": true,
+          "in_bfvd": false,
+          "entry_protein_locations": [
+            {
+              "fragments": [
+                {
+                  "start": 533,
+                  "end": 547,
+                  "dc-status": "CONTINUOUS"
+                }
+              ],
+              "representative": false,
+              "model": "PS00211",
+              "score": 0
+            },
+            {
+              "fragments": [
+                {
+                  "start": 1182,
+                  "end": 1196,
+                  "dc-status": "CONTINUOUS"
+                }
+              ],
+              "representative": false,
+              "model": "PS00211",
+              "score": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "accession": "PS50893",
+        "name": "ATP-binding cassette, ABC transporter-type domain profile",
+        "source_database": "profile",
+        "type": "domain",
+        "integrated": "IPR003439",
+        "member_databases": null,
+        "go_terms": null
+      },
+      "proteins": [
+        {
+          "accession": "p21439",
+          "protein_length": 1286,
+          "source_database": "reviewed",
+          "organism": "9606",
+          "in_alphafold": true,
+          "in_bfvd": false,
+          "entry_protein_locations": [
+            {
+              "fragments": [
+                {
+                  "start": 394,
+                  "end": 630,
+                  "dc-status": "CONTINUOUS"
+                }
+              ],
+              "representative": false,
+              "model": "PS50893",
+              "score": 0
+            },
+            {
+              "fragments": [
+                {
+                  "start": 1034,
+                  "end": 1279,
+                  "dc-status": "CONTINUOUS"
+                }
+              ],
+              "representative": false,
+              "model": "PS50893",
+              "score": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "accession": "PS50929",
+        "name": "ABC transporter integral membrane type-1 fused domain profile",
+        "source_database": "profile",
+        "type": "domain",
+        "integrated": "IPR011527",
+        "member_databases": null,
+        "go_terms": null
+      },
+      "proteins": [
+        {
+          "accession": "p21439",
+          "protein_length": 1286,
+          "source_database": "reviewed",
+          "organism": "9606",
+          "in_alphafold": true,
+          "in_bfvd": false,
+          "entry_protein_locations": [
+            {
+              "fragments": [
+                {
+                  "start": 59,
+                  "end": 359,
+                  "dc-status": "CONTINUOUS"
+                }
+              ],
+              "representative": false,
+              "model": "PS50929",
+              "score": 0
+            },
+            {
+              "fragments": [
+                {
+                  "start": 712,
+                  "end": 999,
+                  "dc-status": "CONTINUOUS"
+                }
+              ],
+              "representative": false,
+              "model": "PS50929",
+              "score": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "accession": "PTHR43394",
+        "name": "ATP-DEPENDENT PERMEASE MDL1, MITOCHONDRIAL",
+        "source_database": "panther",
+        "type": "family",
+        "integrated": "IPR039421",
+        "member_databases": null,
+        "go_terms": null
+      },
+      "proteins": [
+        {
+          "accession": "p21439",
+          "protein_length": 1286,
+          "source_database": "reviewed",
+          "organism": "9606",
+          "in_alphafold": true,
+          "in_bfvd": false,
+          "entry_protein_locations": [
+            {
+              "fragments": [
+                {
+                  "start": 28,
+                  "end": 634,
+                  "dc-status": "CONTINUOUS"
+                }
+              ],
+              "representative": true,
+              "model": "PTHR43394:SF28",
+              "score": 0,
+              "subfamily": {
+                "accession": "PTHR43394:SF28",
+                "name": "ATP-BINDING CASSETTE SUBFAMILY B MEMBER 1"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "accession": "SM00382",
+        "name": "ATPases associated with a variety of cellular activities",
+        "source_database": "smart",
+        "type": "domain",
+        "integrated": "IPR003593",
+        "member_databases": null,
+        "go_terms": null
+      },
+      "proteins": [
+        {
+          "accession": "p21439",
+          "protein_length": 1286,
+          "source_database": "reviewed",
+          "organism": "9606",
+          "in_alphafold": true,
+          "in_bfvd": false,
+          "entry_protein_locations": [
+            {
+              "fragments": [
+                {
+                  "start": 421,
+                  "end": 613,
+                  "dc-status": "CONTINUOUS"
+                }
+              ],
+              "representative": false,
+              "model": "SM00382",
+              "score": 1e-18
+            },
+            {
+              "fragments": [
+                {
+                  "start": 1061,
+                  "end": 1256,
+                  "dc-status": "CONTINUOUS"
+                }
+              ],
+              "representative": false,
+              "model": "SM00382",
+              "score": 3.9e-17
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "accession": "SSF52540",
+        "name": "P-loop containing nucleoside triphosphate hydrolases",
+        "source_database": "ssf",
+        "type": "homologous_superfamily",
+        "integrated": "IPR027417",
+        "member_databases": null,
+        "go_terms": null
+      },
+      "proteins": [
+        {
+          "accession": "p21439",
+          "protein_length": 1286,
+          "source_database": "reviewed",
+          "organism": "9606",
+          "in_alphafold": true,
+          "in_bfvd": false,
+          "entry_protein_locations": [
+            {
+              "fragments": [
+                {
+                  "start": 386,
+                  "end": 631,
+                  "dc-status": "CONTINUOUS"
+                }
+              ],
+              "representative": false,
+              "model": "0054811",
+              "score": 1.03e-92
+            },
+            {
+              "fragments": [
+                {
+                  "start": 1025,
+                  "end": 1280,
+                  "dc-status": "CONTINUOUS"
+                }
+              ],
+              "representative": false,
+              "model": "0054811",
+              "score": 1.54e-85
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "accession": "SSF90123",
+        "name": "ABC transporter transmembrane region",
+        "source_database": "ssf",
+        "type": "homologous_superfamily",
+        "integrated": "IPR036640",
+        "member_databases": null,
+        "go_terms": null
+      },
+      "proteins": [
+        {
+          "accession": "p21439",
+          "protein_length": 1286,
+          "source_database": "reviewed",
+          "organism": "9606",
+          "in_alphafold": true,
+          "in_bfvd": false,
+          "entry_protein_locations": [
+            {
+              "fragments": [
+                {
+                  "start": 45,
+                  "end": 378,
+                  "dc-status": "CONTINUOUS"
+                }
+              ],
+              "representative": false,
+              "model": "0054812",
+              "score": 2.75e-61
+            },
+            {
+              "fragments": [
+                {
+                  "start": 699,
+                  "end": 1018,
+                  "dc-status": "CONTINUOUS"
+                }
+              ],
+              "representative": false,
+              "model": "0054812",
+              "score": 5.36e-63
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

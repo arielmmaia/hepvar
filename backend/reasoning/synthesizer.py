@@ -79,7 +79,10 @@ async def stream_synthesis(ev: EvidencePacket) -> AsyncIterator[dict]:
             model=s.opus_model,
             max_tokens=12000,
             thinking={"type": "adaptive", "display": "summarized"},
-            output_config={"effort": "xhigh"},
+            # `xhigh` was producing repetitive deliberation on conflicting evidence
+            # packets (e.g. mis-attributed PS3 papers); `high` is more decisive while
+            # still adequate for ACMG-grade reasoning.
+            output_config={"effort": "high"},
             system=system_blocks,
             messages=[{"role": "user", "content": user_blocks}],
         ) as stream:

@@ -1,0 +1,13 @@
+{
+  "gtex": null,
+  "hpa": null,
+  "reactome": [
+    "PPARA activates gene expression",
+    "ABC-family protein mediated transport",
+    "Defective ABCB4 causes PFIC3, ICP3 and GBD1"
+  ],
+  "kegg": [
+    "ABC transporters - Homo sapiens (human)",
+    "Bile secretion - Homo sapiens (human)"
+  ]
+}

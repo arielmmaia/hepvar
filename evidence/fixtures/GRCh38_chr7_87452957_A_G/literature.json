@@ -1,0 +1,391 @@
+{
+  "hits": [
+    {
+      "pmid": "41274965",
+      "doi": "10.1038/s41598-025-28407-6",
+      "title": "ABCB4 disease-causing variants S242R, S346I, T437I and T1077M significantly impair its function and display differential sensitivity to potentiators.",
+      "journal": "Scientific reports",
+      "year": 2025,
+      "abstract": "The hepato-canalicular adenosine triphosphate (ATP)-binding cassette transporter ABCB4/MDR3 is responsible of the secretion of phosphatidylcholine (PC) into bile. Variations in ABCB4 gene induce a spectrum of cholestatic liver diseases, the most severe form is progressive familial intrahepatic cholestasis type 3 (PFIC3). The purpose of our study was to investigate the impact and potential rescue of four ABCB4 missense variants identified in patients, two of which (T437I and T1077M) affect homologous amino acids in the Walker A motifs in the two nucleotide-binding sites NBS2 and NBS1, respectively and the other two (S242R and S346I) affect residues of the transmembrane helices 4 and 6, respectively. The functional role of the four amino acids was assessed by analysis of three-dimensional (3D) structures and molecular dynamics (MD) simulations in a lipid bilayer. For functional validation, the mutants were reproduced in a plasmid encoding the human ABCB4 protein. The localization, the processing and the PC secretion activity of the mutants were studied after transfection in cell models. As the wild-type ABCB4, all four mutants expressed and trafficked efficiently to the canalicular membrane of HepG2 cells, but were dramatically impaired in PC secretion activity. This behavior can be explained by the critical positions of the amino acids in the NBSs and in a region participating in the substrate transport. The Cystic Fibrosis Transmembrane Conductance Regulator (CFTR) potentiators ivacaftor and Small Binder of CFTR 219 (SBC219) significantly rescued the function defect of the mutants with differential sensitivity. Our results demonstrate the importance of the four mutated residues for ABCB4 function, which may explain the pathogenic phenotype. They provide an experimental evidence that targeted pharmacotherapy for genetic diseases caused by ABCB4 deficiency is likely to be mutation-specific.",
+      "language": "en",
+      "relevance_score": 5.0,
+      "matched_aliases": [
+        "ABCB4 AND (\"PFIC3\" OR \"LPAC syndrome\" OR \"ICP\")"
+      ],
+      "is_case_report": false,
+      "is_functional_study": true
+    },
+    {
+      "pmid": "41993931",
+      "doi": "10.3389/fgene.2026.1802238",
+      "title": "Functional inactivation of MDR3 caused by a homozygous &lt;i&gt;ABCB4&lt;/i&gt; missense variant leading to liver failure.",
+      "journal": "Frontiers in genetics",
+      "year": 2026,
+      "abstract": "Progressive familial intrahepatic cholestasis (PFIC) is a rare hereditary liver disorder that is caused by defective hepatobiliary transport. Variants in ATP binding cassette 4 (\u00a0), encoding phosphatidylcholine floppase MDR3, are a frequent cause; however, many remain classified as variants of uncertain significance (VUS), limiting molecular diagnosis. Here, we functionally characterized a previously reported homozygous <i>ABCB4</i> missense variant (c.431G>A, p.(Arg144Gln)) without experimental evidence of pathogenicity. An <i>in silico</i> analysis using the ABCB4-specific prediction tool Vasor indicated a high probability of pathogenicity (0.88). Structural modeling suggested that Arg144Gln disrupted key electrostatic interactions essential for MDR3 membrane anchoring. Immunofluorescence analyses demonstrated markedly reduced membrane localization with residual cytoplasmic retention, consistent with complete loss of protein function. In conclusion, the <i>ABCB4</i> p.(Arg144Gln) variant causes functional inactivation of MDR3 and represents a novel pathogenic mutation. Combined genetic, structural, and functional analyses are valuable tools for characterizing variants of uncertain significance in <i>ABCB4</i>-associated cholestatic liver disease.",
+      "language": "en",
+      "relevance_score": 5.0,
+      "matched_aliases": [
+        "ABCB4 AND (\"case report\" OR mutation OR variant)"
+      ],
+      "is_case_report": false,
+      "is_functional_study": true
+    },
+    {
+      "pmid": "41598351",
+      "doi": "10.3390/jcm15020412",
+      "title": "A Rare Nonsense Mutation in the <i>ABCB4</i> Gene Associated with Progressive Familial Intrahepatic Cholestasis Type 3: A Case Report.",
+      "journal": "Journal of clinical medicine",
+      "year": 2026,
+      "abstract": "<b>Background:</b> Progressive familial intrahepatic cholestasis (PFIC) describes a group of genetically heterogeneous disorders. Several mutations in the ATP-Binding Cassette Subfamily B Member 4 (<i>ABCB4</i>) gene have been confirmed to cause reduced phosphatidylcholine levels in bile, leading to a deficiency of biliary vesicles and instability of mixed in micelles. The disease spectrum ranges from PFIC type 3 (PFIC3) to milder conditions. Herein, we present a rare case of PFIC3 in a young woman, emphasizing the importance of early detection and management. <b>Methods:</b> The patient was diagnosed using next-generation sequencing, with genetic testing and analysis performed by the Chengdu Hua Chuang Testing Institute. Variant pathogenicity was evaluated according to the American College of Medical Genetics and Genomics guidelines and classified into five categories: pathogenic, likely pathogenic, uncertain significance, likely benign, and benign. Nomenclature was assigned following the Human Genome Variation Society standards. <b>Results:</b> Contrast-enhanced abdominal computed tomography demonstrated liver cirrhosis with marked splenomegaly. Histological examination of liver biopsy specimens using hematoxylin and eosin and Masson staining further confirmed cirrhotic changes. Genetic testing was subsequently performed and revealed a likely pathogenic variant, c.2757T > A (p. Tyr919Ter), in exon 22 of the <i>ABCB4</i> gene, which was also detected in the patient's mother but absent in her father. Finally, PFIC3 was diagnosed. Following initiation of ursodeoxycholic acid therapy, the patient showed moderate improvement in liver function tests, underscoring a clinical case with therapeutic implications. <b>Conclusions:</b> Molecular genetic analyses of <i>ABCB4</i> are essential for the accurate diagnosis of PFIC3. Clinicians should consider cholestatic liver diseases, particularly PFIC, as a differential diagnosis in cases of liver cirrhosis with unknown etiology, especially in young patients who lack prior symptoms or a family history of liver disease.",
+      "language": "en",
+      "relevance_score": 4.0,
+      "matched_aliases": [
+        "ABCB4 AND (\"PFIC3\" OR \"LPAC syndrome\" OR \"ICP\")"
+      ],
+      "is_case_report": true,
+      "is_functional_study": false
+    },
+    {
+      "pmid": "41395309",
+      "doi": "10.3389/fped.2025.1648663",
+      "title": "Case Report: Sustained biochemical remission following early initiation of odevixibat in an infant with monoallelic ABCB11 mutation and histologically confirmed PFIC2.",
+      "journal": "Frontiers in pediatrics",
+      "year": 2025,
+      "abstract": "<h4>Introduction</h4>Progressive familial intrahepatic cholestasis (PFIC) are rare genetic hepatocellular disorders that affect bile secretion and predominantly manifest in early childhood. PFIC2, which is caused by mutations in the ABCB11 gene, often progresses to end-stage liver disease.<h4>Case presentation</h4>We present the case of a male infant with PFIC2, which was associated with a heterozygous frameshift mutation in the ABCB11 gene as well as an additional heterozygous variant in the ATP8B1 gene. Initial clinical management involved ursodeoxycholic acid (UDCA) administration and fat-soluble vitamin supplementation. However, it was only after switching treatment to the ileal bile acid transporter (IBAT) inhibitor odevixibat at three months of age, that the patient exhibited significant improvement, including normalization of cholestasis parameters and liver enzymes. Liver function has remained stable on therapy for 2.5 years during which time the patient has maintained normal growth and development with no evidence of disease progression.<h4>Discussion</h4>This case study highlights the effectiveness of odevixibat in managing PFIC2, demonstrating sustained disease suppression and symptomatic relief. It also emphasizes the importance of comprehensive clinical evaluation and accurate disease characterization as well as the potential of targeted therapies in improving outcomes for patients with PFIC2.",
+      "language": "en",
+      "relevance_score": 4.0,
+      "matched_aliases": [
+        "ABCB4 AND (\"case report\" OR mutation OR variant)"
+      ],
+      "is_case_report": true,
+      "is_functional_study": false
+    },
+    {
+      "pmid": "39984942",
+      "doi": "10.1186/s13023-025-03599-2",
+      "title": "Genotypes and different clinical variants between children and adults in progressive familial intrahepatic cholestasis: a state-of-the-art review.",
+      "journal": "Orphanet journal of rare diseases",
+      "year": 2025,
+      "abstract": "<h4>Introduction</h4>Progressive Familial intrahepatic cholestasis (PFIC) are rare disorders of bile acid (BAs) secretion and transport with a genetic background. PFIC are paediatric manifestations, but the same variants causing PFIC can also cause cholestasis with a later paediatric onset or adult-onset cholestatic disease (AOCD). Pruritus is a symptom of cholestasis that can be so devastating that it requires a liver transplant (LT) in children; some PFIC types have been described as at risk of liver cancer development. Commonly prescribed medications for PFIC symptoms can partially relieve pruritus without changing the natural history of the disease. Recently, a therapy reducing the intestinal resorption of BAs has been approved; it is effective on both pruritus and cholestasis in PFIC, potentially being a disease-modifying intervention.<h4>Areas covered</h4>The clinical and genetic characteristics of different PFIC and AOCD are summarized to provide a common background for geneticists and paediatric and adult hepatologists in diagnosis and management.<h4>Expert opinion</h4>Collaboration between paediatric and adult hepatologists and geneticists will become crucial for cholestatic disease research and patient treatment. Therefore, adult hepatologists will need to learn more about FIC. This might enable the implementation of individualized surveillance in FIC patients and the evaluation of patient family histories.",
+      "language": "it",
+      "relevance_score": 3.5,
+      "matched_aliases": [],
+      "is_case_report": false,
+      "is_functional_study": false
+    },
+    {
+      "pmid": null,
+      "doi": null,
+      "title": "ESPGHAN 56th Annual Meeting Abstracts",
+      "journal": "JPGN reports",
+      "year": 2024,
+      "abstract": null,
+      "language": "pt",
+      "relevance_score": 2.5,
+      "matched_aliases": [],
+      "is_case_report": false,
+      "is_functional_study": false
+    },
+    {
+      "pmid": "41575125",
+      "doi": null,
+      "title": "[Low phospholipidassociated cholelithiasis syndrome].",
+      "journal": "La Revue du praticien",
+      "year": 2025,
+      "abstract": null,
+      "language": "fr",
+      "relevance_score": 2.5,
+      "matched_aliases": [
+        "ABCB4 T175P",
+        "ABCB4 Thr175Pro",
+        "ABCB4 p.T175P",
+        "ABCB4 p.Thr175Pro",
+        "ABCB4 c.523A>C",
+        "ABCB4 AND (\"PFIC3\" OR \"LPAC syndrome\" OR \"ICP\")"
+      ],
+      "is_case_report": false,
+      "is_functional_study": false
+    },
+    {
+      "pmid": "35741809",
+      "doi": "10.3390/genes13061047",
+      "title": "Genetic Analysis of <i>ABCB4</i> Mutations and Variants Related to the Pathogenesis and Pathophysiology of Low Phospholipid-Associated Cholelithiasis.",
+      "journal": "Genes",
+      "year": 2022,
+      "abstract": "Clinical studies have revealed that the ABCB4 gene encodes the phospholipid transporter on the canalicular membrane of hepatocytes, and its mutations and variants are the genetic basis of low phospholipid-associated cholelithiasis (LPAC), a rare type of gallstone disease caused by a single-gene mutation or variation. The main features of LPAC include a reduction or deficiency of phospholipids in bile, symptomatic cholelithiasis at <40 years of age, intrahepatic sludge and microlithiasis, mild chronic cholestasis, a high cholesterol/phospholipid ratio in bile, and recurrence of biliary symptoms after cholecystectomy. Needle-like cholesterol crystals, putatively \u201canhydrous\u201d cholesterol crystallization at low phospholipid concentrations in model and native bile, are characterized in ABCB4 knockout mice, a unique animal model for LPAC. Gallbladder bile with only trace amounts of phospholipids in these mice is supersaturated with cholesterol, with lipid composition plotting in the left two-phase zone of the ternary phase diagram, consistent with \u201canhydrous\u201d cholesterol crystallization. In this review, we summarize the molecular biology and physiological functions of ABCB4 and comprehensively discuss the latest advances in the genetic analysis of ABCB4 mutations and variations and their roles in the pathogenesis and pathophysiology of LPAC in humans, based on the results from clinical studies and mouse experiments. To date, approximately 158 distinct LPAC-causing ABCB4 mutations and variants in humans have been reported in the literature, indicating that it is a monogenic risk factor for LPAC. The elucidation of the ABCB4 function in the liver, the identification of ABCB4 mutations and variants in LPAC patients, and the exploration of gene therapy for ABCB4 deficiency in animal models can help us to better understand the cellular, molecular, and genetic mechanisms underlying the onset of the disease, and will pave the way for early diagnosis and prevention of susceptible subjects and effective intervention for LPAC in patients.",
+      "language": "en",
+      "relevance_score": 2.0,
+      "matched_aliases": [
+        "ABCB4 c.523A>C"
+      ],
+      "is_case_report": false,
+      "is_functional_study": false
+    },
+    {
+      "pmid": "35894240",
+      "doi": "10.1002/hep4.2051",
+      "title": "Clinical phenotype of adult-onset liver disease in patients with variants in ABCB4, ABCB11, and ATP8B1.",
+      "journal": "Hepatology communications",
+      "year": 2022,
+      "abstract": "Variants in ATP8B1, ABCB11, and ABCB4 underlie the most prevalent forms of progressive familial intrahepatic cholestasis. We aim to describe variants in these genes in a cohort of patients with adult-onset liver disease, and explore a genotype-phenotype correlation. Patients with onset of liver disease aged above 18 who underwent sequencing of cholestasis genes for clinical purposes over a 5-year period were identified. Bioinformatic analysis of variants was performed. Liver histology was evaluated in patients with variants. Of the 356 patients tested, at least one variant was identified in 101 (28.4%): 46 ABCB4, 35 ABCB11, and 28 ATP8B1. Patients with ABCB4 variants had chronic liver disease (71.7%) and pregnancy-associated liver dysfunction (75%), with a younger age of onset in more severe genotypes (p\u00a0=\u20090.046). ABCB11 variants presented with pregnancy-associated liver dysfunction (82.4%) and acute/episodic cholestasis (40%), with no association between age of onset and genotype severity. ATP8B1 variants were associated with chronic liver disease (75%); however, they were commonly seen in patients with an alternate etiology of liver disease and variants were of low predicted pathogenicity. In adults with suspected genetic cholestasis, variants in cholestasis genes were frequently identified and were likely to contribute to the development of liver disease, particularly ABCB4 and ABCB11. Variants were often in heterozygous state, and they should no longer be considered recessive Mendelian traits. Sequencing cholestasis genes in selected patients with adult-onset disease should be considered, with interpretation in close collaboration with histopathologists and geneticists.",
+      "language": "en",
+      "relevance_score": 2.0,
+      "matched_aliases": [
+        "ABCB4 c.523A>C"
+      ],
+      "is_case_report": false,
+      "is_functional_study": false
+    },
+    {
+      "pmid": "35884482",
+      "doi": "10.3390/cancers14143421",
+      "title": "Genetics in Familial Intrahepatic Cholestasis: Clinical Patterns and Development of Liver and Biliary Cancers: A Review of the Literature.",
+      "journal": "Cancers",
+      "year": 2022,
+      "abstract": "The family of inherited intrahepatic cholestasis includes autosomal recessive cholestatic rare diseases of childhood involved in bile acids secretion or bile transport defects. Specific genetic pathways potentially cause many otherwise unexplained cholestasis or hepatobiliary tumours in a healthy liver. Lately, next-generation sequencing and whole-exome sequencing have improved the diagnostic procedures of familial intrahepatic cholestasis (FIC), as well as the discovery of several genes responsible for FIC. Moreover, mutations in these genes, even in the heterozygous status, may be responsible for cryptogenic cholestasis in both young and adults. Mutations in FIC genes can influence serum and hepatic levels of bile acids. Experimental studies on the <i>NR1H4</i> gene have shown that high bile acids concentrations cause excessive production of inflammatory cytokines, resistance to apoptosis, and increased cell regeneration, all risk conditions for developing hepatocellular carcinoma (HCC) and cholangiocarcinoma (CCA). <i>NR1H4</i> gene encodes farnesoid X-activated receptor having a pivotal role in bile salts synthesis. Moreover, HCC and CCA can emerge in patients with several FIC genes such as <i>ABCB11</i>, <i>ABCB4</i> and <i>TJP2</i>. Herein, we reviewed the available data on FIC-related hepatobiliary cancers, reporting on genetics to the pathophysiology, the risk factors and the clinical presentation.",
+      "language": "en",
+      "relevance_score": 2.0,
+      "matched_aliases": [
+        "ABCB4 c.523A>C"
+      ],
+      "is_case_report": false,
+      "is_functional_study": false
+    },
+    {
+      "pmid": "29761167",
+      "doi": "10.1002/hep4.1149",
+      "title": "Phenotypic spectrum and diagnostic pitfalls of ABCB4 deficiency depending on age of onset.",
+      "journal": "Hepatology communications",
+      "year": 2018,
+      "abstract": "Genetic variants in the adenosine triphosphate-binding cassette subfamily B member 4 (<i>ABCB4</i>) gene, which encodes hepatocanalicular phosphatidylcholine floppase, can lead to different phenotypes, such as progressive familial intrahepatic cholestasis (PFIC) type 3, low phospholipid-associated cholelithiasis, and intrahepatic cholestasis of pregnancy. The aim of this multicenter project was to collect information on onset and progression of this entity in different age groups and to assess the relevance of this disease for the differential diagnosis of chronic liver disease. Clinical and laboratory data of 38 patients (17 males, 21 females, from 29 families) with homozygous or (compound) heterozygous <i>ABCB4</i> mutations were retrospectively collected. For further analysis, patients were grouped according to the age at clinical diagnosis of <i>ABCB4</i>-associated liver disease into younger age (<18 years) or adult age (\u226518 years). All 26 patients diagnosed in childhood presented with pruritus (median age 1 year). Hepatomegaly and splenomegaly were present in 85% and 96% of these patients, respectively, followed by jaundice (62%) and portal hypertension (69%). Initial symptoms preceded diagnosis by 1 year, and 13 patients received a liver transplant (median age 6.9 years). Of note, 9 patients were misdiagnosed as biliary atresia, Alagille syndrome, or PFIC type 1. In the 12 patients with diagnosis in adulthood, the clinical phenotype was generally less severe, including intrahepatic cholestasis of pregnancy, low phospholipid-associated cholelithiasis, or (non)cirrhotic PFIC3. <i>Conclusion:</i> ABCB4 deficiency with onset in younger patients caused a more severe PFIC type 3 phenotype with the need for liver transplantation in half the children. Patients with milder phenotypes are often not diagnosed before adulthood. One third of the children with PFIC type 3 were initially misdiagnosed, indicating the need for better diagnostic tools and medical education. (<i>Hepatology Communications</i> 2018;2:504-514).",
+      "language": "en",
+      "relevance_score": 2.0,
+      "matched_aliases": [
+        "ABCB4 c.523A>C"
+      ],
+      "is_case_report": false,
+      "is_functional_study": false
+    },
+    {
+      "pmid": "41659993",
+      "doi": "10.14218/jcth.2025.00476",
+      "title": "ATP-binding Cassette Transporter Defects and Their Roles in Hepatic Diseases.",
+      "journal": "Journal of clinical and translational hepatology",
+      "year": 2026,
+      "abstract": "ATP-binding cassette (ABC) transporters are transmembrane proteins involved in the translocation of bilirubin, bile acids, phospholipids, and cholesterol into bile canaliculi. Mutations in particular genes encoding these transporters-including BSEP (<i>ABCB11</i> gene), MDR3 (<i>ABCB4</i> gene), sterolin-1 and sterolin-2 (<i>ABCG5/8</i> genes), and MRP2 (<i>ABCC2</i> gene)-result in a wide spectrum of liver diseases, ranging from benign conditions such as Dubin-Johnson syndrome to more severe presentations like progressive familial intrahepatic cholestasis. The severity of disease is influenced by many factors, including zygosity, mutation type, and environmental modifiers such as hormones, consanguinity, and founder effects. Homozygous and compound heterozygous mutations typically result in severe and early-onset diseases, while heterozygous single-allelic mutants generally result in milder diseases. Next-generation genetic testing has proven to have high diagnostic value and is important for prognostication. With knowledge of the underlying specific mutations, there is also potential for future targeted therapy for many severe diseases. The aim of this review is to update and discuss the hepatic diseases associated with ABC transporter mutations, the genetic and environmental effects that influence the severity of disease, typical presentations of these cholestatic hepatic diseases, diagnostic considerations, and treatment options.",
+      "language": "en",
+      "relevance_score": 2.0,
+      "matched_aliases": [
+        "ABCB4 AND (\"PFIC3\" OR \"LPAC syndrome\" OR \"ICP\")"
+      ],
+      "is_case_report": false,
+      "is_functional_study": false
+    },
+    {
+      "pmid": "41962761",
+      "doi": "10.1016/j.jcmgh.2026.101783",
+      "title": "Bile acid detergency as determinant of liver pathology in a humanized mouse model of progressive familial intrahepatic cholestasis type 3.",
+      "journal": "Cellular and molecular gastroenterology and hepatology",
+      "year": 2026,
+      "abstract": "<h4>Background & aims</h4>Progressive familial intrahepatic cholestasis type 3 (PFIC3) is caused by impaired activity of ABCB4 that transports phosphatidylcholines (PC) from hepatocytes into bile. Abcb4-knockout (KO) mice have been generated, but hydrophilic muricholic acids in their bile acid (BA) pool may limit pathology and thereby hamper translation to human PFIC3. Therefore, we addressed whether Abcb4 knockdown (Abcb4-KD) in the livers of Cyp2c70-KO mice with a human-like BA composition leads to liver pathology that more closely resembles human PFIC3.<h4>Methods</h4>Expression of Abcb4 gene was suppressed in livers of Cyp2c70-KO/L-Cas9tg mice and control-Cas9tg mice using CRISPR/Cas9-technology to assess short- and long-term consequences. The BA sequestrant colesevelam was mixed into the chow diet (2% w/w) of Cyp2c70-KO mice with or without Abcb4-KD and the effects were evaluated after 6 weeks.<h4>Results</h4>Abcb4-KD strongly reduced biliary PL:BA ratios in both Cyp2c70-KO and control mice. However, plasma transaminases elevations, liver fibrosis and ductular reactions were markedly aggravated by Abcb4-KD in the context of a human-like BA composition. Importantly, the biliary lipid compositions differed markedly between the two Abcb4-KD models. Reduced biliary PC and increased concentrations of lysoPC, sphingomyelin, and ceramide were associated with the severity of liver disease only in Cyp2c70-KO/Abcb4-KD mice. Gene set enrichment analysis indicated that epithelial-mesenchymal transition was induced in the livers of Cyp2c70-KO/Abcb4-KD mice compared to control Abcb4-KD mice. BA sequestration reduced biliary BA secretion rates and mitigated liver pathology in Cyp2c70-KO/Abcb4-KD mice.<h4>Conclusions</h4>The presence of a human-like BA composition profoundly aggravates liver pathology upon Abcb4 reduction in mice, conceivably due to the augmented extrusion of non-PC phospholipids by hydrophobic BAs from membranes into bile. This humanized PFIC3 model is anticipated to accelerate the development of novel therapies for PFIC3 and potentially other cholestatic liver diseases.",
+      "language": "en",
+      "relevance_score": 2.0,
+      "matched_aliases": [
+        "ABCB4 AND (\"PFIC3\" OR \"LPAC syndrome\" OR \"ICP\")"
+      ],
+      "is_case_report": false,
+      "is_functional_study": false
+    },
+    {
+      "pmid": "41216274",
+      "doi": "10.21037/tgh-24-127",
+      "title": "Ursodeoxycholic acid treatment of LPAC presenting as post cholecystectomy pain: rationale and design of a randomised trial.",
+      "journal": "Translational gastroenterology and hepatology",
+      "year": 2025,
+      "abstract": "<h4>Background</h4>Post cholecystectomy pain is a common clinical problem. Investigation and management of patients with recurrent episodes of biliary pain and normal imaging is challenging. Low phospholipid associated cholelithiasis (LPAC) is a recently described syndrome that often presents with difficult to manage episodes of post cholecystectomy pain. Ursodeoxycholic acid (UDCA) treatment of LPAC is supported by animal studies and case series but has not been assessed in a randomised trial.<h4>Methods</h4>This protocol presents the design and rationale for an investigator-initiated, prospective, randomised, placebo-controlled, double-blind, Phase 3 crossover trial: Ursodeoxycholic acid in LPAC treating Recurrent Abdominal Pain (ULTRA Pain). The study population consists of 24 patients with difficult to manage post cholecystectomy pain diagnosed with LPAC with no or minimal changes on liver ultrasound imaging. Participants will be recruited through the gastroenterology clinic at Royal Melbourne Hospital and randomly assigned to receive UDCA 10 mg/kg daily for 1 year followed by a matched placebo, or vice versa, separated by an effective 6-week washout period. The primary endpoint is the number of patient reported episodes of biliary pain. Secondary outcomes include the number of episodes of biliary pain with associated transiently elevated liver function tests (LFTs), and episodes of biliary pain in those with the diagnosis of LPAC confirmed by ultrasound, the Recurrent Abdominal Pain Intensity and Disability (RAPID) score, and the score of several questionnaires measuring quality of life. An independent monitor has been appointed to oversee safety of participants. An intention-to-treat analysis will be performed in accordance with CONSORT guidelines. Regression methods appropriate to the type of primary or secondary outcome, such as linear regression for continuous outcome or Poisson or negative binomial regression if found to be skewed, or binary logistic regression for binary outcomes will be employed. Alpha or level of statistical significance will be set to p <0.05 and 95% confidence intervals will be reported throughout.<h4>Discussion</h4>This trial will provide level 1 evidence on the efficacy of UDCA in treating LPAC presenting with post cholecystectomy pain.<h4>Trial registration</h4>This trial is registered with the Australian New Zealand Clinical Trials Registry (ACTRN12621000450819).",
+      "language": "en",
+      "relevance_score": 2.0,
+      "matched_aliases": [
+        "ABCB4 AND (\"PFIC3\" OR \"LPAC syndrome\" OR \"ICP\")"
+      ],
+      "is_case_report": false,
+      "is_functional_study": false
+    },
+    {
+      "pmid": "41566726",
+      "doi": "10.17219/acem/211596",
+      "title": "Diagnostic challenges in progressive familial intrahepatic cholestasis type 3 (PFIC3) misdiagnosed as Wilson's disease: A systematic review.",
+      "journal": "Advances in clinical and experimental medicine : official organ Wroclaw Medical University",
+      "year": 2026,
+      "abstract": "Progressive familial intrahepatic cholestasis type 3 (PFIC3) is a rare liver disorder caused by biallelic mutations in the ABCB4 gene, leading to multidrug resistance protein 3 (MDR3) deficiency. PFIC3 often presents with clinical and biochemical features that overlap with Wilson's disease (WD), including hepatic copper accumulation and elevated urinary copper excretion. These similarities contribute to frequent misdiagnosis, resulting in inappropriate chelation therapy and delayed appropriate management. This systematic review examines reported cases of PFIC3 initially misdiagnosed as WD to highlight diagnostic challenges and assess patient outcomes. A comprehensive search across PubMed, ScienceDirect and Google Scholar identified 11 eligible studies involving 16 patients. Most cases were first treated as WD, receiving chelation therapy without clinical improvement. Diagnosis was later revised to PFIC3 following negative ATP7B mutation testing and identification of ABCB4 variants, often via whole-genome sequencing. Upon switching to ursodeoxycholic acid (UDCA), most patients experienced clinical stabilization. The findings underscore the need for heightened awareness of PFIC3 as a differential diagnosis in atypical WD cases, especially when ceruloplasmin is normal and Kayser-Fleischer (KF) rings are absent. Early genetic testing is essential to avoid mismanagement. Further observational studies are warranted to estimate misdiagnosis frequency and guide diagnostic protocols.",
+      "language": "en",
+      "relevance_score": 2.0,
+      "matched_aliases": [
+        "ABCB4 AND (\"PFIC3\" OR \"LPAC syndrome\" OR \"ICP\")"
+      ],
+      "is_case_report": false,
+      "is_functional_study": false
+    },
+    {
+      "pmid": "41640953",
+      "doi": "10.4254/wjh.v18.i1.113485",
+      "title": "Clinical spectrum and genotype-phenotype correlation of &lt;i&gt;ABCB4&lt;/i&gt; mutations in children: Insights from a North Indian cohort.",
+      "journal": "World journal of hepatology",
+      "year": 2026,
+      "abstract": "<h4>Background</h4>Progressive familial intrahepatic cholestasis type 3, caused by mutations in the <i>ABCB4</i> gene, is a rare genetic disorder. Although severe phenotypes due to biallelic mutations are well described, emerging data seem to suggest the clinical relevance of monoallelic variants.<h4>Aim</h4>To describe the clinical spectrum and genotype-phenotype correlation of <i>ABCB4</i> mutations in children in a cohort of North Indian children.<h4>Methods</h4>This is a retrospective analysis of a prospectively maintained database from a single tertiary care centre. Children (\u2264 18 years) with <i>ABCB4</i> mutations between January 2021 and March 2025 were analysed. The clinical presentation, laboratory investigations, genetic sequencing and outcomes were recorded. Patients were stratified into group 1 (homozygous/compound heterozygous) and group 2 (heterozygous). Variant pathogenicity was assessed using the American College of Medical Genetics guidelines and available predictive tools.<h4>Results</h4>Of the 26 patients, 16 had biallelic mutations, and 10 had monoallelic mutations. Group 1 exhibited higher rates of positive family history (75% <i>vs</i> 30%, <i>P</i> = 0.04), ascites (43.2% <i>vs</i> 0%, <i>P</i> = 0.02), larger varices (40% <i>vs</i> 0%, <i>P</i> = 0.009), higher gamma glutamyl transferase levels (171 U/L <i>vs</i> 38 U/L, <i>P</i> = 0.007), and lower platelet counts (162 \u00d7 10<sup>9</sup>/L <i>vs</i> 415 \u00d7 10<sup>9</sup>/L, <i>P</i> = 0.007). Notably, two-thirds of patients in group 1 experienced disease progression, and one-third died during follow-up. Certain missense variants (<i>e.g.</i>, c.2860T>C) and all nonsense variants were linked to rapid deterioration. Most children in group 2 had transient cholestasis with a good outcome, but two older children succumbed.<h4>Conclusion</h4>Mutations in the <i>ABCB4</i> gene contribute significantly to pediatric chronic liver disease. Patients with severe biallelic mutations frequently experience a progressive disease course, whereas those with monoallelic mutations may progress slowly. Genetic testing for <i>ABCB4</i> should be considered in children with cryptogenic chronic liver disease, especially those with high gamma-glutamyltransferase cholestasis and portal hypertension.",
+      "language": "en",
+      "relevance_score": 2.0,
+      "matched_aliases": [
+        "ABCB4 AND (\"case report\" OR mutation OR variant)"
+      ],
+      "is_case_report": false,
+      "is_functional_study": false
+    },
+    {
+      "pmid": "41735377",
+      "doi": "10.1038/s41598-026-39840-6",
+      "title": "Molecular characterisation of the trafficking rescue of defective ABCB4 variants by roscovitine analogues.",
+      "journal": "Scientific reports",
+      "year": 2026,
+      "abstract": "ABCB4 is expressed at the canalicular membrane of hepatocytes and is responsible for the secretion of phosphatidylcholine into bile. Genetic variations of ABCB4 are associated with rare cholestatic liver diseases, the most severe being progressive familial intrahepatic cholestasis type 3, for which most of patients require liver transplantation before adulthood. Therefore, the development of alternative pharmacotherapies is urgently needed. We have previously shown that structural analogues of roscovitine rescue the maturation, localisation and indirectly the function of class II intracellularly-retained ABCB4 variants. Nevertheless, in order to develop molecules with better benefit/toxicity ratios, new structural analogues of roscovitine were tested in cell models as potential correctors of three class II ABCB4 variants. We show here that nine roscovitine analogues are able to significantly rescue the maturation and canalicular localisation of these ABCB4 variants. Three of these analogues were also able to partially restore the transporter-mediated activity of ABCB4 variants, while being less inhibitory of wild type ABCB4 function than roscovitine itself. In addition, ensemble docking calculations suggest that the selected roscovitine analogues may directly interact with wild type or mutated ABCB4. Our results represent a new step towards the identification of pharmacological correctors for ER-retained variants of the ABCB4 transporter.",
+      "language": "en",
+      "relevance_score": 2.0,
+      "matched_aliases": [
+        "ABCB4 AND (\"case report\" OR mutation OR variant)"
+      ],
+      "is_case_report": false,
+      "is_functional_study": false
+    },
+    {
+      "pmid": "41797682",
+      "doi": "10.1111/jvh.70156",
+      "title": "Prolonged Intrahepatic Cholestasis After Acute Hepatitis E Infection: A Case Series and Genetic Analysis.",
+      "journal": "Journal of viral hepatitis",
+      "year": 2026,
+      "abstract": "Hepatitis E virus (HEV) is a leading cause of acute viral hepatitis worldwide. Whereas HEV infection is typically self-limiting, rare cases of prolonged cholestasis have been reported. The underlying mechanisms remain unclear, though host genetic variation may contribute. This study aimed to investigate the role of genetic predisposition in HEV-induced prolonged cholestasis by analysing variants in genes associated with hepatocanalicular transport. We performed a retrospective review of medical records from three university centres in Switzerland and Germany and identified five immunocompetent patients with prolonged cholestasis following acute HEV infections. Genetic analysis using next-generation sequencing included a panel of five genes involved in cholestatic liver diseases (ATP8B1, ABCB11, ABCB4, ABCC2 and MYO5B). Variant frequencies were evaluated using population reference databases and compared with a genetically characterised cohort of asymptomatic HEV-infected blood donors. All five patients were male, with a median age of 59\u2009years. The median duration of cholestasis exceeded 77\u2009days. Two patients exhibited potentially pathogenic heterozygous variants: ATP8B1 p.N45T in one patient and MYO5B p.K429R in another. Additionally, common ABCB11 variants were detected in all patients, which might have contributed to cholestatic clinical presentation. In the asymptomatic HEV-infected controls, the MYO5B p.K429R variant was absent, whereas the ATP8B1 p.N45T variant was detected in only one individual in a heterozygous state. These case series illustrate that host genetics might influence the severity of HEV infection, particularly prolonged cholestatic jaundice. Further research is needed to explore the interaction between viral infections and host genetics in liver disorders.",
+      "language": "en",
+      "relevance_score": 2.0,
+      "matched_aliases": [
+        "ABCB4 AND (\"case report\" OR mutation OR variant)"
+      ],
+      "is_case_report": false,
+      "is_functional_study": false
+    },
+    {
+      "pmid": "28924228",
+      "doi": "10.1038/s41598-017-11626-x",
+      "title": "An expanded role for heterozygous mutations of ABCB4, ABCB11, ATP8B1, ABCC2 and TJP2 in intrahepatic cholestasis of pregnancy.",
+      "journal": "Scientific reports",
+      "year": 2017,
+      "abstract": "Intrahepatic cholestasis of pregnancy (ICP) affects 1/140 UK pregnancies; with pruritus, hepatic impairment and elevated serum bile acids. Severe disease is complicated by spontaneous preterm delivery and stillbirth. Previous studies have reported mutations in hepatocellular transporters (ABCB4, ABCB11). High throughput sequencing in 147 patients was performed in the transporters ABCB4, ABCB11, ATP8B1, ABCC2 and tight junction protein 2 (TJP2). Twenty-six potentially damaging variants were identified with the following predicted protein changes: Twelve ABCB4 mutations - Arg47Gln, Met113Val, Glu161Gly, Thr175Ala, Glu528Glyfs*6, Arg590Gln, Ala601Ser, Glu884Ter, Gly722Ala, Tyr775Met (x2), Trp854Ter. Four potential ABCB11 mutations - Glu297Gly (x3) and a donor splice site mutation (intron 19). Five potential ATP8B1 mutations - Asn45Thr (x3), and two others, Glu114Gln and Lys203Glu. Two ABCC2 mutations - Glu1352Ala and a duplication (exons 24 and 25). Three potential mutations were identified in TJP2; Thr62Met (x2) and Thr626Ser. No patient harboured more than one mutation. All were heterozygous. An additional 545 cases were screened for the potential recurrent mutations of ATP8B1 (Asn45Thr) and TJP2 (Thr62Met) identifying three further occurrences of Asn45Thr. This study has expanded known mutations in ABCB4 and ABCB11 and identified roles in ICP for mutations in ATP8B1 and ABCC2. Possible novel mutations in TJP2 were also discovered.",
+      "language": "en",
+      "relevance_score": 1.0,
+      "matched_aliases": [
+        "ABCB4 c.523A>C"
+      ],
+      "is_case_report": false,
+      "is_functional_study": false
+    },
+    {
+      "pmid": "24914347",
+      "doi": "10.3748/wjg.v20.i19.5867",
+      "title": "ABCB4 mutations underlie hormonal cholestasis but not pediatric idiopathic gallstones.",
+      "journal": "World journal of gastroenterology",
+      "year": 2014,
+      "abstract": "<h4>Aim</h4>To investigate the contribution of ABCB4 mutations to pediatric idiopathic gallstone disease and the potential of hormonal contraceptives to prompt clinical manifestations of multidrug resistance protein 3 deficiency.<h4>Methods</h4>Mutational analysis of ABCB4, screening for copy number variations by multiplex ligation-dependent probe amplification, genotyping for low expression allele c.1331T>C of ABCB11 and genotyping for variation c.55G>C in ABCG8 previously associated with cholesterol gallstones in adults was performed in 35 pediatric subjects with idiopathic gallstones who fulfilled the clinical criteria for low phospholipid-associated cholelithiasis syndrome (LPAC, OMIM #600803) and in 5 young females with suspected LPAC and their families (5 probands, 15 additional family members). The probands came to medical attention for contraceptive-associated intrahepatic cholestasis.<h4>Results</h4>A possibly pathogenic variant of ABCB4 was found only in one of the 35 pediatric subjects with idiopathic cholesterol gallstones whereas 15 members of the studied 5 LPAC kindreds were confirmed and another one was highly suspected to carry predictably pathogenic mutations in ABCB4. Among these 16, however, none developed gallstones in childhood. In 5 index patients, all young females carrying at least one pathogenic mutation in one allele of ABCB4, manifestation of LPAC as intrahepatic cholestasis with elevated serum activity of gamma-glutamyltransferase was induced by hormonal contraceptives. Variants ABCB11 c.1331T>C and ABCG8 c.55G>C were not significantly overrepresented in the 35 examined patients with suspect LPAC.<h4>Conclusion</h4>Clinical criteria for LPAC syndrome caused by mutations in ABCB4 cannot be applied to pediatric patients with idiopathic gallstones. Sexual immaturity even prevents manifestation of LPAC.",
+      "language": "en",
+      "relevance_score": 1.0,
+      "matched_aliases": [
+        "ABCB4 c.523A>C"
+      ],
+      "is_case_report": false,
+      "is_functional_study": false
+    },
+    {
+      "pmid": "20163776",
+      "doi": "10.14712/fb2010056010009",
+      "title": "Role of common canalicular transporter gene variations in aetiology of idiopathic gallstones in childhood.",
+      "journal": "Folia biologica",
+      "year": 2010,
+      "abstract": "Variations in genes encoding canalicular transportes, for biliary lipids may affect concentrations of biliary lipids in bile and promote cholesterol crystallization and gallstone formation. In our study we investigated the contribution of heterozygosity for common variations considered either potentially pathogenic or susceptibility alleles for cholesterol cholelithiasis in adults (c.523A>G (p.Thr175Ala) and c.1954A>G (p.Arg652Gly) in ABCB4, c.1331T>C (p.Val444Ala) in ABCB11 and c.55 G>C (p.Asp19His) in ABCG8) to the aetiology of paediatric idiopathic gallstone disease. Genotyping was performed in 35 paediatric subjects with idiopathic gallstones with positive family history for gallstones and 150 population controls. The ABCB4 variant p.Thr175Ala was found only in the controls, not in the patients. The frequency of the remaining three variant alleles and the corresponding genotypes did not differ between patients and controls. We conclude that the studied common variations in genes encoding canalicular transporters known to contribute to genetic predisposition to cholesterol gallstones in adulthood do not contribute specifically to the aetiology of paediatric idiopathic gallstones.",
+      "language": "en",
+      "relevance_score": 1.0,
+      "matched_aliases": [
+        "ABCB4 c.523A>C"
+      ],
+      "is_case_report": false,
+      "is_functional_study": false
+    },
+    {
+      "pmid": null,
+      "doi": null,
+      "title": "Beyond the Pump: The Evolving Molecular Landscape of Intrahepatic Cholestasis",
+      "journal": "Diagnostics (Basel, Switzerland)",
+      "year": 2026,
+      "abstract": null,
+      "language": "en",
+      "relevance_score": 1.0,
+      "matched_aliases": [
+        "ABCB4 AND (\"PFIC3\" OR \"LPAC syndrome\" OR \"ICP\")"
+      ],
+      "is_case_report": false,
+      "is_functional_study": false
+    },
+    {
+      "pmid": null,
+      "doi": null,
+      "title": "High frequency of ABCB4 and ABCB11 gene variants in adult patients with idiopathic chronic or recurrent cholestasis",
+      "journal": "Hepatology communications",
+      "year": 2025,
+      "abstract": null,
+      "language": "en",
+      "relevance_score": 1.0,
+      "matched_aliases": [
+        "ABCB4 AND (\"PFIC3\" OR \"LPAC syndrome\" OR \"ICP\")"
+      ],
+      "is_case_report": false,
+      "is_functional_study": false
+    },
+    {
+      "pmid": "41855597",
+      "doi": "10.1016/j.dmd.2026.100256",
+      "title": "Mechanism-guided untargeted-to-targeted lipidomics identifies phosphatidylcholine 38:4 in rat bile as an Abcb4/Mdr2 inhibition marker.",
+      "journal": "Drug metabolism and disposition: the biological fate of chemicals",
+      "year": 2026,
+      "abstract": null,
+      "language": "en",
+      "relevance_score": 1.0,
+      "matched_aliases": [
+        "ABCB4 T175P",
+        "ABCB4 Thr175Pro",
+        "ABCB4 p.T175P",
+        "ABCB4 p.Thr175Pro",
+        "ABCB4 c.523A>C",
+        "ABCB4 AND (\"PFIC3\" OR \"LPAC syndrome\" OR \"ICP\")"
+      ],
+      "is_case_report": false,
+      "is_functional_study": false
+    },
+    {
+      "pmid": "41840139",
+      "doi": "10.1038/s42003-026-09847-w",
+      "title": "The secretory protein, CLCF1, improves cholestatic liver disease by inhibiting hepatic bile acid synthesis and promoting bile acid excretion.",
+      "journal": "Communications biology",
+      "year": 2026,
+      "abstract": null,
+      "language": "en",
+      "relevance_score": 1.0,
+      "matched_aliases": [
+        "ABCB4 T175P",
+        "ABCB4 Thr175Pro",
+        "ABCB4 p.T175P",
+        "ABCB4 p.Thr175Pro",
+        "ABCB4 c.523A>C",
+        "ABCB4 AND (\"PFIC3\" OR \"LPAC syndrome\" OR \"ICP\")"
+      ],
+      "is_case_report": false,
+      "is_functional_study": false
+    }
+  ],
+  "alias_hash": "60c1a116b31543a7"
+}

@@ -1,0 +1,1823 @@
+[
+  {
+    "input": "7 87452957 87452957 T/G 1",
+    "colocated_variants": [
+      {
+        "start": 87452957,
+        "seq_region_name": "7",
+        "strand": 1,
+        "end": 87452957,
+        "phenotype_or_disease": 1,
+        "id": "CM013505",
+        "allele_string": "HGMD_MUTATION"
+      },
+      {
+        "var_synonyms": {
+          "COSMIC": [
+            "COSM6472058"
+          ]
+        },
+        "allele_string": "COSMIC_MUTATION",
+        "id": "COSV55941178",
+        "phenotype_or_disease": 1,
+        "end": 87452957,
+        "strand": 1,
+        "somatic": 1,
+        "start": 87452957,
+        "seq_region_name": "7"
+      }
+    ],
+    "strand": 1,
+    "assembly_name": "GRCh38",
+    "transcript_consequences": [
+      {
+        "hgvsc": "ENST00000265723.8:c.523A>C",
+        "cadd_phred": 27.3,
+        "protein_start": 175,
+        "consequence_terms": [
+          "missense_variant"
+        ],
+        "swissprot": [
+          "P21439.229"
+        ],
+        "variant_allele": "G",
+        "codons": "Acg/Ccg",
+        "cds_start": 523,
+        "cdna_end": 635,
+        "alphamissense": {
+          "am_class": "ambiguous",
+          "am_pathogenicity": 0.4754
+        },
+        "polyphen_score": 0.951,
+        "uniparc": [
+          "UPI000013D66B"
+        ],
+        "sift_prediction": "deleterious_low_confidence",
+        "polyphen_prediction": "probably_damaging",
+        "gene_symbol_source": "HGNC",
+        "protein_end": 175,
+        "cdna_start": 635,
+        "amino_acids": "T/P",
+        "gene_id": "ENSG00000005471",
+        "exon": "6/28",
+        "transcript_id": "ENST00000265723.8",
+        "hgnc_id": "HGNC:45",
+        "sift_score": 0,
+        "uniprot_isoform": [
+          "P21439-1"
+        ],
+        "impact": "MODERATE",
+        "cadd_raw": 4.896293,
+        "domains": [
+          {
+            "db": "ENSP_mappings",
+            "name": "6s7p"
+          },
+          {
+            "db": "ENSP_mappings",
+            "name": "7niu"
+          },
+          {
+            "name": "7niv",
+            "db": "ENSP_mappings"
+          },
+          {
+            "db": "ENSP_mappings",
+            "name": "7niw"
+          },
+          {
+            "name": "SSF90123",
+            "db": "Superfamily"
+          },
+          {
+            "db": "Pfam",
+            "name": "PF00664"
+          },
+          {
+            "name": 1,
+            "db": "Gene3D"
+          },
+          {
+            "name": "CYTOPLASMIC_DOMAIN",
+            "db": "Phobius"
+          },
+          {
+            "name": "PTHR43394",
+            "db": "PANTHER"
+          },
+          {
+            "db": "PROSITE_profiles",
+            "name": "PS50929"
+          },
+          {
+            "name": "AF",
+            "db": "ENSP_mappings"
+          }
+        ],
+        "strand": -1,
+        "gene_symbol": "ABCB4",
+        "protein_id": "ENSP00000265723",
+        "hgvsp": "ENSP00000265723.4:p.Thr175Pro",
+        "biotype": "protein_coding",
+        "cds_end": 523
+      },
+      {
+        "domains": [
+          {
+            "name": "PTHR43394",
+            "db": "PANTHER"
+          },
+          {
+            "name": "CYTOPLASMIC_DOMAIN",
+            "db": "Phobius"
+          },
+          {
+            "name": 1,
+            "db": "Gene3D"
+          },
+          {
+            "db": "Pfam",
+            "name": "PF00664"
+          },
+          {
+            "name": "SSF90123",
+            "db": "Superfamily"
+          },
+          {
+            "db": "PROSITE_profiles",
+            "name": "PS50929"
+          },
+          {
+            "db": "ENSP_mappings",
+            "name": "AF"
+          }
+        ],
+        "strand": -1,
+        "gene_symbol": "ABCB4",
+        "impact": "MODERATE",
+        "cadd_raw": 4.896293,
+        "hgvsp": "ENSP00000352135.3:p.Thr175Pro",
+        "biotype": "protein_coding",
+        "cds_end": 523,
+        "protein_id": "ENSP00000352135",
+        "gene_symbol_source": "HGNC",
+        "protein_end": 175,
+        "cdna_start": 607,
+        "polyphen_prediction": "probably_damaging",
+        "transcript_id": "ENST00000359206.8",
+        "hgnc_id": "HGNC:45",
+        "exon": "6/28",
+        "sift_score": 0,
+        "uniprot_isoform": [
+          "P21439-2"
+        ],
+        "amino_acids": "T/P",
+        "gene_id": "ENSG00000005471",
+        "alphamissense": {
+          "am_pathogenicity": 0.4754,
+          "am_class": "ambiguous"
+        },
+        "polyphen_score": 0.918,
+        "uniparc": [
+          "UPI000012EE8B"
+        ],
+        "sift_prediction": "deleterious_low_confidence",
+        "protein_start": 175,
+        "hgvsc": "ENST00000359206.8:c.523A>C",
+        "cadd_phred": 27.3,
+        "cdna_end": 607,
+        "consequence_terms": [
+          "missense_variant"
+        ],
+        "variant_allele": "G",
+        "cds_start": 523,
+        "swissprot": [
+          "P21439.229"
+        ],
+        "codons": "Acg/Ccg"
+      },
+      {
+        "polyphen_prediction": "probably_damaging",
+        "protein_end": 175,
+        "gene_symbol_source": "HGNC",
+        "cdna_start": 523,
+        "gene_id": "ENSG00000005471",
+        "amino_acids": "T/P",
+        "hgnc_id": "HGNC:45",
+        "transcript_id": "ENST00000453593.5",
+        "exon": "5/26",
+        "uniprot_isoform": [
+          "P21439-3"
+        ],
+        "sift_score": 0,
+        "impact": "MODERATE",
+        "cadd_raw": 4.896293,
+        "gene_symbol": "ABCB4",
+        "domains": [
+          {
+            "db": "PANTHER",
+            "name": "PTHR43394"
+          },
+          {
+            "name": "SSF90123",
+            "db": "Superfamily"
+          },
+          {
+            "name": "CYTOPLASMIC_DOMAIN",
+            "db": "Phobius"
+          },
+          {
+            "db": "Pfam",
+            "name": "PF00664"
+          },
+          {
+            "db": "Gene3D",
+            "name": 1
+          },
+          {
+            "name": "PS50929",
+            "db": "PROSITE_profiles"
+          },
+          {
+            "db": "ENSP_mappings",
+            "name": "AF"
+          }
+        ],
+        "strand": -1,
+        "protein_id": "ENSP00000392983",
+        "biotype": "protein_coding",
+        "hgvsp": "ENSP00000392983.1:p.Thr175Pro",
+        "cds_end": 523,
+        "hgvsc": "ENST00000453593.5:c.523A>C",
+        "cadd_phred": 27.3,
+        "protein_start": 175,
+        "variant_allele": "G",
+        "swissprot": [
+          "P21439.229"
+        ],
+        "codons": "Acg/Ccg",
+        "cds_start": 523,
+        "consequence_terms": [
+          "missense_variant"
+        ],
+        "cdna_end": 523,
+        "alphamissense": {
+          "am_pathogenicity": 0.4754,
+          "am_class": "ambiguous"
+        },
+        "polyphen_score": 0.953,
+        "uniparc": [
+          "UPI000004C4B9"
+        ],
+        "sift_prediction": "deleterious_low_confidence"
+      },
+      {
+        "cadd_phred": 27.3,
+        "hgvsc": "ENST00000473795.1:n.530A>C",
+        "cdna_start": 530,
+        "gene_symbol_source": "HGNC",
+        "variant_allele": "G",
+        "gene_id": "ENSG00000005471",
+        "consequence_terms": [
+          "non_coding_transcript_exon_variant"
+        ],
+        "hgnc_id": "HGNC:45",
+        "transcript_id": "ENST00000473795.1",
+        "exon": "5/5",
+        "cdna_end": 530,
+        "cadd_raw": 4.896293,
+        "impact": "MODIFIER",
+        "gene_symbol": "ABCB4",
+        "strand": -1,
+        "biotype": "retained_intron"
+      },
+      {
+        "trembl": [
+          "A0A2R8Y8A1.30"
+        ],
+        "flags": [
+          "cds_start_NF"
+        ],
+        "polyphen_score": 0.953,
+        "uniparc": [
+          "UPI000D1914AA"
+        ],
+        "sift_prediction": "deleterious_low_confidence",
+        "hgvsc": "ENST00000643670.1:c.466A>C",
+        "cadd_phred": 27.3,
+        "protein_start": 156,
+        "consequence_terms": [
+          "missense_variant",
+          "NMD_transcript_variant"
+        ],
+        "variant_allele": "G",
+        "codons": "Acg/Ccg",
+        "cds_start": 466,
+        "cdna_end": 466,
+        "impact": "MODERATE",
+        "cadd_raw": 4.896293,
+        "domains": [
+          {
+            "name": "AF",
+            "db": "ENSP_mappings"
+          }
+        ],
+        "strand": -1,
+        "gene_symbol": "ABCB4",
+        "protein_id": "ENSP00000496629",
+        "hgvsp": "ENSP00000496629.1:p.Thr156Pro",
+        "biotype": "nonsense_mediated_decay",
+        "cds_end": 466,
+        "polyphen_prediction": "probably_damaging",
+        "gene_symbol_source": "HGNC",
+        "protein_end": 156,
+        "cdna_start": 466,
+        "amino_acids": "T/P",
+        "gene_id": "ENSG00000005471",
+        "transcript_id": "ENST00000643670.1",
+        "hgnc_id": "HGNC:45",
+        "exon": "5/17",
+        "sift_score": 0
+      },
+      {
+        "polyphen_prediction": "probably_damaging",
+        "cdna_start": 554,
+        "gene_symbol_source": "HGNC",
+        "protein_end": 175,
+        "amino_acids": "T/P",
+        "gene_id": "ENSG00000005471",
+        "sift_score": 0,
+        "transcript_id": "ENST00000644106.1",
+        "hgnc_id": "HGNC:45",
+        "exon": "6/17",
+        "cadd_raw": 4.896293,
+        "impact": "MODERATE",
+        "domains": [
+          {
+            "db": "ENSP_mappings",
+            "name": "AF"
+          }
+        ],
+        "strand": -1,
+        "gene_symbol": "ABCB4",
+        "protein_id": "ENSP00000493477",
+        "cds_end": 523,
+        "hgvsp": "ENSP00000493477.1:p.Thr175Pro",
+        "biotype": "nonsense_mediated_decay",
+        "cadd_phred": 27.3,
+        "hgvsc": "ENST00000644106.1:c.523A>C",
+        "protein_start": 175,
+        "consequence_terms": [
+          "missense_variant",
+          "NMD_transcript_variant"
+        ],
+        "cds_start": 523,
+        "variant_allele": "G",
+        "codons": "Acg/Ccg",
+        "cdna_end": 554,
+        "polyphen_score": 0.999,
+        "trembl": [
+          "A0A2R8Y291.29"
+        ],
+        "alphamissense": {
+          "am_pathogenicity": 0.4754,
+          "am_class": "ambiguous"
+        },
+        "sift_prediction": "deleterious",
+        "uniparc": [
+          "UPI000D194D90"
+        ]
+      },
+      {
+        "cadd_phred": 27.3,
+        "hgvsc": "ENST00000649586.2:c.523A>C",
+        "protein_start": 175,
+        "variant_allele": "G",
+        "codons": "Acg/Ccg",
+        "swissprot": [
+          "P21439.229"
+        ],
+        "cds_start": 523,
+        "consequence_terms": [
+          "missense_variant"
+        ],
+        "cdna_end": 576,
+        "polyphen_score": 0.918,
+        "alphamissense": {
+          "am_pathogenicity": 0.4754,
+          "am_class": "ambiguous"
+        },
+        "canonical": 1,
+        "sift_prediction": "deleterious_low_confidence",
+        "uniparc": [
+          "UPI000012EE8B"
+        ],
+        "polyphen_prediction": "probably_damaging",
+        "cdna_start": 576,
+        "protein_end": 175,
+        "gene_symbol_source": "HGNC",
+        "gene_id": "ENSG00000005471",
+        "amino_acids": "T/P",
+        "uniprot_isoform": [
+          "P21439-2"
+        ],
+        "sift_score": 0,
+        "hgnc_id": "HGNC:45",
+        "transcript_id": "ENST00000649586.2",
+        "exon": "6/28",
+        "cadd_raw": 4.896293,
+        "impact": "MODERATE",
+        "gene_symbol": "ABCB4",
+        "strand": -1,
+        "domains": [
+          {
+            "name": 1,
+            "db": "Gene3D"
+          },
+          {
+            "db": "ENSP_mappings",
+            "name": "AF"
+          },
+          {
+            "name": "CYTOPLASMIC_DOMAIN",
+            "db": "Phobius"
+          },
+          {
+            "db": "Pfam",
+            "name": "PF00664"
+          },
+          {
+            "db": "PROSITE_profiles",
+            "name": "PS50929"
+          },
+          {
+            "db": "PANTHER",
+            "name": "PTHR43394"
+          },
+          {
+            "name": "SSF90123",
+            "db": "Superfamily"
+          }
+        ],
+        "protein_id": "ENSP00000496956",
+        "cds_end": 523,
+        "biotype": "protein_coding",
+        "hgvsp": "ENSP00000496956.2:p.Thr175Pro"
+      },
+      {
+        "cds_end": 523,
+        "biotype": "protein_coding",
+        "hgvsp": "ENSP00000536079.1:p.Thr175Pro",
+        "protein_id": "ENSP00000536079",
+        "gene_symbol": "ABCB4",
+        "strand": -1,
+        "domains": [
+          {
+            "db": "Gene3D",
+            "name": 1
+          },
+          {
+            "db": "Phobius",
+            "name": "CYTOPLASMIC_DOMAIN"
+          },
+          {
+            "db": "Pfam",
+            "name": "PF00664"
+          },
+          {
+            "db": "PROSITE_profiles",
+            "name": "PS50929"
+          },
+          {
+            "name": "SSF90123",
+            "db": "Superfamily"
+          }
+        ],
+        "cadd_raw": 4.896293,
+        "alphamissense": {
+          "am_class": "ambiguous",
+          "am_pathogenicity": 0.4754
+        },
+        "impact": "MODERATE",
+        "exon": "6/25",
+        "transcript_id": "ENST00000866020.1",
+        "hgnc_id": "HGNC:45",
+        "cdna_end": 575,
+        "gene_id": "ENSG00000005471",
+        "variant_allele": "G",
+        "cds_start": 523,
+        "codons": "Acg/Ccg",
+        "amino_acids": "T/P",
+        "consequence_terms": [
+          "missense_variant"
+        ],
+        "cdna_start": 575,
+        "protein_start": 175,
+        "protein_end": 175,
+        "gene_symbol_source": "HGNC",
+        "cadd_phred": 27.3,
+        "hgvsc": "ENST00000866020.1:c.523A>C"
+      },
+      {
+        "impact": "MODIFIER",
+        "cadd_raw": 4.896293,
+        "strand": -1,
+        "gene_symbol": "ABCB4",
+        "protein_id": "ENSP00000536080",
+        "biotype": "protein_coding",
+        "hgvsc": "ENST00000866021.1:c.345-1163A>C",
+        "cadd_phred": 27.3,
+        "gene_symbol_source": "HGNC",
+        "consequence_terms": [
+          "intron_variant"
+        ],
+        "intron": "5/26",
+        "variant_allele": "G",
+        "gene_id": "ENSG00000005471",
+        "transcript_id": "ENST00000866021.1",
+        "hgnc_id": "HGNC:45"
+      },
+      {
+        "strand": -1,
+        "domains": [
+          {
+            "db": "Gene3D",
+            "name": 1
+          },
+          {
+            "name": "CYTOPLASMIC_DOMAIN",
+            "db": "Phobius"
+          },
+          {
+            "db": "Pfam",
+            "name": "PF00664"
+          },
+          {
+            "db": "PROSITE_profiles",
+            "name": "PS50929"
+          },
+          {
+            "name": "PTHR43394",
+            "db": "PANTHER"
+          },
+          {
+            "name": "SSF90123",
+            "db": "Superfamily"
+          }
+        ],
+        "gene_symbol": "ABCB4",
+        "alphamissense": {
+          "am_pathogenicity": 0.4754,
+          "am_class": "ambiguous"
+        },
+        "impact": "MODERATE",
+        "cadd_raw": 4.896293,
+        "hgvsp": "ENSP00000536081.1:p.Thr175Pro",
+        "biotype": "protein_coding",
+        "cds_end": 523,
+        "protein_id": "ENSP00000536081",
+        "gene_symbol_source": "HGNC",
+        "protein_start": 175,
+        "protein_end": 175,
+        "cdna_start": 560,
+        "hgvsc": "ENST00000866022.1:c.523A>C",
+        "cadd_phred": 27.3,
+        "cdna_end": 560,
+        "hgnc_id": "HGNC:45",
+        "transcript_id": "ENST00000866022.1",
+        "exon": "6/26",
+        "consequence_terms": [
+          "missense_variant"
+        ],
+        "amino_acids": "T/P",
+        "gene_id": "ENSG00000005471",
+        "variant_allele": "G",
+        "cds_start": 523,
+        "codons": "Acg/Ccg"
+      },
+      {
+        "gene_symbol": "ABCB4",
+        "domains": [
+          {
+            "db": "Gene3D",
+            "name": 1
+          },
+          {
+            "db": "Phobius",
+            "name": "CYTOPLASMIC_DOMAIN"
+          },
+          {
+            "name": "PF00664",
+            "db": "Pfam"
+          },
+          {
+            "name": "PS50929",
+            "db": "PROSITE_profiles"
+          },
+          {
+            "db": "PANTHER",
+            "name": "PTHR43394"
+          },
+          {
+            "name": "SSF90123",
+            "db": "Superfamily"
+          }
+        ],
+        "strand": -1,
+        "impact": "MODERATE",
+        "alphamissense": {
+          "am_class": "ambiguous",
+          "am_pathogenicity": 0.4754
+        },
+        "cadd_raw": 4.896293,
+        "biotype": "protein_coding",
+        "hgvsp": "ENSP00000536082.1:p.Thr175Pro",
+        "cds_end": 523,
+        "protein_id": "ENSP00000536082",
+        "protein_start": 175,
+        "protein_end": 175,
+        "gene_symbol_source": "HGNC",
+        "cdna_start": 550,
+        "hgvsc": "ENST00000866023.1:c.523A>C",
+        "cadd_phred": 27.3,
+        "transcript_id": "ENST00000866023.1",
+        "hgnc_id": "HGNC:45",
+        "exon": "6/25",
+        "cdna_end": 550,
+        "gene_id": "ENSG00000005471",
+        "codons": "Acg/Ccg",
+        "variant_allele": "G",
+        "cds_start": 523,
+        "consequence_terms": [
+          "missense_variant"
+        ],
+        "amino_acids": "T/P"
+      },
+      {
+        "gene_symbol_source": "HGNC",
+        "protein_end": 175,
+        "cdna_start": 558,
+        "polyphen_prediction": "probably_damaging",
+        "hgnc_id": "HGNC:45",
+        "transcript_id": "ENST00000866024.1",
+        "exon": "6/28",
+        "sift_score": 0,
+        "amino_acids": "T/P",
+        "gene_id": "ENSG00000005471",
+        "domains": [
+          {
+            "name": 1,
+            "db": "Gene3D"
+          },
+          {
+            "db": "Phobius",
+            "name": "CYTOPLASMIC_DOMAIN"
+          },
+          {
+            "name": "PF00664",
+            "db": "Pfam"
+          },
+          {
+            "db": "PROSITE_profiles",
+            "name": "PS50929"
+          },
+          {
+            "name": "PTHR43394",
+            "db": "PANTHER"
+          },
+          {
+            "db": "Superfamily",
+            "name": "SSF90123"
+          }
+        ],
+        "strand": -1,
+        "gene_symbol": "ABCB4",
+        "impact": "MODERATE",
+        "cadd_raw": 4.896293,
+        "hgvsp": "ENSP00000536083.1:p.Thr175Pro",
+        "biotype": "protein_coding",
+        "cds_end": 523,
+        "protein_id": "ENSP00000536083",
+        "protein_start": 175,
+        "hgvsc": "ENST00000866024.1:c.523A>C",
+        "cadd_phred": 27.3,
+        "cdna_end": 558,
+        "consequence_terms": [
+          "missense_variant"
+        ],
+        "variant_allele": "G",
+        "cds_start": 523,
+        "codons": "Acg/Ccg",
+        "alphamissense": {
+          "am_pathogenicity": 0.4754,
+          "am_class": "ambiguous"
+        },
+        "polyphen_score": 0.918,
+        "uniparc": [
+          "UPI000012EE8B"
+        ],
+        "sift_prediction": "deleterious_low_confidence"
+      },
+      {
+        "protein_id": "ENSP00000536084",
+        "cds_end": 523,
+        "hgvsp": "ENSP00000536084.1:p.Thr175Pro",
+        "biotype": "protein_coding",
+        "cadd_raw": 4.896293,
+        "impact": "MODERATE",
+        "alphamissense": {
+          "am_class": "ambiguous",
+          "am_pathogenicity": 0.4754
+        },
+        "strand": -1,
+        "domains": [
+          {
+            "name": 1,
+            "db": "Gene3D"
+          },
+          {
+            "name": "CYTOPLASMIC_DOMAIN",
+            "db": "Phobius"
+          },
+          {
+            "name": "PF00664",
+            "db": "Pfam"
+          },
+          {
+            "db": "PROSITE_profiles",
+            "name": "PS50929"
+          },
+          {
+            "db": "Superfamily",
+            "name": "SSF90123"
+          }
+        ],
+        "gene_symbol": "ABCB4",
+        "consequence_terms": [
+          "missense_variant"
+        ],
+        "amino_acids": "T/P",
+        "gene_id": "ENSG00000005471",
+        "variant_allele": "G",
+        "cds_start": 523,
+        "codons": "Acg/Ccg",
+        "cdna_end": 549,
+        "transcript_id": "ENST00000866025.1",
+        "exon": "6/26",
+        "hgnc_id": "HGNC:45",
+        "cadd_phred": 27.3,
+        "hgvsc": "ENST00000866025.1:c.523A>C",
+        "cdna_start": 549,
+        "gene_symbol_source": "HGNC",
+        "protein_end": 175,
+        "protein_start": 175
+      },
+      {
+        "gene_symbol_source": "HGNC",
+        "cadd_phred": 27.3,
+        "hgvsc": "ENST00000866026.1:c.287-1240A>C",
+        "hgnc_id": "HGNC:45",
+        "transcript_id": "ENST00000866026.1",
+        "variant_allele": "G",
+        "gene_id": "ENSG00000005471",
+        "intron": "4/25",
+        "consequence_terms": [
+          "intron_variant"
+        ],
+        "gene_symbol": "ABCB4",
+        "strand": -1,
+        "cadd_raw": 4.896293,
+        "impact": "MODIFIER",
+        "biotype": "protein_coding",
+        "protein_id": "ENSP00000536085"
+      },
+      {
+        "gene_symbol": "ABCB4",
+        "strand": -1,
+        "domains": [
+          {
+            "name": 1,
+            "db": "Gene3D"
+          },
+          {
+            "db": "Phobius",
+            "name": "CYTOPLASMIC_DOMAIN"
+          },
+          {
+            "name": "PF00664",
+            "db": "Pfam"
+          },
+          {
+            "name": "PS50929",
+            "db": "PROSITE_profiles"
+          },
+          {
+            "name": "SSF90123",
+            "db": "Superfamily"
+          }
+        ],
+        "impact": "MODERATE",
+        "alphamissense": {
+          "am_class": "ambiguous",
+          "am_pathogenicity": 0.4754
+        },
+        "cadd_raw": 4.896293,
+        "biotype": "protein_coding",
+        "hgvsp": "ENSP00000536086.1:p.Thr175Pro",
+        "cds_end": 523,
+        "protein_id": "ENSP00000536086",
+        "protein_end": 175,
+        "protein_start": 175,
+        "gene_symbol_source": "HGNC",
+        "cdna_start": 549,
+        "hgvsc": "ENST00000866027.1:c.523A>C",
+        "cadd_phred": 27.3,
+        "transcript_id": "ENST00000866027.1",
+        "exon": "6/27",
+        "hgnc_id": "HGNC:45",
+        "cdna_end": 549,
+        "gene_id": "ENSG00000005471",
+        "variant_allele": "G",
+        "codons": "Acg/Ccg",
+        "cds_start": 523,
+        "consequence_terms": [
+          "missense_variant"
+        ],
+        "amino_acids": "T/P"
+      },
+      {
+        "transcript_id": "ENST00000866028.1",
+        "exon": "6/27",
+        "hgnc_id": "HGNC:45",
+        "cdna_end": 549,
+        "variant_allele": "G",
+        "gene_id": "ENSG00000005471",
+        "codons": "Acg/Ccg",
+        "cds_start": 523,
+        "amino_acids": "T/P",
+        "consequence_terms": [
+          "missense_variant"
+        ],
+        "cdna_start": 549,
+        "protein_end": 175,
+        "protein_start": 175,
+        "gene_symbol_source": "HGNC",
+        "cadd_phred": 27.3,
+        "hgvsc": "ENST00000866028.1:c.523A>C",
+        "cds_end": 523,
+        "biotype": "protein_coding",
+        "hgvsp": "ENSP00000536087.1:p.Thr175Pro",
+        "protein_id": "ENSP00000536087",
+        "gene_symbol": "ABCB4",
+        "domains": [
+          {
+            "name": 1,
+            "db": "Gene3D"
+          },
+          {
+            "db": "Phobius",
+            "name": "CYTOPLASMIC_DOMAIN"
+          },
+          {
+            "db": "Pfam",
+            "name": "PF00664"
+          },
+          {
+            "name": "PS50929",
+            "db": "PROSITE_profiles"
+          },
+          {
+            "db": "PANTHER",
+            "name": "PTHR43394"
+          },
+          {
+            "name": "SSF90123",
+            "db": "Superfamily"
+          }
+        ],
+        "strand": -1,
+        "cadd_raw": 4.896293,
+        "impact": "MODERATE",
+        "alphamissense": {
+          "am_pathogenicity": 0.4754,
+          "am_class": "ambiguous"
+        }
+      },
+      {
+        "protein_id": "ENSP00000536088",
+        "cds_end": 523,
+        "biotype": "protein_coding",
+        "hgvsp": "ENSP00000536088.1:p.Thr175Pro",
+        "cadd_raw": 4.896293,
+        "alphamissense": {
+          "am_class": "ambiguous",
+          "am_pathogenicity": 0.4754
+        },
+        "impact": "MODERATE",
+        "gene_symbol": "ABCB4",
+        "domains": [
+          {
+            "name": 1,
+            "db": "Gene3D"
+          },
+          {
+            "name": "CYTOPLASMIC_DOMAIN",
+            "db": "Phobius"
+          },
+          {
+            "db": "Pfam",
+            "name": "PF00664"
+          },
+          {
+            "db": "PROSITE_profiles",
+            "name": "PS50929"
+          },
+          {
+            "name": "PTHR43394",
+            "db": "PANTHER"
+          },
+          {
+            "db": "Superfamily",
+            "name": "SSF90123"
+          }
+        ],
+        "strand": -1,
+        "gene_id": "ENSG00000005471",
+        "codons": "Acg/Ccg",
+        "variant_allele": "G",
+        "cds_start": 523,
+        "amino_acids": "T/P",
+        "consequence_terms": [
+          "missense_variant"
+        ],
+        "transcript_id": "ENST00000866029.1",
+        "exon": "6/28",
+        "hgnc_id": "HGNC:45",
+        "cdna_end": 549,
+        "cadd_phred": 27.3,
+        "hgvsc": "ENST00000866029.1:c.523A>C",
+        "cdna_start": 549,
+        "protein_start": 175,
+        "protein_end": 175,
+        "gene_symbol_source": "HGNC"
+      },
+      {
+        "cdna_start": 549,
+        "protein_start": 175,
+        "protein_end": 175,
+        "gene_symbol_source": "HGNC",
+        "cadd_phred": 27.3,
+        "hgvsc": "ENST00000866030.1:c.523A>C",
+        "transcript_id": "ENST00000866030.1",
+        "hgnc_id": "HGNC:45",
+        "exon": "6/26",
+        "cdna_end": 549,
+        "cds_start": 523,
+        "gene_id": "ENSG00000005471",
+        "variant_allele": "G",
+        "codons": "Acg/Ccg",
+        "amino_acids": "T/P",
+        "consequence_terms": [
+          "missense_variant"
+        ],
+        "gene_symbol": "ABCB4",
+        "domains": [
+          {
+            "db": "Gene3D",
+            "name": 1
+          },
+          {
+            "db": "Phobius",
+            "name": "CYTOPLASMIC_DOMAIN"
+          },
+          {
+            "db": "Pfam",
+            "name": "PF00664"
+          },
+          {
+            "db": "PROSITE_profiles",
+            "name": "PS50929"
+          },
+          {
+            "db": "Superfamily",
+            "name": "SSF90123"
+          }
+        ],
+        "strand": -1,
+        "cadd_raw": 4.896293,
+        "alphamissense": {
+          "am_class": "ambiguous",
+          "am_pathogenicity": 0.4754
+        },
+        "impact": "MODERATE",
+        "cds_end": 523,
+        "biotype": "protein_coding",
+        "hgvsp": "ENSP00000536089.1:p.Thr175Pro",
+        "protein_id": "ENSP00000536089"
+      },
+      {
+        "protein_id": "ENSP00000536090",
+        "cds_end": 523,
+        "hgvsp": "ENSP00000536090.1:p.Thr175Pro",
+        "biotype": "protein_coding",
+        "cadd_raw": 4.896293,
+        "impact": "MODERATE",
+        "strand": -1,
+        "domains": [
+          {
+            "name": 1,
+            "db": "Gene3D"
+          },
+          {
+            "db": "Phobius",
+            "name": "CYTOPLASMIC_DOMAIN"
+          },
+          {
+            "db": "Pfam",
+            "name": "PF00664"
+          },
+          {
+            "name": "PS50929",
+            "db": "PROSITE_profiles"
+          },
+          {
+            "db": "PANTHER",
+            "name": "PTHR43394"
+          },
+          {
+            "name": "SSF90123",
+            "db": "Superfamily"
+          }
+        ],
+        "gene_symbol": "ABCB4",
+        "amino_acids": "T/P",
+        "gene_id": "ENSG00000005471",
+        "sift_score": 0,
+        "hgnc_id": "HGNC:45",
+        "transcript_id": "ENST00000866031.1",
+        "exon": "5/27",
+        "polyphen_prediction": "probably_damaging",
+        "cdna_start": 711,
+        "gene_symbol_source": "HGNC",
+        "protein_end": 175,
+        "sift_prediction": "deleterious_low_confidence",
+        "uniparc": [
+          "UPI000013D66B"
+        ],
+        "polyphen_score": 0.951,
+        "alphamissense": {
+          "am_class": "ambiguous",
+          "am_pathogenicity": 0.4754
+        },
+        "consequence_terms": [
+          "missense_variant"
+        ],
+        "variant_allele": "G",
+        "codons": "Acg/Ccg",
+        "cds_start": 523,
+        "cdna_end": 711,
+        "cadd_phred": 27.3,
+        "hgvsc": "ENST00000866031.1:c.523A>C",
+        "protein_start": 175
+      },
+      {
+        "sift_prediction": "deleterious_low_confidence",
+        "uniparc": [
+          "UPI000013D66B"
+        ],
+        "polyphen_score": 0.951,
+        "alphamissense": {
+          "am_class": "ambiguous",
+          "am_pathogenicity": 0.4754
+        },
+        "variant_allele": "G",
+        "cds_start": 523,
+        "codons": "Acg/Ccg",
+        "consequence_terms": [
+          "missense_variant"
+        ],
+        "cdna_end": 558,
+        "cadd_phred": 27.3,
+        "hgvsc": "ENST00000866032.1:c.523A>C",
+        "protein_start": 175,
+        "protein_id": "ENSP00000536091",
+        "cds_end": 523,
+        "biotype": "protein_coding",
+        "hgvsp": "ENSP00000536091.1:p.Thr175Pro",
+        "cadd_raw": 4.896293,
+        "impact": "MODERATE",
+        "gene_symbol": "ABCB4",
+        "domains": [
+          {
+            "name": 1,
+            "db": "Gene3D"
+          },
+          {
+            "name": "CYTOPLASMIC_DOMAIN",
+            "db": "Phobius"
+          },
+          {
+            "db": "Pfam",
+            "name": "PF00664"
+          },
+          {
+            "name": "PS50929",
+            "db": "PROSITE_profiles"
+          },
+          {
+            "db": "PANTHER",
+            "name": "PTHR43394"
+          },
+          {
+            "name": "SSF90123",
+            "db": "Superfamily"
+          }
+        ],
+        "strand": -1,
+        "gene_id": "ENSG00000005471",
+        "amino_acids": "T/P",
+        "sift_score": 0,
+        "hgnc_id": "HGNC:45",
+        "transcript_id": "ENST00000866032.1",
+        "exon": "6/28",
+        "polyphen_prediction": "probably_damaging",
+        "cdna_start": 558,
+        "protein_end": 175,
+        "gene_symbol_source": "HGNC"
+      },
+      {
+        "hgvsc": "ENST00000866033.1:c.523A>C",
+        "cadd_phred": 27.3,
+        "gene_symbol_source": "HGNC",
+        "protein_start": 175,
+        "protein_end": 175,
+        "cdna_start": 549,
+        "consequence_terms": [
+          "missense_variant"
+        ],
+        "amino_acids": "T/P",
+        "variant_allele": "G",
+        "gene_id": "ENSG00000005471",
+        "codons": "Acg/Ccg",
+        "cds_start": 523,
+        "cdna_end": 549,
+        "exon": "6/26",
+        "transcript_id": "ENST00000866033.1",
+        "hgnc_id": "HGNC:45",
+        "alphamissense": {
+          "am_pathogenicity": 0.4754,
+          "am_class": "ambiguous"
+        },
+        "impact": "MODERATE",
+        "cadd_raw": 4.896293,
+        "domains": [
+          {
+            "db": "Gene3D",
+            "name": 1
+          },
+          {
+            "name": "CYTOPLASMIC_DOMAIN",
+            "db": "Phobius"
+          },
+          {
+            "db": "Pfam",
+            "name": "PF00664"
+          },
+          {
+            "name": "PS50929",
+            "db": "PROSITE_profiles"
+          },
+          {
+            "db": "PANTHER",
+            "name": "PTHR43394"
+          },
+          {
+            "db": "Superfamily",
+            "name": "SSF90123"
+          }
+        ],
+        "strand": -1,
+        "gene_symbol": "ABCB4",
+        "protein_id": "ENSP00000536092",
+        "hgvsp": "ENSP00000536092.1:p.Thr175Pro",
+        "biotype": "protein_coding",
+        "cds_end": 523
+      },
+      {
+        "cds_end": 523,
+        "hgvsp": "ENSP00000536093.1:p.Thr175Pro",
+        "biotype": "protein_coding",
+        "protein_id": "ENSP00000536093",
+        "uniparc": [
+          "UPI0005D003EF"
+        ],
+        "strand": -1,
+        "domains": [
+          {
+            "name": 1,
+            "db": "Gene3D"
+          },
+          {
+            "db": "Phobius",
+            "name": "CYTOPLASMIC_DOMAIN"
+          },
+          {
+            "db": "Pfam",
+            "name": "PF00664"
+          },
+          {
+            "name": "PS50929",
+            "db": "PROSITE_profiles"
+          },
+          {
+            "db": "PANTHER",
+            "name": "PTHR43394"
+          },
+          {
+            "name": "SSF90123",
+            "db": "Superfamily"
+          }
+        ],
+        "gene_symbol": "ABCB4",
+        "cadd_raw": 4.896293,
+        "impact": "MODERATE",
+        "alphamissense": {
+          "am_class": "ambiguous",
+          "am_pathogenicity": 0.4754
+        },
+        "cdna_end": 548,
+        "transcript_id": "ENST00000866034.1",
+        "exon": "6/27",
+        "hgnc_id": "HGNC:45",
+        "consequence_terms": [
+          "missense_variant"
+        ],
+        "amino_acids": "T/P",
+        "codons": "Acg/Ccg",
+        "gene_id": "ENSG00000005471",
+        "variant_allele": "G",
+        "cds_start": 523,
+        "cdna_start": 548,
+        "gene_symbol_source": "HGNC",
+        "protein_start": 175,
+        "protein_end": 175,
+        "cadd_phred": 27.3,
+        "hgvsc": "ENST00000866034.1:c.523A>C"
+      },
+      {
+        "uniparc": [
+          "UPI000012EE8B"
+        ],
+        "sift_prediction": "deleterious_low_confidence",
+        "alphamissense": {
+          "am_pathogenicity": 0.4754,
+          "am_class": "ambiguous"
+        },
+        "polyphen_score": 0.918,
+        "cdna_end": 694,
+        "codons": "Acg/Ccg",
+        "variant_allele": "G",
+        "cds_start": 523,
+        "consequence_terms": [
+          "missense_variant"
+        ],
+        "protein_start": 175,
+        "hgvsc": "ENST00000866035.1:c.523A>C",
+        "cadd_phred": 27.3,
+        "biotype": "protein_coding",
+        "hgvsp": "ENSP00000536094.1:p.Thr175Pro",
+        "cds_end": 523,
+        "protein_id": "ENSP00000536094",
+        "gene_symbol": "ABCB4",
+        "domains": [
+          {
+            "name": 1,
+            "db": "Gene3D"
+          },
+          {
+            "name": "CYTOPLASMIC_DOMAIN",
+            "db": "Phobius"
+          },
+          {
+            "db": "Pfam",
+            "name": "PF00664"
+          },
+          {
+            "name": "PS50929",
+            "db": "PROSITE_profiles"
+          },
+          {
+            "db": "PANTHER",
+            "name": "PTHR43394"
+          },
+          {
+            "name": "SSF90123",
+            "db": "Superfamily"
+          }
+        ],
+        "strand": -1,
+        "impact": "MODERATE",
+        "cadd_raw": 4.896293,
+        "hgnc_id": "HGNC:45",
+        "transcript_id": "ENST00000866035.1",
+        "exon": "5/27",
+        "sift_score": 0,
+        "gene_id": "ENSG00000005471",
+        "amino_acids": "T/P",
+        "protein_end": 175,
+        "gene_symbol_source": "HGNC",
+        "cdna_start": 694,
+        "polyphen_prediction": "probably_damaging"
+      },
+      {
+        "consequence_terms": [
+          "missense_variant"
+        ],
+        "amino_acids": "T/P",
+        "codons": "Acg/Ccg",
+        "variant_allele": "G",
+        "gene_id": "ENSG00000005471",
+        "cds_start": 523,
+        "cdna_end": 676,
+        "exon": "6/26",
+        "transcript_id": "ENST00000939426.1",
+        "hgnc_id": "HGNC:45",
+        "hgvsc": "ENST00000939426.1:c.523A>C",
+        "cadd_phred": 27.3,
+        "gene_symbol_source": "HGNC",
+        "protein_start": 175,
+        "protein_end": 175,
+        "cdna_start": 676,
+        "protein_id": "ENSP00000609485",
+        "uniparc": [
+          "UPI001FB0E2CC"
+        ],
+        "hgvsp": "ENSP00000609485.1:p.Thr175Pro",
+        "biotype": "protein_coding",
+        "cds_end": 523,
+        "alphamissense": {
+          "am_class": "ambiguous",
+          "am_pathogenicity": 0.4754
+        },
+        "impact": "MODERATE",
+        "cadd_raw": 4.896293,
+        "domains": [
+          {
+            "name": 1,
+            "db": "Gene3D"
+          },
+          {
+            "name": "CYTOPLASMIC_DOMAIN",
+            "db": "Phobius"
+          },
+          {
+            "name": "PF00664",
+            "db": "Pfam"
+          },
+          {
+            "name": "PS50929",
+            "db": "PROSITE_profiles"
+          },
+          {
+            "name": "PTHR43394",
+            "db": "PANTHER"
+          },
+          {
+            "name": "SSF90123",
+            "db": "Superfamily"
+          }
+        ],
+        "strand": -1,
+        "gene_symbol": "ABCB4"
+      },
+      {
+        "protein_start": 175,
+        "cadd_phred": 27.3,
+        "hgvsc": "ENST00000964815.1:c.523A>C",
+        "cdna_end": 840,
+        "variant_allele": "G",
+        "cds_start": 523,
+        "codons": "Acg/Ccg",
+        "consequence_terms": [
+          "missense_variant"
+        ],
+        "polyphen_score": 0.951,
+        "alphamissense": {
+          "am_pathogenicity": 0.4754,
+          "am_class": "ambiguous"
+        },
+        "sift_prediction": "deleterious_low_confidence",
+        "uniparc": [
+          "UPI000013D66B"
+        ],
+        "cdna_start": 840,
+        "protein_end": 175,
+        "gene_symbol_source": "HGNC",
+        "polyphen_prediction": "probably_damaging",
+        "sift_score": 0,
+        "exon": "6/28",
+        "transcript_id": "ENST00000964815.1",
+        "hgnc_id": "HGNC:45",
+        "gene_id": "ENSG00000005471",
+        "amino_acids": "T/P",
+        "gene_symbol": "ABCB4",
+        "strand": -1,
+        "domains": [
+          {
+            "name": 1,
+            "db": "Gene3D"
+          },
+          {
+            "name": "CYTOPLASMIC_DOMAIN",
+            "db": "Phobius"
+          },
+          {
+            "db": "Pfam",
+            "name": "PF00664"
+          },
+          {
+            "name": "PS50929",
+            "db": "PROSITE_profiles"
+          },
+          {
+            "name": "PTHR43394",
+            "db": "PANTHER"
+          },
+          {
+            "db": "Superfamily",
+            "name": "SSF90123"
+          }
+        ],
+        "cadd_raw": 4.896293,
+        "impact": "MODERATE",
+        "cds_end": 523,
+        "biotype": "protein_coding",
+        "hgvsp": "ENSP00000634874.1:p.Thr175Pro",
+        "protein_id": "ENSP00000634874"
+      },
+      {
+        "cdna_start": 752,
+        "gene_symbol_source": "HGNC",
+        "protein_end": 175,
+        "protein_start": 175,
+        "cadd_phred": 27.3,
+        "hgvsc": "ENST00000964816.1:c.523A>C",
+        "cdna_end": 752,
+        "exon": "6/28",
+        "transcript_id": "ENST00000964816.1",
+        "hgnc_id": "HGNC:45",
+        "consequence_terms": [
+          "missense_variant"
+        ],
+        "amino_acids": "T/P",
+        "gene_id": "ENSG00000005471",
+        "variant_allele": "G",
+        "codons": "Acg/Ccg",
+        "cds_start": 523,
+        "domains": [
+          {
+            "db": "Gene3D",
+            "name": 1
+          },
+          {
+            "name": "CYTOPLASMIC_DOMAIN",
+            "db": "Phobius"
+          },
+          {
+            "db": "Pfam",
+            "name": "PF00664"
+          },
+          {
+            "db": "PROSITE_profiles",
+            "name": "PS50929"
+          },
+          {
+            "db": "PANTHER",
+            "name": "PTHR43394"
+          },
+          {
+            "db": "Superfamily",
+            "name": "SSF90123"
+          }
+        ],
+        "strand": -1,
+        "gene_symbol": "ABCB4",
+        "cadd_raw": 4.896293,
+        "alphamissense": {
+          "am_pathogenicity": 0.4754,
+          "am_class": "ambiguous"
+        },
+        "impact": "MODERATE",
+        "cds_end": 523,
+        "hgvsp": "ENSP00000634875.1:p.Thr175Pro",
+        "biotype": "protein_coding",
+        "protein_id": "ENSP00000634875"
+      },
+      {
+        "protein_id": "ENSP00000634876",
+        "cds_end": 523,
+        "hgvsp": "ENSP00000634876.1:p.Thr175Pro",
+        "biotype": "protein_coding",
+        "cadd_raw": 4.896293,
+        "impact": "MODERATE",
+        "alphamissense": {
+          "am_pathogenicity": 0.4754,
+          "am_class": "ambiguous"
+        },
+        "domains": [
+          {
+            "db": "Gene3D",
+            "name": 1
+          },
+          {
+            "db": "Phobius",
+            "name": "CYTOPLASMIC_DOMAIN"
+          },
+          {
+            "name": "PF00664",
+            "db": "Pfam"
+          },
+          {
+            "db": "PROSITE_profiles",
+            "name": "PS50929"
+          },
+          {
+            "name": "PTHR43394",
+            "db": "PANTHER"
+          },
+          {
+            "name": "SSF90123",
+            "db": "Superfamily"
+          }
+        ],
+        "strand": -1,
+        "gene_symbol": "ABCB4",
+        "amino_acids": "T/P",
+        "consequence_terms": [
+          "missense_variant"
+        ],
+        "variant_allele": "G",
+        "cds_start": 523,
+        "gene_id": "ENSG00000005471",
+        "codons": "Acg/Ccg",
+        "cdna_end": 675,
+        "exon": "6/26",
+        "transcript_id": "ENST00000964817.1",
+        "hgnc_id": "HGNC:45",
+        "cadd_phred": 27.3,
+        "hgvsc": "ENST00000964817.1:c.523A>C",
+        "cdna_start": 675,
+        "gene_symbol_source": "HGNC",
+        "protein_start": 175,
+        "protein_end": 175
+      },
+      {
+        "protein_id": "ENSP00000634877",
+        "cds_end": 523,
+        "biotype": "protein_coding",
+        "hgvsp": "ENSP00000634877.1:p.Thr175Pro",
+        "cadd_raw": 4.896293,
+        "alphamissense": {
+          "am_class": "ambiguous",
+          "am_pathogenicity": 0.4754
+        },
+        "impact": "MODERATE",
+        "gene_symbol": "ABCB4",
+        "strand": -1,
+        "domains": [
+          {
+            "db": "Gene3D",
+            "name": 1
+          },
+          {
+            "db": "Phobius",
+            "name": "CYTOPLASMIC_DOMAIN"
+          },
+          {
+            "name": "PF00664",
+            "db": "Pfam"
+          },
+          {
+            "name": "PS50929",
+            "db": "PROSITE_profiles"
+          },
+          {
+            "name": "PTHR43394",
+            "db": "PANTHER"
+          },
+          {
+            "name": "SSF90123",
+            "db": "Superfamily"
+          }
+        ],
+        "variant_allele": "G",
+        "gene_id": "ENSG00000005471",
+        "cds_start": 523,
+        "codons": "Acg/Ccg",
+        "consequence_terms": [
+          "missense_variant"
+        ],
+        "amino_acids": "T/P",
+        "transcript_id": "ENST00000964818.1",
+        "exon": "6/27",
+        "hgnc_id": "HGNC:45",
+        "cdna_end": 661,
+        "cadd_phred": 27.3,
+        "hgvsc": "ENST00000964818.1:c.523A>C",
+        "cdna_start": 661,
+        "protein_end": 175,
+        "protein_start": 175,
+        "gene_symbol_source": "HGNC"
+      },
+      {
+        "cdna_start": 605,
+        "gene_symbol_source": "HGNC",
+        "protein_end": 175,
+        "protein_start": 175,
+        "cadd_phred": 27.3,
+        "hgvsc": "ENST00000964819.1:c.523A>C",
+        "cdna_end": 605,
+        "exon": "6/27",
+        "transcript_id": "ENST00000964819.1",
+        "hgnc_id": "HGNC:45",
+        "amino_acids": "T/P",
+        "consequence_terms": [
+          "missense_variant"
+        ],
+        "gene_id": "ENSG00000005471",
+        "variant_allele": "G",
+        "codons": "Acg/Ccg",
+        "cds_start": 523,
+        "strand": -1,
+        "domains": [
+          {
+            "db": "Gene3D",
+            "name": 1
+          },
+          {
+            "db": "Phobius",
+            "name": "CYTOPLASMIC_DOMAIN"
+          },
+          {
+            "name": "PF00664",
+            "db": "Pfam"
+          },
+          {
+            "db": "PROSITE_profiles",
+            "name": "PS50929"
+          },
+          {
+            "name": "PTHR43394",
+            "db": "PANTHER"
+          },
+          {
+            "db": "Superfamily",
+            "name": "SSF90123"
+          }
+        ],
+        "gene_symbol": "ABCB4",
+        "cadd_raw": 4.896293,
+        "impact": "MODERATE",
+        "alphamissense": {
+          "am_class": "ambiguous",
+          "am_pathogenicity": 0.4754
+        },
+        "cds_end": 523,
+        "hgvsp": "ENSP00000634878.1:p.Thr175Pro",
+        "biotype": "protein_coding",
+        "protein_id": "ENSP00000634878",
+        "uniparc": [
+          "UPI0005D003EF"
+        ]
+      },
+      {
+        "cadd_phred": 27.3,
+        "hgvsc": "ENST00000964820.1:c.523A>C",
+        "cdna_start": 560,
+        "gene_symbol_source": "HGNC",
+        "protein_start": 175,
+        "protein_end": 175,
+        "amino_acids": "T/P",
+        "consequence_terms": [
+          "missense_variant"
+        ],
+        "variant_allele": "G",
+        "gene_id": "ENSG00000005471",
+        "cds_start": 523,
+        "codons": "Acg/Ccg",
+        "cdna_end": 560,
+        "transcript_id": "ENST00000964820.1",
+        "exon": "6/27",
+        "hgnc_id": "HGNC:45",
+        "cadd_raw": 4.896293,
+        "impact": "MODERATE",
+        "alphamissense": {
+          "am_class": "ambiguous",
+          "am_pathogenicity": 0.4754
+        },
+        "strand": -1,
+        "domains": [
+          {
+            "db": "Gene3D",
+            "name": 1
+          },
+          {
+            "name": "CYTOPLASMIC_DOMAIN",
+            "db": "Phobius"
+          },
+          {
+            "name": "PF00664",
+            "db": "Pfam"
+          },
+          {
+            "db": "PROSITE_profiles",
+            "name": "PS50929"
+          },
+          {
+            "db": "PANTHER",
+            "name": "PTHR43394"
+          },
+          {
+            "name": "SSF90123",
+            "db": "Superfamily"
+          }
+        ],
+        "gene_symbol": "ABCB4",
+        "protein_id": "ENSP00000634879",
+        "uniparc": [
+          "UPI0005D039EE"
+        ],
+        "cds_end": 523,
+        "hgvsp": "ENSP00000634879.1:p.Thr175Pro",
+        "biotype": "protein_coding"
+      },
+      {
+        "hgvsc": "ENST00000964821.1:c.523A>C",
+        "cadd_phred": 27.3,
+        "gene_symbol_source": "HGNC",
+        "protein_end": 175,
+        "protein_start": 175,
+        "cdna_start": 694,
+        "consequence_terms": [
+          "missense_variant"
+        ],
+        "amino_acids": "T/P",
+        "variant_allele": "G",
+        "gene_id": "ENSG00000005471",
+        "codons": "Acg/Ccg",
+        "cds_start": 523,
+        "cdna_end": 694,
+        "transcript_id": "ENST00000964821.1",
+        "hgnc_id": "HGNC:45",
+        "exon": "5/26",
+        "alphamissense": {
+          "am_pathogenicity": 0.4754,
+          "am_class": "ambiguous"
+        },
+        "impact": "MODERATE",
+        "cadd_raw": 4.896293,
+        "strand": -1,
+        "domains": [
+          {
+            "db": "Gene3D",
+            "name": 1
+          },
+          {
+            "db": "Phobius",
+            "name": "CYTOPLASMIC_DOMAIN"
+          },
+          {
+            "db": "Pfam",
+            "name": "PF00664"
+          },
+          {
+            "name": "PS50929",
+            "db": "PROSITE_profiles"
+          },
+          {
+            "db": "PANTHER",
+            "name": "PTHR43394"
+          },
+          {
+            "db": "Superfamily",
+            "name": "SSF90123"
+          }
+        ],
+        "gene_symbol": "ABCB4",
+        "protein_id": "ENSP00000634880",
+        "uniparc": [
+          "UPI0005D003EF"
+        ],
+        "hgvsp": "ENSP00000634880.1:p.Thr175Pro",
+        "biotype": "protein_coding",
+        "cds_end": 523
+      }
+    ],
+    "seq_region_name": "7",
+    "end": 87452957,
+    "allele_string": "T/G",
+    "id": "7_87452957_T/G",
+    "start": 87452957,
+    "most_severe_consequence": "missense_variant"
+  }
+]
