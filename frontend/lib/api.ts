@@ -54,13 +54,14 @@ export async function streamChat(
   jobId: string,
   history: { role: string; content: string }[],
   question: string,
+  mode: "technical" | "clinician" | "patient",
   onDelta: (text: string) => void,
   onDone: () => void,
 ): Promise<void> {
   const r = await fetch(`${API_BASE}/api/chat`, {
     method: "POST",
     headers: { "Content-Type": "application/json" },
-    body: JSON.stringify({ jobId, history, question }),
+    body: JSON.stringify({ jobId, history, question, mode }),
   });
   if (!r.ok || !r.body) throw new Error(`/chat failed: ${r.status}`);
   const reader = r.body.getReader();

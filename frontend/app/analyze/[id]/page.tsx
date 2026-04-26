@@ -22,6 +22,7 @@ import { SequenceContextStrip } from "@/components/SequenceContextStrip";
 import { AlphaGenomePanel } from "@/components/AlphaGenomePanel";
 import { AudienceToggle } from "@/components/AudienceToggle";
 import { useAudience } from "@/lib/audience";
+import { CardNarrative } from "@/components/CardNarrative";
 
 const STEP_ORDER = [
   "annotate", "liftover", "liver_context", "gnomad", "clinvar", "uniprot", "interpro",
@@ -157,6 +158,7 @@ export default function AnalyzePage({ params }: { params: Promise<{ id: string }
           <AnimatePresence>
             {ann?.aa_substitution && (
               <EvidenceCard key="aa_sub" eyebrow="amino-acid substitution" title={`${ann.aa_substitution.wild_type.three}${ann.aa_change?.position} → ${ann.aa_substitution.variant.three}`} status="ok" accent="teal">
+                <CardNarrative jobId={id} card="aa_substitution" mode={audience} ready={!!report} />
                 <AASubstitutionCard sub={ann.aa_substitution} />
               </EvidenceCard>
             )}
@@ -186,6 +188,7 @@ export default function AnalyzePage({ params }: { params: Promise<{ id: string }
 
             {gnomad && (
               <EvidenceCard key="gn" eyebrow="population · gnomAD v4" title="Allele frequency" status={steps.gnomad.status} elapsedMs={steps.gnomad.elapsedMs} accent="amber">
+                <CardNarrative jobId={id} card="gnomad" mode={audience} ready={!!report} />
                 <div className="flex items-baseline gap-3 mb-3">
                   <span className="font-mono text-[26px] font-display tracking-tight text-ink">
                     {gnomad.af_global !== null && gnomad.af_global !== undefined ? gnomad.af_global.toExponential(2) : "absent"}
@@ -202,6 +205,7 @@ export default function AnalyzePage({ params }: { params: Promise<{ id: string }
 
             {clinvar && (
               <EvidenceCard key="cv" eyebrow="clinical · ClinVar" title={clinvar.clinical_significance ?? "no submission"} status={steps.clinvar.status} elapsedMs={steps.clinvar.elapsedMs} accent="oxblood">
+                <CardNarrative jobId={id} card="clinvar" mode={audience} ready={!!report} />
                 {clinvar.review_status && <p className="text-[12px] text-muted">{clinvar.review_status} · {"★".repeat(clinvar.star_rating ?? 0)}</p>}
                 {clinvar.conditions && clinvar.conditions.length > 0 && (
                   <ul className="mt-2 text-[13px] list-disc pl-4 text-ink2">
@@ -213,6 +217,7 @@ export default function AnalyzePage({ params }: { params: Promise<{ id: string }
 
             {uniprot && uniprot.name && (
               <EvidenceCard key="up" eyebrow="protein · UniProt + InterPro" title={uniprot.name ?? uniprot.accession} status={steps.uniprot.status} elapsedMs={steps.uniprot.elapsedMs} accent="teal">
+                <CardNarrative jobId={id} card="uniprot" mode={audience} ready={!!report} />
                 {uniprot.function && <p className="italic serif-italic text-ink2 mb-2">{uniprot.function}</p>}
                 {uniprot.length && <p className="text-[12px] text-muted font-mono">length {uniprot.length} aa</p>}
                 {(uniprot.domains?.length ?? 0) > 0 && (
@@ -233,12 +238,14 @@ export default function AnalyzePage({ params }: { params: Promise<{ id: string }
 
             {alphagenome && (
               <EvidenceCard key="ag" eyebrow="regulatory · AlphaGenome · liver" title="Liver-cell predictions" status={steps.alphagenome.status} elapsedMs={steps.alphagenome.elapsedMs} accent="teal">
+                <CardNarrative jobId={id} card="alphagenome" mode={audience} ready={!!report} />
                 <AlphaGenomePanel pred={alphagenome} />
               </EvidenceCard>
             )}
 
             {seqctx && seqctx.sequence && (
               <EvidenceCard key="seqctx" eyebrow="sequence context · UniProt + InterPro" title="Local sequence around the variant" status="ok" accent="teal">
+                <CardNarrative jobId={id} card="sequence_context" mode={audience} ready={!!report} />
                 <SequenceContextStrip ctx={seqctx} />
               </EvidenceCard>
             )}
@@ -246,6 +253,7 @@ export default function AnalyzePage({ params }: { params: Promise<{ id: string }
 
             {structure && (
               <EvidenceCard key="st" eyebrow="structure · AlphaFold + ESMFold + AlphaMissense" title="Structural impact" status={steps.structure.status} elapsedMs={steps.structure.elapsedMs} accent="oxblood">
+                <CardNarrative jobId={id} card="structure" mode={audience} ready={!!report} />
                 <StructureViewer
                   pdbUrl={structure.af_pdb_url ?? null}
                   position={ann?.aa_change?.position}
@@ -273,12 +281,14 @@ export default function AnalyzePage({ params }: { params: Promise<{ id: string }
 
             {literature.length > 0 && (
               <EvidenceCard key="lit" eyebrow="literature · PubMed + Europe PMC · multilingual" title={`${literature.length} hits`} status={steps.literature.status} elapsedMs={steps.literature.elapsedMs} accent="leaf">
+                <CardNarrative jobId={id} card="literature" mode={audience} ready={!!report} />
                 <LiteratureList hits={literature} />
               </EvidenceCard>
             )}
 
             {liver && liver.in_panel && (
               <EvidenceCard key="lc" eyebrow="liver context · GTEx · HPA · Reactome" title="Tissue & pathway" status={steps.liver_context.status} elapsedMs={steps.liver_context.elapsedMs} accent="teal">
+                <CardNarrative jobId={id} card="liver_context" mode={audience} ready={!!report} />
                 <div className="grid grid-cols-2 gap-3 text-[13px]">
                   <Stat label="GTEx liver TPM" value={liver.gtex_liver_tpm} />
                   <Stat label="HPA liver" value={liver.hpa_liver_expression as any} />
@@ -296,6 +306,7 @@ export default function AnalyzePage({ params }: { params: Promise<{ id: string }
 
             {liver && liver.disease_spectrum && liver.disease_spectrum.length > 0 && (
               <EvidenceCard key="ds" eyebrow="disease spectrum · curated" title="Phenotypes caused by this gene" status="ok" accent="oxblood">
+                <CardNarrative jobId={id} card="disease_spectrum" mode={audience} ready={!!report} />
                 <DiseaseSpectrumTable spectrum={liver.disease_spectrum} gene={ann?.gene_symbol} />
               </EvidenceCard>
             )}
@@ -322,7 +333,7 @@ export default function AnalyzePage({ params }: { params: Promise<{ id: string }
             audience={audience}
             ready={!!report}
           />
-          <ChatComposer jobId={id} ready={!!report} />
+          <ChatComposer jobId={id} ready={!!report} audience={audience} />
         </aside>
       </div>
     </main>

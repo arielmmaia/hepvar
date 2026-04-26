@@ -2,17 +2,40 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
 import { streamChat } from "@/lib/api";
+import type { AudienceMode } from "@/lib/audience";
 
 interface Msg { role: "user" | "assistant"; content: string }
 
-const SUGGESTIONS = [
-  "Why was PM2 applied here?",
-  "What functional assay would resolve the VUS?",
-  "Could a Brazilian-ancestry founder effect explain the gnomAD absence?",
-  "What surveillance interval do you recommend for the family?",
-];
+const SUGGESTIONS_BY_MODE: Record<AudienceMode, string[]> = {
+  technical: [
+    "Why was PM2 applied here?",
+    "What functional assay would resolve the VUS?",
+    "Could a Brazilian-ancestry founder effect explain the gnomAD absence?",
+    "What surveillance interval do you recommend for the family?",
+  ],
+  clinician: [
+    "What's the differential I should consider for this patient?",
+    "Which functional assay or family study would move this off VUS?",
+    "What family testing should I order?",
+    "What surveillance interval and which biomarkers should I follow?",
+  ],
+  patient: [
+    "What does this result mean for me in plain language?",
+    "Is this serious — should I be worried?",
+    "Can my children inherit this?",
+    "What questions should I ask my doctor at the next appointment?",
+  ],
+};
 
-export function ChatComposer({ jobId, ready }: { jobId: string; ready: boolean }) {
+export function ChatComposer({
+  jobId,
+  ready,
+  audience = "technical",
+}: {
+  jobId: string;
+  ready: boolean;
+  audience?: AudienceMode;
+}) {
   const [history, setHistory] = useState<Msg[]>([]);
   const [draft, setDraft] = useState("");
   const [streaming, setStreaming] = useState(false);
@@ -27,7 +50,7 @@ export function ChatComposer({ jobId, ready }: { jobId: string; ready: boolean }
     setDraft("");
     let buf = "";
     try {
-      await streamChat(jobId, history, question,
+      await streamChat(jobId, history, question, audience,
         (delta) => { buf += delta; setPartial(buf); },
         () => {
           setHistory([...newHist, { role: "assistant", content: buf }]);
@@ -40,11 +63,13 @@ export function ChatComposer({ jobId, ready }: { jobId: string; ready: boolean }
     }
   }
 
+  const SUGGESTIONS = SUGGESTIONS_BY_MODE[audience];
+
   return (
     <div className="rounded-3xl bg-surface border hairline shadow-card overflow-hidden flex flex-col h-full">
       <div className="px-6 py-4 border-b hairline flex items-baseline justify-between">
         <span className="font-display text-[18px] font-semibold text-ink">Ask the model</span>
-        <span className="font-mono text-[10px] uppercase tracking-[0.2em] text-muted">~95% prompt cache reuse</span>
+        <span className="font-mono text-[10px] uppercase tracking-[0.2em] text-muted">{audience} · ~95% cache reuse</span>
       </div>
 
       <div className="flex-1 overflow-y-auto px-6 py-4 space-y-4 max-h-[440px]">
