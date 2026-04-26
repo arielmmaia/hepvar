@@ -23,6 +23,12 @@ class Job:
     finished_at: float | None = None
     error: str | None = None
     chat_history: list[dict] = field(default_factory=list)
+    # Audience-mode translations cache. Shape:
+    #   translations[mode]["synthesis"] = "..."
+    #   translations[mode]["cards"][card_name] = "..."
+    # Populated by /api/jobs/{id}/translate; read by the same endpoint to skip
+    # re-running Opus when the user toggles back to a previously-visited mode.
+    translations: dict[str, dict] = field(default_factory=dict)
 
 
 _jobs: dict[str, Job] = {}
