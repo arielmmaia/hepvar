@@ -132,6 +132,25 @@ export interface SequenceAnnotation {
   label?: string | null;
 }
 
+export interface OrthologResidue {
+  species: string;
+  common_name?: string | null;
+  residue?: string | null;
+  is_gap?: boolean;
+  matches_human?: boolean;
+  perc_id?: number | null;
+}
+
+export interface ConservationPanel {
+  gene_symbol?: string | null;
+  variant_position?: number | null;
+  human_residue?: string | null;
+  n_orthologs?: number;
+  n_match?: number;
+  pct_conserved_at_position?: number | null;
+  species?: OrthologResidue[];
+}
+
 export interface SequenceContext {
   accession?: string | null;
   start?: number | null;
@@ -229,6 +248,7 @@ export interface EvidencePacket {
   alphagenome?: AlphaGenomePrediction | null;
   structure?: StructuralAnalysis | null;
   sequence_context?: SequenceContext | null;
+  conservation?: ConservationPanel | null;
   liver_context?: LiverContext | null;
   acmg?: ACMGResult | null;
   sources?: { name: string; status: EvidenceStatus; confidence?: string; elapsed_ms?: number; error?: string }[];

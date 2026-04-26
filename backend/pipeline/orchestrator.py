@@ -9,6 +9,7 @@ from typing import Awaitable, Callable
 from backend.pipeline.acmg import classify
 from backend.pipeline.alphagenome import predict_alphagenome
 from backend.pipeline.annotate import annotate_variant
+from backend.pipeline.conservation import fetch_conservation
 from backend.pipeline.databases import fetch_clinvar, fetch_gnomad, fetch_interpro, fetch_lovd, fetch_uniprot
 from backend.pipeline.liftover import liftover_and_warn
 from backend.pipeline.literature import search_literature
@@ -142,6 +143,8 @@ async def run_pipeline(variant: VariantInput, emit: Emitter) -> Report:
     async def _set_lovd(d):
         ev.lovd = d
 
+    aa_pos_for_cons = aa.get("position") if aa else None
+    aa_ref_for_cons = aa.get("ref1letter") if aa else None
     parallel_tasks = [
         _timed("gnomad", fetch_gnomad(variant), emit, lambda d: setattr(ev, "gnomad", d)),
         _timed("clinvar", fetch_clinvar(variant, gene, hgvs_p), emit, lambda d: setattr(ev, "clinvar", d)),
@@ -150,6 +153,9 @@ async def run_pipeline(variant: VariantInput, emit: Emitter) -> Report:
         _timed("lovd", fetch_lovd(variant, gene), emit, lambda d: setattr(ev, "lovd", d)),
         _timed("literature", search_literature(variant, ann), emit, lambda d: setattr(ev, "literature", d or [])),
         _timed("alphagenome", predict_alphagenome(variant), emit, lambda d: setattr(ev, "alphagenome", d)),
+        _timed("conservation",
+                fetch_conservation(variant, gene, aa_pos_for_cons, aa_ref_for_cons),
+                emit, lambda d: setattr(ev, "conservation", d)),
     ]
     sources.extend(await asyncio.gather(*parallel_tasks))
 

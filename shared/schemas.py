@@ -171,6 +171,25 @@ class SequenceAnnotation(BaseModel):
     label: str | None = None  # human-readable description
 
 
+class OrthologResidue(BaseModel):
+    species: str                 # binomial name (e.g. mus_musculus)
+    common_name: str | None = None
+    residue: str | None = None   # 1-letter at the variant-equivalent alignment position
+    is_gap: bool = False
+    matches_human: bool = False  # residue == human ref residue
+    perc_id: float | None = None # overall ortholog protein identity vs human
+
+
+class ConservationPanel(BaseModel):
+    gene_symbol: str | None = None
+    variant_position: int | None = None
+    human_residue: str | None = None
+    n_orthologs: int = 0
+    n_match: int = 0
+    pct_conserved_at_position: float | None = None  # 0-100; orthologs identical at this position
+    species: list[OrthologResidue] = Field(default_factory=list)
+
+
 class SequenceContext(BaseModel):
     """A ±N residue strip around the variant for visual display."""
     accession: str | None = None
@@ -260,6 +279,7 @@ class EvidencePacket(BaseModel):
     alphagenome: AlphaGenomePrediction | None = None
     structure: StructuralAnalysis | None = None
     sequence_context: SequenceContext | None = None
+    conservation: ConservationPanel | None = None
     liver_context: LiverContext | None = None
     acmg: ACMGResult | None = None
     sources: list[SourceResult] = Field(default_factory=list)

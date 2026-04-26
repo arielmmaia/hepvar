@@ -20,16 +20,17 @@ import { PopulationBarChart } from "@/components/PopulationBarChart";
 import { DiseaseSpectrumTable } from "@/components/DiseaseSpectrumTable";
 import { SequenceContextStrip } from "@/components/SequenceContextStrip";
 import { AlphaGenomePanel } from "@/components/AlphaGenomePanel";
+import { ConservationPanel } from "@/components/ConservationPanel";
 
 const STEP_ORDER = [
   "annotate", "liftover", "liver_context", "gnomad", "clinvar", "uniprot", "interpro",
-  "lovd", "literature", "alphagenome", "structure", "sequence_context", "acmg", "synthesis",
+  "lovd", "literature", "alphagenome", "conservation", "structure", "sequence_context", "acmg", "synthesis",
 ];
 
 const STEP_LABEL: Record<string, string> = {
   annotate: "VEP", liftover: "lift", liver_context: "liver", gnomad: "gnomAD", clinvar: "ClinVar",
   uniprot: "UniProt", interpro: "InterPro", lovd: "LOVD", literature: "literature",
-  alphagenome: "AlphaGenome", structure: "structure", sequence_context: "context",
+  alphagenome: "AlphaGenome", conservation: "Compara", structure: "structure", sequence_context: "context",
   acmg: "ACMG", synthesis: "Opus 4.7",
 };
 
@@ -93,6 +94,7 @@ export default function AnalyzePage({ params }: { params: Promise<{ id: string }
   const liver: LiverContext | undefined = steps.liver_context?.data;
   const acmg: ACMGResult | undefined = steps.acmg?.data;
   const seqctx = steps.sequence_context?.data as import("@/lib/types").SequenceContext | undefined;
+  const conservation = steps.conservation?.data as import("@/lib/types").ConservationPanel | undefined;
 
   const variantStr = report?.variant
     ? `${report.variant.chrom}:${report.variant.pos} ${report.variant.ref}>${report.variant.alt}`
@@ -236,6 +238,12 @@ export default function AnalyzePage({ params }: { params: Promise<{ id: string }
             {seqctx && seqctx.sequence && (
               <EvidenceCard key="seqctx" eyebrow="sequence context · UniProt + InterPro" title="Local sequence around the variant" status="ok" accent="teal">
                 <SequenceContextStrip ctx={seqctx} />
+              </EvidenceCard>
+            )}
+
+            {conservation && conservation.species && conservation.species.length > 0 && (
+              <EvidenceCard key="cons" eyebrow="conservation · Ensembl Compara" title={`Cross-species: residue ${conservation.variant_position} of ${conservation.gene_symbol}`} status={steps.conservation?.status ?? "ok"} elapsedMs={steps.conservation?.elapsedMs} accent="leaf">
+                <ConservationPanel panel={conservation} />
               </EvidenceCard>
             )}
 
