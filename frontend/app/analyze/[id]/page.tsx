@@ -16,6 +16,7 @@ import { AASubstitutionCard } from "@/components/AASubstitutionCard";
 import { TranscriptTable } from "@/components/TranscriptTable";
 import { StrandExplainer } from "@/components/StrandExplainer";
 import { LiftoverNote } from "@/components/LiftoverNote";
+import { PopulationBarChart } from "@/components/PopulationBarChart";
 
 const STEP_ORDER = [
   "annotate", "liftover", "liver_context", "gnomad", "clinvar", "uniprot", "interpro",
@@ -176,19 +177,16 @@ export default function AnalyzePage({ params }: { params: Promise<{ id: string }
 
             {gnomad && (
               <EvidenceCard key="gn" eyebrow="population · gnomAD v4" title="Allele frequency" status={steps.gnomad.status} elapsedMs={steps.gnomad.elapsedMs} accent="amber">
-                <div className="font-mono text-[26px] font-display tracking-tight text-ink">
-                  {gnomad.af_global !== null && gnomad.af_global !== undefined ? gnomad.af_global.toExponential(2) : "absent"}
+                <div className="flex items-baseline gap-3 mb-3">
+                  <span className="font-mono text-[26px] font-display tracking-tight text-ink">
+                    {gnomad.af_global !== null && gnomad.af_global !== undefined ? gnomad.af_global.toExponential(2) : "absent"}
+                  </span>
+                  <span className="text-[12px] text-muted">global · {gnomad.homozygote_count ?? 0} homozygotes</span>
                 </div>
-                <p className="text-[12px] text-muted">global allele frequency · {gnomad.homozygote_count ?? 0} homozygotes</p>
-                {gnomad.af_populations && Object.keys(gnomad.af_populations).length > 0 && (
-                  <div className="mt-3 space-y-1">
-                    {Object.entries(gnomad.af_populations).map(([pop, af]) => (
-                      <PopBar key={pop} label={pop} af={af} />
-                    ))}
-                  </div>
-                )}
-                {gnomad.notes && (
-                  <p className="mt-3 text-[12px] text-oxblood italic serif-italic border-l-2 border-oxblood pl-2">{gnomad.notes}</p>
+                {gnomad.af_populations && Object.keys(gnomad.af_populations).length > 0 ? (
+                  <PopulationBarChart gnomad={gnomad} />
+                ) : (
+                  <p className="text-[12px] text-muted italic serif-italic">No per-ancestry breakdown returned.</p>
                 )}
               </EvidenceCard>
             )}
