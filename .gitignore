@@ -16,6 +16,7 @@ build/
 .idea/
 .vscode/
 .claude/
+.codex
 .pytest_cache/
 
 # Reference-only (not part of the hackathon submission)

@@ -2,83 +2,86 @@
 
 **Hackathon submission for "Built with Opus 4.7" (Cerebral Valley, April 21–26 2026).**
 
-Run with `HEPVAR_DEMO_MODE=1` after pre-caching the ABCB4 LPAC variant fixture so the recording is reproducible offline.
+Format: **on-camera intro → screen-capture demo with voiceover → on-camera close.** Total ~3:00. Speak slightly slower than normal — gives the cards time to animate, and the personal opening lands harder. Audience is mostly Anthropic engineers; the spoken track avoids genetics jargon and lets the visuals carry technical flavor.
 
 ---
 
-## 0:00 – 0:30 · The patient
+## [0:00 – 0:30] Human Hook — *on camera, neutral background*
 
-> *(Voiceover, plain B-roll of liver imaging or a Brazilian gastroenterology clinic.)*
->
-> "A 34-year-old woman in Porto Alegre presents to a hepatology clinic with chronic cholestasis, recurrent biliary pain, and a CT showing intrahepatic biliary microlithiasis. Her sequencing report comes back from a private laboratory in São Paulo. There is a missense variant in **ABCB4** — the canonical LPAC and PFIC3 gene. The report's verdict: **'variant of uncertain significance, no link to disease established.'**
->
-> "That happens because ClinVar, OMIM and most variant literature were curated from European-ancestry cohorts. Variants common in Brazilian patients are systematically under-represented. The hepatologist has nowhere to turn — until now."
+> "Five years ago, my wife got sick. Her liver enzymes were high. She had chronic pain. Doctor after doctor tried to explain it, and the best answer was autoimmune hepatitis. She started immunosuppressive medication, with serious side effects, but something still did not fit. Years later, a fifth hepatologist suspected we might be dealing with a rare genetic liver disease, and ordered a genetic test. The test found a mutation in a gene that helps the liver work properly. But the report didn't say *this explains it.* It said: **Variant of Uncertain Significance.** That means: we found something in your DNA, but we do not know if it is causing disease. **For many families, that is the end of the road. For us, it became the beginning.**"
+
+*Lower-third overlay: "Ariel Maia · Postdoc researcher, PhD, Molecular Biology · Porto Alegre, Brazil"*
 
 ---
 
-## 0:30 – 1:00 · The dashboard, live
+## [0:30 – 0:50] Why It Matters — *B-roll: Brazil map / database visual / scattered papers. Voiceover.*
 
-> *(Cut to screen recording. Open `http://localhost:3000`. Show the editorial landing page for one beat.)*
+> "Thanks to my research background, and my wife's master's in genetics, we kept investigating. We searched databases, scientific papers, and ran computer simulations. We found enough evidence to support the right diagnosis — including a study where researchers had introduced her exact mutation into cultured cells and shown that it disrupts the protein's function. She changed medication. One month later, full recovery."
 >
-> "This is HepVar. I paste the genomic coordinates the laboratory sent — `chr7:87408188 T>C` on GRCh38."
->
-> *(Click the **ABCB4 — LPAC / PFIC3** demo chip. Hit `→`. Cut to the live dashboard.)*
->
-> "In real time, HepVar is querying Ensembl VEP, gnomAD v4, ClinVar, UniProt, InterPro, LOVD, AlphaFold-EBI, AlphaGenome, AlphaMissense, and PubMed plus Europe PMC across English, Portuguese, Spanish, Italian and French — in parallel."
->
-> *(Watch the status pills along the top tick from amber to green. Cards animate in one by one.)*
->
-> "Within twenty seconds every evidence card has populated."
+> "Most families do not have two molecular biology researchers at home. Most doctors do not have hours to chase scattered genetic evidence. **And most of the world's variant databases were built from European DNA — so for patients in Brazil, Latin America, and Africa, an uncertain answer is the default.** So I built HepVar."
 
 ---
 
-## 1:00 – 1:45 · The Opus 4.7 synthesis
+## [0:50 – 1:20] The Workflow — *screen capture, paste variant, run*
 
-> "And here, on the right, **Opus 4.7** is now reasoning over the assembled evidence object."
+> "HepVar is a clinical reasoning partner for uncertain genetic variants in rare liver disease. It does not diagnose. It helps doctors and patients understand what a finding might mean, what evidence supports it, what is missing, and what to check next."
 >
-> *(Show the ReasoningPane streaming. Click **show model reasoning** to expand the thinking accordion briefly.)*
+> *(paste variant `chr7:87408188 T>C`, hit run)*
 >
-> "Adaptive thinking is on, with `display: summarized` so you can actually watch the model deliberate. The entire ACMG/AMP rule set and the structured evidence packet are prompt-cached, so this analysis call writes the cache once and every follow-up reads it back at one tenth of the cost."
->
-> *(Stream completes. Verdict card resolves.)*
->
-> "Verdict: **Likely Pathogenic**, posterior 0.93. PVS1 — no, this is missense, not null — but PM1 — the residue sits inside the Walker A motif of nucleotide-binding domain 2; PM2 — absent from gnomAD; PP3 — AlphaMissense and ΔΔG agree; PP2 — ABCB4 missense is an established mechanism."
+> "I'm entering my wife's actual mutation. Behind the scenes, HepVar does in twenty seconds what took us weeks by hand — pulling a dozen sources in parallel: population databases, clinical databases, protein-structure predictions from AlphaFold and AlphaMissense, regulatory predictions from AlphaGenome, and the medical literature in five languages."
 
 ---
 
-## 1:45 – 2:30 · The two things that make this different
+## [1:20 – 1:55] Opus Synthesis — *synthesis pane streaming, click "show model reasoning" briefly*
 
-> "Two things to highlight."
+> "Now Claude Opus 4.7 reads the assembled evidence. This is where Opus matters. It is not summarizing — it is reasoning through uncertainty. With extended thinking on, you can watch the deliberation: which clues are strong, which conflict, which are missing."
 >
-> *(Scroll to the literature card.)*
+> *(point to literature card)*
 >
-> "First — there is a 2018 case report from *Arquivos de Gastroenterologia*, in **Portuguese**, describing a 28-year-old Brazilian woman with the same residue change and the same intrahepatic microlithiasis phenotype. It is not in ClinVar. Opus 4.7 read it in Portuguese and cited it directly in the synthesis. This is the equity premise: **multilingual reasoning recovers evidence that ancestry-blind curation systems silently lose.**"
+> "Here, Opus surfaced a paper where researchers had introduced this exact mutation into cultured cells and shown that it breaks the protein's function. Direct experimental evidence the original lab report had not included. Opus found it, weighed it, and folded it into the verdict."
 >
-> *(Scroll to the **EVIDENCE GAPS** section in the synthesis pane.)*
->
-> "Second — Opus 4.7 names the next experiment. Not 'recommend further investigation.' Specifically: an **ABCB4 phosphatidylcholine transport assay in HEK293 cells**. If the variant transporter shows below 30% of wild-type activity, that supplies PS3 — strong functional evidence — and pushes the classification to Pathogenic. If transport is normal, it pushes the variant to Likely Benign and lets the clinician look elsewhere. The model is doing **evidence-gap meta-cognition**, not just classification."
+> "The verdict on my wife's mutation: **Pathogenic.** Auditable. A clinician is not forced to trust a black box."
 
 ---
 
-## 2:30 – 3:00 · Conversational follow-up
+## [1:55 – 2:25] What surprised me — *stay on ABCB4 screen throughout; voiceover for the aside, then click the audience toggle*
 
-> *(Click the chat composer. Click the suggested chip "Could a Brazilian-ancestry founder effect explain the gnomAD absence?")*
->
-> "Now the hepatologist can interrogate the report. Because the entire evidence packet is prompt-cached, this follow-up streams back in under three seconds at almost a tenth of the per-token cost of the original synthesis."
->
-> *(Wait for the response to start streaming. Let it run for ~10 seconds.)*
->
-> "HepVar — open source, MIT, built solo during this hackathon. Python pipeline, FastAPI backend, Next.js frontend, and **Claude Opus 4.7** as the reasoning layer that turns fifteen disparate data streams into one clinical decision a hepatologist can act on. Thank you."
+> "Two things surprised me. While testing other variants, Opus *unprompted* warned me about a specific common drug — given to a patient with one of those mutations, it can cause fatal liver failure. The model named the safe alternatives. I had not asked it to think about treatment."
+
+*(click the audience toggle: technical → clinician → patient, let the same card visibly rephrase itself)*
+
+> "Second — the same model serves three audiences without changing the data. The bioinformatician sees the scoring and the deltas. The clinician sees the action. The patient sees plain language, and the questions to ask their doctor next. One pipeline. Three reports. **Opus does the rephrasing — the science underneath does not change.**"
+
+---
+
+## [2:25 – 2:45] Evidence Gap & Chat — *scroll to evidence-gap section, then chat composer*
+
+> "And HepVar does not stop at an answer. It says what to do next: which lab test would confirm the mechanism, what numerical result would strengthen the case. It turns a verdict into a roadmap. Because the entire evidence packet is prompt-cached, a doctor can ask follow-up questions for ten minutes without burning the institution's budget."
+
+---
+
+## [2:45 – 3:00] Closing — *back on camera*
+
+> "A VUS should not mean *nothing can be done.* Sometimes it just means the evidence is scattered, underrepresented, or too hard to interpret alone. HepVar turns that uncertainty into a map: what we know, what we do not know, and what to investigate next. **I built it because this problem reached my family. I want it to help the next one, sooner.**"
 
 ---
 
 ## Recording checklist
 
-- [ ] `HEPVAR_DEMO_MODE=1` is set, fixtures are pre-populated for `chr7:87408188 T>C`.
+- [ ] Cache is warm: all 14 source fixtures already exist at `evidence/fixtures/GRCh38_chr7_87408188_T_C/` — pipeline runs offline in `HEPVAR_DEMO_MODE=1` with zero network calls.
+- [ ] Launch backend in demo mode:
+      ```
+      HEPVAR_DEMO_MODE=1 uvicorn api.main:app --port 8000
+      ```
+      Confirm `/health` returns `"demo_mode": true`.
+- [ ] `ANTHROPIC_API_KEY` is loaded — Opus synthesis + audience-toggle translations still call live (which is what you want on screen).
+- [ ] Tool output for ABCB4 displays **Pathogenic** verdict before recording starts. Wait for the final synthesis state.
 - [ ] Browser at `http://localhost:3000`, zoom 110%, light mode.
-- [ ] Backend logs visible in a separate terminal in case of glitch (don't show on stage).
-- [ ] Mic level checked. Voice slightly slowed; allow space for the cards to animate in.
-- [ ] Two takes. Second take focuses on tightness — cut filler.
+- [ ] Backend logs visible in a hidden terminal in case of glitch.
+- [ ] External mic if available; otherwise quiet room + earbuds-on-stand.
+- [ ] Two takes minimum. Second take focuses on tightness — cut filler ("so", "basically", "you know").
+- [ ] Lower-third overlay ready: "Ariel Maia · PhD, Molecular Biology · Porto Alegre, Brazil"
+- [ ] Upload as **YouTube Unlisted** (more reliable scrubbing than Loom for judges).
 
 ## What to mention if asked
 
@@ -86,4 +89,4 @@ Run with `HEPVAR_DEMO_MODE=1` after pre-caching the ABCB4 LPAC variant fixture s
 - Opus 4.7 with `thinking: {type: "adaptive", display: "summarized"}` and `output_config: {effort: "xhigh"}`.
 - Prompt caching via `cache_control: {type: "ephemeral"}` on system + evidence object.
 - Pipeline parallelism via `asyncio.gather` after VEP gates the rest.
-- All 9 sources degrade gracefully — a missing source flags `confidence: missing` and Opus 4.7 explicitly notes it in CONFLICT RESOLUTION.
+- Twelve sources degrade gracefully — a missing source flags `confidence: missing` and Opus 4.7 explicitly notes it in CONFLICT RESOLUTION.
