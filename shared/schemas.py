@@ -184,6 +184,23 @@ class SequenceContext(BaseModel):
     annotations: list[SequenceAnnotation] = Field(default_factory=list)
 
 
+class AlphaGenomeTrack(BaseModel):
+    name: str | None = None              # human-readable track label
+    biosample: str | None = None         # tissue / cell line
+    max_abs_delta: float | None = None
+    sum_abs_delta: float | None = None
+
+
+class AlphaGenomeModality(BaseModel):
+    output_type: str                       # rna_seq | splice_sites | atac | cage | …
+    n_tracks: int = 0
+    max_abs_delta: float | None = None
+    sum_abs_delta: float | None = None
+    sparkline: list[float] = Field(default_factory=list)  # mean Δ across tracks, length ≤64
+    sparkline_window: int | None = None    # half-window in bp around variant
+    tracks: list[AlphaGenomeTrack] = Field(default_factory=list)
+
+
 class AlphaGenomePrediction(BaseModel):
     splice_delta: float | None = None
     expression_log2fc: float | None = None
@@ -191,6 +208,7 @@ class AlphaGenomePrediction(BaseModel):
     tf_binding_delta: float | None = None
     liver_tracks_used: list[str] = Field(default_factory=list)
     flags: list[str] = Field(default_factory=list)
+    modalities: list[AlphaGenomeModality] = Field(default_factory=list)
 
 
 class DiseaseEntity(BaseModel):

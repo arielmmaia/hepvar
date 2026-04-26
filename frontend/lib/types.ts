@@ -144,6 +144,23 @@ export interface SequenceContext {
   annotations?: SequenceAnnotation[];
 }
 
+export interface AlphaGenomeTrack {
+  name?: string | null;
+  biosample?: string | null;
+  max_abs_delta?: number | null;
+  sum_abs_delta?: number | null;
+}
+
+export interface AlphaGenomeModality {
+  output_type: string;
+  n_tracks?: number;
+  max_abs_delta?: number | null;
+  sum_abs_delta?: number | null;
+  sparkline?: number[];
+  sparkline_window?: number | null;
+  tracks?: AlphaGenomeTrack[];
+}
+
 export interface AlphaGenomePrediction {
   splice_delta?: number | null;
   expression_log2fc?: number | null;
@@ -151,6 +168,7 @@ export interface AlphaGenomePrediction {
   tf_binding_delta?: number | null;
   liver_tracks_used?: string[];
   flags?: string[];
+  modalities?: AlphaGenomeModality[];
 }
 
 export interface DiseaseEntity {

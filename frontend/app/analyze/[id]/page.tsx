@@ -19,6 +19,7 @@ import { LiftoverNote } from "@/components/LiftoverNote";
 import { PopulationBarChart } from "@/components/PopulationBarChart";
 import { DiseaseSpectrumTable } from "@/components/DiseaseSpectrumTable";
 import { SequenceContextStrip } from "@/components/SequenceContextStrip";
+import { AlphaGenomePanel } from "@/components/AlphaGenomePanel";
 
 const STEP_ORDER = [
   "annotate", "liftover", "liver_context", "gnomad", "clinvar", "uniprot", "interpro",
@@ -227,17 +228,8 @@ export default function AnalyzePage({ params }: { params: Promise<{ id: string }
             )}
 
             {alphagenome && (
-              <EvidenceCard key="ag" eyebrow="regulatory · AlphaGenome" title="Liver-cell predictions" status={steps.alphagenome.status} elapsedMs={steps.alphagenome.elapsedMs} accent="teal">
-                <div className="grid grid-cols-3 gap-3 text-[13px]">
-                  <Stat label="splice Δ" value={alphagenome.splice_delta} />
-                  <Stat label="expr log2FC" value={alphagenome.expression_log2fc} />
-                  <Stat label="ATAC Δ" value={alphagenome.chromatin_accessibility_delta} />
-                </div>
-                {alphagenome.flags && alphagenome.flags.length > 0 && (
-                  <ul className="mt-3 text-[12px] text-amber space-y-1">
-                    {alphagenome.flags.map((f, i) => <li key={i}>· {f}</li>)}
-                  </ul>
-                )}
+              <EvidenceCard key="ag" eyebrow="regulatory · AlphaGenome · liver" title="Liver-cell predictions" status={steps.alphagenome.status} elapsedMs={steps.alphagenome.elapsedMs} accent="teal">
+                <AlphaGenomePanel pred={alphagenome} />
               </EvidenceCard>
             )}
 
