@@ -12,7 +12,7 @@ from tenacity import retry, stop_after_attempt, wait_exponential_jitter
 
 from backend.cache.store import cached_fetch, variant_key
 from backend.pipeline.aa_properties import compare as aa_compare
-from shared.schemas import VEPAnnotation, VariantInput
+from shared.schemas import TranscriptConsequence, VEPAnnotation, VariantInput
 
 
 log = logging.getLogger(__name__)
@@ -84,6 +84,33 @@ async def annotate_variant(v: VariantInput) -> VEPAnnotation:
     hgvs_p = canonical.get("hgvsp")
     aa_change = parse_hgvs_p(hgvs_p)
 
+    # Capture every protein-coding transcript so the dashboard can show isoform
+    # differences. Same genomic change → different cDNA position / different AA
+    # numbering across isoforms (e.g. ABCB4 c.3128 in the canonical = c.2987 in
+    # the shorter isoform, p.Tyr1043Cys vs p.Tyr996Cys).
+    transcripts: list[TranscriptConsequence] = []
+    for t in txs:
+        if not t.get("transcript_id"):
+            continue
+        p = parse_hgvs_p(t.get("hgvsp"))
+        transcripts.append(TranscriptConsequence(
+            transcript_id=t.get("transcript_id"),
+            transcript_biotype=t.get("biotype"),
+            gene_symbol=t.get("gene_symbol"),
+            canonical=bool(t.get("canonical")),
+            mane_select=t.get("mane_select") or t.get("mane_plus_clinical"),
+            refseq_match=t.get("refseq_match"),
+            hgvs_c=t.get("hgvsc"),
+            hgvs_p=t.get("hgvsp"),
+            consequence=(t.get("consequence_terms") or [None])[0],
+            impact=t.get("impact"),
+            aa_position=p.get("position") if p else None,
+            aa_ref=p.get("ref1letter") if p else None,
+            aa_alt=p.get("alt1letter") if p else None,
+        ))
+    # Sort: canonical first, then MANE-select, then alphabetical.
+    transcripts.sort(key=lambda x: (not x.canonical, not bool(x.mane_select), x.transcript_id or ""))
+
     rs_id = None
     clinvar_id = None
     for cv in record.get("colocated_variants", []) or []:
@@ -116,4 +143,5 @@ async def annotate_variant(v: VariantInput) -> VEPAnnotation:
         cadd=canonical.get("cadd_phred"),
         aa_change=aa_change,
         aa_substitution=aa_substitution,
+        transcripts=transcripts,
     )

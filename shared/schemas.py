@@ -59,6 +59,22 @@ class AASubstitution(BaseModel):
     summary_flags: list[str] = Field(default_factory=list)  # human-readable change descriptors
 
 
+class TranscriptConsequence(BaseModel):
+    transcript_id: str | None = None
+    transcript_biotype: str | None = None
+    gene_symbol: str | None = None
+    canonical: bool = False
+    mane_select: str | None = None
+    refseq_match: str | None = None  # NM_ accession when present
+    hgvs_c: str | None = None
+    hgvs_p: str | None = None
+    consequence: str | None = None
+    impact: str | None = None
+    aa_position: int | None = None
+    aa_ref: str | None = None  # 1-letter
+    aa_alt: str | None = None  # 1-letter
+
+
 class VEPAnnotation(BaseModel):
     gene_symbol: str | None = None
     transcript_id: str | None = None
@@ -74,6 +90,7 @@ class VEPAnnotation(BaseModel):
     cadd: float | None = None
     aa_change: dict[str, Any] | None = None  # {ref, alt, position, ref1letter, alt1letter}
     aa_substitution: AASubstitution | None = None
+    transcripts: list[TranscriptConsequence] = Field(default_factory=list)
 
 
 class GnomadFreq(BaseModel):

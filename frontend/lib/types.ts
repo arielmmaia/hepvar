@@ -36,6 +36,22 @@ export interface AASubstitution {
   summary_flags?: string[];
 }
 
+export interface TranscriptConsequence {
+  transcript_id?: string | null;
+  transcript_biotype?: string | null;
+  gene_symbol?: string | null;
+  canonical?: boolean;
+  mane_select?: string | null;
+  refseq_match?: string | null;
+  hgvs_c?: string | null;
+  hgvs_p?: string | null;
+  consequence?: string | null;
+  impact?: string | null;
+  aa_position?: number | null;
+  aa_ref?: string | null;
+  aa_alt?: string | null;
+}
+
 export interface VEPAnnotation {
   gene_symbol?: string | null;
   transcript_id?: string | null;
@@ -51,6 +67,7 @@ export interface VEPAnnotation {
   cadd?: number | null;
   aa_change?: { ref: string; alt: string; position: number; ref1letter: string; alt1letter: string } | null;
   aa_substitution?: AASubstitution | null;
+  transcripts?: TranscriptConsequence[];
 }
 
 export interface GnomadFreq {
