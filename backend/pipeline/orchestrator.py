@@ -10,6 +10,7 @@ from backend.pipeline.acmg import classify
 from backend.pipeline.alphagenome import predict_alphagenome
 from backend.pipeline.annotate import annotate_variant
 from backend.pipeline.databases import fetch_clinvar, fetch_gnomad, fetch_interpro, fetch_lovd, fetch_uniprot
+from backend.pipeline.liftover import liftover_and_warn
 from backend.pipeline.literature import search_literature
 from backend.pipeline.liver_context import fetch_liver_context
 from backend.pipeline.structure import analyse_structure
@@ -115,6 +116,14 @@ async def run_pipeline(variant: VariantInput, emit: Emitter) -> Report:
     accession = ann.uniprot_accession if ann else None
     hgvs_p = ann.hgvs_p if ann else None
     aa = ann.aa_change if ann else None
+
+    # --- Liftover (also warns on wrong-assembly gene mismatch) ---
+    sources.append(await _timed(
+        "liftover",
+        liftover_and_warn(variant, gene),
+        emit,
+        lambda d: setattr(ev, "liftover", d),
+    ))
 
     # --- Liver context first (needed to inform structure-step domain hints) ---
     sources.append(await _timed(

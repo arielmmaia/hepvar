@@ -158,9 +158,20 @@ export interface ACMGResult {
   criteria: ACMGCriterion[];
 }
 
+export interface LiftoverInfo {
+  source_assembly?: string | null;
+  source_pos?: number | null;
+  target_assembly?: string | null;
+  target_pos?: number | null;
+  target_chrom?: string | null;
+  wrong_assembly_gene?: string | null;
+  ambiguity_warning?: boolean;
+}
+
 export interface EvidencePacket {
   variant: VariantInput;
   annotation?: VEPAnnotation | null;
+  liftover?: LiftoverInfo | null;
   gnomad?: GnomadFreq | null;
   clinvar?: ClinVarRecord | null;
   uniprot?: Record<string, unknown> | null;

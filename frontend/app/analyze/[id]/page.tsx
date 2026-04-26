@@ -15,14 +15,15 @@ import { StatusDot } from "@/components/StatusDot";
 import { AASubstitutionCard } from "@/components/AASubstitutionCard";
 import { TranscriptTable } from "@/components/TranscriptTable";
 import { StrandExplainer } from "@/components/StrandExplainer";
+import { LiftoverNote } from "@/components/LiftoverNote";
 
 const STEP_ORDER = [
-  "annotate", "liver_context", "gnomad", "clinvar", "uniprot", "interpro",
+  "annotate", "liftover", "liver_context", "gnomad", "clinvar", "uniprot", "interpro",
   "lovd", "literature", "alphagenome", "structure", "acmg", "synthesis",
 ];
 
 const STEP_LABEL: Record<string, string> = {
-  annotate: "VEP", liver_context: "liver", gnomad: "gnomAD", clinvar: "ClinVar",
+  annotate: "VEP", liftover: "lift", liver_context: "liver", gnomad: "gnomAD", clinvar: "ClinVar",
   uniprot: "UniProt", interpro: "InterPro", lovd: "LOVD", literature: "literature",
   alphagenome: "AlphaGenome", structure: "structure", acmg: "ACMG", synthesis: "Opus 4.7",
 };
@@ -69,6 +70,7 @@ export default function AnalyzePage({ params }: { params: Promise<{ id: string }
   }, [id]);
 
   const ann: VEPAnnotation | undefined = steps.annotate?.data;
+  const liftover = steps.liftover?.data as import("@/lib/types").LiftoverInfo | undefined;
   const gnomad: GnomadFreq | undefined = steps.gnomad?.data;
   const clinvar: ClinVarRecord | undefined = steps.clinvar?.data;
   const uniprot: any = steps.uniprot?.data;
@@ -139,6 +141,8 @@ export default function AnalyzePage({ params }: { params: Promise<{ id: string }
           {ann?.gene_strand === -1 && report && (
             <StrandExplainer ann={ann} variant={report.variant} />
           )}
+
+          {liftover && <LiftoverNote info={liftover} geneSymbol={ann?.gene_symbol} />}
 
           <AnimatePresence>
             {ann?.aa_substitution && (

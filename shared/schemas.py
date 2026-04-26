@@ -101,6 +101,19 @@ class VEPAnnotation(BaseModel):
     coding_alt: str | None = None
 
 
+class LiftoverInfo(BaseModel):
+    """Cross-assembly liftover + the wrong-assembly disambiguation trap."""
+    source_assembly: str | None = None  # what the user gave us
+    source_pos: int | None = None
+    target_assembly: str | None = None  # the *other* build
+    target_pos: int | None = None
+    target_chrom: str | None = None
+    # Gene that overlaps the *input pos number* if it were (mis-)interpreted as
+    # the other assembly. If this differs from the actual gene, we warn.
+    wrong_assembly_gene: str | None = None
+    ambiguity_warning: bool = False
+
+
 class GnomadFreq(BaseModel):
     af_global: float | None = None
     af_populations: dict[str, float] = Field(default_factory=dict)
@@ -188,6 +201,7 @@ class EvidencePacket(BaseModel):
     """Complete evidence object handed to Opus 4.7 for synthesis."""
     variant: VariantInput
     annotation: VEPAnnotation | None = None
+    liftover: LiftoverInfo | None = None
     gnomad: GnomadFreq | None = None
     clinvar: ClinVarRecord | None = None
     uniprot: dict[str, Any] | None = None
