@@ -28,6 +28,14 @@ THREE_TO_ONE = {
     "Ter": "*", "Sec": "U", "Pyl": "O",
 }
 
+_COMPLEMENT = {"A": "T", "T": "A", "C": "G", "G": "C", "N": "N"}
+
+
+def _complement(base: str | None) -> str | None:
+    if not base:
+        return None
+    return "".join(_COMPLEMENT.get(b.upper(), b) for b in base)
+
 
 def parse_hgvs_p(hgvs_p: str | None) -> dict | None:
     if not hgvs_p:
@@ -111,6 +119,15 @@ async def annotate_variant(v: VariantInput) -> VEPAnnotation:
     # Sort: canonical first, then MANE-select, then alphabetical.
     transcripts.sort(key=lambda x: (not x.canonical, not bool(x.mane_select), x.transcript_id or ""))
 
+    gene_strand = canonical.get("strand")  # 1 or -1
+    if gene_strand is not None:
+        try:
+            gene_strand = int(gene_strand)
+        except (TypeError, ValueError):
+            gene_strand = None
+    coding_ref = v.ref if gene_strand == 1 or gene_strand is None else _complement(v.ref)
+    coding_alt = v.alt if gene_strand == 1 or gene_strand is None else _complement(v.alt)
+
     rs_id = None
     clinvar_id = None
     for cv in record.get("colocated_variants", []) or []:
@@ -144,4 +161,9 @@ async def annotate_variant(v: VariantInput) -> VEPAnnotation:
         aa_change=aa_change,
         aa_substitution=aa_substitution,
         transcripts=transcripts,
+        gene_strand=gene_strand,
+        genomic_ref=v.ref,
+        genomic_alt=v.alt,
+        coding_ref=coding_ref,
+        coding_alt=coding_alt,
     )

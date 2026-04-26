@@ -14,6 +14,7 @@ import { LiteratureList } from "@/components/LiteratureList";
 import { StatusDot } from "@/components/StatusDot";
 import { AASubstitutionCard } from "@/components/AASubstitutionCard";
 import { TranscriptTable } from "@/components/TranscriptTable";
+import { StrandExplainer } from "@/components/StrandExplainer";
 
 const STEP_ORDER = [
   "annotate", "liver_context", "gnomad", "clinvar", "uniprot", "interpro",
@@ -134,6 +135,10 @@ export default function AnalyzePage({ params }: { params: Promise<{ id: string }
         {/* Evidence column */}
         <section className="lg:col-span-7 space-y-4">
           <h2 className="font-mono text-[10px] uppercase tracking-[0.3em] text-muted mb-2">Assembled evidence</h2>
+
+          {ann?.gene_strand === -1 && report && (
+            <StrandExplainer ann={ann} variant={report.variant} />
+          )}
 
           <AnimatePresence>
             {ann?.aa_substitution && (

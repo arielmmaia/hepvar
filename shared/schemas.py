@@ -91,6 +91,14 @@ class VEPAnnotation(BaseModel):
     aa_change: dict[str, Any] | None = None  # {ref, alt, position, ref1letter, alt1letter}
     aa_substitution: AASubstitution | None = None
     transcripts: list[TranscriptConsequence] = Field(default_factory=list)
+    # Strand of the canonical transcript on the reference genome.
+    # 1 = sense (+); -1 = antisense (−). Antisense genes need a strand
+    # explainer because genomic ref/alt is reverse-complemented vs HGVS.c.
+    gene_strand: int | None = None
+    genomic_ref: str | None = None  # the literal ref base on + strand
+    genomic_alt: str | None = None  # the literal alt base on + strand
+    coding_ref: str | None = None   # base on the transcript strand (== genomic for + strand)
+    coding_alt: str | None = None
 
 
 class GnomadFreq(BaseModel):

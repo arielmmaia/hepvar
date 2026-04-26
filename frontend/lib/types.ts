@@ -68,6 +68,11 @@ export interface VEPAnnotation {
   aa_change?: { ref: string; alt: string; position: number; ref1letter: string; alt1letter: string } | null;
   aa_substitution?: AASubstitution | null;
   transcripts?: TranscriptConsequence[];
+  gene_strand?: number | null;
+  genomic_ref?: string | null;
+  genomic_alt?: string | null;
+  coding_ref?: string | null;
+  coding_alt?: string | null;
 }
 
 export interface GnomadFreq {
