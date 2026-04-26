@@ -23,12 +23,12 @@ import { AlphaGenomePanel } from "@/components/AlphaGenomePanel";
 
 const STEP_ORDER = [
   "annotate", "liftover", "liver_context", "gnomad", "clinvar", "uniprot", "interpro",
-  "lovd", "literature", "alphagenome", "structure", "sequence_context", "acmg", "synthesis",
+  "literature", "alphagenome", "structure", "sequence_context", "acmg", "synthesis",
 ];
 
 const STEP_LABEL: Record<string, string> = {
   annotate: "VEP", liftover: "lift", liver_context: "liver", gnomad: "gnomAD", clinvar: "ClinVar",
-  uniprot: "UniProt", interpro: "InterPro", lovd: "LOVD", literature: "literature",
+  uniprot: "UniProt", interpro: "InterPro", literature: "literature",
   alphagenome: "AlphaGenome", structure: "structure", sequence_context: "context",
   acmg: "ACMG", synthesis: "Opus 4.7",
 };
@@ -80,7 +80,7 @@ export default function AnalyzePage({ params }: { params: Promise<{ id: string }
   const clinvar: ClinVarRecord | undefined = steps.clinvar?.data;
   const uniprot: any = steps.uniprot?.data;
   const interpro: any = steps.interpro?.data;
-  const lovd: any = steps.lovd?.data;
+
   const literature: LiteratureHit[] = useMemo(() => {
     const d = steps.literature?.data;
     if (!d) return [];

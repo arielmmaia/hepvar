@@ -243,7 +243,6 @@ export interface EvidencePacket {
   clinvar?: ClinVarRecord | null;
   uniprot?: Record<string, unknown> | null;
   interpro?: Record<string, unknown> | null;
-  lovd?: Record<string, unknown> | null;
   literature?: LiteratureHit[];
   alphagenome?: AlphaGenomePrediction | null;
   structure?: StructuralAnalysis | null;

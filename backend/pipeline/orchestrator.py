@@ -10,7 +10,7 @@ from backend.pipeline.acmg import classify
 from backend.pipeline.alphagenome import predict_alphagenome
 from backend.pipeline.annotate import annotate_variant
 
-from backend.pipeline.databases import fetch_clinvar, fetch_gnomad, fetch_interpro, fetch_lovd, fetch_uniprot
+from backend.pipeline.databases import fetch_clinvar, fetch_gnomad, fetch_interpro, fetch_uniprot
 from backend.pipeline.liftover import liftover_and_warn
 from backend.pipeline.literature import search_literature
 from backend.pipeline.liver_context import fetch_liver_context
@@ -135,20 +135,17 @@ async def run_pipeline(variant: VariantInput, emit: Emitter) -> Report:
         lambda d: setattr(ev, "liver_context", d),
     ))
 
-    # --- Parallel: gnomAD, ClinVar, UniProt, InterPro, LOVD, Literature, AlphaGenome ---
+    # --- Parallel: gnomAD, ClinVar, UniProt, InterPro, Literature, AlphaGenome ---
     async def _set_uniprot(d):
         ev.uniprot = d
     async def _set_interpro(d):
         ev.interpro = d
-    async def _set_lovd(d):
-        ev.lovd = d
 
     parallel_tasks = [
         _timed("gnomad", fetch_gnomad(variant), emit, lambda d: setattr(ev, "gnomad", d)),
         _timed("clinvar", fetch_clinvar(variant, gene, hgvs_p), emit, lambda d: setattr(ev, "clinvar", d)),
         _timed("uniprot", fetch_uniprot(variant, accession), emit, lambda d: setattr(ev, "uniprot", d)),
         _timed("interpro", fetch_interpro(variant, accession), emit, lambda d: setattr(ev, "interpro", d)),
-        _timed("lovd", fetch_lovd(variant, gene, hgvs_c), emit, lambda d: setattr(ev, "lovd", d)),
         _timed("literature", search_literature(variant, ann), emit, lambda d: setattr(ev, "literature", d or [])),
         _timed("alphagenome", predict_alphagenome(variant), emit, lambda d: setattr(ev, "alphagenome", d)),
     ]

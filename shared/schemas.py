@@ -274,7 +274,6 @@ class EvidencePacket(BaseModel):
     clinvar: ClinVarRecord | None = None
     uniprot: dict[str, Any] | None = None
     interpro: dict[str, Any] | None = None
-    lovd: dict[str, Any] | None = None
     literature: list[LiteratureHit] = Field(default_factory=list)
     alphagenome: AlphaGenomePrediction | None = None
     structure: StructuralAnalysis | None = None
