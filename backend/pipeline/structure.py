@@ -90,9 +90,12 @@ async def _alphamissense_lookup(accession: str, position: int, alt: str) -> dict
     return None
 
 
-def _mean_plddt_from_pdb(pdb_text: str) -> float | None:
+def _plddt_from_pdb(pdb_text: str, target_residue: int | None = None) -> tuple[float | None, float | None]:
+    """Returns (mean_plddt, residue_plddt). residue_plddt is None unless target_residue
+    is provided and present in the PDB. AlphaFold encodes pLDDT in the B-factor column."""
     vals: list[float] = []
     seen_residues: set[tuple[str, int]] = set()
+    target: float | None = None
     for line in pdb_text.splitlines():
         if not line.startswith("ATOM"):
             continue
@@ -109,9 +112,23 @@ def _mean_plddt_from_pdb(pdb_text: str) -> float | None:
             continue
         seen_residues.add(key)
         vals.append(b)
-    if not vals:
+        if target_residue is not None and resnum == target_residue and target is None:
+            target = round(b, 1)
+    mean = round(sum(vals) / len(vals), 1) if vals else None
+    return mean, target
+
+
+def _plddt_band(plddt: float | None) -> str | None:
+    """AlphaFold pLDDT confidence bands (DeepMind 2021 specification)."""
+    if plddt is None:
         return None
-    return round(sum(vals) / len(vals), 1)
+    if plddt >= 90:
+        return "very high"
+    if plddt >= 70:
+        return "confident"
+    if plddt >= 50:
+        return "low"
+    return "very low"
 
 
 def _crude_ddg_from_alphamissense(am_score: float | None) -> float | None:
@@ -153,13 +170,17 @@ async def analyse_structure(
     async def fetcher_ref() -> dict:
         try:
             pdb, url = await _af_pdb_via_meta(accession)
-            mean_plddt = _mean_plddt_from_pdb(pdb)
+            mean_plddt, _ = _plddt_from_pdb(pdb, None)  # mean only at fetch time
             return {"pdb": pdb, "url": url, "mean_plddt": mean_plddt}
         except Exception as exc:
             log.warning("alphafold ref fetch failed: %s", exc)
             return {}
 
     ref = await cached_fetch(variant_key_str=vk, source="af_ref", fetcher=fetcher_ref, persist_fixture=True)
+    # Per-residue pLDDT extracted at orchestrator-time so cached PDBs work.
+    variant_residue_plddt: float | None = None
+    if ref and ref.get("pdb") and aa_position:
+        _, variant_residue_plddt = _plddt_from_pdb(ref["pdb"], aa_position)
 
     am_data = None
     if aa_position and aa_alt_one_letter:
@@ -195,6 +216,8 @@ async def analyse_structure(
         uniprot_accession=accession,
         af_pdb_url=(ref or {}).get("url") or af_pdb_url(accession),
         af_mean_plddt=ref.get("mean_plddt") if ref else None,
+        variant_residue_plddt=variant_residue_plddt,
+        variant_residue_plddt_band=_plddt_band(variant_residue_plddt),
         variant_pdb_url=None,  # served via /api/jobs/{id}/structure if needed
         variant_method=variant_method,
         rmsd_angstrom=None,  # left None when we don't run a CA alignment

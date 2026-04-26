@@ -90,6 +90,8 @@ export interface StructuralAnalysis {
   uniprot_accession?: string | null;
   af_pdb_url?: string | null;
   af_mean_plddt?: number | null;
+  variant_residue_plddt?: number | null;
+  variant_residue_plddt_band?: string | null;
   variant_pdb_url?: string | null;
   variant_method?: "esmfold" | "alphafold" | "none";
   rmsd_angstrom?: number | null;

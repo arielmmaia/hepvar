@@ -231,10 +231,15 @@ export default function AnalyzePage({ params }: { params: Promise<{ id: string }
                   refAa={ann?.aa_change?.ref1letter}
                   altAa={ann?.aa_change?.alt1letter}
                 />
-                <div className="grid grid-cols-3 gap-3 text-[13px] mt-3">
+                <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 text-[13px] mt-3">
                   <Stat label="AlphaMissense" value={structure.alphamissense_score} suffix={structure.alphamissense_class ? ` · ${structure.alphamissense_class}` : ""} />
                   <Stat label="ΔΔG (proxy)" value={structure.ddg_kcal_mol} suffix=" kcal/mol" />
                   <Stat label="pLDDT mean" value={structure.af_mean_plddt} />
+                  <Stat
+                    label={`pLDDT @ ${ann?.aa_change?.position ?? "?"}`}
+                    value={structure.variant_residue_plddt}
+                    suffix={structure.variant_residue_plddt_band ? ` · ${structure.variant_residue_plddt_band}` : ""}
+                  />
                 </div>
                 {structure.domain_at_position && (
                   <p className="mt-2 text-[13px] text-ink2 italic serif-italic">

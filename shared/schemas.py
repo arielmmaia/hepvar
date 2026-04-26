@@ -113,6 +113,8 @@ class StructuralAnalysis(BaseModel):
     uniprot_accession: str | None = None
     af_pdb_url: str | None = None
     af_mean_plddt: float | None = None
+    variant_residue_plddt: float | None = None
+    variant_residue_plddt_band: str | None = None  # "very high" | "confident" | "low" | "very low"
     variant_pdb_url: str | None = None
     variant_method: Literal["esmfold", "alphafold", "none"] = "none"
     rmsd_angstrom: float | None = None
