@@ -12,6 +12,7 @@ import { ChatComposer } from "@/components/ChatComposer";
 import { StructureViewer } from "@/components/StructureViewer";
 import { LiteratureList } from "@/components/LiteratureList";
 import { StatusDot } from "@/components/StatusDot";
+import { AASubstitutionCard } from "@/components/AASubstitutionCard";
 
 const STEP_ORDER = [
   "annotate", "liver_context", "gnomad", "clinvar", "uniprot", "interpro",
@@ -134,6 +135,12 @@ export default function AnalyzePage({ params }: { params: Promise<{ id: string }
           <h2 className="font-mono text-[10px] uppercase tracking-[0.3em] text-muted mb-2">Assembled evidence</h2>
 
           <AnimatePresence>
+            {ann?.aa_substitution && (
+              <EvidenceCard key="aa_sub" eyebrow="amino-acid substitution" title={`${ann.aa_substitution.wild_type.three}${ann.aa_change?.position} → ${ann.aa_substitution.variant.three}`} status="ok" accent="teal">
+                <AASubstitutionCard sub={ann.aa_substitution} />
+              </EvidenceCard>
+            )}
+
             {ann && (
               <EvidenceCard key="vep" eyebrow="annotation · VEP" title="Variant annotation" status={steps.annotate.status} elapsedMs={steps.annotate.elapsedMs} accent="oxblood">
                 <KV k="gene" v={ann.gene_symbol} />

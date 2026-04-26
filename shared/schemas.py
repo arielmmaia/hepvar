@@ -33,6 +33,32 @@ class SourceResult(BaseModel):
     elapsed_ms: int | None = None
 
 
+class AAProperty(BaseModel):
+    code: str   # 1-letter
+    three: str  # 3-letter
+    name: str
+    mw: float | None = None
+    volume: float | None = None
+    hydrophobicity: float | None = None
+    charge: int | None = None
+    polar: bool | None = None
+    aromatic: bool | None = None
+    sulfur: bool | None = None
+    side_chain: str | None = None
+    h_bond: str | None = None
+    features: list[str] = Field(default_factory=list)
+
+
+class AASubstitution(BaseModel):
+    """Side-by-side comparison of WT vs variant amino-acid properties."""
+    wild_type: AAProperty
+    variant: AAProperty
+    delta_volume: float | None = None
+    delta_hydrophobicity: float | None = None
+    delta_charge: int | None = None
+    summary_flags: list[str] = Field(default_factory=list)  # human-readable change descriptors
+
+
 class VEPAnnotation(BaseModel):
     gene_symbol: str | None = None
     transcript_id: str | None = None
@@ -47,6 +73,7 @@ class VEPAnnotation(BaseModel):
     polyphen: dict[str, Any] | None = None
     cadd: float | None = None
     aa_change: dict[str, Any] | None = None  # {ref, alt, position, ref1letter, alt1letter}
+    aa_substitution: AASubstitution | None = None
 
 
 class GnomadFreq(BaseModel):

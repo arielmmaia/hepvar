@@ -11,6 +11,7 @@ import httpx
 from tenacity import retry, stop_after_attempt, wait_exponential_jitter
 
 from backend.cache.store import cached_fetch, variant_key
+from backend.pipeline.aa_properties import compare as aa_compare
 from shared.schemas import VEPAnnotation, VariantInput
 
 
@@ -95,6 +96,11 @@ async def annotate_variant(v: VariantInput) -> VEPAnnotation:
     # VEP returns versioned accessions like "P21439.229"; UniProt REST 303s on those.
     clean_accession = raw_accession.split(".")[0].split("-")[0] if raw_accession else None
 
+    # Physicochemical comparison of the WT vs variant amino acid (missense only).
+    aa_substitution = None
+    if aa_change:
+        aa_substitution = aa_compare(aa_change.get("ref1letter"), aa_change.get("alt1letter"))
+
     return VEPAnnotation(
         gene_symbol=canonical.get("gene_symbol"),
         transcript_id=canonical.get("transcript_id"),
@@ -109,4 +115,5 @@ async def annotate_variant(v: VariantInput) -> VEPAnnotation:
         polyphen={"score": canonical.get("polyphen_score"), "prediction": canonical.get("polyphen_prediction")},
         cadd=canonical.get("cadd_phred"),
         aa_change=aa_change,
+        aa_substitution=aa_substitution,
     )

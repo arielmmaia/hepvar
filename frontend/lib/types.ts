@@ -11,6 +11,31 @@ export interface VariantInput {
   assembly?: "GRCh38" | "GRCh37";
 }
 
+export interface AAProperty {
+  code: string;
+  three: string;
+  name: string;
+  mw?: number | null;
+  volume?: number | null;
+  hydrophobicity?: number | null;
+  charge?: number | null;
+  polar?: boolean | null;
+  aromatic?: boolean | null;
+  sulfur?: boolean | null;
+  side_chain?: string | null;
+  h_bond?: string | null;
+  features?: string[];
+}
+
+export interface AASubstitution {
+  wild_type: AAProperty;
+  variant: AAProperty;
+  delta_volume?: number | null;
+  delta_hydrophobicity?: number | null;
+  delta_charge?: number | null;
+  summary_flags?: string[];
+}
+
 export interface VEPAnnotation {
   gene_symbol?: string | null;
   transcript_id?: string | null;
@@ -25,6 +50,7 @@ export interface VEPAnnotation {
   polyphen?: { score?: number | null; prediction?: string | null } | null;
   cadd?: number | null;
   aa_change?: { ref: string; alt: string; position: number; ref1letter: string; alt1letter: string } | null;
+  aa_substitution?: AASubstitution | null;
 }
 
 export interface GnomadFreq {
