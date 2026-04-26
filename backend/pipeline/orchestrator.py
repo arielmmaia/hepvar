@@ -13,6 +13,7 @@ from backend.pipeline.databases import fetch_clinvar, fetch_gnomad, fetch_interp
 from backend.pipeline.liftover import liftover_and_warn
 from backend.pipeline.literature import search_literature
 from backend.pipeline.liver_context import fetch_liver_context
+from backend.pipeline.sequence_context import build_sequence_context
 from backend.pipeline.structure import analyse_structure
 from backend.reasoning.synthesizer import stream_synthesis
 from shared.schemas import (
@@ -176,6 +177,27 @@ async def run_pipeline(variant: VariantInput, emit: Emitter) -> Report:
         emit,
         lambda d: setattr(ev, "structure", d),
     ))
+
+    # Build the local sequence-context strip (no API calls — derived from
+    # already-fetched UniProt + InterPro). Cheap, synchronous-on-data.
+    aa_ref_one_letter = aa.get("ref1letter") if aa else None
+    seqctx = build_sequence_context(
+        accession=accession,
+        sequence=sequence,
+        aa_position=aa_position,
+        aa_ref=aa_ref_one_letter,
+        aa_alt=aa_alt_one_letter,
+        uniprot=ev.uniprot,
+        interpro=ev.interpro,
+    )
+    if seqctx is not None:
+        ev.sequence_context = seqctx
+        await emit({
+            "type": "step",
+            "name": "sequence_context",
+            "status": "ok",
+            "data": seqctx.model_dump(mode="json"),
+        })
 
     # --- ACMG classification ---
     await emit({"type": "step", "name": "acmg", "status": "running"})

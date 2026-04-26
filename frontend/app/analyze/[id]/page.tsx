@@ -18,16 +18,18 @@ import { StrandExplainer } from "@/components/StrandExplainer";
 import { LiftoverNote } from "@/components/LiftoverNote";
 import { PopulationBarChart } from "@/components/PopulationBarChart";
 import { DiseaseSpectrumTable } from "@/components/DiseaseSpectrumTable";
+import { SequenceContextStrip } from "@/components/SequenceContextStrip";
 
 const STEP_ORDER = [
   "annotate", "liftover", "liver_context", "gnomad", "clinvar", "uniprot", "interpro",
-  "lovd", "literature", "alphagenome", "structure", "acmg", "synthesis",
+  "lovd", "literature", "alphagenome", "structure", "sequence_context", "acmg", "synthesis",
 ];
 
 const STEP_LABEL: Record<string, string> = {
   annotate: "VEP", liftover: "lift", liver_context: "liver", gnomad: "gnomAD", clinvar: "ClinVar",
   uniprot: "UniProt", interpro: "InterPro", lovd: "LOVD", literature: "literature",
-  alphagenome: "AlphaGenome", structure: "structure", acmg: "ACMG", synthesis: "Opus 4.7",
+  alphagenome: "AlphaGenome", structure: "structure", sequence_context: "context",
+  acmg: "ACMG", synthesis: "Opus 4.7",
 };
 
 interface StepState { status: EvidenceStatus; data?: any; elapsedMs?: number }
@@ -89,6 +91,7 @@ export default function AnalyzePage({ params }: { params: Promise<{ id: string }
   const structure: StructuralAnalysis | undefined = steps.structure?.data;
   const liver: LiverContext | undefined = steps.liver_context?.data;
   const acmg: ACMGResult | undefined = steps.acmg?.data;
+  const seqctx = steps.sequence_context?.data as import("@/lib/types").SequenceContext | undefined;
 
   const variantStr = report?.variant
     ? `${report.variant.chrom}:${report.variant.pos} ${report.variant.ref}>${report.variant.alt}`
@@ -235,6 +238,12 @@ export default function AnalyzePage({ params }: { params: Promise<{ id: string }
                     {alphagenome.flags.map((f, i) => <li key={i}>· {f}</li>)}
                   </ul>
                 )}
+              </EvidenceCard>
+            )}
+
+            {seqctx && seqctx.sequence && (
+              <EvidenceCard key="seqctx" eyebrow="sequence context · UniProt + InterPro" title="Local sequence around the variant" status="ok" accent="teal">
+                <SequenceContextStrip ctx={seqctx} />
               </EvidenceCard>
             )}
 

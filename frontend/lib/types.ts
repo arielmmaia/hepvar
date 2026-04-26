@@ -125,6 +125,25 @@ export interface StructuralAnalysis {
   solvent_accessibility?: number | null;
 }
 
+export interface SequenceAnnotation {
+  position: number;
+  relative: number;
+  kind: "variant" | "active_site" | "binding_site" | "domain_start" | "domain_end" | "motif" | "modified" | string;
+  label?: string | null;
+}
+
+export interface SequenceContext {
+  accession?: string | null;
+  start?: number | null;
+  end?: number | null;
+  sequence?: string | null;
+  variant_position?: number | null;
+  variant_offset?: number | null;
+  variant_ref?: string | null;
+  variant_alt?: string | null;
+  annotations?: SequenceAnnotation[];
+}
+
 export interface AlphaGenomePrediction {
   splice_delta?: number | null;
   expression_log2fc?: number | null;
@@ -191,6 +210,7 @@ export interface EvidencePacket {
   literature?: LiteratureHit[];
   alphagenome?: AlphaGenomePrediction | null;
   structure?: StructuralAnalysis | null;
+  sequence_context?: SequenceContext | null;
   liver_context?: LiverContext | null;
   acmg?: ACMGResult | null;
   sources?: { name: string; status: EvidenceStatus; confidence?: string; elapsed_ms?: number; error?: string }[];

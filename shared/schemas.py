@@ -164,6 +164,26 @@ class StructuralAnalysis(BaseModel):
     solvent_accessibility: float | None = None
 
 
+class SequenceAnnotation(BaseModel):
+    position: int             # absolute residue number on the protein
+    relative: int             # offset from the variant residue (negative = upstream)
+    kind: str                 # "variant" | "active_site" | "binding_site" | "domain_start" | "domain_end" | "motif" | "modified"
+    label: str | None = None  # human-readable description
+
+
+class SequenceContext(BaseModel):
+    """A ±N residue strip around the variant for visual display."""
+    accession: str | None = None
+    start: int | None = None              # 1-based start of the displayed strip
+    end: int | None = None                # 1-based end (inclusive)
+    sequence: str | None = None           # the slice itself (uppercase)
+    variant_position: int | None = None   # absolute residue number of the variant
+    variant_offset: int | None = None     # 0-based index within `sequence`
+    variant_ref: str | None = None        # 1-letter
+    variant_alt: str | None = None        # 1-letter
+    annotations: list[SequenceAnnotation] = Field(default_factory=list)
+
+
 class AlphaGenomePrediction(BaseModel):
     splice_delta: float | None = None
     expression_log2fc: float | None = None
@@ -221,6 +241,7 @@ class EvidencePacket(BaseModel):
     literature: list[LiteratureHit] = Field(default_factory=list)
     alphagenome: AlphaGenomePrediction | None = None
     structure: StructuralAnalysis | None = None
+    sequence_context: SequenceContext | None = None
     liver_context: LiverContext | None = None
     acmg: ACMGResult | None = None
     sources: list[SourceResult] = Field(default_factory=list)
