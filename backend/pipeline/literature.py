@@ -276,8 +276,9 @@ def _rank(hits: Iterable[LiteratureHit], gene: str | None, diseases: list[str]) 
             score += 3.0
         if h.is_case_report:
             score += 2.0
-        if h.language != "en":
-            score += 1.5  # bonus for non-English literature (the equity premise)
+        # Non-English papers are still retrieved and shown (the equity premise stands),
+        # but the +1.5 language bonus was causing non-English general papers to outrank
+        # English variant-specific papers. Ranking is now purely content-based.
         if h.year and h.year >= 2018:
             score += 1.0
         score += min(len(h.abstract or ""), 800) / 800

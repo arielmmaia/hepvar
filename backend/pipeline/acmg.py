@@ -216,20 +216,34 @@ def classify(ev: EvidencePacket) -> ACMGResult:
         crits.append(ACMGCriterion(code="PP5", weight=WEIGHT["PP5"], applied=True,
                                     rationale=f"Reputable source (ClinVar, {cv.review_status}) classifies as pathogenic."))
 
+    inheritance = (panel_entry.get("inheritance") or "") if panel_entry else ""
+    is_ar = "AR" in inheritance
+
     # BA1: AF > 5%
     if af and af.af_global is not None and af.af_global > 0.05:
         crits.append(ACMGCriterion(code="BA1", weight=WEIGHT["BA1"], applied=True,
                                     rationale=f"Global allele frequency in gnomAD ({af.af_global:.4f}) exceeds 5% — common variant cannot be a fully penetrant rare-disease cause."))
 
-    # BS1: AF > 1% (rare disease)
-    elif af and af.af_global is not None and af.af_global > 0.01:
+    # BS1: AF > 1% for dominant/haploinsufficiency genes only.
+    # For autosomal recessive genes, carrier frequency alone is not evidence against
+    # pathogenicity — the relevant comparison is homozygote frequency vs disease
+    # prevalence, which is already captured by BS2. Applying BS1 to AR genes
+    # incorrectly penalises known high-frequency carrier alleles (e.g. SERPINA1 Z).
+    elif af and af.af_global is not None and af.af_global > 0.01 and not is_ar:
         crits.append(ACMGCriterion(code="BS1", weight=WEIGHT["BS1"], applied=True,
-                                    rationale=f"Global allele frequency in gnomAD ({af.af_global:.4f}) is higher than expected for the disorder."))
+                                    rationale=f"Global allele frequency in gnomAD ({af.af_global:.4f}) is higher than expected for a dominant disorder."))
 
-    # BS2: observed in homozygotes for a fully penetrant recessive disorder
-    if af and af.homozygote_count and af.homozygote_count > 5 and panel_entry and "AR" in (panel_entry.get("inheritance") or ""):
+    # BS2: observed in confirmed-healthy homozygotes for a fully penetrant recessive disorder.
+    # Only fires when the gnomAD homozygote count substantially exceeds what disease
+    # prevalence predicts. Threshold: homozygote_freq (af²) must be >10× the
+    # expected disease prevalence (~1/10 000 for our panel). af > ~0.03 → af² > 0.001.
+    # This prevents BS2 from firing on high-carrier-frequency alleles like SERPINA1 Z
+    # (af ~1.6%) whose PiZZ gnomAD homozygotes are NOT confirmed disease-free
+    # (gnomAD v4 excludes severe paediatric disease but not adult-onset liver disease).
+    if (af and af.homozygote_count and af.homozygote_count > 5
+            and is_ar and af.af_global is not None and af.af_global > 0.05):
         crits.append(ACMGCriterion(code="BS2", weight=WEIGHT["BS2"], applied=True,
-                                    rationale=f"{af.homozygote_count} homozygotes observed in gnomAD for a recessive disorder."))
+                                    rationale=f"{af.homozygote_count} homozygotes observed in gnomAD; homozygote frequency ({af.af_global**2:.4%}) substantially exceeds expected disease prevalence."))
 
     # BP1: missense in a gene where truncating mechanism dominates (heuristic skip — none of our panel is haploinsufficient-only)
 

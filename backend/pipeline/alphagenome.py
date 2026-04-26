@@ -141,6 +141,12 @@ async def predict_alphagenome(v: VariantInput) -> AlphaGenomePrediction:
                         return m["max_abs_delta"]
                 return None
 
+            # TODO(rna_log2fc): RNA-seq max_abs_delta is returning None despite the
+            # rna_seq modality being present in the outputs. The RNA-seq track values
+            # may need a different aggregation (e.g. mean over a centred window, or
+            # log2(alt/ref) computed before abs-max). Splice delta works correctly
+            # and is the higher-priority signal for coding variants — revisit this
+            # after confirming the output shape of rna_seq.values for non-liver tracks.
             return {
                 "rna_log2fc": _mod_max("rna_seq"),
                 "splice_delta": _mod_max("splice_sites") or _mod_max("splice_site_usage"),

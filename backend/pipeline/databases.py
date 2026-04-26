@@ -255,21 +255,37 @@ async def fetch_interpro(v: VariantInput, accession: str | None) -> dict:
 
 # ---------- LOVD (locus-specific) ----------
 
-async def fetch_lovd(v: VariantInput, gene: str | None) -> dict:
-    """Best-effort LOVD shared-DB lookup. Many gene-specific instances exist; we hit shared."""
+async def fetch_lovd(v: VariantInput, gene: str | None, hgvs_c: str | None = None) -> dict:
+    """Best-effort LOVD shared-DB lookup via cDNA notation.
+
+    LOVD shared (databases.lovd.nl) blocks cloud/datacenter IPs with a 302→403
+    redirect. When it succeeds (local/VPN), queries by VariantOnTranscript/DNA
+    using the short cDNA suffix (e.g. 'c.3207C>A'). Falls back to genomic
+    position if hgvs_c is unavailable.
+    """
     if not gene:
         return {}
     vk = variant_key(v.chrom, v.pos, v.ref, v.alt, v.assembly)
 
     async def fetcher() -> dict:
         url = f"https://databases.lovd.nl/shared/api/rest.php/variants/{gene}"
-        params = {"search_position": f"g.{v.pos}", "format": "application/json"}
+        # Prefer cDNA notation (short suffix after ':') — more reliable than genomic pos
+        if hgvs_c:
+            short_c = hgvs_c.split(":")[-1]  # e.g. "c.3207C>A"
+            params = {"search_VariantOnTranscript/DNA": short_c, "format": "application/json"}
+        else:
+            params = {"search_position": f"g.{v.pos}", "format": "application/json"}
         try:
-            async with httpx.AsyncClient(timeout=20) as c:
-                r = await c.get(url, params=params, headers={"User-Agent": "hepvar/0.1"})
-                if r.status_code != 200:
+            async with httpx.AsyncClient(timeout=20, follow_redirects=False) as c:
+                r = await c.get(url, params=params,
+                                headers={"User-Agent": f"hepvar/0.1 (contact: {get_settings().ncbi_email})"})
+                # 302/403 = LOVD blocking cloud IP — degrade gracefully
+                if r.status_code in (302, 403) or r.status_code != 200:
                     return {}
-                return {"raw": r.text[:8000]}
+                text = r.text.strip()
+                if not text or text.startswith("<"):
+                    return {}
+                return {"raw": text[:8000]}
         except Exception:
             return {}
 
