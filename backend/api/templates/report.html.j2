@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>HepVar Report — {{ ev.annotation.gene_symbol or "Variant" }} {{ ev.annotation.hgvs_p|default("") }}</title>
+  <style>
+    @page {
+      size: A4;
+      margin: 18mm 16mm 22mm 16mm;
+      @bottom-left {
+        content: "HepVar v0.1 · Cerebral Valley × Opus 4.7 · " string(generated);
+        font-family: "Geist", sans-serif;
+        font-size: 8pt;
+        color: #6B6F78;
+      }
+      @bottom-right {
+        content: "page " counter(page) " / " counter(pages);
+        font-family: "Geist", sans-serif;
+        font-size: 8pt;
+        color: #6B6F78;
+      }
+    }
+    body {
+      font-family: "Geist", "Helvetica Neue", Arial, sans-serif;
+      color: #1A1B22;
+      font-size: 9.5pt;
+      line-height: 1.45;
+    }
+    h1 { font-family: "Fraunces", "Georgia", serif; font-size: 24pt; color: #5E1A1A; margin: 0 0 4pt; line-height: 1.05; letter-spacing: -0.02em; }
+    h2 { font-family: "Fraunces", "Georgia", serif; font-size: 13pt; color: #1A1B22; border-bottom: 0.5pt solid #D6CFBE; padding-bottom: 2pt; margin-top: 16pt; }
+    h3 { font-family: "Fraunces", "Georgia", serif; font-size: 11pt; color: #5E1A1A; margin-top: 10pt; margin-bottom: 4pt; }
+    h2.section { string-set: section content(); }
+    .subtitle { font-family: "Fraunces", "Georgia", serif; font-style: italic; color: #6B6F78; font-size: 11pt; margin: 0 0 14pt; }
+    .meta { font-family: monospace; font-size: 8.5pt; color: #6B6F78; }
+    table { width: 100%; border-collapse: collapse; margin: 6pt 0 10pt; font-size: 8.5pt; }
+    th, td { padding: 4pt 6pt; text-align: left; vertical-align: top; }
+    thead th { font-family: monospace; font-size: 8pt; text-transform: uppercase; letter-spacing: 0.05em; color: #6B6F78; border-bottom: 0.5pt solid #D6CFBE; }
+    tbody tr { border-bottom: 0.25pt solid #ECE6D9; }
+    .pill { display: inline-block; padding: 1pt 5pt; border-radius: 3pt; font-family: monospace; font-size: 7.5pt; }
+    .pill.oxblood { background: #EFD9D9; color: #5E1A1A; }
+    .pill.teal { background: #D9E5E5; color: #0F4B4B; }
+    .pill.amber { background: #F0E0C5; color: #B8731F; }
+    .pill.coral { background: #F2D6D2; color: #C44A3A; }
+    .verdict { background: #FBF9F4; border: 0.75pt solid #D6CFBE; border-left: 3pt solid #5E1A1A; padding: 8pt 12pt; margin: 6pt 0 12pt; }
+    .verdict .label { font-family: "Fraunces", serif; font-size: 18pt; color: #5E1A1A; }
+    .mono { font-family: monospace; }
+    .muted { color: #6B6F78; }
+    .pop-bar { display: inline-block; height: 5pt; background: #5E1A1A; vertical-align: middle; margin-right: 4pt; }
+    .seq-tile { display: inline-block; width: 11pt; height: 13pt; line-height: 13pt; text-align: center; font-family: monospace; font-size: 8.5pt; margin: 0 0.5pt; border-radius: 1.5pt; }
+    .seq-tile.variant { background: #5E1A1A; color: #FBF9F4; }
+    .seq-tile.active { background: #F2D6D2; color: #C44A3A; }
+    .seq-tile.binding { background: #F0E0C5; color: #B8731F; }
+    .seq-tile.domain { background: #D9E5E5; color: #0F4B4B; }
+    .seq-tile.normal { background: #F4F1EB; color: #2A2C36; }
+    .header-strip { background: #1A1B22; color: #FBF9F4; padding: 10pt 14pt; margin-bottom: 16pt; }
+    .header-strip .gene { color: #B8731F; font-style: italic; }
+    .footnote { font-size: 7.5pt; color: #6B6F78; margin-top: 4pt; }
+    ul { margin: 4pt 0 6pt 18pt; padding: 0; }
+    li { margin-bottom: 1.5pt; }
+    .synthesis-section { margin-bottom: 10pt; }
+    .synthesis-section .heading { font-family: monospace; font-size: 8pt; text-transform: uppercase; letter-spacing: 0.15em; color: #5E1A1A; margin-bottom: 3pt; }
+    .strand-warn { background: #F0E0C5; border-left: 3pt solid #B8731F; padding: 6pt 10pt; margin: 6pt 0; font-size: 8.5pt; }
+    .lift-trap { background: #F2D6D2; border-left: 3pt solid #C44A3A; padding: 6pt 10pt; margin: 6pt 0; font-size: 8.5pt; }
+  </style>
+</head>
+<body>
+
+<div class="header-strip">
+  <div style="font-family: 'Fraunces', serif; font-size: 9pt; letter-spacing: 0.15em; text-transform: uppercase; color: #B8731F; opacity: 0.9;">Variant under interpretation</div>
+  <h1 style="color: #FBF9F4; margin-top: 4pt;">
+    <span class="mono">{{ ev.variant.chrom }}:{{ ev.variant.pos }} {{ ev.variant.ref }}&gt;{{ ev.variant.alt }}</span>
+    {% if ev.annotation and ev.annotation.gene_symbol %}<span class="gene"> · {{ ev.annotation.gene_symbol }}</span>{% endif %}
+  </h1>
+  <div class="meta" style="margin-top: 4pt; color: rgba(251,249,244,0.7);">
+    {{ ev.variant.assembly }}
+    {% if ev.annotation and ev.annotation.hgvs_c %} · {{ ev.annotation.hgvs_c.split(':')|last }}{% endif %}
+    {% if ev.annotation and ev.annotation.hgvs_p %} · {{ ev.annotation.hgvs_p.split(':')|last }}{% endif %}
+    {% if ev.annotation and ev.annotation.consequence %} · {{ ev.annotation.consequence }}{% endif %}
+  </div>
+</div>
+
+<p class="subtitle">
+  HepVar v0.1 — automated hepatology rare-variant interpretation. Generated {{ generated_at_str }} from
+  {% if synthesis %}an Opus 4.7 reasoning synthesis over {% endif %}{{ ev.sources|length }} evidence sources.
+</p>
+
+{% if ev.acmg %}
+<div class="verdict">
+  <div class="meta">ACMG / AMP Tavtigian-Bayesian</div>
+  <div class="label">{{ ev.acmg.label }}</div>
+  <div style="margin-top: 4pt;">
+    posterior <strong>{{ "%.4f"|format(ev.acmg.posterior or 0) }}</strong> ·
+    score <strong>{{ "%+d"|format(ev.acmg.score) }}</strong> ·
+    confidence <strong>{{ ev.acmg.confidence }}</strong> ·
+    {{ ev.acmg.criteria|selectattr('applied', 'equalto', True)|list|length }} criteria applied
+  </div>
+</div>
+{% endif %}
+
+{% if synthesis and synthesis.verdict %}
+<h2>Opus 4.7 synthesis</h2>
+<div class="synthesis-section">
+  <div class="heading">Verdict</div>
+  <div>{{ synthesis.verdict }}</div>
+</div>
+{% if synthesis.evidence_synthesis %}
+<div class="synthesis-section">
+  <div class="heading">Evidence synthesis</div>
+  <div>{{ synthesis.evidence_synthesis|replace('\n','<br>')|safe }}</div>
+</div>{% endif %}
+{% if synthesis.conflict_resolution %}
+<div class="synthesis-section">
+  <div class="heading">Conflict resolution</div>
+  <div>{{ synthesis.conflict_resolution|replace('\n','<br>')|safe }}</div>
+</div>{% endif %}
+{% if synthesis.evidence_gaps %}
+<div class="synthesis-section">
+  <div class="heading">Evidence gaps · meta-cognition</div>
+  <div>{{ synthesis.evidence_gaps|replace('\n','<br>')|safe }}</div>
+</div>{% endif %}
+{% if synthesis.clinical_recommendation %}
+<div class="synthesis-section">
+  <div class="heading">Clinical recommendation</div>
+  <div>{{ synthesis.clinical_recommendation|replace('\n','<br>')|safe }}</div>
+</div>{% endif %}
+{% endif %}
+
+{% if ev.annotation and ev.annotation.gene_strand == -1 %}
+<div class="strand-warn">
+  <strong>Strand-mismatch reminder.</strong>
+  {{ ev.annotation.gene_symbol }} sits on the antisense (−) strand — genomic
+  <span class="mono">{{ ev.annotation.genomic_ref }}&gt;{{ ev.annotation.genomic_alt }}</span> reverse-complements to coding-strand
+  <span class="mono">{{ ev.annotation.coding_ref }}&gt;{{ ev.annotation.coding_alt }}</span>. HGVS.c, ClinVar and the published literature use the coding-strand bases.
+</div>
+{% endif %}
+
+{% if ev.liftover and ev.liftover.ambiguity_warning and ev.liftover.wrong_assembly_gene %}
+<div class="lift-trap">
+  <strong>Build-mismatch trap.</strong>
+  If <span class="mono">{{ ev.variant.chrom }}:{{ ev.variant.pos }}</span> is mis-interpreted as
+  <span class="mono">{{ ev.liftover.target_assembly }}</span> it overlaps
+  <span class="mono">{{ ev.liftover.wrong_assembly_gene }}</span>, not
+  <span class="mono">{{ ev.annotation.gene_symbol if ev.annotation else "this gene" }}</span>.
+  Confirm assembly on the source report.
+</div>
+{% endif %}
+
+<h2>Variant annotation</h2>
+{% if ev.annotation %}
+<table>
+  <tbody class="mono">
+    <tr><td class="muted">Gene</td><td>{{ ev.annotation.gene_symbol or "—" }}</td></tr>
+    <tr><td class="muted">Canonical transcript</td><td>{{ ev.annotation.transcript_id or "—" }}</td></tr>
+    <tr><td class="muted">HGVS.c</td><td>{{ ev.annotation.hgvs_c or "—" }}</td></tr>
+    <tr><td class="muted">HGVS.p</td><td>{{ ev.annotation.hgvs_p or "—" }}</td></tr>
+    <tr><td class="muted">Consequence</td><td>{{ ev.annotation.consequence or "—" }}</td></tr>
+    <tr><td class="muted">UniProt</td><td>{{ ev.annotation.uniprot_accession or "—" }}</td></tr>
+    <tr><td class="muted">rsID</td><td>{{ ev.annotation.rs_id or "—" }}</td></tr>
+    <tr><td class="muted">SIFT</td><td>{{ ev.annotation.sift.prediction if ev.annotation.sift else "—" }} ({{ ev.annotation.sift.score if ev.annotation.sift else "" }})</td></tr>
+    <tr><td class="muted">PolyPhen-2</td><td>{{ ev.annotation.polyphen.prediction if ev.annotation.polyphen else "—" }} ({{ ev.annotation.polyphen.score if ev.annotation.polyphen else "" }})</td></tr>
+    <tr><td class="muted">CADD</td><td>{{ ev.annotation.cadd or "—" }}</td></tr>
+  </tbody>
+</table>
+{% endif %}
+
+{% if ev.annotation and ev.annotation.transcripts and ev.annotation.transcripts|length > 1 %}
+<h3>All transcripts ({{ ev.annotation.transcripts|length }})</h3>
+<table>
+  <thead><tr><th>Transcript</th><th>HGVS.c</th><th>HGVS.p</th><th>Consequence</th></tr></thead>
+  <tbody class="mono">
+    {% for t in ev.annotation.transcripts %}
+    <tr>
+      <td>{{ t.transcript_id }}{% if t.canonical %} <span class="pill oxblood">canonical</span>{% endif %}{% if t.mane_select %} <span class="pill teal">MANE</span>{% endif %}</td>
+      <td>{{ t.hgvs_c.split(':')|last if t.hgvs_c else "—" }}</td>
+      <td>{{ t.hgvs_p.split(':')|last if t.hgvs_p else "—" }}</td>
+      <td>{{ (t.consequence or "")|replace('_',' ') }}</td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+{% endif %}
+
+{% if ev.annotation and ev.annotation.aa_substitution %}
+<h2>Amino-acid substitution</h2>
+<table>
+  <thead><tr><th></th><th>{{ ev.annotation.aa_substitution.wild_type.three }}</th><th>{{ ev.annotation.aa_substitution.variant.three }}</th><th>Δ</th></tr></thead>
+  <tbody class="mono">
+    <tr><td class="muted">MW (Da)</td><td>{{ ev.annotation.aa_substitution.wild_type.mw }}</td><td>{{ ev.annotation.aa_substitution.variant.mw }}</td><td>—</td></tr>
+    <tr><td class="muted">Volume (Å³)</td><td>{{ ev.annotation.aa_substitution.wild_type.volume }}</td><td>{{ ev.annotation.aa_substitution.variant.volume }}</td><td>{{ "%+0.1f"|format(ev.annotation.aa_substitution.delta_volume or 0) }}</td></tr>
+    <tr><td class="muted">Hydrophobicity (Kyte-Doolittle)</td><td>{{ ev.annotation.aa_substitution.wild_type.hydrophobicity }}</td><td>{{ ev.annotation.aa_substitution.variant.hydrophobicity }}</td><td>{{ "%+0.1f"|format(ev.annotation.aa_substitution.delta_hydrophobicity or 0) }}</td></tr>
+    <tr><td class="muted">Charge</td><td>{{ ev.annotation.aa_substitution.wild_type.charge }}</td><td>{{ ev.annotation.aa_substitution.variant.charge }}</td><td>{{ "%+d"|format(ev.annotation.aa_substitution.delta_charge or 0) }}</td></tr>
+    <tr><td class="muted">Side chain</td><td>{{ ev.annotation.aa_substitution.wild_type.side_chain }}</td><td>{{ ev.annotation.aa_substitution.variant.side_chain }}</td><td></td></tr>
+  </tbody>
+</table>
+{% if ev.annotation.aa_substitution.summary_flags %}
+<p><strong>Predicted mechanistic impact:</strong></p>
+<ul>{% for f in ev.annotation.aa_substitution.summary_flags %}<li>{{ f }}</li>{% endfor %}</ul>
+{% endif %}
+{% endif %}
+
+{% if ev.gnomad %}
+<h2>Population frequency · gnomAD v4</h2>
+<p>
+  Global allele frequency: <strong class="mono">{{ "%.2e"|format(ev.gnomad.af_global) if ev.gnomad.af_global else "absent" }}</strong>
+  · {{ ev.gnomad.homozygote_count or 0 }} homozygotes.
+</p>
+{% if ev.gnomad.af_populations %}
+<table>
+  <thead><tr><th>Population</th><th>Allele frequency</th><th></th></tr></thead>
+  <tbody class="mono">
+    {% set major_pops = [('nfe','Non-Finnish European'),('fin','Finnish'),('amr','Latin / Admixed American'),('afr','African / African-American'),('eas','East Asian'),('sas','South Asian'),('mid','Middle Eastern'),('asj','Ashkenazi Jewish')] %}
+    {% set max_af = ev.gnomad.af_populations.values()|select|max if ev.gnomad.af_populations.values()|select|list else 1 %}
+    {% for code, name in major_pops %}
+    <tr>
+      <td>{{ code|upper }} <span class="muted">({{ name }})</span></td>
+      <td>{{ "%.2e"|format(ev.gnomad.af_populations[code]) if ev.gnomad.af_populations.get(code) else "absent" }}</td>
+      <td>{% if ev.gnomad.af_populations.get(code) %}<span class="pop-bar" style="width: {{ ((ev.gnomad.af_populations[code]/max_af)*120)|int }}pt;"></span>{% endif %}</td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+{% endif %}
+{% if ev.gnomad.notes %}<p class="footnote">{{ ev.gnomad.notes }}</p>{% endif %}
+{% endif %}
+
+{% if ev.clinvar and ev.clinvar.clinical_significance %}
+<h2>ClinVar</h2>
+<p><strong>{{ ev.clinvar.clinical_significance }}</strong>
+{% if ev.clinvar.review_status %} · {{ ev.clinvar.review_status }}{% endif %}
+{% if ev.clinvar.star_rating %} · {{ "★" * ev.clinvar.star_rating }}{% endif %}
+</p>
+{% if ev.clinvar.conditions %}<ul>{% for c in ev.clinvar.conditions %}<li>{{ c }}</li>{% endfor %}</ul>{% endif %}
+{% endif %}
+
+{% if ev.acmg %}
+<h2>ACMG/AMP criteria applied</h2>
+<table>
+  <thead><tr><th>Code</th><th>Weight</th><th>Rationale</th></tr></thead>
+  <tbody>
+    {% for c in ev.acmg.criteria %}
+    <tr>
+      <td class="mono"><strong>{{ c.code }}</strong></td>
+      <td class="mono">{{ "%+d"|format(c.weight) }}</td>
+      <td>{{ c.rationale or "" }}</td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+{% endif %}
+
+{% if ev.structure %}
+<h2>Structural impact</h2>
+<table>
+  <tbody class="mono">
+    <tr><td class="muted">UniProt accession</td><td>{{ ev.structure.uniprot_accession or "—" }}</td></tr>
+    <tr><td class="muted">AlphaFold structure</td><td>{{ ev.structure.af_pdb_url or "—" }}</td></tr>
+    <tr><td class="muted">pLDDT mean / @ residue</td><td>{{ ev.structure.af_mean_plddt or "—" }} / {{ ev.structure.variant_residue_plddt or "—" }} ({{ ev.structure.variant_residue_plddt_band or "—" }})</td></tr>
+    <tr><td class="muted">AlphaMissense</td><td>{{ ev.structure.alphamissense_score or "—" }} ({{ ev.structure.alphamissense_class or "—" }})</td></tr>
+    <tr><td class="muted">ΔΔG (proxy, kcal/mol)</td><td>{{ ev.structure.ddg_kcal_mol or "—" }}</td></tr>
+    <tr><td class="muted">Domain at position</td><td>{{ ev.structure.domain_at_position or "—" }}</td></tr>
+    <tr><td class="muted">Active site</td><td>{{ "yes" if ev.structure.in_active_site else "no" }}</td></tr>
+  </tbody>
+</table>
+{% endif %}
+
+{% if ev.sequence_context and ev.sequence_context.sequence %}
+<h2>Local sequence context</h2>
+<p class="meta">Residues {{ ev.sequence_context.start }}–{{ ev.sequence_context.end }} on {{ ev.sequence_context.accession }}</p>
+<div style="margin: 6pt 0; padding: 4pt 6pt; background: #FBF9F4; border-radius: 3pt;">
+  {% set ann_by_pos = {} %}
+  {% for a in ev.sequence_context.annotations %}{% set _ = ann_by_pos.update({a.position: a}) %}{% endfor %}
+  {% for ch in ev.sequence_context.sequence %}
+    {% set abs_pos = ev.sequence_context.start + loop.index0 %}
+    {% set ann = ann_by_pos.get(abs_pos) %}
+    {% if abs_pos == ev.sequence_context.variant_position %}
+      <span class="seq-tile variant" title="variant">{{ ch }}</span>
+    {% elif ann and ann.kind == 'active_site' %}
+      <span class="seq-tile active" title="{{ ann.label }}">{{ ch }}</span>
+    {% elif ann and ann.kind == 'binding_site' %}
+      <span class="seq-tile binding" title="{{ ann.label }}">{{ ch }}</span>
+    {% elif ann and (ann.kind == 'domain_start' or ann.kind == 'domain_end' or ann.kind == 'motif') %}
+      <span class="seq-tile domain" title="{{ ann.label }}">{{ ch }}</span>
+    {% else %}
+      <span class="seq-tile normal">{{ ch }}</span>
+    {% endif %}
+  {% endfor %}
+</div>
+{% if ev.sequence_context.annotations %}
+<p class="meta"><strong>Annotated functional residues in this window:</strong></p>
+<ul style="font-size: 8pt;">
+  {% for a in ev.sequence_context.annotations %}{% if a.kind != 'variant' %}
+    <li>residue {{ a.position }} ({{ "%+d"|format(a.relative) }}): <em>{{ a.kind|replace('_',' ') }}</em> — {{ a.label or "" }}</li>
+  {% endif %}{% endfor %}
+</ul>
+{% endif %}
+{% endif %}
+
+{% if ev.conservation and ev.conservation.species %}
+<h2>Cross-species conservation</h2>
+<p class="meta">
+  Residue {{ ev.conservation.variant_position }} (human <strong class="mono">{{ ev.conservation.human_residue }}</strong>):
+  identical in <strong>{{ ev.conservation.n_match }} / {{ ev.conservation.n_orthologs }}</strong>
+  representative species ({{ ev.conservation.pct_conserved_at_position }}%).
+</p>
+<table>
+  <thead><tr><th>Species</th><th>Residue</th><th>Protein identity</th></tr></thead>
+  <tbody>
+    {% for s in ev.conservation.species %}
+    <tr>
+      <td>{{ s.common_name or s.species }} <span class="muted mono">{{ s.species|replace('_',' ') }}</span></td>
+      <td class="mono"><strong style="color: {% if s.matches_human %}#C44A3A{% else %}#B8731F{% endif %};">{{ s.residue or "–" }}</strong></td>
+      <td class="mono">{{ "%.1f"|format(s.perc_id) if s.perc_id else "—" }}%</td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+{% endif %}
+
+{% if ev.alphagenome and ev.alphagenome.modalities %}
+<h2>AlphaGenome regulatory predictions · liver</h2>
+<table>
+  <thead><tr><th>Modality</th><th>n tracks</th><th>max |Δ|</th><th>sum |Δ|</th></tr></thead>
+  <tbody class="mono">
+    {% for m in ev.alphagenome.modalities %}
+    <tr>
+      <td>{{ m.output_type|replace('_',' ') }}</td>
+      <td>{{ m.n_tracks }}</td>
+      <td>{{ "%.4f"|format(m.max_abs_delta or 0) }}</td>
+      <td>{{ "%.2f"|format(m.sum_abs_delta or 0) }}</td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+{% if ev.alphagenome.flags %}<ul>{% for f in ev.alphagenome.flags %}<li class="footnote">{{ f }}</li>{% endfor %}</ul>{% endif %}
+{% endif %}
+
+{% if ev.literature and ev.literature|length > 0 %}
+<h2>Literature · multilingual</h2>
+<p class="meta">{{ ev.literature|length }} hits across PubMed and Europe PMC. Search languages: English, Portuguese, Spanish, Italian, French.</p>
+<table>
+  <thead><tr><th>Lang</th><th>Year</th><th>Title</th><th>PMID</th></tr></thead>
+  <tbody>
+    {% for h in ev.literature[:20] %}
+    <tr>
+      <td><span class="pill {% if h.language == 'pt' %}teal{% elif h.language == 'es' %}amber{% elif h.language == 'it' %}coral{% elif h.language == 'fr' %}oxblood{% else %}teal{% endif %}">{{ h.language|upper }}</span></td>
+      <td class="mono">{{ h.year or "" }}</td>
+      <td>{{ h.title }}{% if h.is_case_report %} <span class="pill oxblood">case report</span>{% endif %}{% if h.is_functional_study %} <span class="pill teal">functional</span>{% endif %}</td>
+      <td class="mono">{{ h.pmid or "" }}</td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+{% endif %}
+
+{% if ev.liver_context and ev.liver_context.disease_spectrum %}
+<h2>Disease spectrum for {{ ev.annotation.gene_symbol }}</h2>
+<table>
+  <thead><tr><th>Condition</th><th>Inheritance</th><th>Residual</th><th>Age onset</th><th>GGT</th><th>Key features</th></tr></thead>
+  <tbody>
+    {% for d in ev.liver_context.disease_spectrum %}
+    <tr>
+      <td><strong>{{ d.abbrev or d.name }}</strong><br><span class="muted">{{ d.name }}</span></td>
+      <td class="mono">{{ d.inheritance or "—" }}</td>
+      <td class="mono">{{ d.residual_activity or "—" }}</td>
+      <td class="mono">{{ d.age_onset or "—" }}</td>
+      <td class="mono">{{ d.ggt or "—" }}</td>
+      <td>{% for f in d.features %}· {{ f }}<br>{% endfor %}</td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+{% endif %}
+
+<h2>Sources queried</h2>
+<table>
+  <thead><tr><th>Source</th><th>Status</th><th>Latency</th></tr></thead>
+  <tbody class="mono">
+    {% for s in ev.sources %}
+    <tr>
+      <td>{{ s.name }}</td>
+      <td>{{ s.status }}</td>
+      <td>{{ s.elapsed_ms or "" }} ms</td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+<p class="footnote" style="margin-top: 16pt; padding-top: 6pt; border-top: 0.5pt solid #D6CFBE;">
+  Generated by HepVar v0.1 · Built for the Cerebral Valley × Anthropic Opus 4.7 hackathon (April 2026).
+  ACMG/AMP framework: Richards et al. 2015 (PMID 25741868). Bayesian point system: Tavtigian et al. 2020 (PMID 31801977).
+  Variant data assembled from Ensembl VEP, gnomAD v4, ClinVar, UniProt, InterPro, AlphaFold-EBI, AlphaMissense,
+  AlphaGenome (Google DeepMind), Ensembl Compara, Reactome, KEGG, GTEx, Human Protein Atlas, PubMed, and Europe PMC.
+  Synthesis layer: Claude Opus 4.7 (claude-opus-4-7) with adaptive thinking and prompt caching.
+  Not for clinical use without validation. MIT licensed.
+</p>
+
+</body>
+</html>

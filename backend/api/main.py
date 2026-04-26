@@ -6,7 +6,7 @@ import structlog
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
-from backend.api import routes_analyze, routes_chat
+from backend.api import routes_analyze, routes_chat, routes_pdf
 from backend.config import get_settings
 
 
@@ -39,6 +39,7 @@ def create_app() -> FastAPI:
     )
     app.include_router(routes_analyze.router, prefix="/api")
     app.include_router(routes_chat.router, prefix="/api")
+    app.include_router(routes_pdf.router, prefix="/api")
 
     @app.get("/health")
     async def health() -> dict:

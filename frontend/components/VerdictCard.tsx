@@ -11,7 +11,7 @@ const LABEL_COLOR: Record<string, string> = {
   Benign: "bg-teal text-surface",
 };
 
-export function VerdictCard({ acmg }: { acmg: ACMGResult | null | undefined }) {
+export function VerdictCard({ acmg, jobId, ready }: { acmg: ACMGResult | null | undefined; jobId?: string; ready?: boolean }) {
   if (!acmg) {
     return (
       <div className="rounded-3xl border-2 border-dashed hairline p-8 text-center text-muted">
@@ -42,6 +42,28 @@ export function VerdictCard({ acmg }: { acmg: ACMGResult | null | undefined }) {
         <span>confidence <span className="text-ink font-semibold">{acmg.confidence}</span></span>
         <span>{acmg.criteria.filter(c => c.applied).length} criteria applied</span>
       </div>
+      {jobId && ready && (
+        <div className="px-7 pb-4">
+          <PdfButton jobId={jobId} />
+        </div>
+      )}
     </motion.section>
+  );
+}
+
+function PdfButton({ jobId }: { jobId: string }) {
+  const apiBase =
+    (typeof window !== "undefined" && (window as any).__HEPVAR_API__) ||
+    process.env.NEXT_PUBLIC_API_BASE ||
+    "http://localhost:8000";
+  return (
+    <a
+      href={`${apiBase}/api/jobs/${jobId}/pdf`}
+      target="_blank"
+      rel="noreferrer"
+      className="inline-flex items-center gap-2 rounded-full border hairline bg-surface px-4 py-1.5 text-[12px] font-mono text-ink2 hover:border-oxblood hover:text-oxblood transition"
+    >
+      ↓ download manuscript-style PDF report
+    </a>
   );
 }

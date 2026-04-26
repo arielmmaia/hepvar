@@ -308,7 +308,7 @@ export default function AnalyzePage({ params }: { params: Promise<{ id: string }
         {/* Reasoning column */}
         <aside className="lg:col-span-5 space-y-4 lg:sticky lg:top-4 lg:self-start lg:max-h-[calc(100vh-2rem)] lg:overflow-y-auto pr-1">
           <h2 className="font-mono text-[10px] uppercase tracking-[0.3em] text-muted mb-2">Synthesis</h2>
-          <VerdictCard acmg={acmg ?? null} />
+          <VerdictCard acmg={acmg ?? null} jobId={id} ready={!!report} />
           {acmg && (
             <div className="rounded-2xl bg-surface border hairline shadow-card p-5">
               <p className="text-[10px] uppercase tracking-[0.25em] text-muted font-mono mb-3">ACMG criteria applied</p>
