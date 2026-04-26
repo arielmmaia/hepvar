@@ -12,7 +12,7 @@ from typing import AsyncIterator
 import anthropic
 
 from backend.config import get_settings
-from backend.reasoning.prompts import CHAT_SYSTEM, build_chat_user_blocks
+from backend.reasoning.prompts import CHAT_AUDIENCE_ADDENDUM, CHAT_SYSTEM, build_chat_user_blocks
 
 
 log = logging.getLogger(__name__)
@@ -31,15 +31,25 @@ async def stream_chat(
     synthesis: dict | None,
     history: list[dict],
     question: str,
+    mode: str = "technical",
 ) -> AsyncIterator[str]:
-    """Yield text deltas. Caller wraps each into an SSE chat_delta event."""
+    """Yield text deltas. Caller wraps each into an SSE chat_delta event.
+
+    `mode` selects the audience addendum appended to CHAT_SYSTEM:
+      technical (default) → no change
+      clinician → keep ACMG vocab, cut bioinformatics jargon
+      patient   → plain language, define every term inline
+    """
     s = get_settings()
     client = _client()
+
+    addendum = CHAT_AUDIENCE_ADDENDUM.get(mode, "")
+    system_text = CHAT_SYSTEM + addendum
 
     system_blocks = [
         {
             "type": "text",
-            "text": CHAT_SYSTEM,
+            "text": system_text,
             "cache_control": {"type": "ephemeral"},
         }
     ]

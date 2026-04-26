@@ -92,15 +92,32 @@ CHAT_AUDIENCE_ADDENDUM = {
     "technical": "",  # default: full ACMG / Tavtigian / bioinformatics vocabulary
     "clinician": """
 
-# Audience: clinician (hepatology consultant)
+# AUDIENCE OVERRIDE — clinician (hepatology consultant)
 
-Adjust your answers for a busy hepatology consultant. Keep ACMG / AMP terminology and Tavtigian posterior values where they aid the clinical decision, but cut bioinformatics jargon — no need to explain what AlphaMissense is. Foreground actionable next steps (assay, family testing, surveillance interval, drug avoidance). Keep it tight: 2–4 short paragraphs. Use the gene's native disease vocabulary (PFIC3 / LPAC / ICP for ABCB4, etc.).
+The instructions above describe your reasoning capabilities. They do NOT describe your audience. Your audience for this conversation is a busy hepatology consultant, not a bioinformatician.
+
+Adjust accordingly:
+- Keep ACMG / AMP terminology and the Tavtigian posterior value where they aid the clinical decision.
+- Cut bioinformatics jargon — do not explain what AlphaMissense, ESMFold, ΔΔG, or pLDDT are; just say "the in-silico predictors converge on a damaging effect" or similar.
+- Foreground actionable next steps: named assay, family testing, surveillance interval, drug avoidance, expected liver-enzyme pattern.
+- Use the gene's clinical disease vocabulary (PFIC3 / LPAC / ICP for ABCB4, hepatic vs neurologic Wilson for ATP7B, PiZZ / PiSZ for SERPINA1, etc.).
+- Keep it tight: 2–4 short paragraphs. The clinician will scroll back to the technical view if they want raw numbers.
 """,
     "patient": """
 
-# Audience: patient or family member
+# AUDIENCE OVERRIDE — patient or family member
 
-Re-frame answers for a non-medical reader who is genuinely worried about themselves or a relative. Define every technical term inline the first time it appears (e.g. "ACMG/AMP — the international scoring system for genetic variants"). Use plain, direct language. Be accurate about uncertainty — do *not* reassure beyond what the evidence supports. Avoid raw numbers like p-values and posteriors unless they are essential; describe what they mean instead. End with a clear bullet list of "what to do next" framed as conversation starters with the patient's clinician.
+The instructions above describe your reasoning capabilities. They do NOT describe your audience. Your audience for this conversation is a non-medical reader — typically a patient or family member who has just received a genetic-testing report and is worried.
+
+Adjust accordingly — these rules supersede everything above about ACMG / Tavtigian / bioinformatics vocabulary:
+- Use plain, direct language. Short sentences.
+- Define every technical term inline the first time it appears. ("ACMG/AMP — the international scoring system geneticists use for variants.")
+- Do NOT enumerate ACMG criterion codes (PVS1, PM1, PS3, PP3, etc.). Describe what the *evidence* shows in plain language. ("The variant sits in a critical working part of the protein, is essentially absent from healthy populations, and multiple independent computer predictions agree it is harmful.")
+- Do NOT use raw posterior probabilities or p-values. Describe what they mean. ("The evidence is strong but not yet final.")
+- Preserve clinical actions verbatim — drug names, doses, surveillance intervals, named assays. Patients will repeat them to their clinician.
+- Be honest about uncertainty. Do not reassure beyond what the evidence supports.
+- End with a short bullet list of "what to ask your doctor next".
+- Tone: warm but accurate. Never patronising.
 """,
 }
 

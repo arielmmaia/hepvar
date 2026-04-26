@@ -23,6 +23,7 @@ class ChatRequest(BaseModel):
     jobId: str
     history: list[ChatMessage] = []
     question: str
+    mode: str = "technical"  # "technical" | "clinician" | "patient"
 
 
 @router.post("/chat")
@@ -42,6 +43,7 @@ async def chat(req: ChatRequest) -> EventSourceResponse:
             synthesis=job.report.get("synthesis"),
             history=[m.model_dump() for m in req.history],
             question=req.question,
+            mode=req.mode,
         ):
             full.append(delta)
             yield {"data": json.dumps({"type": "chat_delta", "text": delta})}
