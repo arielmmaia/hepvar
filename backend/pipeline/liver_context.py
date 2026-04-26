@@ -1,4 +1,4 @@
-"""Liver-specific context: gene panel lookup + GTEx liver TPM + Human Protein Atlas + Reactome + KEGG."""
+"""Liver-specific context: gene panel lookup + GTEx liver TPM + Human Protein Atlas + Reactome + KEGG + curated disease spectrum."""
 from __future__ import annotations
 
 import json
@@ -11,7 +11,14 @@ from tenacity import retry, stop_after_attempt, wait_exponential_jitter
 
 from backend.cache.store import cached_fetch, variant_key
 from backend.config import get_settings
-from shared.schemas import LiverContext, VariantInput
+from shared.schemas import DiseaseEntity, LiverContext, VariantInput
+
+
+@lru_cache
+def _disease_spectrum() -> dict[str, list[dict]]:
+    p = Path(__file__).resolve().parent.parent / "data" / "disease_spectrum.json"
+    raw = json.loads(p.read_text())
+    return {k: v for k, v in raw.items() if not k.startswith("_")}
 
 
 log = logging.getLogger(__name__)
@@ -131,6 +138,7 @@ async def fetch_liver_context(v: VariantInput, gene_symbol: str | None) -> Liver
         return {"gtex": gtex, "hpa": hpa, "reactome": reactome, "kegg": kegg}
 
     raw = await cached_fetch(variant_key_str=vk, source="liver_context", fetcher=fetcher, persist_fixture=True)
+    spectrum = [DiseaseEntity(**d) for d in _disease_spectrum().get(gene_symbol, [])]
     return LiverContext(
         in_panel=entry is not None,
         panel_entry=entry,
@@ -138,4 +146,5 @@ async def fetch_liver_context(v: VariantInput, gene_symbol: str | None) -> Liver
         hpa_liver_expression=raw.get("hpa") if raw else None,
         reactome_pathways=(raw or {}).get("reactome", []) or [],
         kegg_pathways=(raw or {}).get("kegg", []) or [],
+        disease_spectrum=spectrum,
     )

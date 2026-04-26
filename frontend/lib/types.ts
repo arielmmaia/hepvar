@@ -134,6 +134,16 @@ export interface AlphaGenomePrediction {
   flags?: string[];
 }
 
+export interface DiseaseEntity {
+  name: string;
+  abbrev?: string | null;
+  inheritance?: string | null;
+  residual_activity?: string | null;
+  age_onset?: string | null;
+  ggt?: string | null;
+  features?: string[];
+}
+
 export interface LiverContext {
   in_panel?: boolean;
   panel_entry?: Record<string, unknown> | null;
@@ -141,6 +151,7 @@ export interface LiverContext {
   hpa_liver_expression?: string | null;
   reactome_pathways?: string[];
   kegg_pathways?: string[];
+  disease_spectrum?: DiseaseEntity[];
 }
 
 export interface ACMGCriterion {

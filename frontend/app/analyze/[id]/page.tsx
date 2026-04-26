@@ -17,6 +17,7 @@ import { TranscriptTable } from "@/components/TranscriptTable";
 import { StrandExplainer } from "@/components/StrandExplainer";
 import { LiftoverNote } from "@/components/LiftoverNote";
 import { PopulationBarChart } from "@/components/PopulationBarChart";
+import { DiseaseSpectrumTable } from "@/components/DiseaseSpectrumTable";
 
 const STEP_ORDER = [
   "annotate", "liftover", "liver_context", "gnomad", "clinvar", "uniprot", "interpro",
@@ -284,6 +285,12 @@ export default function AnalyzePage({ params }: { params: Promise<{ id: string }
                     </ul>
                   </div>
                 )}
+              </EvidenceCard>
+            )}
+
+            {liver && liver.disease_spectrum && liver.disease_spectrum.length > 0 && (
+              <EvidenceCard key="ds" eyebrow="disease spectrum · curated" title="Phenotypes caused by this gene" status="ok" accent="oxblood">
+                <DiseaseSpectrumTable spectrum={liver.disease_spectrum} gene={ann?.gene_symbol} />
               </EvidenceCard>
             )}
           </AnimatePresence>

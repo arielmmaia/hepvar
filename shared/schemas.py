@@ -173,6 +173,16 @@ class AlphaGenomePrediction(BaseModel):
     flags: list[str] = Field(default_factory=list)
 
 
+class DiseaseEntity(BaseModel):
+    name: str
+    abbrev: str | None = None
+    inheritance: str | None = None
+    residual_activity: str | None = None
+    age_onset: str | None = None
+    ggt: str | None = None
+    features: list[str] = Field(default_factory=list)
+
+
 class LiverContext(BaseModel):
     in_panel: bool = False
     panel_entry: dict[str, Any] | None = None
@@ -180,6 +190,7 @@ class LiverContext(BaseModel):
     hpa_liver_expression: str | None = None
     reactome_pathways: list[str] = Field(default_factory=list)
     kegg_pathways: list[str] = Field(default_factory=list)
+    disease_spectrum: list[DiseaseEntity] = Field(default_factory=list)
 
 
 class ACMGCriterion(BaseModel):

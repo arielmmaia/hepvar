@@ -1,0 +1,40 @@
+{
+  "_source": "Curated disease spectra for liver-disease genes — each gene maps to one or more clinical entities the variant could plausibly cause, with inheritance, residual protein activity, age of onset, and key features. Primary refs: PFIC consensus (Vitale et al. 2019); LPAC (Rosmorduc et al. 2003); ATP7B/Wilson (Roberts/Schilsky AASLD 2008); A1AT (Stoller AJRCCM 2012); Alagille (Ayoub 2020).",
+
+  "ABCB4": [
+    {"name": "PFIC type 3",          "abbrev": "PFIC3", "inheritance": "AR (biallelic)", "residual_activity": "< 5%",     "age_onset": "infancy / childhood",    "ggt": "elevated",  "features": ["progressive intrahepatic cholestasis", "early portal fibrosis", "liver failure", "biliary cirrhosis"]},
+    {"name": "Low-phospholipid-associated cholelithiasis", "abbrev": "LPAC", "inheritance": "AD (heterozygous)", "residual_activity": "30–60%", "age_onset": "young adult",   "ggt": "mildly elevated", "features": ["intrahepatic microlithiasis", "recurrent biliary colic <40y", "post-cholecystectomy biliary symptoms", "UDCA-responsive"]},
+    {"name": "Intrahepatic cholestasis of pregnancy",      "abbrev": "ICP",  "inheritance": "AD or biallelic",   "residual_activity": "variable",  "age_onset": "2nd–3rd trimester", "ggt": "elevated", "features": ["pruritus", "elevated bile acids", "fetal distress risk", "spontaneous postpartum resolution"]},
+    {"name": "Drug-induced liver injury susceptibility",   "abbrev": "DILI", "inheritance": "modifier",          "residual_activity": "reduced",   "age_onset": "any",            "ggt": "variable", "features": ["heightened sensitivity to hepatotoxic drugs (oestrogens, antibiotics)", "modifier of cholestatic DILI"]}
+  ],
+
+  "ABCB11": [
+    {"name": "PFIC type 2",  "abbrev": "PFIC2",  "inheritance": "AR", "residual_activity": "< 5%",      "age_onset": "infancy",        "ggt": "low / normal", "features": ["severe cholestasis", "hepatocellular carcinoma risk", "liver transplant typically needed"]},
+    {"name": "Benign recurrent intrahepatic cholestasis 2", "abbrev": "BRIC2", "inheritance": "AR", "residual_activity": "30–50%", "age_onset": "child / adult", "ggt": "low", "features": ["self-limited cholestatic episodes", "pruritus", "no fibrosis"]},
+    {"name": "Intrahepatic cholestasis of pregnancy 2", "abbrev": "ICP2", "inheritance": "AD or biallelic", "residual_activity": "variable", "age_onset": "pregnancy", "ggt": "low", "features": ["pruritus", "elevated bile acids"]}
+  ],
+
+  "ATP7B": [
+    {"name": "Wilson disease (hepatic)",     "abbrev": "WD-hep", "inheritance": "AR", "residual_activity": "< 30%", "age_onset": "child / young adult", "ggt": "variable", "features": ["copper accumulation", "elevated ALT/AST", "low ceruloplasmin", "high 24h urinary copper", "hepatitis to cirrhosis", "fulminant failure"]},
+    {"name": "Wilson disease (neurologic)",  "abbrev": "WD-neu", "inheritance": "AR", "residual_activity": "< 30%", "age_onset": "young adult",         "ggt": "—",         "features": ["dysarthria", "tremor / dystonia", "Kayser-Fleischer rings (>95%)", "psychiatric symptoms"]},
+    {"name": "Heterozygous carrier",         "abbrev": "carrier","inheritance": "AD modifier", "residual_activity": "≈ 50%", "age_onset": "—", "ggt": "—", "features": ["typically asymptomatic", "rare partial phenotype reported"]}
+  ],
+
+  "SERPINA1": [
+    {"name": "α1-antitrypsin deficiency (PiZZ)", "abbrev": "PiZZ", "inheritance": "AR (homozygous Z)", "residual_activity": "10–15% serum", "age_onset": "infancy (liver) / 30–50 (lung)", "ggt": "elevated in liver disease", "features": ["neonatal cholestasis", "childhood cirrhosis", "early-onset COPD/emphysema", "panniculitis"]},
+    {"name": "α1-antitrypsin deficiency (PiSZ)", "abbrev": "PiSZ", "inheritance": "compound het S/Z",  "residual_activity": "≈ 40% serum",  "age_onset": "30–50",                          "ggt": "rarely elevated", "features": ["intermediate emphysema risk", "minimal liver disease"]},
+    {"name": "α1-AT MZ heterozygote modifier",   "abbrev": "PiMZ", "inheritance": "AD modifier",       "residual_activity": "≈ 60%",        "age_onset": "—",                              "ggt": "—",               "features": ["modest COPD risk increase", "NAFLD/NASH progression modifier"]}
+  ],
+
+  "HFE": [
+    {"name": "Hereditary haemochromatosis type 1 (C282Y/H63D)", "abbrev": "HH1", "inheritance": "AR (mostly C282Y/C282Y)", "residual_activity": "—", "age_onset": "30–50", "ggt": "variable", "features": ["iron overload", "elevated ferritin / TSAT", "diabetes", "skin pigmentation", "cardiomyopathy", "joint pain"]}
+  ],
+
+  "JAG1": [
+    {"name": "Alagille syndrome 1", "abbrev": "ALGS1", "inheritance": "AD (95%) / de novo (50–70%)", "residual_activity": "haploinsufficiency", "age_onset": "infancy", "ggt": "elevated", "features": ["bile duct paucity", "cholestasis", "butterfly vertebrae", "tetralogy of Fallot / pulmonary stenosis", "posterior embryotoxon", "characteristic facies"]}
+  ],
+
+  "NOTCH2": [
+    {"name": "Alagille syndrome 2", "abbrev": "ALGS2", "inheritance": "AD", "residual_activity": "haploinsufficiency", "age_onset": "infancy", "ggt": "elevated", "features": ["milder cardiac phenotype than ALGS1", "renal involvement more common"]}
+  ]
+}
