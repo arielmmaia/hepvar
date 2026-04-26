@@ -66,14 +66,17 @@ export async function streamChat(
   const reader = r.body.getReader();
   const dec = new TextDecoder();
   let buf = "";
+  // sse-starlette emits events terminated by CRLF-CRLF, not LF-LF — splitting on
+  // \n\n alone never finds a complete event and the chat appears to "do nothing".
+  const eventSep = /\r?\n\r?\n/;
   while (true) {
     const { value, done } = await reader.read();
     if (done) break;
     buf += dec.decode(value, { stream: true });
-    const parts = buf.split("\n\n");
+    const parts = buf.split(eventSep);
     buf = parts.pop() ?? "";
     for (const part of parts) {
-      const dataLine = part.split("\n").find((l) => l.startsWith("data:"));
+      const dataLine = part.split(/\r?\n/).find((l) => l.startsWith("data:"));
       if (!dataLine) continue;
       const json = dataLine.slice(5).trim();
       if (!json) continue;
