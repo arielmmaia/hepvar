@@ -20,6 +20,8 @@ import { PopulationBarChart } from "@/components/PopulationBarChart";
 import { DiseaseSpectrumTable } from "@/components/DiseaseSpectrumTable";
 import { SequenceContextStrip } from "@/components/SequenceContextStrip";
 import { AlphaGenomePanel } from "@/components/AlphaGenomePanel";
+import { AudienceToggle } from "@/components/AudienceToggle";
+import { useAudience } from "@/lib/audience";
 
 const STEP_ORDER = [
   "annotate", "liftover", "liver_context", "gnomad", "clinvar", "uniprot", "interpro",
@@ -41,6 +43,7 @@ export default function AnalyzePage({ params }: { params: Promise<{ id: string }
   const [reasoning, setReasoning] = useState("");
   const [thinking, setThinking] = useState("");
   const [report, setReport] = useState<Report | null>(null);
+  const [audience, setAudience] = useAudience();
 
   // refs to avoid stale closures
   const reasoningBuf = useRef("");
@@ -301,7 +304,10 @@ export default function AnalyzePage({ params }: { params: Promise<{ id: string }
 
         {/* Reasoning column */}
         <aside className="lg:col-span-5 space-y-4 lg:sticky lg:top-4 lg:self-start lg:max-h-[calc(100vh-2rem)] lg:overflow-y-auto pr-1">
-          <h2 className="font-mono text-[10px] uppercase tracking-[0.3em] text-muted mb-2">Synthesis</h2>
+          <div className="flex items-center justify-between gap-3">
+            <h2 className="font-mono text-[10px] uppercase tracking-[0.3em] text-muted">Synthesis</h2>
+            <AudienceToggle mode={audience} onChange={setAudience} />
+          </div>
           <VerdictCard acmg={acmg ?? null} jobId={id} ready={!!report} />
           {acmg && (
             <div className="rounded-2xl bg-surface border hairline shadow-card p-5">
@@ -309,7 +315,13 @@ export default function AnalyzePage({ params }: { params: Promise<{ id: string }
               <AcmgChecklist criteria={acmg.criteria} />
             </div>
           )}
-          <ReasoningPane markdown={reasoning} thinking={thinking} />
+          <ReasoningPane
+            markdown={reasoning}
+            thinking={thinking}
+            jobId={id}
+            audience={audience}
+            ready={!!report}
+          />
           <ChatComposer jobId={id} ready={!!report} />
         </aside>
       </div>

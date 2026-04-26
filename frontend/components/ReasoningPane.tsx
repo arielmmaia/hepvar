@@ -3,15 +3,43 @@ import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
+import { useTranslated, type AudienceMode } from "@/lib/audience";
 
-export function ReasoningPane({ markdown, thinking }: { markdown: string; thinking: string }) {
+export function ReasoningPane({
+  markdown,
+  thinking,
+  jobId,
+  audience = "technical",
+  ready = false,
+}: {
+  markdown: string;
+  thinking: string;
+  jobId?: string;
+  audience?: AudienceMode;
+  ready?: boolean;
+}) {
   const [showThinking, setShowThinking] = useState(false);
+  // Only fetch a translation once the report is ready (i.e., synthesis exists)
+  // and the user has switched to a non-technical mode.
+  const { text: translated, loading: tLoading } = useTranslated(
+    jobId ?? null,
+    "synthesis",
+    audience,
+    undefined,
+    ready && audience !== "technical",
+  );
+
+  const display = audience === "technical" ? markdown : translated || markdown;
+  const showLoadingNote = audience !== "technical" && tLoading && !translated;
+
   return (
     <div className="rounded-3xl bg-surface border hairline shadow-card overflow-hidden">
       <div className="flex items-center justify-between px-7 py-4 border-b hairline">
         <div className="flex items-baseline gap-3">
           <span className="font-display text-[20px] font-semibold text-oxblood">Opus 4.7 synthesis</span>
-          <span className="font-mono text-[10px] uppercase tracking-[0.25em] text-muted">adaptive thinking · cached prefix</span>
+          <span className="font-mono text-[10px] uppercase tracking-[0.25em] text-muted">
+            {audience === "technical" ? "adaptive thinking · cached prefix" : `re-framed for ${audience}`}
+          </span>
         </div>
         {thinking && (
           <button
@@ -37,8 +65,10 @@ export function ReasoningPane({ markdown, thinking }: { markdown: string; thinki
       </AnimatePresence>
 
       <div className="px-7 py-6 prose-clinical">
-        {markdown.trim().length > 0 ? (
-          <ReactMarkdown remarkPlugins={[remarkGfm]}>{markdown}</ReactMarkdown>
+        {showLoadingNote ? (
+          <p className="text-muted italic serif-italic">Re-framing for {audience}…</p>
+        ) : display.trim().length > 0 ? (
+          <ReactMarkdown remarkPlugins={[remarkGfm]}>{display}</ReactMarkdown>
         ) : (
           <p className="text-muted italic serif-italic">Waiting for Opus 4.7 to begin reasoning over the assembled evidence…</p>
         )}
