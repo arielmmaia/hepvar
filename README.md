@@ -2,7 +2,7 @@
 
 **Hepatology rare-variant clinical intelligence — powered by Claude Opus 4.7.**
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![License: PolyForm Noncommercial](https://img.shields.io/badge/License-PolyForm%20Noncommercial-blue.svg)](LICENSE)
 [![Python 3.14+](https://img.shields.io/badge/Python-3.14+-blue.svg)](https://www.python.org)
 [![Next.js 15](https://img.shields.io/badge/Next.js-15-black.svg)](https://nextjs.org)
 [![Built with Opus 4.7](https://img.shields.io/badge/Built%20with-Claude%20Opus%204.7-D77757.svg)](https://www.anthropic.com)
@@ -213,7 +213,7 @@ Track: **Build From What You Know.**
 
 ## License
 
-MIT — see [`LICENSE`](LICENSE).
+PolyForm Noncommercial 1.0.0 — see [`LICENSE`](LICENSE).
 
 ---
 
