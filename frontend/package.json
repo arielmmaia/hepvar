@@ -12,7 +12,7 @@
     "3dmol": "^2.4.2",
     "clsx": "^2.1.1",
     "framer-motion": "^11.11.0",
-    "next": "^16.3.0",
+    "next": "^16.4.1",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-markdown": "^9.0.1",
