@@ -15,9 +15,9 @@
 
 ## Why HepVar exists
 
-Five years ago, my wife was misdiagnosed with autoimmune hepatitis and put on lifelong immunosuppressants she never fully responded to. After four specialists and years of side effects, a fifth one finally suspected a rare genetic liver disease and ordered a genetic test. It came back with a missense variant in `ABCB4` — and a verdict from the lab that said *"we don't know."*
+Five years ago, someone close to the project was misdiagnosed with autoimmune hepatitis and put on lifelong immunosuppressants that never fully resolved the problem. After four specialists and years of side effects, a fifth finally suspected a rare genetic liver disease and ordered a genetic test. It came back with a missense variant in `ABCB4` — and a verdict from the lab that said *"we don't know."*
 
-That answer came back not because the variant was harmless, but because most of the world's variant databases were curated from European-ancestry cohorts, and patients with Brazilian, Latin-American, or African ancestry are systematically under-represented. The signal was there — just scattered across functional studies, protein-structure predictions, regulatory tracks of liver-cell genome models, and case reports in non-English journals. Reconstructing it took my wife (a geneticist) and me (PhD, molecular biology) **weeks of manual bioinformatics work**. After it was assembled, the diagnosis flipped, the treatment changed, and her symptoms resolved in a month.
+That answer came back not because the variant was harmless, but because most of the world's variant databases were curated from European-ancestry cohorts, and patients with Brazilian, Latin-American, or African ancestry are systematically under-represented. The signal was there — just scattered across functional studies, protein-structure predictions, regulatory tracks of liver-cell genome models, and case reports in non-English journals. Reconstructing it took my wife (a geneticist) and me (PhD, molecular biology) **weeks of manual bioinformatics work**. After it was assembled, the diagnosis flipped, the treatment changed, and the patient's symptoms resolved in a month.
 
 **Most families do not have two molecular-biology researchers at home. Most clinicians do not have hours to chase scattered genetic evidence.** HepVar is that workflow — automated.
 
